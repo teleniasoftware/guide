@@ -36,17 +36,18 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 .. |releases| image:: /images/release.png
    :scale: 90%   
  
-   .. toctree::  
+.. toctree::  
    :hidden: 
    :caption: TVox UC&C
    :maxdepth: 2
 
-   .. toctree::  
+.. toctree::  
    :hidden: 
    :caption: TVox OCC - Canale Telefonico
    :maxdepth: 2
 
-   .. toctree::  
+.. toctree::  
    :hidden: 
    :caption: TVox OCC - OmniChannel Contact Center
    :maxdepth: 2
+
