@@ -28,7 +28,7 @@ Il portale si divide in macro sezioni.
 
 :blue:`TVOX UC&C` illustra come configurare TVox per l'utilizzo come centrale telefonica di base
 
-:blue:`TVOX OCC - CANALE TELEFONICO` Illustra come configurare il modulo Contact Center per il canale telefonico
+:blue:`TVOX OCC - CONTACT CENTER TELEFONICO` Illustra come configurare il modulo Contact Center per il canale telefonico
 
 :blue:`TVOX OCC - OMNICHANNEL CONTACT CENTER` Illustra come configurare il modulo Contact Center per tutti gli altri canali integrabili sulla piattaforma (support, chat, videocall, canali social)
 
