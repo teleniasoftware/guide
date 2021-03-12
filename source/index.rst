@@ -1,10 +1,10 @@
-=================
-Benvenuto in TDoc
-=================
+==================
+Benvenuto in Guide
+==================
 
-**Guide è il portale che ti illustra come integrare TVox OmniChannel Contact Center con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
+**Guide è il portale che ti illustra i prerequisiti necessari all'installazione, configurazione e utilizzo dei prodotti Telenia Software.**
 
-.. image:: /images/TDoc_home.png
+.. image:: /images/Guide_home.png
    :scale: 60%
    :align: center
 
@@ -14,19 +14,23 @@ Benvenuto in TDoc
 
 .. role:: blue
 
-Il portale si divide in due macro sezioni, la prima dedicata all’integrazione di |tvox| con le applicazioni di Business che chiameremo per semplicità CRM e l’altra focalizzata sulla gestione dei contatti multicanale . 
+Il portale si divide in macro sezioni. 
 
-:blue:`INTEGRA TVOX CON IL TUO  CRM` illustra diversi livelli di integrazione che, a seconda  delle esigenze, hanno tutti l’obiettivo di valorizzare il CRM rendendolo più efficace nella gestione dei rapporti con i clienti.
+:blue:`GLOSSARIO` riporta la terminologia principale utilizzata in questo portale.
 
+:blue:`ARCHITETTURE` 
 
-:blue:`TVOX OMNICHANNEL CONTACT CENTER` illustra come personalizzare il |tvox| per una gestione efficace dei contatti con particolare attenzione al monitoraggio della Customer Experience
+:blue:`INSTALLAZIONE E ATTIVAZIONE` illustra come installare ed attivare un sistema TVox
 
-:blue:`TVOX OMNICHANNEL CONTACT CENTER` illustra come personalizzare il |tvox| per una gestione efficace dei contatti con particolare attenzione al monitoraggio della Customer Experience
+:blue:`AMMINISTRAZIONE DI SISTEMA` illustra come configurare gli aspetti di sistema indispensabili per il corretto funzionamento degli applicativi
 
-:blue:`MICROSOFT` integra i prodotti Microsoft® con |tvox|
+:blue:`AMMINSITRAZIONE TVOX` illustra come configurare gli aspetti base del sistema di comunicazione
 
-:blue:`MEDIANT COMMUNICATION SYSTEM` Illustra la configurazione ed il funzionamento del prodotto TVox Mediant Communication System (MCS) è la piattaforma che consente l’esposizione su internet dei servizi di comunicazione erogati da |tvox|.
+:blue:`TVOX UC&C` illustra come configurare TVox per l'utilizzo come centrale telefonica di base
 
+:blue:`TVOX OCC - CANALE TELEFONICO` Illustra come configurare il modulo Contact Center per il canale telefonico
+
+:blue:`TVOX OCC - OMNICHANNEL CONTACT CENTER` Illustra come configurare il modulo Contact Center per tutti gli altri canali integrabili sulla piattaforma (support, chat, videocall, canali social)
 
 
 La documentazione presentata nella home page di questo portale  si riferisce all’ultima Release |tvox| disponibile, per ottenere informazioni su una specifica release navigate il menu |releases| che si trova in fondo al menu.
@@ -38,16 +42,40 @@ La documentazione presentata nella home page di questo portale  si riferisce all
  
 .. toctree::  
    :hidden: 
+   :caption: Glossario
+   :maxdepth: 2
+
+.. toctree::  
+   :hidden: 
+   :caption: Architetture
+   :maxdepth: 2
+
+.. toctree::  
+   :hidden: 
+   :caption: Installazione e Attivazione
+   :maxdepth: 2
+
+.. toctree::  
+   :hidden: 
+   :caption: Amministrazione di Sistema
+   :maxdepth: 2
+
+.. toctree::  
+   :hidden: 
+   :caption: Amministrazione TVox
+   :maxdepth: 2
+
+.. toctree::  
+   :hidden: 
    :caption: TVox UC&C
    :maxdepth: 2
 
 .. toctree::  
    :hidden: 
-   :caption: TVox OCC - Canale Telefonico
+   :caption: TVox OCC - Contact Center Telefonico
    :maxdepth: 2
 
 .. toctree::  
    :hidden: 
-   :caption: TVox OCC - OmniChannel Contact Center
+   :caption: TVox OCC - Omnichannel Contact Center
    :maxdepth: 2
-
