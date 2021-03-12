@@ -2,7 +2,7 @@
 Benvenuto in TDoc
 =================
 
-**TDoc è il portale che ti illustra come integrare TVox OmniChannel Contact Center con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
+**Guide è il portale che ti illustra come integrare TVox OmniChannel Contact Center con le applicazioni di Business per migliorare le Customer Experience e ottimizzare i processi aziendali.**
 
 .. image:: /images/TDoc_home.png
    :scale: 60%
@@ -36,4 +36,17 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 .. |releases| image:: /images/release.png
    :scale: 90%   
  
+   .. toctree::  
+   :hidden: 
+   :caption: TVox UC&C
+   :maxdepth: 2
 
+   .. toctree::  
+   :hidden: 
+   :caption: TVox OCC - Canale Telefonico
+   :maxdepth: 2
+
+   .. toctree::  
+   :hidden: 
+   :caption: TVox OCC - OmniChannel Contact Center
+   :maxdepth: 2
