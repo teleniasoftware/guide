@@ -45,6 +45,8 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: Glossario
    :maxdepth: 2
 
+   /projects/Glossario
+
 .. toctree::  
    :hidden: 
    :caption: Architetture
@@ -79,3 +81,12 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :hidden: 
    :caption: TVox OCC - Omnichannel Contact Center
    :maxdepth: 2
+
+
+   /projects/IVRPersonalizzati/RealizzaIVRPersonalizzati
+   /projects/OpzioniContattoClienti/OpzioniContattoClienti
+   /projects/AutomatizzaRichiesteFrequenti
+   /projects/PersonalizzaMonitoraggioServizi/PersonalizzaMonitoraggioServizi
+   /projects/ConversioneClienti/ConversioneClientiDaWeb
+   /projects/RTD/RTD
+   /projects/TelefoniYealinkVpn
