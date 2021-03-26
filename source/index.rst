@@ -14,7 +14,7 @@ Benvenuto in Guide
 
 .. role:: blue
 
-Il portale si divide in macro sezioni. PIPPO
+Il portale si divide in macro sezioni.
 
 :blue:`GLOSSARIO` riporta la terminologia principale utilizzata in questo portale.
 
