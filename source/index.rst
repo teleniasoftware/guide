@@ -36,6 +36,12 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
    /projects/TVOX/Glossario
    /projects/TVOX/REQUISITI ED ARCHITETTURE/Policy di gestione per ambienti Hypervisor
+   /projects/TVOX/INSTALLAZIONE E ATTIVAZIONE/
+   /projects/TVOX/AMMINISTRAZIONE DI SISTEMA/
+   /projects/TVOX/AMMINISTRAZIONE TVOX/
+   /projects/TVOX/TVOX UC&C/
+   /projects/TVOX/TVOX OCC - CONTACT CENTER TELEFONICO/
+   /projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/
 
 .. toctree::  
    :hidden: 
