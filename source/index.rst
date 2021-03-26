@@ -35,6 +35,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 2
 
    /projects/TVOX/Glossario
+   /projects/TVOX/REQUISITI ED ARCHITETTURE/Policy di gestione per ambienti Hypervisor
 
 .. toctree::  
    :hidden: 
