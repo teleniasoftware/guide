@@ -31,10 +31,10 @@ La documentazione presentata nella home page di questo portale  si riferisce all
  
 .. toctree::  
    :hidden: 
-   :caption: TVOX
+   :caption: TVOX UC&C e TVOX OCC
    :maxdepth: 2
 
-   /projects/Glossario
+   /projects/TVOX/Glossario
 
 .. toctree::  
    :hidden: 
