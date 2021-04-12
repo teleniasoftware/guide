@@ -42,7 +42,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/TVOX/TVOX UC&C/
    /projects/TVOX/TVOX OCC - CONTACT CENTER TELEFONICO/
    /projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/
-   /projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/SUPPORT/Performance Tuning
+   xxxxx/projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/SUPPORT/Performance Tuning
 
 .. toctree::  
    :hidden: 
