@@ -34,7 +34,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: TVOX UC&C e TVOX OCC
    :maxdepth: 2
 
-   /projects/TVOX/Glossario
+   xxxxx/projects/TVOX/Glossario
    /projects/TVOX/REQUISITI ED ARCHITETTURE/Policy di gestione per ambienti Hypervisor
    /projects/TVOX/INSTALLAZIONE E ATTIVAZIONE/
    /projects/TVOX/AMMINISTRAZIONE DI SISTEMA/
