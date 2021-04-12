@@ -97,31 +97,31 @@ Problemi legati al Timekeeping
 Tabella riassuntiva
 ===================
 
-In tabella vengono riassunti i problemi evidenziati:
+In tabella vengono riassunti i problemi evidenziati:    
 
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problema               | Effetto                                                                                      | Soluzione                                                                     |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problemi legati        | • Perdita di chiamate                                                                        | • Uplink dedicato                                                             |
-| al network             | • Problemi di voce                                                                           | • Utilizzo di tool di diagnostica                                             |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problemi legati        | • Nei log di sistema della VM viene notificato errore “kernel: dahdi: Detected time shift. ” | • Risorse reserved nelle VM                                                   |
-| alla mancanza          |                                                                                              | • Disco di tipo thick                                                         |
-| di risorse hardware    |                                                                                              | • Spazio disponibile per l’os guest > 50%                                     |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problemi legati        | • Perdita di chiamate                                                                        | • Disabilitazione Hyperthreading                                              |
-| al tipo di HARDWARE    | • Problemi di voce                                                                           | • Uso dei soli Core                                                           |
-| in uso nel bare-metal  | • Blocco software Telenia causato da per mancanza di di-sponibilità hardware della VM        | • Utilizzo di processori Intel                                                |
-| usato dall’Hypervisor  |                                                                                              |                                                                               |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problemi legati        | • Perdita di chiamate                                                                        | • Utilizzo di solo hardware certificato dall’owner della soluzione Hypervisor |
-| al tipo di HY-PERVISOR | • Problemi di voce                                                                           |   (in caso di soluzioni Hyper-V verrà richiesto invio del report ottenuto,    |
-| utilizzato e/o         | • Blocco software Telenia causato alla mancata presenza di VM TOOLS di ottimizza-zione e/o   |   come output, del tool specifico sviluppato da Microsoft)                    |
-| all’utilizzo di una    |   ad incorretta gestione, da parte dell’HYPER-VISOR, della versione di OS linux              | • Supporto alla versione dell’OS guest Linux utilizzato                       |
-| versione obsoleta      |                                                                                              |                                                                               |
-| di questo              |                                                                                              |                                                                               |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Problemi legati        | • Blocco software Telenia causato da desync del bios real time clock del bare metal e VM     | • Sync tra clock dell’host bare metal e OS guest                              |
-| al Timekeeping         |                                                                                              | • Disabilitazione della fun-zionalità quiesce in caso di backup)              |
-|                        |                                                                                              | • Non utilizzare la funziona-lità Snapshot                                    |
-+------------------------+----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problema                    | Effetto                                                                                               | Soluzione                                                                                 |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problemi legati             | • Perdita di chiamate                                                                                 | • Uplink dedicato                                                                         |
+| |br| al network             | • Problemi di voce                                                                                    | • Utilizzo di tool di diagnostica                                                         |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problemi legati             | • Nei log di sistema |br| della VM viene notificato errore |br| “kernel: dahdi: Detected time shift.” | • Risorse reserved nelle VM                                                               |
+| |br| alla mancanza          |                                                                                                       | • Disco di tipo thick                                                                     |
+| |br| di risorse hardware    |                                                                                                       | • Spazio disponibile per l’os guest > 50%                                                 |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problemi legati             | • Perdita di chiamate                                                                                 | • Disabilitazione Hyperthreading                                                          |
+| |br| al tipo di HARDWARE    | • Problemi di voce                                                                                    | • Uso dei soli Core                                                                       |
+| |br| in uso nel bare-metal  | • Blocco software Telenia |br| causato da per mancanza di |br| disponibilità hardware della VM        | • Utilizzo di processori Intel                                                            |
+| |br| usato dall’Hypervisor  |                                                                                                       |                                                                                           |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problemi legati             | • Perdita di chiamate                                                                                 | • Utilizzo di solo hardware |br| certificato dall’owner della soluzione |br| Hypervisor   |
+| |br| al tipo di HY-PERVISOR | • Problemi di voce                                                                                    |   (in caso di |br| soluzioni Hyper-V verrà |br| richiesto invio del report ottenuto, |br| |
+| |br| utilizzato e/o         | • Blocco software Telenia |br| causato alla mancata presenza di |br| VM TOOLS di ottimizza-zione e/o  |   come output, del tool |br| specifico sviluppato da Microsoft)                           |
+| |br| all’utilizzo di una    |   |br| ad incorretta gestione, |br| da parte dell’HYPER-VISOR, |br| della versione di OS linux        | • Supporto alla versione dell’OS guest |br| Linux utilizzato                              |
+| |br| versione obsoleta      |                                                                                                       |                                                                                           |
+| |br| di questo              |                                                                                                       |                                                                                           |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| Problemi legati             | • Blocco software Telenia causato |br| da desync del bios real time |br| clock del bare metal e VM    | • Sync tra clock dell’host bare metal |br| e OS guest                                     |
+| |br| al Timekeeping         |                                                                                                       | • Disabilitazione della funzionalità |br| quiesce in caso di backup)                      |
+|                             |                                                                                                       | • Non utilizzare la funziona-lità Snapshot                                                |
++-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
