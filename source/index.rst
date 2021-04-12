@@ -36,7 +36,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
    xxxxx/projects/TVOX/Glossario
    /projects/TVOX/REQUISITI ED ARCHITETTURE/Policy di gestione per ambienti Hypervisor
-   /projects/TVOX/REQUISITI ED ARCHITETTURE/Problematiche Riscontrate
+   xxxxx/projects/TVOX/REQUISITI ED ARCHITETTURE/Problematiche Riscontrate
    /projects/TVOX/INSTALLAZIONE E ATTIVAZIONE/
    /projects/TVOX/AMMINISTRAZIONE DI SISTEMA/
    /projects/TVOX/AMMINISTRAZIONE TVOX/
