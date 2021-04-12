@@ -4,7 +4,7 @@
 Problematiche Riscontrate
 =========================
 
-I problemi di funzionamento del software Telenia possono essere riassunti nelle queste categorie:
+I problemi di funzionamento del software Telenia possono essere riassunti nelle seguenti categorie:
 
 - Problemi legati al network (es: problemi di eccessiva latenza nell’utilizzo di uplink ba-sati su fibre channel o iscsi)
 - Problemi legati alla mancanza di risorse hardware
