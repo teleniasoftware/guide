@@ -1,3 +1,5 @@
+.. _Nota di VMWare: https://blogs.vmware.com/vsphere/2018/07/timekeeping-within-esxi.html
+
 =========================
 Problematiche Riscontrate
 =========================
@@ -84,7 +86,7 @@ Problemi legati al Timekeeping
     
 **Soluzione:** Si consiglia di valutare con attenzione:
     
-- Gestione del sync del clock tra bare metal e VM2:
+- Gestione del sync del clock tra bare metal e VM2 (vedi `Nota di VMWare`_):
     - È imperativo che l’host bare-metal e le VM Telenia siano in sync per evitare problemi sul cluster active-passive
 - Gestione delle politiche di backup:
     - Snapshot, l’utilizzo di questa funzionalità provoca un de-sync tra clock dell’host bare metal e OS guest generando malfunzionamenti degli applicativi (il de-sync è dovuto al momentaneo freeze della VM)
