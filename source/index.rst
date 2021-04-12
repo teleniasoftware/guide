@@ -35,15 +35,15 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 2
 
    xxxxx/projects/TVOX/Glossario
-   /projects/TVOX/REQUISITI ED ARCHITETTURE/Policy di gestione per ambienti Hypervisor
-   xxxxx/projects/TVOX/REQUISITI ED ARCHITETTURE/Problematiche Riscontrate
-   /projects/TVOX/INSTALLAZIONE E ATTIVAZIONE/
-   /projects/TVOX/AMMINISTRAZIONE DI SISTEMA/
-   /projects/TVOX/AMMINISTRAZIONE TVOX/
-   /projects/TVOX/TVOX UC&C/
-   /projects/TVOX/TVOX OCC - CONTACT CENTER TELEFONICO/
-   /projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/
-   xxxxx/projects/TVOX/TVOX OCC - OMNICHANNEL CONTACT CENTER/SUPPORT/Performance Tuning
+   /projects/TVOX/REQUISITI_ED_ARCHITETTURE/PolicyDiGestionePerAmbientiHypervisor
+   xxxxx/projects/TVOX/REQUISITI_ED_ARCHITETTURE/ProblematicheRiscontrate
+   /projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
+   /projects/TVOX/AMMINISTRAZIONE_DI_SISTEMA/
+   /projects/TVOX/AMMINISTRAZIONE_TVOX/
+   /projects/TVOX/TVOX_UC&C/
+   /projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
+   /projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/
+   xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
 
 .. toctree::  
    :hidden: 
