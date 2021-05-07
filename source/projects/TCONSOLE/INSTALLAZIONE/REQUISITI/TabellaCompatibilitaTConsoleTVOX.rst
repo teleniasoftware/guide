@@ -1,32 +1,46 @@
 .. _Tabella compatibilità TConsole TVOX:
 
-===========================
+==========================================================
 Tabella di compatibilità versioni TConsole e versioni TVOX
-===========================
+==========================================================
 
-**TODO Per le versioni TVOX è necessario utilizzare un telefono SNOM, che deve essere sottoposto a provisioning dalla centrale** (per questi aspetti, e per la configurazione del servizio di tipo Posto Operatore, si rimanda alla guida TVOX), che provvederà a caricare la corretta versione del firmware del telefono e ad impostare su di esso tutti i parametri opportuni.
+Per conoscere quale versione di TConsole è richiesta per la vostra versione di TVOX contattare il Service Desk Telenia. A fini riepilogativi, nella seguente tabella sono indicate le diverse combinazioni *versione TConsole - versione TVOX - versione firmware telefono* (quest'ultima informazione utile nel caso della configurazione SIP SNOM) compatibili in base alla versione di TConsole:
 
-- **il telefono deve essere configurato sul TVOX come dispositivo di tipo “SNOM PO”**
-- non è necessario (comunque consigliato ai fini di teleassistenza) assegnare un IP statico a PC e telefono
-- **deve essere garantita la completa visibilità tra telefono SNOM dedicato ed il PC (\**)**
-- **una certa versione di TVOX è compatibile solo con determinate versioni di TConsole** (vedi tabella riepilogativa in seguito)
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| Versione TConsole | Versione TVOX                                    | Versione Firmware | Versione Firmware |
+|                   |                                                  | SIP SNOM          | PO TVOX ([#]_)    |
++===================+==================================================+===================+===================+
+| 5.7.6 .. 5.7.7    | 6.15.x, 10.2.x, 10.3.x                           | 8.7.3.19          | 8.7.4 .. 8.7.5    |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.8 .. 5.7.10   | 10.5.x, 10.6.x, 10.7.x                           | 8.7.3.19          | 8.7.4 .. 8.7.5    |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.11 .. 5.7.13  | 10.8.0 .. 10.8.9                                 | 8.7.5             | 8.7.5             |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.14            | 10.9.1, 10.9.2                                   | 8.7.5             | 8.7.5             |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.15            | 10.9.3                                           | 8.7.5             | 8.7.5             |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.16 .. 5.7.18  | 10.10.0 .. 10.0.2                                | 8.7.5             | 8.7.5             |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.19            | 10.11.0                                          | 8.7.5             | 8.7.5             |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.20            | 10.11.x (x≥1), 10.12.x, 10.13.x                  | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.21            | 10.13.x                                          | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.22 .. 5.7.26  | 10.13.x .. 10.24.x                               | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
++-------------------+--------------------------------------------------+-------------------+-------------------+
+| 5.7.27            | 10.13.x .. 10.26.x, |latest_tvox_release| ([#]_) | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
++-------------------+--------------------------------------------------+-------------------+-------------------+
 
-.. tip ::
-    TODO (**) la verifica di visibilità HTTP tra TVOX e telefono può venire effettuata accedendo in SSH al TVOX ed eseguendo il comando (ipotizzando che l’IP del telefono sia *172.16.112.161*):
+.. toctree::
+    :maxdepth: 1
 
-    wget 172.16.112.161
+    RequisitiTVOX
+    RequisitiGenerali
+    .. Requisiti
 
-    Si deve ottenere una risposta del tipo “200 Ok”:
+.. rubric:: Note
 
-    Connecting to 172.16.112.161:80... connected.
-    HTTP request sent, awaiting response... 200 Ok
-
-    [...]
-
-    seguita dallo scaricamento del file index.html:
-
-    2020-03-17 14:55:28 (197 KB/s) - ‘index.html’ saved [20896/20896]
-
-dccdcd
-sdvcsdvcdsc
-dvdv
+.. [#] ultima release TVOX al momento della compilazione di questa guida: |latest_tvox_release|
+.. [#] la corretta versione del firmware viene automaticamente caricata dal TVOX tramite provisioning

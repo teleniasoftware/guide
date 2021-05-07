@@ -10,15 +10,9 @@ Questa sezione illustra la procedura di installazione e configurazione di TConso
     :maxdepth: 5
  
     ./REQUISITI/Requisiti
-    ./INSTALLAZIONE/Installazione
+    ./INSTALLAZIONE/TipologieInstallazione
     Configurazione
     Barra Braille
     Sintesi Vocale
     Backup
     Rimozione
-
-
-    Guida Utente
-
-..    /projects/TCONSOLE/INSTALLAZIONE/Installazione
-   

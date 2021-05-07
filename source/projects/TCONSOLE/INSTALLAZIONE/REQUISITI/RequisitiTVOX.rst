@@ -12,20 +12,28 @@ Requisiti per versioni TVOX
 .. tip ::
     (**) la verifica di visibilità HTTP tra TVOX e telefono può venire effettuata accedendo in SSH al TVOX ed eseguendo il comando (ipotizzando che l’IP del telefono sia *172.16.112.161*):
 
-    wget 172.16.112.161
+    .. code-block:: shell
 
-    Si deve ottenere una risposta del tipo “200 Ok”:
+        wget 172.16.112.161
+    
+    Si deve ottenere una risposta del tipo *200 Ok*:
 
-    Connecting to 172.16.112.161:80... connected.
-    HTTP request sent, awaiting response... 200 Ok
+    .. code-block:: shell
+    
+        Connecting to 172.16.112.161:80... connected.
+        HTTP request sent, awaiting response... 200 Ok
 
-    [...]
+        [...]
+    
+    seguita dallo scaricamento del file *index.html*:
 
-    seguita dallo scaricamento del file index.html:
+    .. code-block:: shell
 
-    2020-03-17 14:55:28 (197 KB/s) - ‘index.html’ saved [20896/20896]
+        2020-03-17 14:55:28 (197 KB/s) - ‘index.html’ saved [20896/20896]
 
 .. toctree::
     :maxdepth: 1
 
     TabellaCompatibilitaTConsoleTVOX
+    RequisitiGenerali
+    .. Requisiti
