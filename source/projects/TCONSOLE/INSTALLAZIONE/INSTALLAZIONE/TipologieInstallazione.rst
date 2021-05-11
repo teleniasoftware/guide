@@ -2,7 +2,7 @@
 Tipologie di Installazione
 ==========================
 
-**Prima di procedere con l'installazione** di TConsole e dei suoi componenti assicurarsi che siano rispettati tutti i :ref:`Requisiti` della sezione precedente.
+**Prima di procedere con l'installazione** di TConsole e dei suoi componenti assicurarsi che siano rispettati tutti i :ref:`Requisiti` descritti nella sezione precedente.
 
 L'installazione di TConsole può avvenire nelle seguenti modalità:
 

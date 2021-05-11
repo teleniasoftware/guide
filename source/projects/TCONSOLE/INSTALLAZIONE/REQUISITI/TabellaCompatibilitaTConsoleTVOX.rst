@@ -8,7 +8,7 @@ Per conoscere quale versione di TConsole è richiesta per la vostra versione di 
 
 +-------------------+--------------------------------------------------+-------------------+-------------------+
 | Versione TConsole | Versione TVOX                                    | Versione Firmware | Versione Firmware |
-|                   |                                                  | SIP SNOM          | PO TVOX ([#]_)    |
+|                   |                                                  | SIP SNOM          | PO TVOX ([2]_)    |
 +===================+==================================================+===================+===================+
 | 5.7.6 .. 5.7.7    | 6.15.x, 10.2.x, 10.3.x                           | 8.7.3.19          | 8.7.4 .. 8.7.5    |
 +-------------------+--------------------------------------------------+-------------------+-------------------+
@@ -30,7 +30,7 @@ Per conoscere quale versione di TConsole è richiesta per la vostra versione di 
 +-------------------+--------------------------------------------------+-------------------+-------------------+
 | 5.7.22 .. 5.7.26  | 10.13.x .. 10.24.x                               | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
 +-------------------+--------------------------------------------------+-------------------+-------------------+
-| 5.7.27            | 10.13.x .. 10.26.x, |latest_tvox_release| ([#]_) | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
+| 5.7.27            | 10.13.x .. 10.26.x, |latest_tvox_release| ([1]_) | 8.7.5, 8.9.3      | 8.7.5, 8.9.3      |
 +-------------------+--------------------------------------------------+-------------------+-------------------+
 
 .. toctree::
@@ -42,5 +42,5 @@ Per conoscere quale versione di TConsole è richiesta per la vostra versione di 
 
 .. rubric:: Note
 
-.. [#] ultima release TVOX al momento della compilazione di questa guida: |latest_tvox_release|
-.. [#] la corretta versione del firmware viene automaticamente caricata dal TVOX tramite provisioning
+.. [1] ultima release TVOX al momento della compilazione di questa guida: |latest_tvox_release|
+.. [2] la corretta versione del firmware viene automaticamente caricata dal TVOX tramite provisioning
