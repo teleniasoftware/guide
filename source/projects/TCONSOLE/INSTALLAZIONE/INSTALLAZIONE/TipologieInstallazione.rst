@@ -17,6 +17,6 @@ L'installazione di TConsole può avvenire nelle seguenti modalità:
  
     .. TipologieInstallazione
     InstallazioneServerStandalone
-    .. InstallazioneClient
-    .. InstallazionePersonalizzata
+    InstallazioneClient
+    InstallazionePersonalizzata
     

@@ -4,15 +4,15 @@
 Installazione TConsole
 ======================
 
-Se il S.O. è Windows Seven o superiore è necessario avviare l’installazione come amministratore (clic con il tasto destro del mouse, **Esegui come Amministratore**) anche se l’utente Windows utilizzato ha privilegi di amministratore del sistema.
+Se il S.O. è Windows 7 o superiore è necessario avviare l’installazione come amministratore (clic con il tasto destro del mouse, **Esegui come Amministratore**) anche se l’utente Windows utilizzato ha privilegi di amministratore del sistema.
 
 Seguire i seguenti passaggi:
 
 - configurare il S.O. Windows disabilitando tutte le opzioni di risparmio energetico, stand-by e screen-saver (vedi Nota [#]_);
 - collegare la chiave USB di protezione software (rossa) al PC e attendere l’installazione automatica dei relativi driver;
 
-.. important :: La chiave di protezione deve rimanere **sempre** collegata per permettere l’avvio di TConsole. La procedura di installazione non risente invece dell'eventuale assenza della chiave di protezione e può essere eseguita interamente.
-.. tip :: Per esigenze particolari può venire fornita una licenza temporanea (a scadenza) su file: una volta disponibile la chiave di protezione USB sarà possibile attivare quest'ultima, senza la necessità di reinstallare l'applicazione o i suoi componenti.
+.. important :: La chiave di protezione deve rimanere **sempre** collegata per permettere l’avvio di TConsole, una volta installato. La procedura di installazione non risente invece dell'eventuale assenza della chiave di protezione e può essere interamente eseguita.
+.. tip :: Per esigenze particolari può venire fornita una licenza temporanea (a scadenza) su file: una volta disponibile e collegata la chiave USB di protezione sarà possibile attivare quest'ultima, senza la necessità di reinstallare l'applicazione o i suoi componenti.
 
 - spostarsi nella cartella (ipotizzando di aver estratto i files di setup in *C:\\Telenia_Setup*):
 
@@ -26,8 +26,8 @@ Seguire i seguenti passaggi:
 
 - dalla pagina iniziale cliccare su **Avanti**;
 - accettare il contratto di licenza cliccando su **Sì**;
-- definire la cartella (d’ora in poi indicata con *[INSTALLDIR]*) di destinazione (se non già esistente, verrà creata automaticamente):
-- (**consigliato**) accettare quella preimpostata (*C:\\Telenia\\TConsole*), oppure
+- definire la cartella (d’ora in poi indicata con *\[INSTALLDIR\]*) di destinazione (se non già esistente, verrà creata automaticamente):
+- (**consigliato**) accettare il valore preimpostato di *\[INSTALLDIR\]* (*C:\\Telenia\\TConsole*), oppure
 - specificarne una diversa (ad es. *C:\\Program Files (x86)\\Telenia\\TConsole*), oppure
 - cliccare sul tasto **Sfoglia** e sceglierne un’altra già esistente;
 - confermare cliccando su **Avanti**;
@@ -39,7 +39,7 @@ Seguire i seguenti passaggi:
 
 **Vengono ora installati ulteriori componenti di terze parti attraverso i rispettivi wizard.**
 
-.. warning :: Se dovesse tornare in primo piano la finestra (sfondo blu) di Installazione TConsole, **non chiuderla** (eventualmente ridurla a icona), ritornare al wizard del componente e procedere fino al completamento dei seguenti passi.
+.. warning :: Se dovesse tornare in primo piano la finestra (sfondo blu) di Installazione TConsole, **non chiuderla** (eventualmente ridurla a icona), ritornare al wizard del componente e procedere fino al completamento dei seguenti passaggi.
 
 - alla pagina di installazione di **Borland Database Engine 5.5** cliccare su **Avanti**;
 - alla successiva pagina di completamento dell’installazione (BDE 5.5) cliccare su **Fine**;
@@ -47,7 +47,6 @@ Seguire i seguenti passaggi:
 - alla successiva pagina di completamento dell’installazione (BRE 5.5) cliccare su **Fine**;
 - alla pagina di installazione **ViaVoice TTS- Italiano** cliccare su **Avanti**;
 - confermare la cartella di destinazione cliccando su **Avanti** (vedi Nota [#]_);
-.. - se il S.O. è Windows 10 potrebbe comparire il messaggio Machine OS cannot be determinated- X86, ignorarlo e si chiuderà automaticamente entro qualche secondo;
 - alla successiva pagina di completamento dell’installazione (TTS) cliccare su **Fine**;
 
 - al termine dell’installazione:

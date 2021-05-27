@@ -11,6 +11,7 @@ Questa sezione illustra la procedura di installazione e configurazione di TConso
  
     ./REQUISITI/Requisiti
     ./INSTALLAZIONE/TipologieInstallazione
+    ./INSTALLAZIONE/ImpostazioneParametriFondamentali
     Configurazione
     Barra Braille
     Sintesi Vocale

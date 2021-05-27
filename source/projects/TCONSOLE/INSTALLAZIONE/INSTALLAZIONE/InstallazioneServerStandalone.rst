@@ -6,8 +6,8 @@ Installazione tipo Server/Standalone
 
 L’installazione di tipo Server/Standalone va effettuata nei seguenti casi:
 
-- **postazione TConsole unica e indipendente**
-- **postazione master di una rete di TConsole**
+- postazione TConsole unica e indipendente
+- postazione Master di una rete di TConsole
 
 .. important :: **Prima di procedere con l’installazione dell’applicativo TConsole** è necessario installare e configurare il servizio MySQL, attraverso il relativo wizard.
 
