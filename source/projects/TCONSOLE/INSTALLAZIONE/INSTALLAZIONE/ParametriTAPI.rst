@@ -40,6 +40,8 @@ Parametri configurabili in TConsole.ini:
     DEVICE="risorsa visualizzata dal TestTapiDevice e pilotabile via TAPI"
     TAPI_SLEEP_TRANSFER=400
 
+----------------------------
+
 **Esempio TConsole.ini CISCO senza TQM:**
 
 .. code-block:: ini
@@ -56,6 +58,8 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
 .. code-block:: ini
         
         *              TQM_TYPE             -
+
+----------------------------
 
 Per PBX Cisco è permesso l’utilizzo:
 
@@ -94,63 +98,58 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
         
         *              TQM_TYPE             TAPI_TVOX_PICKUP
 
+----------------------------
 
+**Esempio TConsole.ini TAPI AVAYA CM (Softphone):**
 
+.. code-block:: ini
 
+    TYPE=AVAYA_CM
+    IADN=7503
+    DEVICE=Avaya IP/Line
+    HOST=-
 
-
-
-
-TODOTODOTODOTODOTODOTODOTODOTODO da qui, unire Avaya CM e Avaya AURA/IPOFFICE
-
-Esempio TConsole.ini TAPI AVAYA CM (Softphone):
-TYPE=AVAYA_CM
-IADN=7503
-DEVICE=Avaya IP/Line
-HOST=-
-
-// Tale parametro si rende necessario solo nel caso di mancanza di informazioni provenienti dal carrier.
-// Se impostato a SI la chiamata in uscita viene riconosciuta come risposta anche se di fatto è ancora
-// in ring.
-// Se impostato a NO nel caso di alcune chiamate in uscita esterne potrebbe non essere riconosciuto
-// il connect e quindi non sarà possibile mettere in hold o trasferire.
-TAPI_AVAYA_OUTBOUND_CONNECTED_ON_RING=SI
+    // Tale parametro si rende necessario solo nel caso di mancanza di informazioni provenienti dal carrier.
+    // Se impostato a SI la chiamata in uscita viene riconosciuta come risposta anche se di fatto è ancora
+    // in ring.
+    // Se impostato a NO nel caso di alcune chiamate in uscita esterne potrebbe non essere riconosciuto
+    // il connect e quindi non sarà possibile mettere in hold o trasferire.
+    TAPI_AVAYA_OUTBOUND_CONNECTED_ON_RING=SI
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *-*
 
-Esempio TConsole.ini TAPI AVAYA CM + AES (TSAPI):
-TYPE=AVAYA_CSTA
-IADN=5009
-DEVICE=5009
-HOST=-
-AVAYA_CSTA_LITAPI_CALL_ON_BUSY_CODENK=AVAYA#CM#CSTA#TELENIA1-AES1
-AVAYA_CSTA_LINK_VERSION=ECS2-6
-AVAYA_CSTA_LINK_USR=“Username CSTA” (es. Telenia)
-AVAYA_CSTA_LINK_PWD=“Password CSTA” (es. !Telenia01)
-
-Nel file [INSTALLDIR]\config\tabparam configurare il parametro:
-TQM_TYPE=-
-
-TAPI_CALL_ON_BUSY_CODE=- (questo parametro è fondamentale settarlo ad un codice, es: *60 solo se realmente esistente su PBX, altrimenti è necessario lasciarlo a “-”: in caso contrario si genera l’anomalia di impossibilità di trasferire le chiamate)
-
-Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato di Avaya.
-
-
-
-
-
-
-
-
-
-**Esempio TConsole.ini NORTEL_M2250:**
+**Esempio tabparam TAPI AVAYA CM (Softphone):**
 
 .. code-block:: ini
-    
-    TYPE=NORTEL_M2250
-    IADN=2000
-    DEVICE=COM1
-    ID=1
+        
+        *              TQM_TYPE             -
+
+----------------------------
+
+**Esempio TConsole.ini TAPI AVAYA CM + AES (TSAPI):**
+
+.. code-block:: ini
+
+    TYPE=AVAYA_CSTA
+    IADN=5009
+    DEVICE=5009
+    HOST=-
+    AVAYA_CSTA_LINK=AVAYA#CM#CSTA#TELENIA1-AES1
+    AVAYA_CSTA_LINK_VERSION=ECS2-6
+    AVAYA_CSTA_LINK_USR=“Username CSTA” (es. Telenia)
+    AVAYA_CSTA_LINK_PWD=“Password CSTA” (es. !Telenia01)
+
+    TAPI_CALL_ON_BUSY_CODE=- (questo parametro è fondamentale settarlo ad un codice, es: *60 solo se realmente esistente su PBX, altrimenti è necessario lasciarlo a “-”: in caso contrario si genera l’anomalia di impossibilità di trasferire le chiamate)
+
+Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *-*
+
+**Esempio tabparam TAPI AVAYA CM + AES (TSAPI):**
+
+.. code-block:: ini
+            
+        *              TQM_TYPE             -
+
+**Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato di Avaya.**
 
 .. toctree::
     :maxdepth: 1

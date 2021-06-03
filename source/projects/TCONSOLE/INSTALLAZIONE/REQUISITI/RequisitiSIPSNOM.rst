@@ -1,6 +1,8 @@
 .. _sito di SNOM: https://service.snom.com/display/wiki/Deskphones+Firmware
 .. _Wiki SNOM: https://service.snom.com/display/wiki/How+can+I+set+the+phone+to+admin+mode
 .. _Action URLs: https://service.snom.com/display/wiki/Action+URLs
+.. _Requisiti SIP SNOM:
+
 ===============================
 Requisiti per versioni SIP SNOM
 ===============================
@@ -24,7 +26,7 @@ Deve essere garantita la completa visibilità tra telefono SNOM dedicato ed il P
 
 Inoltre è necessario impostare sul telefono, accedendo via browser all'interfaccia web (*WUI*) di configurazione, alcuni parametri come indicato nelle figure che seguono (ipotizzando che l'IP del telefono sia *172.16.112.161*).
 
-.. important:: Per impostare i seguenti parametri, l'interfaccia web del telefono deve essere impostata in *Admin Mode* (vedi `Wiki SNOM`_). Anche al termine della configurazione in fase di installazione l'interfaccia va lasciata in questa modalità, per consentire a TConsole di impostare i parametri necessari al corretto funzionamento (in particolare le `Action URLs`_, necessarie all'applicazione per ricevere gli eventi telefonici dal dispositivo).
+.. important:: Per impostare i seguenti parametri, l'interfaccia web del telefono deve essere impostata in *Admin Mode* (vedi `Wiki SNOM`_). Anche al termine della configurazione in fase di installazione l'interfaccia va lasciata in questa modalità, per consentire a TConsole di impostare i parametri necessari al corretto funzionamento (in particolare le `Action URLs`_, necessarie a TConsole per ricevere gli eventi telefonici dal dispositivo).
 
 - scheda **Advanced | Update** (ad es. *http://172.16.112.161/advanced_update.htm*), in particolare verificare che **Update Policy** sia settato a: *Never update, do not load settings*
 

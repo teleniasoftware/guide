@@ -24,6 +24,7 @@ Questa modalità di installazione va eseguita in casi particolari quali:
 .. toctree::
     :maxdepth: 1
     
+    InstallazioneDirectoryDiversa
     TipologieInstallazione
     .. InstallazioneServerStandalone
     .. InstallazioneMySQL

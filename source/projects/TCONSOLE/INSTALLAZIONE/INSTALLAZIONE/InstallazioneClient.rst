@@ -24,7 +24,6 @@ L’installazione di TConsole in questa modalità richiede quindi, oltre ai :ref
 - indirizzo IP della macchina Server a cui fare riferimento
 - nel caso che la licenza TConsole risieda sul Server, la porta TCP utilizzata dal programma *KeyServer*/*Authorization Server* presente sul Server, se diversa dalla porta di default (5500)
 - numero di identificazione progressivo della postazione TConsole
-.. - (solo per Nortel, vedi :ref:`Requisiti Nortel`) la porta di comunicazione seriale per collegare il PC alla console PC-CIU o M2250
 
 Seguire le istruzioni per la :ref:`Installazione Server Standalone`.
 
