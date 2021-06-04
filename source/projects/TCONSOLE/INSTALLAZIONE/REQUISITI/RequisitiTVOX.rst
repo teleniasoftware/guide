@@ -30,3 +30,10 @@ Requisiti per versioni TVOX
     .. code-block:: shell
 
         2020-03-17 14:55:28 (197 KB/s) - ‘index.html’ saved [20896/20896]
+
+.. toctree::
+    :maxdepth: 1
+
+    TabellaCompatibilitaTConsoleTVOX
+    .. RequisitiGenerali
+    .. Requisiti
