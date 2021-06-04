@@ -48,7 +48,7 @@ Seguire le istruzioni per la :ref:`Installazione Server Standalone`.
     :maxdepth: 1
 
     .. TipologieInstallazione
-    InstallazioneServerStandalone
+    .. InstallazioneServerStandalone
     ConfigurazioneFaultTolerance
 
 .. rubric:: Note
