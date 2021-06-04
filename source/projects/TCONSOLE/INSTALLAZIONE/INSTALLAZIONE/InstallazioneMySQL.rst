@@ -41,6 +41,13 @@ Seguire i seguenti passaggi:
 
 **Terminata l’installazione e la configurazione di MySQL Server si continua con l’installazione di TConsole e delle altre componenti.**
 
+.. toctree::
+    :maxdepth: 1
+
+    .. TipologieInstallazione
+    InstallazioneTConsole
+    InstallazioneServerStandalone
+
 .. rubric:: Note
 
 .. [1] se il servizio Windows Firewall non è attivo, e in precedenza si è messo il flag su **Add firewall exception for this port**, potrebbe comparire un messaggio di errore di questo tipo:

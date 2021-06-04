@@ -20,8 +20,8 @@ Parametri richiesti in fase di installazione (sezioni "SIP")
     - Una chiamata arriva sul telefono, ma su TConsole non compare nulla
     - All’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo pallino rosso nella Status Bar in basso
 
-Parametri configurabili in TConsole.ini:
-========================================
+Parametri configurabili in TConsole.ini
+=======================================
 
 - impostare il parametro **TYPE**\ =\ *SIP_SNOM*
 - impostare il parametro **IADN** con il DN del dispositivo da pilotare

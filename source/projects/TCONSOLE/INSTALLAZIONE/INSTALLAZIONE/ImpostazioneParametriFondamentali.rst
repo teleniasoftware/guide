@@ -31,8 +31,8 @@ Di seguito si riportano i parametri del dispositivo da impostare in base al tipo
     :maxdepth: 1
  
     ParametriNortel
-    ParametriTAPI
     ParametriSIPSNOM
+    ParametriTAPI
     ParametriTVOX
     .. InstallazioneTConsole
     

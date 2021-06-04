@@ -11,3 +11,10 @@ L'installazione di TConsole può avvenire nelle seguenti modalità:
 - Personalizzata
 
 .. important :: Per la completa messa a punto del posto operatore TConsole è necessario fare riferimento ai parametri di funzionamento configurati nel PBX: il supporto di un tecnico di PBX risulta per questo motivo un requisito indispensabile. **Assicurarsi di avere a disposizione l’apparecchio telefonico di utilizzo TConsole registrato sulla centrale, correttamente configurato e funzionante.**
+
+.. toctree::
+    :maxdepth: 1
+ 
+    InstallazioneServerStandalone
+    InstallazioneClient
+    InstallazionePersonalizzata

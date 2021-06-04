@@ -11,8 +11,8 @@ Parametri richiesti in fase di installazione (sezioni "TAPI")
 
 .. warning :: Il valore inserito nei parametri **PO DN** e **Device Tapi o COM (per Nortel)** deve corrispondere **esattamente** (inclusi gli spazi ed i caratteri non alfanumerici) a quanto visualizzato nel *TestTapiDevice*, altrimenti il TConsole potrebbe non riconoscere il dispositivo.
 
-Parametri configurabili in TConsole.ini:
-========================================
+Parametri configurabili in TConsole.ini
+=======================================
 
 - impostare il parametro **TYPE** nel modo corretto in relazione al PBX utilizzato:
 - *SIEMENS_3000* se SIEMENS

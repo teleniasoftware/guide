@@ -38,7 +38,7 @@ Per conoscere quale versione di TConsole è richiesta per la vostra versione di 
 
     RequisitiTVOX
     .. RequisitiGenerali
-    .. Requisiti
+    Requisiti
 
 .. rubric:: Note
 

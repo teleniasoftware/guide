@@ -11,8 +11,8 @@ Parametri richiesti in fase di installazione (sezioni "NORTEL")
 
 .. note :: Il cavo di connessione tra PC e Nortel CIU è un cavo seriale 9-25 PIN inverito.
 
-Parametri configurabili in TConsole.ini:
-========================================
+Parametri configurabili in TConsole.ini
+=======================================
 
 - impostare il parametro **TYPE**\ =\ *NORTEL_M1250* o *NORTEL_M2250* o *NORTEL_CIU* a seconda del dispositivo telefonico da pilotare
 - impostare il parametro **IADN** con il DN del dispositivo telefonico da pilotare
