@@ -12,7 +12,7 @@ Parametri richiesti in fase di installazione (sezioni "SIP")
 - **User Telefono/TVox**: username di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciarlo vuoto
 - **Password Telefono/TVox**: password di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciarlo vuoto
 - **IP PC TConsole (SIP only)**: indirizzo IP del PC
-
+ ```` 
 .. important ::
     Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico** (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, potrebbe determinare uno (o più) di questi comportamenti:
 
@@ -63,15 +63,6 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro:
         *              TQM_TYPE             -
 
 .. TODO: descrivere le porte da aprire lato FW sul PC TConsole: 5450, parametro SIP_PO_PORT) ed eventualmente descrivere come modificare se necessario il parametro PORT=80 nel menu dello SNOM (https://service.snom.com/display/wiki/http_port)
-
-.. toctree::
-    :maxdepth: 1
- 
-    ParametriNortel
-    ParametriTAPI
-    ParametriSIPSNOM
-    .. ParametriTVOX
-    InstallazioneTConsole
 
 .. rubric:: Note
 

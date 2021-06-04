@@ -151,15 +151,6 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
 
 **Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato di Avaya.**
 
-.. toctree::
-    :maxdepth: 1
- 
-    ParametriNortel
-    ParametriTAPI
-    ParametriSIPSNOM
-    ParametriTVOX
-    InstallazioneTConsole
-    
 .. rubric:: Note
 
 .. [#] valore di default di *\[INSTALLDIR\]*: *C:\\Telenia\\TConsole*

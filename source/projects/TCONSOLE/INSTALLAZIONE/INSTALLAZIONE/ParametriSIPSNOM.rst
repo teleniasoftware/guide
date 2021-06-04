@@ -64,15 +64,6 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro:
 
 .. TODO: descrivere le porte da aprire lato FW sul PC TConsole: 5450, parametro SIP_PO_PORT) ed eventualmente descrivere come modificare se necessario il parametro PORT=80 nel menu dello SNOM (https://service.snom.com/display/wiki/http_port)
 
-.. toctree::
-    :maxdepth: 1
- 
-    ParametriNortel
-    ParametriTAPI
-    ParametriSIPSNOM
-    ParametriTVOX
-    InstallazioneTConsole
-
 .. rubric:: Note
 
 .. [1] username e password di accesso all'interfaccia web del telefono si impostano nella scheda **Advanced | QoS/Security** nella sezione *HTTP Server*: in questo caso verificare che il parametro **Authentication Scheme** sia settato a: *Basic* (vedi :ref:`Requisiti SIP SNOM`).

@@ -85,5 +85,5 @@ rst_epilog = """
 .. |dm| replace:: TVox Data Model
 .. |tvox_pbx| replace:: TVox UC&C
 .. |tvox_platform| replace:: Piattaforma TVox
-.. |latest_tvox_release| replace:: 21.0.8
+.. |latest_tvox_release| replace:: 21.0.11
 """

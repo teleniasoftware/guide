@@ -67,14 +67,6 @@ Seguire i seguenti passaggi:
 
         cacls "C:\Telenia" /t /e /g Everyone:f
 
-.. toctree::
-    :maxdepth: 1
-
-    .. TipologieInstallazione
-    InstallazioneMySQL
-    .. InstallazioneTConsole
-    InstallazioneServerStandalone
-
 .. rubric:: Note
 
 .. [#] Verificare con l’amministratore di sistema che tali modifiche non vengano sovrascritte in seguito dall’eventuale applicazione di Group Policy a livello di Active Directory.

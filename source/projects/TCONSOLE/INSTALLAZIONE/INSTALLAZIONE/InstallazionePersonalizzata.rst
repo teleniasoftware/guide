@@ -20,12 +20,3 @@ Questa modalità di installazione va eseguita in casi particolari quali:
 - Confermare cliccando su **Avanti**.
 
 **Le schermate che seguono dipendono dai componenti selezionati; riferirsi alla modalità** :ref:`Installazione Server Standalone` **per il dettaglio delle istruzioni sui singoli passaggi.**
-
-.. toctree::
-    :maxdepth: 1
-    
-    InstallazioneDirectoryDiversa
-    TipologieInstallazione
-    .. InstallazioneServerStandalone
-    .. InstallazioneMySQL
-    .. InstallazioneTConsole

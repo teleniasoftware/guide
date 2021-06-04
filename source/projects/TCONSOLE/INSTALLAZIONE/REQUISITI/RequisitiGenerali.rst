@@ -45,13 +45,3 @@ Antivirus di sistema
 
 ..
     **In base al tipo di centrale sono inoltre richiesti ulteriori requisiti, illustrati nella relativa sezione.**
-
-.. toctree::
-    :maxdepth: 1
- 
-    .. Requisiti
-    .. RequisitiGenerali
-    RequisitiNortel
-    RequisitiSIPSNOM
-    RequisitiTAPI
-    RequisitiTVOX

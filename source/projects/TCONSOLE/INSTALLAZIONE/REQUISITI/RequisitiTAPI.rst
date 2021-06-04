@@ -23,10 +23,3 @@ Inoltre, nel pacchetto di installazione TConsole viene fornito un tool (*TestTap
     - verifica del funzionamento delle TAPI tramite il *TestTapiDevice*
     
     **In caso di esito positivo del test si potrà procedere con l'installazione TConsole.**
-
-.. toctree::
-    :maxdepth: 1
-
-    UtilizzoTestTAPIDevice
-    RequisitiGenerali
-    .. Requisiti

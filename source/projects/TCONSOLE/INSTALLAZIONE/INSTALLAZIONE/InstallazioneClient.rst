@@ -44,14 +44,6 @@ Seguire le istruzioni per la :ref:`Installazione Server Standalone`.
  - configurare un secondo ODBC di backup (Fault Tolerance) con puntamento al database locale;
  - effettuare, *una tantum* (in fase di installazione) oppure periodicamente tramite procedure schedulate (vedi nota [1]_), la replica delle configurazioni dei profili utente e dei dati di rubrica dal Server alla postazione Client.
 
-.. toctree::
-    :maxdepth: 1
-
-    .. TipologieInstallazione
-    .. InstallazioneServerStandalone
-    ConfigurazioneFaultTolerance
-    InstallazioneTConsole
-
 .. rubric:: Note
 
 .. [1] Per la replica delle configurazioni dei profili utente e della rubrica dal Server, e l’eventuale attivazione di una procedura schedulata, contattare il Service Desk Telenia.

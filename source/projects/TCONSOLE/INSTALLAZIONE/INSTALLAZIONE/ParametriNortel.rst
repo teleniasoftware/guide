@@ -34,16 +34,7 @@ Parametri configurabili in TConsole.ini:
 .. code-block:: ini
         
         *              TQM_TYPE             -
-    
-.. toctree::
-    :maxdepth: 1
- 
-    .. ParametriNortel
-    ParametriTAPI
-    ParametriSIPSNOM
-    ParametriTVOX
-    InstallazioneTConsole
-    
+
 .. rubric:: Note
 
 .. [#] valore di default di *\[INSTALLDIR\]*: *C:\\Telenia\\TConsole*
