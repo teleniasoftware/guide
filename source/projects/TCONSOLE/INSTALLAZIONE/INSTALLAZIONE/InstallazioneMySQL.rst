@@ -45,7 +45,7 @@ Seguire i seguenti passaggi:
     :maxdepth: 1
 
     .. TipologieInstallazione
-    InstallazioneTConsole
+    .. InstallazioneTConsole
     InstallazioneServerStandalone
 
 .. rubric:: Note
