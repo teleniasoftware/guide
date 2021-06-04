@@ -9,7 +9,6 @@ Oltre ai :ref:`Requisiti generali`, necessari per qualsiasi tipo di installazion
 .. toctree::
     :maxdepth: 1
  
-    .. Requisiti
     RequisitiGenerali
     RequisitiNortel
     RequisitiSIPSNOM
