@@ -1,69 +1,151 @@
+.. _Parametri TVox:
+
 ==============
 Parametri TVOX
 ==============
 
-Parametri richiesti in fase di installazione (sezioni "SIP")
+Parametri richiesti in fase di installazione (sezioni "TVOX")
 =============================================================
 
 - **PO DN**: impostare il parametro con il DN del dispositivo da pilotare
-- **Device Tapi o COM (per Nortel)**: *-* (trattino **obbligatorio**)
-- **DN deviazione a Notte**: (opzionale) inserire l’interno per la “deviazione a notte”, se non utilizzato lasciare il parametro vuoto
-- **IP Telefono/TVox**: indirizzo IP del telefono
-- **User Telefono/TVox**: username di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciarlo vuoto
-- **Password Telefono/TVox**: password di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciarlo vuoto
-- **IP PC TConsole (SIP only)**: indirizzo IP del PC
- ```` 
-.. important ::
-    Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico** (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, potrebbe determinare uno (o più) di questi comportamenti:
+- **IP Telefono/TVox**: indirizzo IP del TVox
+- **User Telefono/TVox**: username dell’utente TVox con profilo di tipo Operatore
+- **Password Telefono/TVox**: password dell’utente TVox con profilo di tipo Operatore
+- **PIN**: inserire il codice numerico (“PIN profilo per TConsole 5.0”) ([1]_) dell’utente TVOX con profilo di tipo Operatore
+- **Codice Servizio**: inserire il Codice Servizio del servizio di tipo Posto Operatore ([2]_) su cui l'operatore è skillato
+- **Codice Parcheggio**: inserire il codice di servizio "Prefisso per parcheggio pubblico/privato" ([3]_), seguito dal DN del dispositivo da pilotare
 
-    - Da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
-    - Una chiamata arriva sul telefono, ma su TConsole non compare nulla
-    - All’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo pallino rosso nella Status Bar in basso
+.. tip :: La configurazione di default al termine dell'installazione TConsole è la modalità **READY (senza PICKUP)**: in base alle esigenze dell'operatore è possibile modificare questo comportamento attivando la modalità **NOTREADY con PICKUP e parcheggi** (vedi `Modalità PICKUP`_).
+
+.. warning :: Per utilizzare la funzionalità del parcheggio chiamata, il codice di servizio "Prefisso per parcheggio pubblico/privato" ([3]_) deve essere **abilitato** nel dialplan generale di |tvox_pbx|. Inoltre, nel caso che il codice venga successivamente modificato, andrà di conseguenza aggiornato il file *TConsole.ini* (parametro **TQM_PARK_DN**) con il nuovo valore. In caso contrario non sarà possibile da TConsole parcheggiare le chiamate o riprenderle dopo averle parcheggiate.
 
 Parametri configurabili in TConsole.ini
 =======================================
 
-- impostare il parametro **TYPE**\ =\ *SIP_SNOM*
+- impostare il parametro **TYPE**\ =\ *SNOM*
 - impostare il parametro **IADN** con il DN del dispositivo da pilotare
-- impostare il parametro **DEVICE**\ =\ *-* (trattino obbligatorio)
-- impostare il parametro **LINENUM**\ =\ *6* oppure *12* (linee disponibili sul telefono)
-- inserire nel parametro **QUEUE** l’interno per la “deviazione a notte” (opzionale), se non utilizzato lasciarlo vuoto
-- impostare il parametro **HOST** con l’indirizzo IP del telefono
-- impostare il parametro **PORT**\ =\ *80* (valore di default)
-- impostare il parametro **SIP_PO_HOST** con l’indirizzo IP del PC
-- impostare il parametro **SIP_PO_PORT**\ =\ *5452* (valore di default)
-- impostare il parametro **SIP_PO_SLEEP**\ =\ *250* (valore di default)
-- impostare il parametro **SIP_PO_USR** con lo username di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciare vuoto
-- impostare il parametro **SIP_PO_PWD** con la password di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciare vuoto
-- Impostare il parametro **SIP_ENABLE_SIMULATED_BUSY**\ =\ *SI* per attivare la segnalazione di BUSY simulato (eventualmente impostarlo a *NO* nel caso il TConsole non dovesse riconoscere alcuni eventi di disconnessione/rilascio da parte del telefono)
-- verificare la presenza del parametro **redirect_allways**\ =\ *"off"*, necessario per poter mettere a Notte/Giorno il TConsole (per TConsole release ≥ 5.2 o 4.5)
+- impostare il parametro **DEVICE** con il DN del dispositivo da pilotare
+- impostare il parametro **HOST** con l’indirizzo IP del TVox
+- impostare il parametro **PORT**\ =\ *5450* (valore di default)
+- impostare il parametro **SIP_PO_HOST**\ =\ *-* (trattino obbligatorio)
+- impostare il parametro **SIP_PO_PORT**\ =\ *-* (trattino obbligatorio)
+- impostare il parametro **TQM_SERVICE** con il Codice Servizio([2]_) su cui l'operatore è skillato, seguito da *\*pointernal*
+- impostare il parametro **TQM_USER** con lo username dell’utente TVox con profilo di tipo Operatore
+- impostare il parametro **TQM_PASSWORD** con la password dell’utente TVox con profilo di tipo Operatore
+- impostare il parametro **TQM_PIN** con il codice numerico (“PIN profilo per TConsole 5.0”) ([1]_) dell’utente TVOX con profilo di tipo Operatore
+- impostare il parametro **TQM_HOST** con l’indirizzo IP del TVox
+- impostare il parametro **TQM_PORT**\ =\ *5450* (valore di default)
+- impostare il parametro **TQM_LICENSE_HOST** con l’indirizzo IP del TVox
+- impostare il parametro **TQM_LICENSE_PORT**\ =\ *5451* (valore di default)
+- impostare il parametro **TQM_DEVICE** con il DN del dispositivo da pilotare
+- impostare il parametro **TQM_PARK_DN** con il codice di servizio "Prefisso per parcheggio pubblico/privato" ([3]_), seguito dal DN del dispositivo da pilotare
+- impostare il parametro **TQM_CONF_DN**\ = (lasciare vuoto)
+- impostare il parametro **TQM_SKILLSET**\ =\ *ESTERNE,INTERNE,RITORNO,PARK* (valore di default)
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro:
-**TQM_TYPE**\ =\ *-*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([4]_) configurare il parametro **TQM_TYPE**\ =\ *TVOX_R2*
 
-**Esempio TConsole.ini SIP SNOM:**
+.. important ::
+    In questa modalità il pulsante “Notte/Giorno” (Sole Luna) è disabilitato: lo "stato a Giorno/Notte" della postazione, e la conseguente disponibilità/indisponibilità dell'operatore a gestire chiamate, avviene rispettivamente tramite le manovre di Login e di Logout, effettuabili in due modi:
+
+    - da TConsole, con gli appositi tasti FLEX "Login" e "Logout"
+    - automaticamente al momento dell'apertura e chiusura di TConsole il quale provvede, senza la necessità di ulteriori azioni, ad eseguire rispettivamente il Login e il Logout dell'operatore
+    
+    Per commutare invece il servizio in “stato a Notte/Giorno” è necessario definire un tasto FLEX (vedi :ref:`Tasti FLEX`) contenente il codice del servizio TVox “Imposta Servizio in stato Notte” seguito dal numero associato al servizio.
+
+    Con il servizio in stato "Notte" la chiamata seguirà **sempre** il trattamento definito nel contesto “Fuori Servizio”, indipendentemente dallo stato di login/logout degli operatori e da calendari di apertura/chiusura del servizio eventualmente definiti.
+
+Modalità PICKUP
+===============
+
+In base alla configurazione di TConsole scelta l’operatore può lavorare in una di queste modalità:
+
+- in stato **READY (senza PICKUP)**: le chiamate in ingresso sul servizio vengono proposte direttamente all’operatore in base all’ordine di arrivo
+- in stato **NOTREADY con PICKUP e parcheggi**: l’operatore vede le chiamate in coda sul servizio e sceglie a quale chiamata rispondere. Ha inoltre la possibilità di mettere in parcheggio una chiamata e di riprenderla
+
+**TConsole TVOX con PICKUP e parcheggi**: per utilizzare la funzionalità di parcheggio (TQM_PARK) è necessario che su TConsole sia licenziata la modalità TQM e che nel file *\[INSTALLDIR\]\\config\\tabparam* ([4]_) sia configurato il parametro **TQM_TYPE**\ =\ *TVOX_R2_PICKUP*
+
+Con questa configurazione il Posto Operatore lavorerà in modalità **PICKUP**: agendo in **NOTREADY** avrà a disposizione il display del TQM con le chiamate in coda e, muovendosi con le freccette, potrà scegliere quale chiamata gestire. Una volta posizionato sulla chiamata desiderata potrà rispondere tramite il tasto "Invio" della tastiera (non quello del tastierino numerico sulla destra).
+
+Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P. La chiamata verrà messa in parcheggio e comparirà sul display TQM con l’etichetta “P”. Per riprenderla, l’operatore dovrà posizionarsi sulla riga della chiamata con le freccette e premere il pulsante "Invio" come per le altre chiamate in coda.
+
+**Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY):**
 
 .. code-block:: ini
 
-    TYPE=SIP_SNOM
-    IADN=2337
-    DEVICE=-
-    HOST=192.168.0.222
-    PORT=80
-    SIP_PO_HOST=192.168.0.12
-    SIP_PO_PORT=5452
+    [PO]
+    TYPE=SNOM
+    IADN=2611
+    DEVICE=2611
+    HOST=192.168.0.59
+    PORT=5450
+    SIP_PO_HOST=-
+    SIP_PO_PORT=-
     SIP_PO_SLEEP=250
     SIP_PO_USR=
     SIP_PO_PWD=
 
-**Esempio tabparam SIP SNOM:**
+    [TQM]
+    TQM_SERVICE=db_po_dev_service*pointernal
+    TQM_USER=db_po
+    TQM_PIN=1111
+    TQM_HOST=192.168.0.59
+    TQM_PORT=5450
+    TQM_LICENSE_HOST=192.168.0.59
+    TQM_LICENSE_PORT=5451
+    TQM_DEVICE=2611
+    TQM_PARK_DN=*3332611
+    TQM_CONF_DN=
+    TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
+
+**Esempio tabparam TVOX senza PICKUP (operatore in stato READY):**
 
 .. code-block:: ini
         
-        *              TQM_TYPE             -
+        *              TQM_TYPE             TVOX_R2
 
-.. TODO: descrivere le porte da aprire lato FW sul PC TConsole: 5450, parametro SIP_PO_PORT) ed eventualmente descrivere come modificare se necessario il parametro PORT=80 nel menu dello SNOM (https://service.snom.com/display/wiki/http_port)
+----------------------------
+
+**Esempio TConsole.ini TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio:**
+
+.. code-block:: ini
+
+    [PO]
+    TYPE=SNOM
+    IADN=2611
+    DEVICE=2611
+    HOST=192.168.0.59
+    PORT=5450
+    SIP_PO_HOST=-
+    SIP_PO_PORT=-
+    SIP_PO_SLEEP=250
+    SIP_PO_USR=
+    SIP_PO_PWD=
+
+    [TQM]
+    TQM_SERVICE=db_po_dev_service*pointernal
+    TQM_USER=db_po
+    TQM_PIN=1111
+    TQM_HOST=192.168.0.59
+    TQM_PORT=5450
+    TQM_LICENSE_HOST=192.168.0.59
+    TQM_LICENSE_PORT=5451
+    TQM_DEVICE=2611
+    TQM_PARK_DN=*3332611
+    TQM_CONF_DN=
+    TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
+
+**Esempio tabparam TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio:**
+
+.. code-block:: ini
+        
+        *              TQM_TYPE             TVOX_R2_PICKUP
 
 .. rubric:: Note
 
-.. [1] username e password di accesso all'interfaccia web del telefono si impostano nella scheda **Advanced | QoS/Security** nella sezione *HTTP Server*: in questo caso verificare che il parametro **Authentication Scheme** sia settato a: *Basic* (vedi :ref:`Requisiti SIP SNOM`).
+.. [1] il “PIN profilo per TConsole 5.0” è definito nella scheda *Profili* alla voce *Identificativo profilo* dell’utente TVOX con profilo di tipo Operatore
+
+.. [2] scheda *Configurazione*, voce *Impostazioni avanzate* dei *Parametri generali* del servizio di tipo Posto Operatore
+
+.. [3] pagina *Impostazioni | Avanzate | Canale Telefonico | Codici di servizio* (valore di default: *\*333*). Il codice di servizio deve inoltre essere **abilitato** nel dialplan generale di |tvox_pbx|
+
+.. [4] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|

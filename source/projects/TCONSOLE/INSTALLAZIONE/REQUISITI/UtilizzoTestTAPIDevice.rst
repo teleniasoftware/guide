@@ -15,3 +15,10 @@ Utilizzo del TestTapiDevice
 - utilizzare i tasti in basso (*Hold*, *Transfer...* etc.) per effettuare le rispettive manovre telefoniche
 - chiudere la chiamata cliccando su *Hang Up*
 - cliccare su *End Session* per terminare il controllo del dispositivo
+
+.. toctree::
+    :maxdepth: 1
+
+    RequisitiTAPI
+    .. RequisitiGenerali
+    .. Requisiti

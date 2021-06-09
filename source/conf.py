@@ -86,4 +86,5 @@ rst_epilog = """
 .. |tvox_pbx| replace:: TVox UC&C
 .. |tvox_platform| replace:: Piattaforma TVox
 .. |latest_tvox_release| replace:: 21.0.11
+.. |tconsole_default_installdir| replace:: *C:\\\\Telenia\\\\TConsole\\\\*
 """

@@ -11,9 +11,8 @@ Per le versioni SIP è necessario utilizzare un telefono SNOM, che **non deve es
 
 - **fino alla release TConsole 5.7.10 utilizzare firmware 8.7.3.19**
 - **per release TConsole 5.7.11 - 5.7.19 utilizzare firmware 8.7.5.x**
-- **dalla release TConsole 5.7.20 utilizzare firmware 8.7.5.x - 8.9.3.x**
-.. - **dalla release TConsole 5.7.27 è possibile utilizzare, oltre al firmware 8.7.5.x-8.9.3.x, anche il firmware 10.1.64.14 o superiore**
-.. la DLL per fw10 non ancora distribuita => release 5.7.28????
+- **per release TConsole 5.7.20 - 5.7.27 utilizzare firmware 8.7.5.x - 8.9.3.x**
+- **dalla release TConsole 5.7.28 è possibile utilizzare, oltre al firmware 8.7.5.x-8.9.3.x, anche il firmware 10.1.64.14 o superiore**
 
 .. tip:: I firmware indicati, e le procedure per il loro caricamento, sono disponibili nel `sito di SNOM`_).
 
@@ -30,11 +29,11 @@ Inoltre è necessario impostare sul telefono, accedendo via browser all'interfac
 
 - scheda **Advanced | Update** (ad es. *http://172.16.112.161/advanced_update.htm*), in particolare verificare che **Update Policy** sia settato a: *Never update, do not load settings*
 
-.. image:: /images/TCONSOLE/REQUISITI/advanced_update.png
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/advanced_update.png
 
 - scheda **Identity 1 | RTP** (ad es. *http://172.16.112.161/line_rtp.htm?l=1*)
 
-.. image:: /images/TCONSOLE/REQUISITI/line_rtp.png
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/line_rtp.png
 .. .. warning:: Seppure sia possibile impostare più di una identità sul telefono SNOM, nella configurazione TConsole è possibile specificare una sola identità, che sarà l'interno utilizzato per effettuare e ricevere le chiamate tramite l'applicazione.
 
 .. forse in ricezione funziona con tutte le identità? controllare le action urls
@@ -46,4 +45,4 @@ Inoltre è necessario impostare sul telefono, accedendo via browser all'interfac
   - **Use hidden tags** sia settato a:  *off*
   - **Authentication Scheme** sia settato a: *Basic*
 
-.. image:: /images/TCONSOLE/REQUISITI/advanced_qos_security.png
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/advanced_qos_security.png

@@ -18,7 +18,7 @@ Parametri configurabili in TConsole.ini
 - impostare il parametro **IADN** con il DN del dispositivo telefonico da pilotare
 - impostare il parametro **DEVICE** con il numero della porta “COM” del PC a cui sarà collegato il dispositivo (ad es. *COM1*, *COM2* etc.)
 - (se presenti più postazioni) modificare il parametro **ID** con il numero progressivo della postazione (vedi :ref:`Installazione Client`)
-- nel file *\[INSTALLDIR\]\\config\\tabparam* ([#]_) impostare il parametro **TQM_TYPE**\ =\ *-* (trattino), in questo modo si abilita il tasto “Notte/Giorno” (Sole Luna)
+- nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) impostare il parametro **TQM_TYPE**\ =\ *-* (trattino), in questo modo si abilita il tasto “Notte/Giorno” (Sole Luna)
 
 **Esempio TConsole.ini NORTEL_M2250:**
 
@@ -37,4 +37,4 @@ Parametri configurabili in TConsole.ini
 
 .. rubric:: Note
 
-.. [#] valore di default di *\[INSTALLDIR\]*: *C:\\Telenia\\TConsole*
+.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|

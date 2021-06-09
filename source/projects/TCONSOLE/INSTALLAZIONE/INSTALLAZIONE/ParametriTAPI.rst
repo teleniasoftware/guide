@@ -51,7 +51,7 @@ Parametri configurabili in TConsole.ini
     DEVICE=Cisco Line: [SEP00221904C2A7] (3028)
     HOST=-
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *-*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
 **Esempio tabparam CISCO senza TQM:**
 
@@ -90,7 +90,7 @@ Per queste opzioni fare riferimento al manuale di installazione dettagliato per 
     TQM_CONF_DN=
     TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *TAPI_TVOX_PICKUP*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *TAPI_TVOX_PICKUP*
 
 **Esempio tabparam CISCO con TQM:**
 
@@ -116,7 +116,7 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
     // il connect e quindi non sarà possibile mettere in hold o trasferire.
     TAPI_AVAYA_OUTBOUND_CONNECTED_ON_RING=SI
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *-*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
 **Esempio tabparam TAPI AVAYA CM (Softphone):**
 
@@ -141,7 +141,7 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
 
     TAPI_CALL_ON_BUSY_CODE=- (questo parametro è fondamentale settarlo ad un codice, es: *60 solo se realmente esistente su PBX, altrimenti è necessario lasciarlo a “-”: in caso contrario si genera l’anomalia di impossibilità di trasferire le chiamate)
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE**\ =\ *-*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
 **Esempio tabparam TAPI AVAYA CM + AES (TSAPI):**
 
@@ -153,4 +153,4 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro **TQM_TYPE*
 
 .. rubric:: Note
 
-.. [#] valore di default di *\[INSTALLDIR\]*: *C:\\Telenia\\TConsole*
+.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|

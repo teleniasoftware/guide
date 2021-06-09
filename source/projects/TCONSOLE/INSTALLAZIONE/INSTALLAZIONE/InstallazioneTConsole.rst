@@ -27,7 +27,7 @@ Seguire i seguenti passaggi:
 - dalla pagina iniziale cliccare su **Avanti**;
 - accettare il contratto di licenza cliccando su **Sì**;
 - definire la cartella (d’ora in poi indicata con *\[INSTALLDIR\]*) di destinazione (se non già esistente, verrà creata automaticamente):
-- (**consigliato**) accettare il valore preimpostato di *\[INSTALLDIR\]* (*C:\\Telenia\\TConsole*), oppure
+- (**consigliato**) accettare il valore preimpostato di *\[INSTALLDIR\]* (|tconsole_default_installdir|), oppure
 - specificarne una diversa (ad es. *C:\\Program Files (x86)\\Telenia\\TConsole*), oppure
 - cliccare sul tasto **Sfoglia** e sceglierne un’altra già esistente;
 - confermare cliccando su **Avanti**;
@@ -66,6 +66,13 @@ Seguire i seguenti passaggi:
     .. code-block:: shell
 
         cacls "C:\Telenia" /t /e /g Everyone:f
+
+.. toctree::
+    :maxdepth: 1
+
+    .. TipologieInstallazione
+    .. InstallazioneMySQL
+    InstallazioneServerStandalone
 
 .. rubric:: Note
 

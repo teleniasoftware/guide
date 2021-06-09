@@ -10,14 +10,18 @@ Ad es. per versioni SIP vanno compilate tutte e sole le sezioni che presentano l
 
 **I dettagli sulla configurazione dei singoli parametri in base al tipo di Centrale sono descritti nelle apposite sezioni.**
 
-.. image:: /images/TCONSOLE/INSTALLAZIONE/configurazione-parametri.png
+.. image:: /images/TCONSOLE/INSTALLAZIONE/INSTALLAZIONE/configurazione-parametri.png
 
 I parametri inseriti in questa fase vengono memorizzati nel file di configurazione:
 
-*\[INSTALLDIR\]\\TConsole.ini* ([#]_)
+*\[INSTALLDIR\]\\TConsole.ini* ([1]_)
+
+Altri parametri, utili a personalizzare il comportamento di Tconsole e descritti in :ref:`Altri Parametri`, sono contenuti in ulteriori files presenti all'interno della cartella:
+
+*\[INSTALLDIR\]\\config\\* ([1]_)
 
 .. important ::
- Se necessario, questo file potrà essere modificato successivamente, ad es. per aggiornamenti di configurazione o per l’impostazione di parametri avanzati, senza dover eseguire una reinstallazione completa di TConsole.
+ Se necessario, il file *TConsole.ini* potrà essere modificato successivamente, ad es. per aggiornamenti di configurazione o per l’impostazione di parametri avanzati, senza dover eseguire una reinstallazione completa di TConsole.
  **Si consiglia il supporto del Service Desk Telenia per modifiche di questo tipo ai files di configurazione**.
 
 .. warning ::
@@ -28,7 +32,7 @@ Di seguito si riportano i parametri del dispositivo da impostare in base al tipo
 **Per l’eventuale modifica dei parametri effettuata successivamente all’installazione** (tramite modifica manuale del file *TConsole.ini* e di eventuali altri files di configurazione) **fare invece riferimento alla sezione “Parametri configurabili in TConsole.ini”**.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
  
     ParametriNortel
     ParametriSIPSNOM
@@ -38,4 +42,4 @@ Di seguito si riportano i parametri del dispositivo da impostare in base al tipo
     
 .. rubric:: Note
 
-.. [#] valore di default di *\[INSTALLDIR\]*: *C:\\Telenia\\TConsole*
+.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|

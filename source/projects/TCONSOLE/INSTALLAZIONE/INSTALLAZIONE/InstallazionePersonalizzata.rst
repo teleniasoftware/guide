@@ -26,6 +26,3 @@ Questa modalità di installazione va eseguita in casi particolari quali:
     
     InstallazioneDirectoryDiversa
     .. TipologieInstallazione
-    .. InstallazioneServerStandalone
-    .. InstallazioneMySQL
-    .. InstallazioneTConsole

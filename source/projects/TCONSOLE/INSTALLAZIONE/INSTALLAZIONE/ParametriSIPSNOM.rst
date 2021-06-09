@@ -38,8 +38,7 @@ Parametri configurabili in TConsole.ini
 - Impostare il parametro **SIP_ENABLE_SIMULATED_BUSY**\ =\ *SI* per attivare la segnalazione di BUSY simulato (eventualmente impostarlo a *NO* nel caso il TConsole non dovesse riconoscere alcuni eventi di disconnessione/rilascio da parte del telefono)
 - verificare la presenza del parametro **redirect_allways**\ =\ *"off"*, necessario per poter mettere a Notte/Giorno il TConsole (per TConsole release ≥ 5.2 o 4.5)
 
-Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro:
-**TQM_TYPE**\ =\ *-*
+Nel file *\[INSTALLDIR\]\\config\\tabparam* ([2]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
 **Esempio TConsole.ini SIP SNOM:**
 
@@ -67,3 +66,5 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* configurare il parametro:
 .. rubric:: Note
 
 .. [1] username e password di accesso all'interfaccia web del telefono si impostano nella scheda **Advanced | QoS/Security** nella sezione *HTTP Server*: in questo caso verificare che il parametro **Authentication Scheme** sia settato a: *Basic* (vedi :ref:`Requisiti SIP SNOM`).
+
+.. [2] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
