@@ -1,5 +1,3 @@
-.. _TConsole.ini Sezione TAPI-SIP:
-
 ===============================
 TConsole.ini Sezione [TAPI-SIP]
 ===============================

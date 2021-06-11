@@ -1,35 +1,69 @@
 .. _TConsole.ini Sezione BRAILLE:
 
 ==============================
-TODO TConsole.ini Sezione [BRAILLE]
+TConsole.ini Sezione [BRAILLE]
 ==============================
 
-Opzionali TODO
---------------
-- Monitor multimediale (o casse separate) per riproduzione Sintesi Vocale e segnalazioni acustiche
-- Porta parallela (solo se si utilizza barra Braille Sistel)
-- Per la barra Braille Sistel è necessario installare i driver separatamente utilizzando l'apposito setup ed è necessario disporre di una chiave SISTEL del tipo 87/6
+In questa sezione è possibile associare ai tasti funzione della Barra Braille determinate funzioni di TConsole.
 
-Firewall TODO
--------------------
-.. tengo la frase nella seconda (nuova) formulazione
-.. .. important:: Deve essere mantenuto attivo al momento dell'installazione e al primo avvio di TConsole affinché vengano richieste le conferme per la creazione delle eccezioni o l'apertura di determinate porte durante la fase di installazione di MySQL e di TConsole. (vedi :ref:`Installazione MySQL` e :ref:`Installazione TConsole`).
-.. important:: Deve essere mantenuto attivo durante le fasi di installazione di MySQL, di TConsole e anche al primo avvio di TConsole, affinché (ad es. nel caso di Windows Firewall) vengano richieste le conferme per la creazione delle eccezioni o l'apertura di determinate porte (vedi :ref:`Installazione MySQL` e :ref:`Installazione TConsole`).
+Impostare il parametro TYPE in base al tipo di Barra Braille utilizzata:
 
-Antivirus TODO
---------------------
-.. important:: Deve essere prevista la possibilità, una volta terminata l'installazione di TConsole, di creare un'eccezione per la cartella e gli eseguibili del programma (*TConsole.exe*).
+.. code-block:: ini
 
-..
-    **In base al tipo di centrale sono inoltre richiesti ulteriori requisiti, illustrati nella relativa sezione.**
+    ;	TYPE: tipo di barra braille. Tipi disponibili: LILLI; SISTEL; ALVA544; LILLI_80
+    TYPE=LILLI
+    ;	SERIALPORT: Porta seriale da utilizzare con barra ALVA544 valori possibili: COM1, COM2, ... 
+    SERIALPORT=-
+    ;	LINELEN: lunghezza in caratteri della barra braille
+    LINELEN=40
 
+Per la Barra Braille Lilli a 80 caratteri occorre configurare i seguenti parametri:
 
+.. code-block:: ini
 
+    TYPE=LILLI_80
+    LINELEN=80
 
+Sempre per la Barra Braille Lilli è possibile impostare il tipo di alfabeto utilizzato (a 6 o ad 8 punti):
 
+.. code-block:: ini
 
-.. TODO serve la nota????????
+    ;	TABLE=8 o TABLE=6 (alfabeto braille a 6 o 8 pti)
+    TABLE=8
 
-.. rubric:: Note
+Per l’associazione dei tasti funzione della Barra Braille **alle rispettive combinazioni di tasti della tastiera del PC** è presente una configurazione predefinita che è possibile modificare a seconda delle esigenze dell’operatore:
 
-.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
+.. code-block:: ini
+
+    ;	ASSOCIAZIONE TRA TASTI LILLI E TASTI PC
+    SHIFT=Esc
+    ; 	tasti di controllo: Simple, Shift, Long, ShiftLong
+    LEFT=,,,,
+    UP=Up,PgUp,,Home,
+    DOWN=Down,PgDn,,End,
+    RIGHT=,,,,
+    ;	tasti funzione: Simple, Shift, Long, ShiftLong
+    F1=F3,Ctrl+D,,,
+    F2=F12,,,,
+    F3=,,,,
+    F4=,,,,
+    F5=F4,,,,
+    F6=,,,Ctrl+Alt+X,
+    F7=*[Tn],,,,
+    F8=-[Tn],,,,
+    F9=+[Tn],Ctrl+0[Tn],,,
+    F10=Enter[Kp],,,,
+
+Nell'esempio riportato, nella penultima riga la dicitura:
+
+.. code-block:: ini
+
+    F9=+[Tn],Ctrl+0[Tn],,,
+
+indica rispettivamente:
+
+- tasto funzione della Barra Braille: *F9* (secondo tasto funzione da destra)
+- combinazione di tasti corrispondente alla pressione breve (semplice) del tasto funzione: *+* (del tastierino numerico)
+- combinazione di tasti corrispondente alla pressione breve del tasto funzione + tasto Shift della Barra: *Ctrl+0* (del tastierino numerico)
+- combinazione di tasti corrispondente alla pressione lunga del tasto funzione: non configurato
+- combinazione di tasti corrispondente alla pressione lunga del tasto funzione + tasto Shift della Barra: non configurato

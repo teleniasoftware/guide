@@ -1,32 +1,39 @@
-.. _RubInt.ini e RubEst.ini Sezione BRAILLE:
+=========================================
+RubInt.ini e RubEst.ini Sezione [BRAILLE]
+=========================================
 
-======================================
-TODO RubInt.ini e RubEst.ini Sezione [BRAILLE]
-======================================
+In questa sezione vengono elencati tutti i parametri relativi alle informazioni inviate alla Barra Braille per un’installazione non vedente con barra.
 
-Opzionali TODO
---------------
-- Monitor multimediale (o casse separate) per riproduzione Sintesi Vocale e segnalazioni acustiche
-- Porta parallela (solo se si utilizza barra Braille Sistel)
-- Per la barra Braille Sistel è necessario installare i driver separatamente utilizzando l'apposito setup ed è necessario disporre di una chiave SISTEL del tipo 87/6
+È possibile specificare, compatibilmente con il numero di caratteri a disposizione sulla Barra Braille, quali campi e in quale ordine visualizzare sulla barra **al momento dello scorrimento dei risultati** della ricerca in rubrica.
 
-Firewall TODO
--------------------
-.. tengo la frase nella seconda (nuova) formulazione
-.. .. important:: Deve essere mantenuto attivo al momento dell'installazione e al primo avvio di TConsole affinché vengano richieste le conferme per la creazione delle eccezioni o l'apertura di determinate porte durante la fase di installazione di MySQL e di TConsole. (vedi :ref:`Installazione MySQL` e :ref:`Installazione TConsole`).
-.. important:: Deve essere mantenuto attivo durante le fasi di installazione di MySQL, di TConsole e anche al primo avvio di TConsole, affinché (ad es. nel caso di Windows Firewall) vengano richieste le conferme per la creazione delle eccezioni o l'apertura di determinate porte (vedi :ref:`Installazione MySQL` e :ref:`Installazione TConsole`).
+È anche possibile specificare, tramite l'opzione *NoLabel*, se visualizzare o meno sulla barra l'etichetta di tali campi (configurata nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`).
+L’opzione *NoLabel* assume significato **solo per l’elenco dei nominativi restituiti dalla ricerca**: non si riferisce quindi ai campi di ricerca e di dettaglio del nominativo, che quando vengono scorsi con le freccette sono letti comprensivi di etichetta e nell'ordine configurato nelle rispettive sezioni.
 
-Antivirus TODO
---------------------
-.. important:: Deve essere prevista la possibilità, una volta terminata l'installazione di TConsole, di creare un'eccezione per la cartella e gli eseguibili del programma (*TConsole.exe*).
+.. code-block:: ini
 
-In base al tipo di centrale sono inoltre richiesti ulteriori requisiti, illustrati nella relativa sezione.
+    ;Idx=NomeCampo[,NoLabel]
+    ;Dove NoLabel va messo a 1 se NON si vuole visualizzare la label per quel campo sul risultato di prima battua a braille,
+    ;non mettere la nolabel corrisponde a mettere 0 che significa che si vuole visualizzare la label di quel campo.
+    1=RAG_SOC
+    2=TEL_EST,0
+    3=UFF,1
+    4=CAT,1
 
+Nell'esempio riportato, nella riga 3 la dicitura:
 
+.. code-block:: ini
 
+    3=UFF,1
 
-.. TODO serve la nota????????
+indica rispettivamente:
 
-.. rubric:: Note
+- numero ordinale (*Idx*) con cui visualizzare su barra questo campo: *3* (terzo campo da visualizzare, preceduto da *RAG_SOC* e da *TEL_EST*)
+- campo (*NomeCampo*) del database di rubrica Esterna: *UFF* (visualizzato con l'etichetta descritta nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`)
+- ignorare (*NoLabel*) la visualizzazione su barra dell'etichetta: *1* (**non** visualizzare l'etichetta)
 
-.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
+Sempre relativamente allo stesso esempio:
+
+- il primo campo visualizzato sulla barra è *RAG_SOC*, del quale viene letta **anche** l'etichetta (*NoLabel* non valorizzato)
+- il secondo campo visualizzato sulla barra è *TEL_EST*, del quale viene letta **anche** l'etichetta (*NoLabel*\ =\ *0*)
+- il terzo campo visualizzato sulla barra è *UFF*, del quale viene letto solo il contenuto ma **non** l'etichetta (*NoLabel*\ =\ *1*)
+- il quarto campo visualizzato sulla barra è *CAT*, del quale viene letto solo il contenuto ma **non** l'etichetta (*NoLabel*\ =\ *1*)

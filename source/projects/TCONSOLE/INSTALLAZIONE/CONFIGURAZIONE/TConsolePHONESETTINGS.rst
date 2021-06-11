@@ -1,4 +1,3 @@
-.. _TConsole.ini Sezione PHONE_SETTINGS:
 .. _sito di SNOM: https://service.snom.com/display/wiki/D-Series+Settings
 
 =====================================

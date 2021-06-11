@@ -7,7 +7,7 @@ Manuale di Installazione TConsole
 Questa sezione illustra la procedura di installazione e configurazione di TConsole 5, applicabile a partire dalla versione 5.7.27.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 5
  
     ./REQUISITI/Requisiti
     ./INSTALLAZIONE/TipologieInstallazione

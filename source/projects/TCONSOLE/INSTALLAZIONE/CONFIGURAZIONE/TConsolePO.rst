@@ -1,40 +1,75 @@
-.. _TConsole.ini Sezione PO:
-
 =========================
-TODO TConsole.ini Sezione [PO]
+TConsole.ini Sezione [PO]
 =========================
 
-TODO DISPLAY_ACTIVE_STATE
+PHONE_KEYPAD
+------------
+Se configurato a *SI*, imposta il tastierino numerico del PC come la tastiera del telefono, invertendo la posizione delle file di tasti 1-2-3 e 7-8-9, pertanto premendo ad es. *1* verrà inviato *7*, premendo *8* verrà inviato *2* e così via. Il valore di default è *NO*.
+
+.. code-block:: ini
+
+	PHONE_KEYPAD=SI
+
+DISPLAY_ACTIVE_STATE
 --------------------
-Solo per TConsole su PBX Avaya-M2250/CIU è possibile abilitare/disabilitare la segnalazione dello stato attivo della console Avaya-M2250/CIU
+**Solo per TConsole su PBX Avaya o Nortel M2250/CIU** è possibile abilitare/disabilitare la segnalazione dello stato attivo della console Avaya o Nortel M2250/CIU impostando il parametro *DISPLAY_ACTIVE_STATE=NO* (il valore di default è *SI*).
 
-TODO TAPI_CALL_ON_BUSY_CODE
+.. code-block:: ini
+
+    DISPLAY_ACTIVE_STATE=SI
+
+.. descrivere il parametro ID per il TConsoleServer e per il tratamento VIP
+
+TAPI_CALL_ON_BUSY_CODE
 ----------------------
-Tale parametro va settato con il codice configurato su PBX per trasferire le chiamate anche su occupato. Tale codice verrà anteposto ad ogni chiamata da rubrica, da Post-IT ed in fase di trasferta dal Keypad. IMPORTANTE!! Valorizzare con - se non si vuole utilizzare alcun codice. Se viene settato con un codice errato (non esistente su PBX) si ottiene l’anomalia di impossibilità di trasferire le chiamate.
-Es:
-TAPI_CALL_ON_BUSY_CODE=*60 (settato con un codice)
-TAPI_CALL_ON_BUSY_CODE=- (non settato)
+Tale parametro va settato con il codice configurato su PBX per trasferire le chiamate **anche su occupato**.
+Tale codice verrà anteposto ad ogni chiamata da rubrica, da Post-IT ed in fase di trasferta dal Keypad.
 
-TODO LINE_0_TOP=SI/NO 
-----------------------
-	SI: 	inversione, rispetto alla situazione di default, della visualizzazione dell’ordine delle 
-		linee entranti: "0" in alto "5" in basso
-	NO: 	le linee entrati mantegono l’ordine di default ossia "0" in basso e "5" in alto
+Valorizzare con *-* (valore di default) se **non** si vuole utilizzare alcun codice.
 
-IPO_PLUS_ICI_TOP (SI/NO)
-	SI: 	- porta all’aumento in altezza (da 46 a 55) del carattere sulle text di numeri in 
-		ingresso/uscita 
-		- allinea i 3 riquadri EN-IN-RT alla prima linea in alto
-	NO: 	si mantengono dimensioni e posizionamenti EN-IN-RT di default
+.. warning :: Se viene settato con un codice errato (non esistente su PBX) si ottiene l’anomalia di impossibilità di trasferire le chiamate.
 
-IPO_PLUS_TIME (SI/NO)
-	SI: 	per abilitare l’orologio sulla vista IPO-PLUS
-	NO:	si mantiene la visualizzazione di default priva di orologio per lasciare maggior spazio 
-		sul monitor
+.. code-block:: ini
 
+    TAPI_CALL_ON_BUSY_CODE=*60 (settato con un codice)
 
-.. TODO serve la nota????????
+.. code-block:: ini
 
-.. rubric:: Note
+    TAPI_CALL_ON_BUSY_CODE=- (non settato)
 
-.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
+LINE_0_TOP
+----------
+Impostare il parametro *LINE_0_TOP=SI* per invertire la visualizzazione dell’ordine delle linee entranti (Loop): Linea "0" in alto e Linea "5" in basso. Il valore di default è *NO* (Linea "0" in basso e Linea "5" in alto).
+
+.. code-block:: ini
+
+	LINE_0_TOP=SI
+
+IPO_PLUS_ICI_TOP
+----------------
+**Solo per la vista IPO PLUS**, impostare il parametro *IPO_PLUS_ICI_TOP=SI* per:
+
+- aumentare la dimensione (da 46 a 55) del carattere dei numeri in ingresso/uscita (linee del Display)
+- allineare i 3 riquadri ICI ("EN"-"IN"-"RT") alla prima linea in alto, spostando in basso l'indicatore (pallino verde/rosso) di connessione del dispositivo
+
+Il valore di default è *NO*.
+
+.. code-block:: ini
+
+	IPO_PLUS_ICI_TOP=SI
+
+Vista IPO PLUS con *IPO_PLUS_ICI_TOP=NO* (default):
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/IPO_PLUS_ICI_TOP_NO.png
+
+Vista IPO PLUS con *IPO_PLUS_ICI_TOP=SI*:
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/IPO_PLUS_ICI_TOP_SI.png
+
+IPO_PLUS_TIME
+-------------
+**Solo per la vista IPO PLUS**, impostare il parametro *IPO_PLUS_TIME=SI* per abilitare l’orologio in alto a destra (vedi immagini di esempio precedenti relative al parametro *IPO_PLUS_ICI_TOP*, in cui è settato *IPO_PLUS_TIME=SI*).
+
+.. code-block:: ini
+
+	IPO_PLUS_TIME=SI

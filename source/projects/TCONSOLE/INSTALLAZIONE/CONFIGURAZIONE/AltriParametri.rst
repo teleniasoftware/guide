@@ -12,15 +12,20 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
 - *\[INSTALLDIR\]\\config\\RubEst.ini*
 - *\[INSTALLDIR\]\\config\\TCLoops.txt*
 
+.. tip :: Oltre ai parametri descritti in seguito, relativi a modifiche di configurazione che tipicamente possono venire richieste, sono presenti ulteriori parametri (che di norma non è necessario modificare) la cui descrizione è contenuta all'inteno dei files stessi indicati in precedenza.
+
+.. TODO aggiungere sezione per tabparam???? alcuni parametri sono descritti nella guida utente
+
 .. toctree::
     :maxdepth: 1
  
-    TConsoleTAPISIP
     TConsolePO
-    TConsoleBRAILLE
+    TConsoleTAPISIP
     TConsolePHONESETTINGS
-    RubInt
-    RubEst
+    TConsoleBRAILLE
+    RubIntRubEst
+    .. RubInt
+    .. RubEst
     RubIntRubEstBRAILLE
     TCLoops
 
