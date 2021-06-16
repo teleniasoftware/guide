@@ -17,7 +17,7 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
 .. TODO aggiungere sezione per tabparam???? alcuni parametri sono descritti nella guida utente
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
  
     TConsolePO
     TConsoleTAPISIP
