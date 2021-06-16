@@ -43,7 +43,7 @@ Questa sezione contiene:
 
     Se la rubrica viene importata direttamente nel database TConsole (tramite file CSV, SQL, ...) gli unici vincoli che vengono controllati al momento dell'importazione sono i vincoli di struttura della tabella del database.
 
-.. warning :: Se in questa sezione viene eliminata o commentata una delle righe di associazione campo - etichetta, su TConsole verrà presentato come etichetta il nome stesso del campo, e dalla rubrica TConsole **non** sarà possibile inserire né modificare il contenuto del campo.
+.. warning :: Se in questa sezione viene eliminata o commentata una delle righe di associazione campo - etichetta, su TConsole verrà presentato come etichetta il nome stesso del campo, e dalla rubrica TConsole **non** sarà possibile inserire né modificarne il contenuto.
 
 **Esempio di RubEst.ini** (file di configurazione della rubrica **Esterna**)\ **:**
 
@@ -80,10 +80,9 @@ indica rispettivamente:
 
 Sempre relativamente allo stesso esempio:
 
-- il campo del database *LIBERO_2* verrà presentato con l'etichetta *Altern 1*, dovrà essere un numero (*Type NUM*) e potrà contentere una qualsiasi quantità di cifre (*Maschera* non presente)
+- il campo del database *LIBERO_2* verrà presentato con l'etichetta *Altern 1*, dovrà essere un numero (*Type NUM*) e potrà contenere una qualsiasi quantità di cifre (*Maschera* non presente)
 - il campo del database *LIBERO_4* verrà presentato con l'etichetta *Email* e potrà contenere una stringa alfanumerica qualsiasi (*Type* e *Maschera* non presenti)
 - il campo del database *LIBERO_5*, in quanto commentato, verrà presentato con l'etichetta stessa *LIBERO_5* e il suo contenuto non sarà modificabile da TConsole
-
 
 Sezione [SYNTH]
 ===============

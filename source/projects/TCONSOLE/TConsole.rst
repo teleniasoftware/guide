@@ -8,7 +8,7 @@ Questa sezione illustra la procedura di installazione e configurazione di TConso
 Questa sezione si divide in due macrosezioni: Manuale di Installazione e Guida Utente TConsole.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 5
  
     ./INSTALLAZIONE/ManualeInstallazione
     ./UTENTE/GuidaUtente

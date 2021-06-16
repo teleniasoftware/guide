@@ -8,7 +8,6 @@ Questa sezione illustra la procedura di installazione e configurazione di TConso
 
 .. toctree::
     :maxdepth: 5
- 
     ./REQUISITI/Requisiti
     ./INSTALLAZIONE/TipologieInstallazione
     ./INSTALLAZIONE/ImpostazioneParametriFondamentali
