@@ -26,7 +26,7 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
     RubIntRubEst
     .. RubInt
     .. RubEst
-    RubIntRubEstBRAILLE
+    .. RubIntRubEstBRAILLE
     TCLoops
 
 .. rubric:: Note

@@ -31,13 +31,6 @@ Di seguito i passi per la creazione del DSN di sistema di Fault Tolerance e le s
     DBG=NO
     CHECKTIME=20
 
-.. toctree::
-    :maxdepth: 1
-    
-    .. TipologieInstallazione
-    .. InstallazioneServerStandalone
-    InstallazioneClient
-
 .. rubric:: Note
 
 .. [#] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|

@@ -16,6 +16,5 @@ L’installazione di tipo Server/Standalone va effettuata nei seguenti casi:
 .. toctree::
     :maxdepth: 1
 
-    .. TipologieInstallazione
     InstallazioneMySQL
     InstallazioneTConsole

@@ -38,7 +38,6 @@ Di seguito si riportano i parametri del dispositivo da impostare in base al tipo
     ParametriSIPSNOM
     ParametriTAPI
     ParametriTVOX
-    .. InstallazioneTConsole
     
 .. rubric:: Note
 

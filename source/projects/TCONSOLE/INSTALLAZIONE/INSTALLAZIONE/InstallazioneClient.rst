@@ -47,8 +47,6 @@ Seguire le istruzioni per la :ref:`Installazione Server Standalone`.
 .. toctree::
     :maxdepth: 1
 
-    .. TipologieInstallazione
-    .. InstallazioneServerStandalone
     ConfigurazioneFaultTolerance
 
 .. rubric:: Note

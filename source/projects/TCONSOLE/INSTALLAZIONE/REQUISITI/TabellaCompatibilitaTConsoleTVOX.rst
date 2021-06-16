@@ -35,13 +35,6 @@ Per conoscere quale versione di TConsole è richiesta per la vostra versione di 
 | 5.7.28            | 10.13.x .. 10.26.x, |latest_tvox_release| ([1]_) | 8.7.5, 8.9.3, 10.1.64.14 | 8.7.5, 8.9.3, 10.1.64.14 |
 +-------------------+--------------------------------------------------+--------------------------+--------------------------+
 
-.. toctree::
-    :maxdepth: 1
-
-    RequisitiTVOX
-    .. RequisitiGenerali
-    .. Requisiti
-
 .. rubric:: Note
 
 .. [1] ultima release TVOX al momento della compilazione di questa guida: |latest_tvox_release|

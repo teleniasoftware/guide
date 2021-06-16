@@ -25,4 +25,3 @@ Questa modalità di installazione va eseguita in casi particolari quali:
     :maxdepth: 1
     
     InstallazioneDirectoryDiversa
-    .. TipologieInstallazione
