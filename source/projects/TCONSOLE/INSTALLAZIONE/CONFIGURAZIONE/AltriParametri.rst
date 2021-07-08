@@ -17,17 +17,18 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
 .. TODO aggiungere sezione per tabparam???? alcuni parametri sono descritti nella guida utente
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
  
     TConsolePO
     TConsoleTAPISIP
     TConsolePHONESETTINGS
     TConsoleBRAILLE
+    .. Tabparam
     RubIntRubEst
     .. RubInt
     .. RubEst
     .. RubIntRubEstBRAILLE
-    .. TCLoops
+    TCLoops
 
 .. rubric:: Note
 

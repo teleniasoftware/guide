@@ -10,7 +10,7 @@ Dopo aver collegato il PC al terminale telefonico e al termine della procedura d
     La modifica delle impostazioni e dei files di configurazione va effettuata **a TConsole chiuso**, pena la possibile perdita delle modifiche applicate.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
  
     SistemaOperativo
     TastiICI

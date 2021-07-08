@@ -52,7 +52,7 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* ([4]_) configurare il parametro **TQ
     
     Per commutare invece il servizio in “stato a Notte/Giorno” è necessario definire un tasto FLEX (vedi :ref:`Tasti FLEX`) contenente il codice del servizio TVox “Imposta Servizio in stato Notte” seguito dal numero associato al servizio.
 
-    Con il servizio in stato "Notte" la chiamata seguirà **sempre** il trattamento definito nel contesto “Fuori Servizio”, indipendentemente dallo stato di login/logout degli operatori e da calendari di apertura/chiusura del servizio eventualmente definiti.
+    Con il servizio in stato "Notte" le chiamate destinate al contesto "Attivo", cioè che in presenza di un calendario entrano nell'orario di apertura del servizio, oppure **tutte** le chiamate se **non** è presente alcun calendario, seguiranno invece il trattamento definito nel contesto “Fuori Servizio”, indipendentemente dallo stato di login/logout degli operatori.
 
 Modalità PICKUP
 ===============

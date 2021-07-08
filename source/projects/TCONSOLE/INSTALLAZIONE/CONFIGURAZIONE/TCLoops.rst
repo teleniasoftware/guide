@@ -1,28 +1,17 @@
-=================================
-TODO TCLoops.txt
-=================================
+===========
+TCLoops.txt
+===========
 
-La trasferta di chiamata da TConsole per tutti i tipi di centrale si può fare come:
+Questo file viene utilizzato per le diciture visualizzate nei campi "Linea" (Loop) a fronte di un cambiamento di stato della linea (“Libero”, “Risposta” etc.).
 
-- trasferta con consultazione
-- trasferta su ring
-
-**Per il TConsole di tipo SIP SNOM** è possibile effettuare anche la trasferta "blind" (cieca) settando il parametro *SIP_ENABLE_BLIND_TRANSFER=SI* (il valore di default è *NO*).
+Nella configurazione di default quando una linea è libera viene visualizzata la scritta "Libero": se si desidera che il campo linea non riporti alcuna scritta occorre sostituire la dicitura "Libero" con una stringa vuota, modificando la riga:
 
 .. code-block:: ini
 
-    SIP_ENABLE_BLIND_TRANSFER=SI
+    0,0,0,Libero,N,
 
-Per effettuare questo tipo di trasferta:
+Nella dicitura:
 
-- si digita l’interno a cui trasferire la chiamata;
-- si preme il tasto *TN\[Invio\]* (NON si preme il tasto *TN\[.\]* come si fa normalmente su TConsole SIP SNOM per concludere la digitazione del numero).
+.. code-block:: ini
 
-
-
-
-.. TODO serve la nota????????
-
-.. rubric:: Note
-
-.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
+    0,0,0,,N,

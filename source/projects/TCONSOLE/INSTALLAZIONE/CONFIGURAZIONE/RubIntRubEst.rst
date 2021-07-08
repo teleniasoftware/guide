@@ -87,14 +87,38 @@ Sempre relativamente allo stesso esempio:
 Sezione [SYNTH]
 ===============
 
+In questa sezione è possibile specificare quali informazioni (dettagli) di un contatto, e in quale ordine, riprodurre con la Sintesi Vocale di TConsole a fronte di una ricerca in rubrica.
+
+È anche possibile specificare, tramite l'opzione *NoLabel*, se riprodurre o meno l'etichetta di tali campi (configurata nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`).
+L’opzione *NoLabel* assume significato **solo per l’elenco dei nominativi restituiti dalla ricerca**: non si riferisce quindi ai campi di ricerca e di dettaglio del nominativo, che quando vengono scorsi con le freccette sono letti comprensivi di etichetta e nell'ordine configurato nelle rispettive sezioni.
+
 .. code-block:: ini
 
     ; 	Elenco campi sintesi vocale
     ;	Idx=NomeCampo[,NoLabel]
     1=RAG_SOC,1
     2=TEL_EST,1
-    3=CAT
+    3=CAT,0
     4=LIBERO_1
+
+Nell'esempio riportato, nella riga 1 la dicitura:
+
+.. code-block:: ini
+
+    1=RAG_SOC,1
+    
+indica rispettivamente:
+
+- numero ordinale (*Idx*) con cui riprodurre con la Sintesi Vocale questo campo: *1* (primo campo da riprodurre, seguito da *TEL_EST*, *CAT* e *LIBERO_1*)
+- campo (*NomeCampo*) del database di rubrica Esterna: *RAG_SOC* (visualizzato con l'etichetta descritta nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`)
+- ignorare (*NoLabel*) la riproduzione dell'etichetta: *1* (**non** riprodurre l'etichetta)
+
+Sempre relativamente allo stesso esempio:
+
+.. - il primo campo riprodotto con Sintesi Vocale è *RAG_SOC*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
+- il secondo campo riprodotto con Sintesi Vocale è *TEL_EST*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
+- il terzo campo riprodotto con Sintesi Vocale è *CAT*, del quale viene letta anche l'etichetta (*NoLabel*\ =\ *0*)
+- il quarto campo riprodotto con Sintesi Vocale è *LIBERO_1*, del quale viene letta anche l'etichetta (*NoLabel* non valorizzato)
 
 Sezione [BRAILLE]
 =================
@@ -103,7 +127,7 @@ In questa sezione vengono elencati tutti i parametri relativi alle informazioni 
 
 È possibile specificare, compatibilmente con il numero di caratteri a disposizione sulla Barra Braille, quali campi e in quale ordine visualizzare sulla barra **al momento dello scorrimento dei risultati** della ricerca in rubrica.
 
-È anche possibile specificare, tramite l'opzione *NoLabel*, se visualizzare o meno sulla barra l'etichetta di tali campi (configurata nella :ref:`Sezione LABELS`).
+È anche possibile specificare, tramite l'opzione *NoLabel*, se visualizzare o meno sulla barra l'etichetta di tali campi (configurata nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`).
 L’opzione *NoLabel* assume significato **solo per l’elenco dei nominativi restituiti dalla ricerca**: non si riferisce quindi ai campi di ricerca e di dettaglio del nominativo, che quando vengono scorsi con le freccette sono letti comprensivi di etichetta e nell'ordine configurato nelle rispettive sezioni.
 
 .. code-block:: ini
@@ -132,5 +156,5 @@ Sempre relativamente allo stesso esempio:
 
 - il primo campo visualizzato sulla barra è *RAG_SOC*, del quale viene letta anche l'etichetta (*NoLabel* non valorizzato)
 - il secondo campo visualizzato sulla barra è *TEL_EST*, del quale viene letta anche l'etichetta (*NoLabel*\ =\ *0*)
-- il terzo campo visualizzato sulla barra è *UFF*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
+.. - il terzo campo visualizzato sulla barra è *UFF*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
 - il quarto campo visualizzato sulla barra è *CAT*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
