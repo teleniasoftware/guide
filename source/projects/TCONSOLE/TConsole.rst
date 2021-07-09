@@ -11,4 +11,4 @@ Questa sezione si divide in due macrosezioni: Manuale di Installazione e Guida U
     :maxdepth: 5
  
     ./INSTALLAZIONE/ManualeInstallazione
-    ./UTENTE/GuidaUtente
+    xxxx/./UTENTE/GuidaUtente
