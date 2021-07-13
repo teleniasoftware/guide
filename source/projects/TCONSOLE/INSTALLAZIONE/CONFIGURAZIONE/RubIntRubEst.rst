@@ -89,9 +89,9 @@ Sempre relativamente allo stesso esempio:
 Sezioni DETAIL e DETAIL_IPO
 ===========================
 
-..
-    Questa sezione contiene:
+In questa sezione è possibile specificare quali informazioni (dettagli) di un contatto, e in quale ordine, visualizzare al momento della consultazione di un contatto in rubrica.
 
+..
     - l'associazione tra il nome campo del database di rubrica e l'etichetta presentata su TConsole
     - eventuali vincoli sul tipo di dato (numero o stringa) che il campo può contenere
     - eventuali vincoli sul valore che può essere inserito nel campo
