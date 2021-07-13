@@ -84,6 +84,20 @@ Sempre relativamente allo stesso esempio:
 - il campo del database *LIBERO_4* verrà presentato con l'etichetta *Email* e potrà contenere una stringa alfanumerica qualsiasi (*Type* e *Maschera* non presenti)
 - il campo del database *LIBERO_5*, in quanto commentato, verrà presentato con l'etichetta stessa *LIBERO_5* e il suo contenuto non sarà modificabile da TConsole
 
+.. _Rubint.ini RubEst.ini Sezioni DETAIL e DETAIL_IPO:
+
+Sezioni DETAIL e DETAIL_IPO
+===========================
+
+..
+    Questa sezione contiene:
+
+    - l'associazione tra il nome campo del database di rubrica e l'etichetta presentata su TConsole
+    - eventuali vincoli sul tipo di dato (numero o stringa) che il campo può contenere
+    - eventuali vincoli sul valore che può essere inserito nel campo
+
+.. _Rubint.ini RubEst.ini Sezione SYNTH:
+
 Sezione [SYNTH]
 ===============
 
@@ -119,6 +133,8 @@ Sempre relativamente allo stesso esempio:
 - il secondo campo riprodotto con Sintesi Vocale è *TEL_EST*, del quale viene letto solo il contenuto ma non l'etichetta (*NoLabel*\ =\ *1*)
 - il terzo campo riprodotto con Sintesi Vocale è *CAT*, del quale viene letta anche l'etichetta (*NoLabel*\ =\ *0*)
 - il quarto campo riprodotto con Sintesi Vocale è *LIBERO_1*, del quale viene letta anche l'etichetta (*NoLabel* non valorizzato)
+
+.. _Rubint.ini RubEst.ini Sezione BRAILLE:
 
 Sezione [BRAILLE]
 =================

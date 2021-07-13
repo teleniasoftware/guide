@@ -88,4 +88,5 @@ rst_epilog = """
 .. |latest_tvox_release| replace:: 21.0.14
 .. |latest_tconsole_release| replace:: 5.7.28
 .. |tconsole_default_installdir| replace:: *C:\\\\Telenia\\\\TConsole\\\\*
+.. |tconsoleserver_default_installdir| replace:: *C:\\\\Program Files (X86)\\\\Telenia\\\\TConsoleServerStd\\\\*
 """
