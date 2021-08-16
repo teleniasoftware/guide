@@ -34,7 +34,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: TVOX
    :maxdepth: 2
 
-   /projects/TVOX/InformazioniGenerali
+   /projects/TVOX/InformazioniGenerali/Glossario
    /projects/TVOX/RequisitiArchitetture/PolicyDiGestionePerAmbientiHypervisor
    /projects/TVOX/InstallazioneAttivazione
    /projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
