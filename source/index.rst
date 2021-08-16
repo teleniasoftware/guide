@@ -16,7 +16,7 @@ Benvenuto in Guide
 
 Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
-:blue:`TVOX UC&C e TVOX OCC`
+:blue:`TVOX`
 
 :blue:`TCONSOLE`
 
@@ -34,11 +34,11 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: TVOX UC&C e TVOX OCC
    :maxdepth: 2
 
-   xxxxx/projects/TVOX/Glossario
+   /projects/TVOX/InformazioniGenerali
    /projects/TVOX/REQUISITI_ED_ARCHITETTURE/PolicyDiGestionePerAmbientiHypervisor
-   xxxxx/projects/TVOX/REQUISITI_ED_ARCHITETTURE/ProblematicheRiscontrate
+   /projects/TVOX/InstallazioneAttivazione
    /projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
-   /projects/TVOX/AMMINISTRAZIONE_DI_SISTEMA/
+   /projects/TVOX/AggiornareTVox/
    /projects/TVOX/AMMINISTRAZIONE_TVOX/
    /projects/TVOX/TVOX_UC&C/
    /projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
@@ -46,7 +46,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
 
 .. toctree::  
-   :hidden: 
+   :hidden:    
    :caption: TCONSOLE
    :maxdepth: 6
 
