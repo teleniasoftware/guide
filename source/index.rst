@@ -35,7 +35,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 2
 
    /projects/TVOX/InformazioniGenerali
-   /projects/TVOX/REQUISITI_ED_ARCHITETTURE/PolicyDiGestionePerAmbientiHypervisor
+   /projects/TVOX/RequisitiArchitetture/PolicyDiGestionePerAmbientiHypervisor
    /projects/TVOX/InstallazioneAttivazione
    /projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
    /projects/TVOX/AggiornareTVox/
