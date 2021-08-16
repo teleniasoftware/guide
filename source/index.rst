@@ -31,7 +31,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
  
 .. toctree::  
    :hidden: 
-   :caption: TVOX UC&C e TVOX OCC
+   :caption: TVOX
    :maxdepth: 2
 
    /projects/TVOX/InformazioniGenerali
