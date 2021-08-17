@@ -36,9 +36,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
 
    /projects/TVOX/InformazioniGenerali/InformazioniGenerali
    /projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
-   xxx/projects/TVOX/RequisitiArchitetture/PolicyDiGestionePerAmbientiHypervisor
-   xxx/projects/TVOX/InstallazioneAttivazione
-   xxx/projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
+   /projects/TVOX/ConfiguraPBX/ConfigurazioneVelocePBX
    xxx/projects/TVOX/AggiornareTVox/
    xxx/projects/TVOX/AMMINISTRAZIONE_TVOX/
    xxx/projects/TVOX/TVOX_UC&C/
