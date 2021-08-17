@@ -1,8 +1,8 @@
 .. _Nota di VMWare: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/performance/vsphere-esxi-vcenter-server-67-performance-best-practices.pdf
 
-==========================================
-Policy di gestione per ambienti Hypervisor
-==========================================
+=================================================
+Best Practice di gestione per ambienti Hypervisor
+=================================================
 
 
 Questa sezione serve ad indicare delle linee guida per evitare problemi nella gestione, in ambienti basati su Hypervisor, di componenti software di proprietà di Telenia Software srl.
@@ -16,4 +16,4 @@ In riferimento agli ambienti basati su Hypervisor è bene precisare che gli appl
 .. toctree::
     :maxdepth: 2
  
-    ProblematicheRiscontrate
+    AnomalieRiscontrate
