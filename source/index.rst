@@ -34,6 +34,23 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: TVOX
    :maxdepth: 2
 
+   /projects/TVOX/InformazioniGenerali/InformazioniGenerali
+   /projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
+   xxx/projects/TVOX/RequisitiArchitetture/PolicyDiGestionePerAmbientiHypervisor
+   xxx/projects/TVOX/InstallazioneAttivazione
+   xxx/projects/TVOX/INSTALLAZIONE_E_ATTIVAZIONE/
+   xxx/projects/TVOX/AggiornareTVox/
+   xxx/projects/TVOX/AMMINISTRAZIONE_TVOX/
+   xxx/projects/TVOX/TVOX_UC&C/
+   xxx/projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
+   xxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/
+   xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
+
+.. .. toctree::  
+..   :hidden: 
+   :caption: TVOX
+   :maxdepth: 2
+
    /projects/TVOX/InformazioniGenerali/Glossario
    /projects/TVOX/RequisitiArchitetture/PolicyDiGestionePerAmbientiHypervisor
    /projects/TVOX/InstallazioneAttivazione
@@ -44,6 +61,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    /projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
    /projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/
    xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
+
 
 .. toctree::  
    :hidden:    
