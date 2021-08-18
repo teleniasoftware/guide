@@ -35,6 +35,7 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :maxdepth: 2
 
    /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
+   /projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient
    xx/projects/TVOX/InformazioniGenerali/InformazioniGenerali
    xx/projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
    xx/projects/TVOX/ConfiguraPBX/ConfigurazioneVelocePBX
