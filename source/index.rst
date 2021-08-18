@@ -34,9 +34,10 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    :caption: TVOX
    :maxdepth: 2
 
-   /projects/TVOX/InformazioniGenerali/InformazioniGenerali
-   /projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
-   /projects/TVOX/ConfiguraPBX/ConfigurazioneVelocePBX
+   /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
+   xx/projects/TVOX/InformazioniGenerali/InformazioniGenerali
+   xx/projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
+   xx/projects/TVOX/ConfiguraPBX/ConfigurazioneVelocePBX
    xxx/projects/TVOX/AggiornareTVox/
    xxx/projects/TVOX/AMMINISTRAZIONE_TVOX/
    xxx/projects/TVOX/TVOX_UC&C/

@@ -2,7 +2,7 @@
 Informazioni Generali
 =====================
 
-Questo documento presenta le informazioni generali relative a |tvox| 
+Questa sezione presenta le informazioni generali relative alla |tvox_platform| 
 
 
 .. toctree::
