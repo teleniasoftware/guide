@@ -37,7 +37,7 @@ indica rispettivamente:
 - numero da chiamare: *00452224600*
 
 .. important ::
-    Nel caso di configurazione TConsole TVOX (vedi :ref:`Parametri TVox`) è importante inserire in un tasto FLEX il numero da chiamare per commutare il servizio da "Notte" al contesto "Attivo" ("Giorno"), e dal contesto "Attivo" a "Notte". In questo caso (per dettagli si rimanda alla guida |tvox_pbx|) il numero da chiamare è nel formato: codice di servizio TVox "Servizio in stato Notte" ([2]_) seguito dal numero associato al servizio.
+    Nel caso di configurazione TConsole TVOX (vedi :ref:`Parametri TVox`) è importante inserire in un tasto FLEX il numero da chiamare per commutare il servizio da "Notte" al contesto "Attivo" ("Giorno"), e dal contesto "Attivo" a "Notte". In questo caso (per dettagli si rimanda alla guida |tvox_pbx|) il numero da chiamare è nel formato: *codice di servizio TVox "Servizio in stato Notte"* ([2]_) seguito dal numero associato al servizio.
 
     Pertanto, con riferimento all’esempio indicato in precedenza (vedi FLEX 8):
 
