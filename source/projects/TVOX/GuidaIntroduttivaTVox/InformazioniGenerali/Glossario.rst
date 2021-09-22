@@ -61,26 +61,27 @@ Glossario
 - TVox MCS: Mediant Communication System
 - TVox TQM: Telenia Queue Manager
 - OCC: TVox Omnichannel Manager: interfaccia WEB di amministrazione di TVox
-- Customer Journey (CJ): vedi `Customer Journey`_
+- CJ: Customer Journey
 - Insight: Insight Server
-- Data Model (DM): vedi `TVox Data Model`_
-- Popup Manager: vedi `Popup Manager`_
-- Text To Speech (TTS): sintetizzazione vocale della voce a partire da un testo scritto
-- Automatic Speech Recognition (ASR) / Speech To Text (STT): riconoscimento di un testo a partire da una voce (riconoscimento vocale)
-- Notification Service: 
-- Knowledge Base: 
-- Power Dialer
-- Widget
-- Data Retention
-- Security Update
-- Omnichannel RTD 
-- TVox Client: Chrome o WinWeb
-- WebRTC
-- WebPhone
-- TVox Team App
-- TConsole
-- Smartworking
-- In House 
+- DM: Data Model
+- Popup Manager: Consente di invocare script (ad es. per eseguire popup) a fronte di chiamate ricevute dagli utenti di un servizio
+- TTS: Text To Speech
+- ASR: Automatic Speech Recognition
+- STT: Speech To Text
+- Notification Service: Consente di richiamare uno o più Web Service di terze parti, notificando gli eventi di chiamata e le relative informazioni
+- KB: Knowledge Base
+- PD: Power Dialer
+- Widget: Form web tramite il quale i clienti possono comunicare utilizzando i canali messi a disposizione da TVox
+- Data Retention: Strategia di mantenimento (definizione dei limiti temporali) dei dati all'interno del TVox
+- Security Update: Sistema di verifica della consistenza della licenza TVox: attivazione, validità, aggiunta/rimozione di moduli etc.
+- Omnichannel RTD: Omnichannel Real Time Display
+- TVox Client: Applicazione Client del TVox; funge da Unified Communication Client per gli utenti TVox e da Contact Center Client per gli agenti di Contact Center. Il TVox Client è previsto di default per gli agenti di Contact Center mentre è sottoposto a Licenza per gli utenti base. È accessibile direttamente aprendo una finestra di Chrome oppure installando l'applicazione WinWeb
+- WebRTC: Web Real-Time Communication
+- WebPhone: Dispositivo di tipo WEB (cuffie collegate al PC) e controllabile tramite TVox Client
+- TVox Team App: Applicazione (disponibile sia per Android che per iOS) che consente di estendere i servizi TVox ad utenti in mobiità
+- TConsole: Applicazione multipiattaforma (per S.O. Windows) per operatori telefonici vedenti, ipo vedenti e non vedenti
+- Smartworking: 
+- In House:
 - SIP 
 - RTP 
 - TLS 
@@ -97,3 +98,7 @@ Glossario
 - LDAP 
 - RDP 
 - CCBS 
+
+..  TTS: sintetizzazione vocale della voce a partire da un testo scritto
+.. ASR/STT: riconoscimento di un testo a partire da una voce (riconoscimento vocale)
+.. - Popup Manager: vedi `Popup Manager`_
