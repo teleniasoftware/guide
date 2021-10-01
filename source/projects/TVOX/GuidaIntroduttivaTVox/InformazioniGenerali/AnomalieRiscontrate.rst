@@ -6,7 +6,7 @@ Pincipali Anomalie Riscontrate
 
 I problemi di funzionamento del software Telenia possono essere riassunti nelle seguenti categorie:
 
-- Problemi legati al network (es: problemi di eccessiva latenza nell’utilizzo di uplink ba-sati su fibre channel o iscsi)
+- Problemi legati al network (es: problemi di eccessiva latenza nell’utilizzo di uplink basati su fibre channel o iscsi)
 - Problemi legati alla mancanza di risorse hardware
 - Problemi legati al tipo di hardware in uso nel bare-metal usato dall’Hypervisor
 - Problemi legati al tipo di Hypervisor utilizzato (es: VMware/Citrix vs Hyper-V) e/o all’utilizzo di una versione obsoleta di questo
@@ -20,11 +20,11 @@ Nei seguenti paragrafi breve descrizioni delle problematiche sopra evidenziate.
 Anomalie legate al Network
 ==========================
 
-**Descrizione problema:** Solitamente il problema si manifesta con la perdita di chiamate telefoni-che, difficoltà nella gestione degli stream voce (voce interrotta e/o distorta, difficolta nelle con-versazioni), improvvise interruzioni di chiamata.
+**Descrizione problema:** Solitamente il problema si manifesta con la perdita di chiamate telefoniche, difficoltà nella gestione degli stream voce (voce interrotta e/o distorta, difficolta nelle conversazioni), improvvise interruzioni di chiamata.
 
 **Soluzione:** Si consiglia di valutare con attenzione:
 
-- il funzionamento della SAN (FC o ISCSI) e di utilizzare, a questo fine, dei tool di dia-gnostica come wireshark o tcpdump (è bene ricordare che, anche una minima per-dita di pacchetti, in applicazioni di tipo real time, ha un grosso impatto a livello di erogazione di servizio – ciò non accade per altri servizi, per esempio server mail/http… -)
+- il funzionamento della SAN (FC o ISCSI) e di utilizzare, a questo fine, dei tool di diagnostica come wireshark o tcpdump (è bene ricordare che, anche una minima perdita di pacchetti, in applicazioni di tipo real time, ha un grosso impatto a livello di erogazione di servizio – ciò non accade per altri servizi, per esempio server mail/http… -)
 - gli uplink, si ricorda che le VM Telenia DEVONO godere di uplink dedicato per evitare problemi di gestione di throughput di banda
   
 
@@ -37,9 +37,9 @@ Anomalie legate alla mancanza di risorse hardware
 
 **Soluzione:** Si consiglia di valutare con attenzione:
 
-- risorse hardware messe a disposizione della VM (si ricorda che le VM Telenia necessi-tano di risorse hardware dedicate/reserved e NON in sharing)
+- risorse hardware messe a disposizione della VM (si ricorda che le VM Telenia necessitano di risorse hardware dedicate/reserved e NON in sharing)
 - tipo di disco virtuale utilizzato (deve essere di tipo THICK e NON THIN)
-- spazio disco disponibile per l’OS Guest (i sistemi Linux devono godere di una percen-tuale di spazio disco disponibile superiore al 50%)
+- spazio disco disponibile per l’OS Guest (i sistemi Linux devono godere di una percentuale di spazio disco disponibile superiore al 50%)
 
 
 -----------------------------------------------------------------------------
@@ -53,7 +53,7 @@ Anomalie legate al tipo di hardware nel bare metal utilizzato dall’Hypervisor
 
 - Tipo di CPU fisica installata sul bare-metal:
     - si sconsiglia di utilizzare la tecnologia hyper-threading a favore dei core fisici
-    - o si sconsiglia l’utilizzo di processori diversi da quelli Intel (le cpu flags dei pro-cessori AMD potrebbero non essere completamente supportate dall’hypervisor e/o dal kernel linux delle VM e provocare improvvisi blocchi applicativi)
+    - o si sconsiglia l’utilizzo di processori diversi da quelli Intel (le cpu flags dei processori AMD potrebbero non essere completamente supportate dall’hypervisor e/o dal kernel linux delle VM e provocare improvvisi blocchi applicativi)
 - Tipo di DAS (qualora non fosse presente una SAN) in utilizzo: al finire di mantenere un funzionamento accettabile delle applicazioni sono richiesti dischi con almeno IOPS pari a 20000
 - Tipo di storage in uso nelle SAN: al fine di mantenere un funzionamento accettabile delle applicazioni sono richiesti dischi con almeno IOPS pari a 20000
 
@@ -69,7 +69,7 @@ Anomalie legate al tipo di Hypervisor utilizzato
 
 - Tipo di hardware utilizzato:
     - questo DEVE essere supportato/certificato dall’owner della soluzione Hypevisor utilizzata (si ricorda che l’utilizzo di ambienti Hyper-V Microsoft, multi-purpose, non ne implica il supporto). Fare riferimento ai seguenti link per la verifica dell’hardware in uso:
-        - Hyper-V Microsoft, https://docs.microsoft.com/it-it/windows-ser-ver/virtualization/hyper-v/system-requirements-for-hyper-v-on-win-dows (esiste un tool per la certificazione dell’hardware in uso e, in caso di problemi, Telenia software si riserva la possibilità di richiesta del re-port)
+        - Hyper-V Microsoft, https://docs.microsoft.com/it-it/windows-ser-ver/virtualization/hyper-v/system-requirements-for-hyper-v-on-win-dows (esiste un tool per la certificazione dell’hardware in uso e, in caso di problemi, Telenia software si riserva la possibilità di richiesta del report)
         - Vmware, https://www.vmware.com/resources/compatibil-ity/search.php
         - Citrix, http://hcl.xenserver.org/
 - Tipo di versione utilizzata dell’Hypervisor:
@@ -90,7 +90,7 @@ Anomalie legate al Timekeeping
     - È imperativo che l’host bare-metal e le VM Telenia siano in sync per evitare problemi sul cluster active-passive
 - Gestione delle politiche di backup:
     - Snapshot, l’utilizzo di questa funzionalità provoca un de-sync tra clock dell’host bare metal e OS guest generando malfunzionamenti degli applicativi (il de-sync è dovuto al momentaneo freeze della VM)
-    - Politiche di backup per gli hypervisor (es: Veeam), è necessario effettuare i backup con le dovute attenzioni non utilizzando la feature di ‘quiesce’ che im-plica un freeze momentaneo delle VM interessate provocando un de-sync tra clock dell’host bare metal e VM generando malfunzionamenti degli applicativi)
+    - Politiche di backup per gli hypervisor (es: Veeam), è necessario effettuare i backup con le dovute attenzioni non utilizzando la feature di ‘quiesce’ che implica un freeze momentaneo delle VM interessate provocando un de-sync tra clock dell’host bare metal e VM generando malfunzionamenti degli applicativi)
 
 
 
@@ -117,13 +117,13 @@ In tabella vengono riassunti le anomalie evidenziate:
 | |br| usato dall’Hypervisor  |                                                                                                       |                                                                                           |
 +-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 | Anomalie legate             | • Perdita di chiamate                                                                                 | • Utilizzo di solo hardware |br| certificato dall’owner della soluzione |br| Hypervisor   |
-| |br| al tipo di HY-PERVISOR | • Problemi di voce                                                                                    |   (in caso di |br| soluzioni Hyper-V verrà |br| richiesto invio del report ottenuto, |br| |
-| |br| utilizzato e/o         | • Blocco software Telenia |br| causato alla mancata presenza di |br| VM TOOLS di ottimizza-zione e/o  |   come output, del tool |br| specifico sviluppato da Microsoft)                           |
+| |br| al tipo di HYPERVISOR  | • Problemi di voce                                                                                    |   (in caso di |br| soluzioni Hyper-V verrà |br| richiesto invio del report ottenuto, |br| |
+| |br| utilizzato e/o         | • Blocco software Telenia |br| causato alla mancata presenza di |br| VM TOOLS di ottimizzazione e/o   |   come output, del tool |br| specifico sviluppato da Microsoft)                           |
 | |br| all’utilizzo di una    |   |br| ad incorretta gestione, |br| da parte dell’HYPER-VISOR, |br| della versione di OS linux        | • Supporto alla versione dell’OS guest |br| Linux utilizzato                              |
 | |br| versione obsoleta      |                                                                                                       |                                                                                           |
 | |br| di questo              |                                                                                                       |                                                                                           |
 +-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 | Anomalie legate             | • Blocco software Telenia causato |br| da desync del bios real time |br| clock del bare metal e VM    | • Sync tra clock dell’host bare metal |br| e OS guest                                     |
 | |br| al Timekeeping         |                                                                                                       | • Disabilitazione della funzionalità |br| quiesce in caso di backup)                      |
-|                             |                                                                                                       | • Non utilizzare la funziona-lità Snapshot                                                |
+|                             |                                                                                                       | • Non utilizzare la funzionalità Snapshot                                                 |
 +-----------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
