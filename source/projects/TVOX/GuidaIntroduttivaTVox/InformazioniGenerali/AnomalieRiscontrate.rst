@@ -38,7 +38,7 @@ Anomalie legate alla mancanza di risorse hardware
 **Soluzione:** Si consiglia di valutare con attenzione:
 
 - risorse hardware messe a disposizione della VM (si ricorda che le VM Telenia necessitano di risorse hardware dedicate/reserved e NON in sharing)
-- tipo di disco virtuale utilizzato (deve essere di tipo THICK e NON THIN), e deve essere un disco ad alte prestazioni adatto a supportare applicazioni real time
+- tipo di disco virtuale utilizzato (deve essere di tipo THICK e NON THIN), e deve essere un disco di tipo SSD ad alte prestazioni adatto a supportare applicazioni real time
 - spazio disco disponibile per l’OS Guest (i sistemi Linux devono godere di una percentuale di spazio disco disponibile superiore al 50%)
 
 
