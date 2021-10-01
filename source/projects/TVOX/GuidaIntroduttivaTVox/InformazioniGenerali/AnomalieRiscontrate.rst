@@ -24,7 +24,7 @@ Anomalie legate al Network
 
 **Soluzione:** Si consiglia di valutare con attenzione:
 
-- il funzionamento della SAN (FC o ISCSI) e di utilizzare, a questo fine, dei tool di diagnostica come wireshark o tcpdump (è bene ricordare che, anche una minima perdita di pacchetti, in applicazioni di tipo real time, ha un grosso impatto a livello di erogazione di servizio – ciò non accade per altri servizi, per esempio server mail/http… -)
+- il funzionamento della SAN (FC o ISCSI) e di utilizzare, a questo fine, dei tool di diagnostica come wireshark o tcpdump (è bene ricordare che, anche una minima perdita di pacchetti, in applicazioni di tipo real time, ha un grosso impatto a livello di erogazione di servizio – ciò non accade per altri servizi, per esempio server mail/http…)
 - gli uplink, si ricorda che le VM Telenia DEVONO godere di uplink dedicato per evitare problemi di gestione di throughput di banda
   
 
