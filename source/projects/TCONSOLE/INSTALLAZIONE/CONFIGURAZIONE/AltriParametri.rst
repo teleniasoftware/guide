@@ -19,10 +19,11 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
 .. toctree::
     :maxdepth: 3
  
-    TConsolePO
-    TConsoleTAPISIP
-    TConsolePHONESETTINGS
-    TConsoleBRAILLE
+    .. TConsolePO
+    TConsole
+    .. TConsoleTAPISIP
+    .. TConsolePHONESETTINGS
+    .. TConsoleBRAILLE
     .. Tabparam
     RubIntRubEst
     .. RubInt

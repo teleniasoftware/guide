@@ -2,7 +2,7 @@
 Campo Lampade
 =============
 
-Per gestire il campo lampade è necessario configurare nel :ref:`ProfiloUtente` il valore *CAMPO LAMPADE = SI*.
+Per gestire il campo lampade è necessario configurare nel :ref:`Profilo Utente` il valore *CAMPO LAMPADE = SI*.
 
 Per le centrali Nortel il TConsoleServer NON viene utilizzato per la gestione del campo lampade per cui occorre assicurarsi che il parametro contenuto in *\[TCS_INSTALLDIR\]\\config\\tabparam.ini* ([1]_) sia disabilitato:
 
