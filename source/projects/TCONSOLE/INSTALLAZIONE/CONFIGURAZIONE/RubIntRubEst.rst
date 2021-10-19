@@ -55,46 +55,138 @@ Questa sezione contiene:
     ;	Se non è specificato il Type viene assunto il type STR=Stringa
     ;	Se non è specificata la maschera, nessuna maschera impostata Es. maschera 3**********|3*********|0*********
     CAT=Ufficio
-    UFF=Azienda
+    UFF=Ruolo
     RAG_SOC=Descrizione
     TEL_EST=Numero,NUM
     LIBERO_1=Cellulare,NUM,3**********|3*********
     LIBERO_2=Altern 1,NUM
     LIBERO_3=Altern 2,NUM
     LIBERO_4=Email
-    ;	LIBERO_5=Ruolo
+    ;	LIBERO_5=Azienda
     NOTES=Note
 
 Nell'esempio riportato, la dicitura:
 
 .. code-block:: ini
 
-    LIBERO_1=Cellulare,NUM,3**********|3*********
+    LIBERO_1=Cellulare,NUM,3********|3*********
 
 indica rispettivamente:
 
 - campo (*NOME_CAMPO*) del database di rubrica Esterna: *LIBERO_1*
 - etichetta (*Label*) visualizzata su TConsole: *Cellulare*
 - vincolo sul tipo (*Type*) di dato accettato: *NUM* (numero)
-- vincolo (Maschera) sul contenuto accettato: *3\*\*\*\*\*\*\*\*\*\*|3\*\*\*\*\*\*\*\*\** (solo numeri di 10 o 11 cifre che iniziano con 3)
+- vincolo (Maschera) sul contenuto accettato: *3\*\*\*\*\*\*\*\*|3\*\*\*\*\*\*\*\*\** (solo numeri di 9 o 10 cifre che iniziano con 3)
 
 Sempre relativamente allo stesso esempio:
 
 - il campo del database *LIBERO_2* verrà presentato con l'etichetta *Altern 1*, dovrà essere un numero (*Type NUM*) e potrà contenere una qualsiasi quantità di cifre (*Maschera* non presente)
 - il campo del database *LIBERO_4* verrà presentato con l'etichetta *Email* e potrà contenere una stringa alfanumerica qualsiasi (*Type* e *Maschera* non presenti)
-- il campo del database *LIBERO_5*, in quanto commentato, verrà presentato con l'etichetta stessa *LIBERO_5* e il suo contenuto non sarà modificabile da TConsole
+- il campo del database *LIBERO_5*, in quanto commentato, verrà presentato con il nome stesso del campo *LIBERO_5* come etichetta (quindi NON con l'etichetta *Azienda*) e il suo contenuto non sarà modificabile da TConsole
+- gli altri campi del database che in questa sezione non vengono definiti verranno presentati con il nome stesso del campo come etichetta, e il loro contenuto non sarà modificabile da TConsole
 
-.. _Rubint.ini RubEst.ini Sezioni DETAIL e DETAIL_IPO:
+.. _Rubint.ini RubEst.ini Sezioni MASTER, DETAIL e DETAIL_IPO:
 
-Sezioni DETAIL e DETAIL_IPO
-===========================
+Sezioni MASTER, DETAIL e DETAIL_IPO
+===================================
 
-In questa sezione è possibile specificare quali informazioni (dettagli) di un contatto, e in quale ordine, visualizzare al momento della consultazione di un contatto in rubrica.
+In questa sezione è possibile specificare quali informazioni (dettagli) di un contatto, e in quale ordine, visualizzare al momento della consultazione di un contatto in rubrica. È anche possibile specificare un'etichetta personalizzata da visualizzare solo in una determinata sezione.
+
+Per NON visualizzare un campo del database in una determinata sezione è sufficiente eliminare o commentare la riga corrispondente assicurandosi che, ove richiesto, i campi presenti siano **univocamente numerati a partire da 1 e senza interruzioni nella numerazione**: se ad es. si vogliono visualizzare 6 campi, questi dovranno necessariamente essere numerati da 1 a 6.
+
+.. warning :: Il campo n. 0 è riservato all'indicatore del :ref:`CampoLampade` e **non può essere modificato**.
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/DETAIL.png
+
+**Esempio di RubEst.ini** (file di configurazione della rubrica **Esterna**) **:**
+
+.. code-block:: ini
+
+    [MASTER]
+    ;	Elenco campi vis. master
+    ; 	Idx=NomeCampo,Larghezza[,Etichetta]
+    0=TEL_EST,34
+    1=RAG_SOC,188
+    2=TEL_EST,106
+    3=UFF,197
+    4=CAT,156,CAT_master
+    5=LIBERO_1,144
+    6=LIBERO_2,144
+    7=LIBERO_3,148
+    8=LIBERO_4,100
+    9=NOTES,100
+
+    [DETAIL]
+    ; 	Elenco campi vis. dettaglio
+    ; 	Idx=NomeCampo[,Etichetta]
+    1=RAG_SOC
+    2=TEL_EST
+    3=UFF,UFF_detail
+    4=CAT
+    5=LIBERO_1
+    6=LIBERO_2
+    7=LIBERO_3
+    8=LIBERO_4
+    9=NOTES
+
+    [DETAIL_IPO]
+    ; 	Elenco campi vis. dettaglio
+    ; 	Idx=NomeCampo[,Etichetta]
+    1=RAG_SOC
+    2=TEL_EST
+    3=UFF
+    4=CAT
+    5=LIBERO_1,CELL
+    6=LIBERO_2
+    7=LIBERO_3
+    8=LIBERO_4
+    9=NOTES
+
+Nell'esempio riportato, nella chiave *[MASTER]*, nelle righe 0, 4 e 5 le diciture:
+
+.. code-block:: ini
+
+    0=TEL_EST,34
+
+    [...]
+
+    4=CAT,156,CAT_master
+    5=LIBERO_1,144
+
+indicano rispettivamente:
+
+- numero ordinale (*Idx*) di posizionamento dell'indicatore (pallino) per il Campo Lampade: *0* (prima colonna a sinistra) ed è largo 34 pixel
+- numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quinto campo da sinistra considerando anche l'indicatore per il Campo Lampade), è largo 156 pixel e verrà presentato con l'etichetta alternativa *CAT_master* (vedi circoletto rosso nell'immagine precedente) anziché l'etichetta *Ufficio* definita nella sezione [LABELS]
+- numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (sesto campo da sinistra considerando anche l'indicatore per il Campo Lampade), è largo 144 pixel e verrà presentato con l'etichetta *Cellulare* definita nella sezione [LABELS]
 
 ..
-    - l'associazione tra il nome campo del database di rubrica e l'etichetta presentata su TConsole
-    - eventuali vincoli sul tipo di dato (numero o stringa) che il campo può contenere
-    - eventuali vincoli sul valore che può essere inserito nel campo
+    .. warning :: Per il Campo Lampade il valore *Idx* (posizione dell'indicatore) **deve** essere configurato pari a *0*.
+
+.. hint :: Nella sezione [MASTER] è possibile modificare con il mouse la larghezza delle colonne.
+
+Sempre relativamente allo stesso esempio, nella chiave [DETAIL] nelle righe 3 e 4 le diciture:
+
+.. code-block:: ini
+    
+    3=UFF,UFF_detail
+    4=CAT
+
+indicano rispettivamente:
+
+- numero ordinale (*Idx*) di posizionamento del campo del database *UFF*: *3* (terzo campo dall'alto a sinistra) e verrà presentato con l'etichetta alternativa *UFF_detail* (vedi circoletto verde nell'immagine precedente) anziché l'etichetta *Ruolo* definita nella sezione [LABELS]
+- numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quarto campo da sinistra) e verrà presentato con l'etichetta *Ufficio* definita nella sezione [LABELS]
+
+Nella chiave [DETAIL_IPO] nelle righe 4 e 5 le diciture:
+
+.. code-block:: ini
+
+    4=CAT
+    5=LIBERO_1,CELL
+
+indicano rispettivamente:
+
+- numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quarto campo dall'alto) e verrà presentato con l'etichetta *Ufficio* definita nella sezione [LABELS]
+- numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (quinto campo dall'alto) e verrà presentato con l'etichetta alternativa *CELL* anziché l'etichetta *Cellulare* definita nella sezione [LABELS]
 
 .. _Rubint.ini RubEst.ini Sezione SYNTH:
 
@@ -124,7 +216,7 @@ Nell'esempio riportato, nella riga 1 la dicitura:
 indica rispettivamente:
 
 - numero ordinale (*Idx*) con cui riprodurre con la Sintesi Vocale questo campo: *1* (primo campo da riprodurre, seguito da *TEL_EST*, *CAT* e *LIBERO_1*)
-- campo (*NomeCampo*) del database di rubrica Esterna: *RAG_SOC* (visualizzato con l'etichetta descritta nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`)
+- campo (*NomeCampo*) del database di rubrica Esterna: *RAG_SOC* (riprodotto con l'etichetta descritta nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`)
 - ignorare (*NoLabel*) la riproduzione dell'etichetta: *1* (**non** riprodurre l'etichetta)
 
 Sempre relativamente allo stesso esempio:

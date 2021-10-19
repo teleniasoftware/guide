@@ -1,3 +1,5 @@
+.. _CampoLampade:
+
 =============
 Campo Lampade
 =============
