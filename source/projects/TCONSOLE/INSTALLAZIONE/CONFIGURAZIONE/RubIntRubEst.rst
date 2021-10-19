@@ -142,7 +142,7 @@ Per NON visualizzare un campo del database in una determinata sezione è suffici
     8=LIBERO_4
     9=NOTES
 
-Nell'esempio riportato, nella chiave *[MASTER]*, nelle righe 0, 4 e 5 le diciture:
+Nell'esempio riportato, nella chiave [MASTER], nelle righe 0, 4 e 5 le diciture:
 
 .. code-block:: ini
 
