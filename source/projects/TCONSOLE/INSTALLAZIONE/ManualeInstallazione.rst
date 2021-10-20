@@ -13,7 +13,7 @@ Questa sezione illustra la procedura di installazione e configurazione di TConso
     ./INSTALLAZIONE/TipologieInstallazione
     ./INSTALLAZIONE/ImpostazioneParametriFondamentali
     ./CONFIGURAZIONE/Configurazione
-    Barra Braille
-    Sintesi Vocale
-    Backup
-    Rimozione
+    ./BARRABRAILLE/BarraBraille
+    ./SINTESIVOCALE/SintesiVocale
+    ./BACKUP/Backup
+    ./RIMOZIONE/Rimozione
