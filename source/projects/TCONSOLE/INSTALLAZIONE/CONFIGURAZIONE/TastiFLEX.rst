@@ -34,7 +34,7 @@ indica rispettivamente:
 - numero ordinale (*Key*) del tasto FLEX: *1* (secondo tasto ICI **dal basso**)
 - stringa (*Desc*) presentata in vista Normale: *Telenia*
 - stringa (*Desc_IPO*) presentata in vista IPO e IPO PLUS: *TELN*
-- numero da chiamare: *00452224600*
+- numero da chiamare, comprensivo di codice di impegno linea (*0*): *00452224600*
 
 .. important ::
     Nel caso di configurazione TConsole TVOX (vedi :ref:`Parametri TVox`) è importante inserire in un tasto FLEX il numero da chiamare per commutare il servizio da "Notte" al contesto "Attivo" ("Giorno"), e dal contesto "Attivo" a "Notte". In questo caso (per dettagli si rimanda alla guida |tvox_pbx|) il numero da chiamare è nel formato: *codice di servizio TVox "Servizio in stato Notte"* ([2]_) seguito dal numero associato al servizio.

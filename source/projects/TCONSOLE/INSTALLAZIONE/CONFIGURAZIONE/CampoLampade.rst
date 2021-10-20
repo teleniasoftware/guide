@@ -4,9 +4,9 @@
 Campo Lampade
 =============
 
-Per gestire il campo lampade è necessario configurare nel :ref:`Profilo Utente` il valore *CAMPO LAMPADE = SI*.
+Per gestire il campo lampade è necessario disporre della licenza per il **Campo Lampade** e configurare nel :ref:`Profilo Utente` il valore *CAMPO LAMPADE = SI* e il flag sul ruolo **BLF**.
 
-Per le centrali Nortel il TConsoleServer NON viene utilizzato per la gestione del campo lampade per cui occorre assicurarsi che il parametro contenuto in *\[TCS_INSTALLDIR\]\\config\\tabparam.ini* ([1]_) sia disabilitato:
+Per le centrali Nortel il TConsoleServer NON viene utilizzato per la gestione del Campo Lampade per cui occorre assicurarsi che il parametro contenuto in *\[TCS_INSTALLDIR\]\\config\\tabparam.ini* ([1]_) sia disabilitato:
 
 .. code-block:: ini
 
@@ -15,7 +15,7 @@ Per le centrali Nortel il TConsoleServer NON viene utilizzato per la gestione de
 
 e che il file *\[TCS_INSTALLDIR\]\\config\\devices* ([1]_) sia vuoto.
 
-Per le altre tipologie di centrale il campo lampade viene gestito con l’ausilio del TConsoleServer per cui occorre inserire, in *\[INSTALLDIR\]\\config\\tabparam* ([2]_) nel parametro *TCONSOLESERVER*, l’IP della macchina su cui è installato il TConsoleServer.
+Per le altre tipologie di centrale il Campo Lampade viene gestito con l’ausilio del TConsoleServer per cui occorre inserire, in *\[INSTALLDIR\]\\config\\tabparam* ([2]_) nel parametro *TCONSOLESERVER*, l’IP della macchina su cui è installato il TConsoleServer.
 
 **Per i dettagli della configurazione si rimanda al manuale di installazione del TConsoleServer.**
 

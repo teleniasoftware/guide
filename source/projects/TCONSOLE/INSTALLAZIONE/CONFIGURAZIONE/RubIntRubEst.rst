@@ -9,6 +9,15 @@ I files *Rubint.ini* e *RubEst.ini* contengono rispettivamente le configurazioni
 Sezione COMMON
 ==============
 
+..
+    F12
+    ---
+
+    .. code-block:: ini
+
+        ;	Invio: F12, Shift+F12, Ctrl+F12, Alt+F12
+        F12=TEL_EST,LIBERO_1,LIBERO_2,LIBERO_3
+
 RIC_ALT
 -------
 Questo parametro è utilizzato per la ricerca alternativa all’interno della rubrica Interna/Esterna e va settato con il nome del campo (campo database, non label) su cui verrà effettuata la ricerca alternativa.
@@ -90,7 +99,12 @@ Sempre relativamente allo stesso esempio:
 Sezioni MASTER, DETAIL e DETAIL_IPO
 ===================================
 
-In questa sezione è possibile specificare quali informazioni (dettagli) di un contatto, e in quale ordine, visualizzare al momento della consultazione di un contatto in rubrica. È anche possibile specificare un'etichetta personalizzata da visualizzare solo in una determinata sezione.
+In questa sezione è possibile specificare, eventualmente differenziando in base al tipo di vista utilizzata (Normale o IPO/IPO PLUS), quali informazioni (dettagli) di un contatto, e in quale ordine, visualizzare al momento della consultazione di un contatto in rubrica. È anche possibile specificare un'etichetta personalizzata da visualizzare solo in una determinata sezione o in una determinata vista.
+
+.. important ::
+    La sezione MASTER è disponibile **solo nella vista Normale** e consente di scorrere verticalmente i risultati della ricerca, con i dettagli contatto consultabili orizzontalmente riga per riga.
+
+    Le sezioni DETAIL e DETAIL_IPO si riferiscono ai dettagli contatto rispettivamente nella vista Normale e nelle viste IPO/IPO PLUS.
 
 Per NON visualizzare un campo del database in una determinata sezione è sufficiente eliminare o commentare la riga corrispondente assicurandosi che, ove richiesto, i campi presenti siano **univocamente numerati a partire da 1 e senza interruzioni nella numerazione**: se ad es. si vogliono visualizzare 6 campi, questi dovranno necessariamente essere numerati da 1 a 6.
 
@@ -142,7 +156,7 @@ Per NON visualizzare un campo del database in una determinata sezione è suffici
     8=LIBERO_4
     9=NOTES
 
-Nell'esempio riportato, nella chiave [MASTER], nelle righe 0, 4 e 5 le diciture:
+Nell'esempio riportato, nella sezione [MASTER], nelle righe 0, 4 e 5 le diciture:
 
 .. code-block:: ini
 
@@ -164,7 +178,7 @@ indicano rispettivamente:
 
 .. hint :: Nella sezione [MASTER] è possibile modificare con il mouse la larghezza delle colonne.
 
-Sempre relativamente allo stesso esempio, nella chiave [DETAIL] nelle righe 3 e 4 le diciture:
+Sempre relativamente allo stesso esempio, nella sezione [DETAIL] nelle righe 3 e 4 le diciture:
 
 .. code-block:: ini
     
@@ -176,7 +190,7 @@ indicano rispettivamente:
 - numero ordinale (*Idx*) di posizionamento del campo del database *UFF*: *3* (terzo campo dall'alto a sinistra) e verrà presentato con l'etichetta alternativa *UFF_detail* (vedi circoletto verde nell'immagine precedente) anziché l'etichetta *Ruolo* definita nella sezione [LABELS]
 - numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quarto campo da sinistra) e verrà presentato con l'etichetta *Ufficio* definita nella sezione [LABELS]
 
-Nella chiave [DETAIL_IPO] nelle righe 4 e 5 le diciture:
+Nella sezione [DETAIL_IPO] nelle righe 4 e 5 le diciture:
 
 .. code-block:: ini
 
@@ -186,7 +200,9 @@ Nella chiave [DETAIL_IPO] nelle righe 4 e 5 le diciture:
 indicano rispettivamente:
 
 - numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quarto campo dall'alto) e verrà presentato con l'etichetta *Ufficio* definita nella sezione [LABELS]
-- numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (quinto campo dall'alto) e verrà presentato con l'etichetta alternativa *CELL* anziché l'etichetta *Cellulare* definita nella sezione [LABELS]
+- numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (quinto campo dall'alto) e verrà presentato con l'etichetta alternativa *CELL* (vedi circoletto giallo nell'immagine seguente) anziché l'etichetta *Cellulare* definita nella sezione [LABELS]
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/DETAIL_IPO.png
 
 .. _Rubint.ini RubEst.ini Sezione SYNTH:
 
