@@ -108,7 +108,7 @@ In questa sezione è possibile specificare, eventualmente differenziando in base
 
 Per NON visualizzare un campo del database in una determinata sezione è sufficiente eliminare o commentare la riga corrispondente assicurandosi che, ove richiesto, i campi presenti siano **univocamente numerati a partire da 1 e senza interruzioni nella numerazione**: se ad es. si vogliono visualizzare 6 campi, questi dovranno necessariamente essere numerati da 1 a 6.
 
-.. warning :: Il campo n. 0 è riservato all'indicatore del :ref:`CampoLampade` e **non può essere modificato**.
+.. warning :: Il campo n. 0 è riservato all'indicatore (pallino colorato) del :ref:`CampoLampade` nella sezione MASTER e **non può essere modificato**.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/DETAIL.png
 
@@ -169,7 +169,7 @@ Nell'esempio riportato, nella sezione [MASTER], nelle righe 0, 4 e 5 le diciture
 
 indicano rispettivamente:
 
-- numero ordinale (*Idx*) di posizionamento dell'indicatore (pallino) per il Campo Lampade: *0* (prima colonna a sinistra) ed è largo 34 pixel
+- numero ordinale (*Idx*) di posizionamento dell'indicatore per il Campo Lampade: *0* (prima colonna a sinistra) ed è largo 34 pixel
 - numero ordinale (*Idx*) di posizionamento del campo del database *CAT*: *4* (quinto campo da sinistra considerando anche l'indicatore per il Campo Lampade), è largo 156 pixel e verrà presentato con l'etichetta alternativa *CAT_master* (vedi circoletto rosso nell'immagine precedente) anziché l'etichetta *Ufficio* definita nella sezione [LABELS]
 - numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (sesto campo da sinistra considerando anche l'indicatore per il Campo Lampade), è largo 144 pixel e verrà presentato con l'etichetta *Cellulare* definita nella sezione [LABELS]
 

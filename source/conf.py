@@ -85,7 +85,7 @@ rst_epilog = """
 .. |dm| replace:: TVox Data Model
 .. |tvox_pbx| replace:: TVox UC&C
 .. |tvox_platform| replace:: Piattaforma TVox
-.. |latest_tvox_release| replace:: 21.0.14
+.. |latest_tvox_release| replace:: 21.0.22
 .. |latest_tconsole_release| replace:: 5.7.28
 .. |tconsole_default_installdir| replace:: *C:\\\\Telenia\\\\TConsole\\\\*
 .. |tconsoleserver_default_installdir| replace:: *C:\\\\Program Files (X86)\\\\Telenia\\\\TConsoleServerStd\\\\*

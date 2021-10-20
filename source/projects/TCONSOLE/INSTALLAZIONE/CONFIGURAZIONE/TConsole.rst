@@ -154,7 +154,7 @@ Espresso in millisecondi, **se valorizzato** viene eseguito periodicamente:
 Per **non** eseguire il test di connessione lasciare il parametro vuoto (valore di default).
 
 TAPI_AVAYA_OUTBOUND_CONNECTED_ON_RING
-------------------------------------------
+-------------------------------------
 Parametro valido (il valore di default è *NO*) **solo per centrale Avaya che utilizza Softphone Avaya**.
 Tale parametro si rende necessario solo nel caso di mancanza di informazioni provenienti dal carrier.
 
@@ -219,7 +219,7 @@ Sempre per la Barra Braille Lilli è possibile impostare il tipo di alfabeto uti
 	----------------------------
 
 Configurazione dei tasti funzione per Barra Braille Lilli
-----------------------------------------
+---------------------------------------------------------
 
 Per l’associazione dei tasti funzione della Barra Braille **alle rispettive combinazioni di tasti della tastiera del PC** (e di conseguenza alle funzionalità di TConsole) è presente una configurazione predefinita che è possibile modificare a seconda delle esigenze dell’operatore:
 

@@ -14,21 +14,12 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
 
 .. tip :: Oltre ai parametri descritti in seguito, relativi a modifiche di configurazione che tipicamente possono venire richieste, sono presenti ulteriori parametri (che di norma non è necessario modificare) la cui descrizione è contenuta all'inteno dei files stessi indicati in precedenza.
 
-.. TODO aggiungere sezione per tabparam???? alcuni parametri sono descritti nella guida utente
-
 .. toctree::
     :maxdepth: 3
  
-    .. TConsolePO
     TConsole
-    .. TConsoleTAPISIP
-    .. TConsolePHONESETTINGS
-    .. TConsoleBRAILLE
     .. Tabparam
     RubIntRubEst
-    .. RubInt
-    .. RubEst
-    .. RubIntRubEstBRAILLE
     TCLoops
 
 .. rubric:: Note
