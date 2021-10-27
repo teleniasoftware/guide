@@ -17,4 +17,4 @@ Nella finestra *Gestione dispositivi* (in Windows 10: clic col tasto destro sul 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/BARRABRAILLE/Gestione_dispositivi.png
 
-La configurazione della barra e l’associazione dei tasti funzione a determinate funzioni del TConsole avviene tramite la sezione [BRAILLE] del file Tconsole.ini descritta in :ref:`TConsole.ini Sezione BRAILLE`.
+La configurazione della barra e l’associazione dei tasti funzione a determinate funzioni del TConsole avviene tramite la sezione [BRAILLE] del file *Tconsole.ini* descritta in :ref:`TConsole.ini Sezione BRAILLE`.

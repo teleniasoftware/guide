@@ -23,7 +23,7 @@ Contenuto del kit Mixer Telenia
 Installazione per Windows 7 e successivi
 ----------------------------------------
 
-Dopo aver installato TConsole sul Personal Computer del Posto Operatore, collegare il mixer come illustrato in figura:
+Dopo aver installato TConsole sul Personal Computer del Posto Operatore, collegare il Mixer come illustrato in figura:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/collegamenti_mixer.png
 
@@ -33,18 +33,20 @@ Se necessario, regolare il volume del PC affinché la voce della sintesi non cre
 
 .. important :: Quando anche aumentando al massimo il volume del PC la sintesi risulta essere troppo bassa, può essere utilizzato il cavo USB in dotazione da collegare all’apposito connettore al fine di amplificare l’audio (**il cavo di prolunga stereo va comunque mantenuto collegato**).
 
+.. _Configurazione Jumper Mixer:
+
 Configurazione Jumper Mixer
 ===========================
 
-Per eseguire una corretta configurazione del mixer, su configurazioni diverse da quelle presentate di seguito, può essere necessario dotarsi di un multimetro digitale in grado di misurare la resistenza. Per identificare i pin del microfono è necessario trovare i due pin che avranno tra loro la maggior resistenza possibile (superiore a 100 Ohm). Al contrario la coppia di pin che presenterà un basso valore di resistenza sarà la coppia di pin dell’altoparlante.
+Per eseguire una corretta configurazione del Mixer, su configurazioni diverse da quelle presentate di seguito, può essere necessario dotarsi di un multimetro digitale in grado di misurare la resistenza. Per identificare i pin del microfono è necessario trovare i due pin che avranno tra loro la maggior resistenza possibile (superiore a 100 Ohm). Al contrario la coppia di pin che presenterà un basso valore di resistenza sarà la coppia di pin dell’altoparlante.
 
-Per la regolazione del volume del mixer, fare riferimento al componente R5 presente all’interno secondo lo schema che segue:
+Per la regolazione del volume del Mixer, fare riferimento al componente R5 presente all’interno secondo lo schema che segue:
 
 .. _Componente R5:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/componente_R5.png
 
-Prendendo come riferimento i 3 punti che formano un triangolo, abbiamo l’orientamento per aumentare o diminuire il volume.
+Prendendo come riferimento i tre punti che formano un triangolo, abbiamo l’orientamento per aumentare o diminuire il volume.
 
 **Di seguito si presenta la configurazione dei Jumper del Mixer Telenia per le varie Centrali ed i possibili modelli di telefono associati all’utilizzo della cornetta o a diversi modelli di cuffia.**
 
@@ -76,7 +78,7 @@ Configurazione dei Jumper del Mixer utilizzato con il telefono **Snom 720 e cuff
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/jumper_Snom720_cuffia_Jabra.png
 
-Per sentire correttamente la sintesi vocale in cuffia, oltre alla giusta configurazione dei Jumper bisogna collegare anche il cavo USB, altrimenti la voce della sintesi resta bassa e non si sente in cuffia.
+.. tip :: Per sentire correttamente la Sintesi Vocale in cuffia, oltre alla giusta configurazione dei Jumper bisogna collegare anche il cavo USB, altrimenti la voce della sintesi resta bassa e non si sente in cuffia.
 
 Configurazione dei Jumper del Mixer utilizzato con il **telefono Snom 715 e cuffia Gequdio WA9002**:
 
@@ -96,7 +98,7 @@ Configurazione dei Jumper del Mixer utilizzato con il **telefono Nortel PC-CIU e
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/jumper_NortelPCCIU_cornetta.png
 
-Si necessita la regolazione audio da componente R5 (vedi :ref:`Componente R5`) per trovare la giusta regolazione dell’audio della sintesi. Si consiglia audio su PC basso.
+.. tip :: Si necessita la regolazione audio da componente R5 (vedi :ref:`Configurazione Jumper Mixer`) per trovare la giusta regolazione dell’audio della sintesi. Si consiglia audio su PC basso.
 
 Cisco IP Phone 7940
 -------------------
