@@ -84,6 +84,6 @@ Al termine, riavviare il PC.
 Aggiornamento versioni TConsole precedenti alla 5.2
 ===================================================
 
-Quando si aggiornano versioni precedenti alla 5.2, verificare che in *C:\\Users\\<UTENTE>\\AppData\\Local\\VirtualStore\\Program Files* non sia presente la cartella *Telenia*, in caso contrario rimuoverla.
+Quando si aggiornano versioni precedenti alla 5.2, verificare che in *C:\\Users\\<UTENTE>\\AppData\\Local\\VirtualStore\\Program Files\\* non sia presente la cartella *Telenia*, in caso contrario rimuoverla.
 
 Procedere poi all’aggiornamento della versione ricordandosi di settare i premessi cartella come indicato in :ref:`Installazione TConsole`.
