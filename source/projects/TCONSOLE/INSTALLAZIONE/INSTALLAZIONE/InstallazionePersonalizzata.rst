@@ -13,7 +13,7 @@ Questa modalità di installazione va eseguita in casi particolari quali:
 - nella pagina *Tipo di installazione* selezionare **Personalizzata** e confermare cliccando su **Avanti**;
 - nella successiva pagina deselezionare i componenti non necessari a questo tipo di installazione.
 
-.. image:: /images/TCONSOLE/INSTALLAZIONE/installazione_personalizzata_5.7.27.png
+.. image:: /images/TCONSOLE/INSTALLAZIONE/INSTALLAZIONE/installazione_personalizzata_5.7.27.png
 
 .. important :: L’opzione *AppFiles* va normalmente lasciata selezionata poiché comprende i componenti principali del programma TConsole.
 

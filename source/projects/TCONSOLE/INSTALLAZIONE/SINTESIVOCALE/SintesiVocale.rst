@@ -50,14 +50,22 @@ Prendendo come riferimento i tre punti che formano un triangolo, abbiamo l’ori
 
 **Di seguito si presenta la configurazione dei Jumper del Mixer Telenia per le varie Centrali ed i possibili modelli di telefono associati all’utilizzo della cornetta o a diversi modelli di cuffia.**
 
-Snom 300 / 320
---------------
+Snom 300 / 320 / D725
+---------------------
 
 Configurazione dei Jumper del Mixer utilizzato con il **telefono Snom 320 e la cornetta**:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/jumper_Snom320_cornetta.png
 
-Questa configurazione può essere utilizzata anche con il **telefono Snom 300 e cuffia Snom A100M**.
+Questa configurazione può essere utilizzata anche con il **telefono Snom 300 e cuffia Snom A100M** oppure con il **telefono Snom D725 e cuffia Plantronics CS540**.
+
+..
+    Questa configurazione può essere utilizzata anche con:
+
+    - **telefono Snom 300 e cuffia Snom A100M**
+    - **telefono Snom D725 e cuffia Plantronics CS540**
+
+.. important :: Il Mixer Telenia viene prodotto di default con questa configurazione dei Jumper.
 
 Configurazione dei Jumper del Mixer utilizzato con il **telefono Snom 320 e cuffia Jabra**:
 
@@ -107,6 +115,6 @@ Configurazione dei Jumper del Mixer utilizzato con il **telefono Cisco IP Phone 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/jumper_Cisco7940_cornetta.png
 
-Configurazione dei Jumper del Mixer utilizzato con il telefono Cisco IP Phone 7940 e la cuffia Plantronics:
+Configurazione dei Jumper del Mixer utilizzato con il **telefono Cisco IP Phone 7940 e la cuffia Plantronics**:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/SINTESIVOCALE/jumper_Cisco7940_cuffia_Plantronics.png

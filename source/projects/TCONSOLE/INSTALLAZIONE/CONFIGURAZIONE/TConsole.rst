@@ -159,7 +159,7 @@ Parametro valido (il valore di default è *NO*) **solo per centrale Avaya che ut
 Tale parametro si rende necessario solo nel caso di mancanza di informazioni provenienti dal carrier.
 
 Se impostato a *SI* la chiamata in uscita viene riconosciuta come risposta anche se di fatto è ancora in ring.
-Se impostato a *NO* nel caso di alcune chiamate in uscita esterne potrebbe non essere riconosciuto il connect e quindi non sarà possibile mettere in hold o trasferire.
+Se impostato a *NO* nel caso di alcune chiamate in uscita esterne potrebbe non essere riconosciuto il connect e quindi non sarà possibile mettere in attesa o trasferire.
 
 .. code-block:: ini
 
