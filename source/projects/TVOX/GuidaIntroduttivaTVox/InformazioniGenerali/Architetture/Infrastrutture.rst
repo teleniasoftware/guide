@@ -7,11 +7,11 @@ Tipologie di Infrastruttura
 Sistemi Pure Cloud
 ==================
 
-:doc:`consultare la sezione AWS<CloudAWS>`
+:doc:`consultare la sezione AWS<./Cloud/CloudAWS>`
 
-:doc:`consultare la sezione Azure<CloudAzure>`
+:doc:`consultare la sezione Azure<./Cloud/CloudAzure>`
 
-:doc:`consultare la sezione Google<CloudGoogle>`
+:doc:`consultare la sezione Google<./Cloud/CloudGoogle>`
 
 --------------
 
