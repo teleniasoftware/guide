@@ -31,6 +31,7 @@ Sistemi on Premise
 
 
 .. toctree::  
+   :hidden:
    :maxdepth: 5
 
    ./Cloud/CloudAWS
