@@ -30,6 +30,30 @@ Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=
 .. important:: La configurazione dell'ip pubblico e del dominio va effettuata come prima cosa, prima ancora di attivare la licenza sull'istanza. In questa fase non sarà ancora possibile attivare il pulsante di accesso via dominio. Questo sarà possibile solamente dopo l'attivazione licenza.
 
 
+Il server TVox Pure Cloud espone i seguenti servizi:
+
+
++---------------+-----------------+----------------------------------------+
+|    **Porta**  |  **Protocollo** |                 **Note**               |
++---------------+-----------------+----------------------------------------+
+|      5060     |    UDP / TCP    |              Traffico SIP              |
++---------------+-----------------+----------------------------------------+
+|      5061     |       TCP       |            Traffico SIP TLS            |
++---------------+-----------------+----------------------------------------+
+|      5070     |    UDP / TCP    |   Traffico SIP - Monitoraggio Vendor   |
++---------------+-----------------+----------------------------------------+
+|      5071     |       TCP       | Traffico SIP TLS - Monitoraggio Vendor |
++---------------+-----------------+----------------------------------------+
+|  10000-20000  |       UDP       |           Traffico RTP / SRTP          |
++---------------+-----------------+----------------------------------------+
+|      3478     |    UDP / TCP    |           Server STUN / TURN           |
++---------------+-----------------+----------------------------------------+
+| 20001 - 30000 |       UDP       |      Traffico RTP via TURN Server      |
++---------------+-----------------+----------------------------------------+
+|      443      |       TCP       | Traffico HTTPS / WEBRTC / Provisioning |
++---------------+-----------------+----------------------------------------+
+|       80      |       TCP       |          Nginx / Let's Encrypt         |
++---------------+-----------------+----------------------------------------+
 
 
 :doc:`Ambiente cloud AWS<CloudAWS>`
