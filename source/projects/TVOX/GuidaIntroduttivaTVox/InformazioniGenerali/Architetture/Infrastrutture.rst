@@ -22,6 +22,13 @@ Successivamente, bisogna assicurarsi di disporre di:
 Questi parametri vanno obbligatoriamente configurati nella sezione Sistema=>Configurazione di sistema=>Dominio e attivando "Login via dominio".
 
 
+.. image:: /images/TVOX/PureCloud/01-domain-configuration.png
+
+
+
+
+
+
 
 :doc:`Ambiente cloud AWS<CloudAWS>`
 
