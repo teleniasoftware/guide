@@ -16,9 +16,11 @@ dispositivi telefonici, gateway per linee isdn, citofoni, e altri hardware che d
 Per installare un'istanza Pure Cloud innanzi tutto è necessario disporre di una licenza con modulo PURE_CLOUD.
 
 Successivamente, bisogna assicurarsi di disporre di:
+
 - un IP pubblico fisso assegnato all'istanza
 - un dominio sul DNS pubblico che risolve l'IP pubblico fisso sopra citato
-- 
+
+
 Questi parametri vanno obbligatoriamente configurati nella sezione Sistema=>Configurazione di sistema=>Dominio e attivando "Login via dominio".
 
 
