@@ -29,11 +29,14 @@ Sistemi on Premise
 
 
 
-..
- .. toctree::  
-   :hidden:
-   :maxdepth: 5
+.. toctree::
+    :maxdepth: 5
 
-   ./Cloud/CloudAWS
-   ./Cloud/CloudAzure
-   ./Cloud/CloudGoogle
+    ./Architetture/Infrastrutture
+    ./Architetture/MCS
+    ./Architetture/StandAlone
+    ./Architetture/CM&R
+    ./Architetture/CCOmnicanale
+    ./Architetture/DisasterRecovery
+    ./Architetture/BranchOffice
+    ./Architetture/SBC
