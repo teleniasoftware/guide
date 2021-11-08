@@ -33,6 +33,6 @@ Sistemi on Premise
 .. toctree::  
    :maxdepth: 5
 
-   ./Architetture/Infrastrutture/CloudAWS
-   ./Architetture/Infrastrutture/CloudAzure
-   ./Architetture/Infrastrutture/CloudGoogle 
+   ./CloudAWS
+   ./CloudAzure
+   ./CloudGoogle 
