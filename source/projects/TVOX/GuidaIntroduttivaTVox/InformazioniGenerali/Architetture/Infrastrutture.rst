@@ -29,11 +29,11 @@ Sistemi on Premise
 
 
 
-
-.. toctree::  
+..
+ .. toctree::  
    :hidden:
    :maxdepth: 5
 
    ./Cloud/CloudAWS
    ./Cloud/CloudAzure
-   ./Cloud/CloudGoogle 
+   ./Cloud/CloudGoogle
