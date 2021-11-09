@@ -14,7 +14,7 @@ Seguire i seguenti passaggi:
 .. important :: La chiave di protezione deve rimanere **sempre** collegata per permettere l’avvio di TConsole, una volta installato. La procedura di installazione non risente invece dell'eventuale assenza della chiave di protezione e può essere interamente eseguita.
 .. tip :: Per esigenze particolari può venire fornita una licenza temporanea (a scadenza) su file: una volta disponibile e collegata la chiave USB di protezione sarà possibile attivare quest'ultima, senza la necessità di reinstallare l'applicazione o i suoi componenti.
 
-- spostarsi nella cartella (ipotizzando di aver estratto i files di setup in *C:\\Telenia_Setup*):
+- spostarsi nella cartella (ipotizzando di stare installando la release TConsole 5.7.27 ed aver estratto i files di setup in *C:\\Telenia_Setup*):
 
     .. code-block:: shell
 

@@ -6,7 +6,7 @@ Installazione e configurazione del servizio MySQL
 
 Seguire i seguenti passaggi:
 
-- spostarsi nella cartella (ipotizzando di aver estratto i files di setup in *C:\\Telenia_Setup*):
+- spostarsi nella cartella (ipotizzando di stare installando la release TConsole 5.7.27 ed aver estratto i files di setup in *C:\\Telenia_Setup*):
 
   .. code-block:: shell
 
