@@ -18,8 +18,8 @@ Nei files di configurazione di TConsole è possibile impostare diversi parametri
     :maxdepth: 3
  
     TConsole
-    .. Tabparam
     RubIntRubEst
+    Tabparam
     TCLoops
 
 .. rubric:: Note
