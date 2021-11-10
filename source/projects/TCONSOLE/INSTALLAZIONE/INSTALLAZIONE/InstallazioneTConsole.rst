@@ -53,6 +53,12 @@ Seguire i seguenti passaggi:
  - se il S.O. in uso è precedente a Windows 7, lasciare selezionata l’opzione **Riavvia il computer adesso** e premere su **Fine**;
  - per S.O. Windows 7 o successivi, selezionare **Non riavviare il computer** e premere su **Fine** per completare l’installazione con i seguenti passaggi;
 
+.. important :: **Solo per AVAYA CM con AES** (*TYPE=AVAYA_CSTA*) al termine dell'installazione e prima del riavvio del PC vanno eseguite le seguenti operazioni:
+
+ .. - copiare i 4 files (librerie DLL) dalla cartella UPGRADE_CSTA, fornita nel pacchetto di installazione TConsole (ad es. *C:\\Telenia_Setup\\TConsole V5.7.27\\UPGRADE_CSTA\\*), alla cartella *\[INSTALLDIR\]\\bin\\* sovrascrivendo i files esistenti;
+ - copiare in *\[INSTALLDIR\]\\bin\\* i 4 files (librerie DLL) presenti nella cartella UPGRADE_CSTA, fornita nel pacchetto di installazione TConsole (ad es. *C:\\Telenia_Setup\\TConsole V5.7.27\\UPGRADE_CSTA\\*), sovrascrivendo in *\[INSTALLDIR\]\\bin\\* i files già esistenti;
+ - impostare nel file *TConsole.ini* i 4 parametri relativi al CSTA link di Avaya (vedi parametro *AVAYA_CSTA_LINK* e successivi, descritti in :ref:`TConsole.ini AVAYA_CSTA`).
+
 **Verifica delle abilitazioni cartella di installazione per S.O. Windows 7 o successivi:**
 
 - accedere alla cartella d’installazione del programma (default *C:\\Telenia\\TConsole*);
@@ -70,7 +76,7 @@ Seguire i seguenti passaggi:
 .. rubric:: Note
 
 .. [#] Verificare con l’amministratore di sistema che tali modifiche non vengano sovrascritte in seguito dall’eventuale applicazione di Group Policy a livello di Active Directory.
-    
+
 .. [#] se il S.O. è Windows 10 potrebbe comparire il messaggio:
 
     .. code-block:: shell
