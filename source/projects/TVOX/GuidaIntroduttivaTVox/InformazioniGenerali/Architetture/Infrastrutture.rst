@@ -56,12 +56,23 @@ Il server TVox Pure Cloud espone i seguenti servizi:
 |       80      |       TCP       |          Nginx / Let's Encrypt         |
 +---------------+-----------------+----------------------------------------+
 
+Sicurezza provisioning e SIP
+============================
+In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
+E' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Impostazioni=>Avanzate=>Sicurezza* impostando il parametro "Sicurezza provisioning telefoni" con il valore "Sicuro e RPS".
 
-:doc:`Ambiente cloud AWS<CloudAWS>`
+In tal modo, nel caso di utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio.
 
-:doc:`Ambiente cloud Azure<./Cloud/CloudAzure>`
+Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
 
-:doc:`Ambiente cloud Google<./Cloud/CloudGoogle>`
+
+
+
+.. :doc:`Ambiente cloud AWS<CloudAWS>`
+
+.. :doc:`Ambiente cloud Azure<./Cloud/CloudAzure>`
+
+.. :doc:`Ambiente cloud Google<./Cloud/CloudGoogle>`
 
 --------------
 
