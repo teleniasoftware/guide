@@ -20,7 +20,6 @@ Successivamente, bisogna assicurarsi di disporre di:
 - un IP pubblico fisso assegnato all'istanza
 - un dominio sul DNS pubblico che risolve l'IP pubblico fisso sopra citato
 
-- testo 
 Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio* e attivando il pulsante "Accedi tramite dominio".
 
 
