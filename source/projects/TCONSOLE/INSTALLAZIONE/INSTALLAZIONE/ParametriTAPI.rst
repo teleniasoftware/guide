@@ -1,3 +1,5 @@
+.. _Parametri TAPI:
+
 ===============================================================
 Parametri TAPI / TSAPI (Avaya, Cisco, Nortel, Innovaphone etc.)
 ===============================================================
@@ -10,6 +12,12 @@ Parametri richiesti in fase di installazione (sezioni "TAPI")
 - **DN deviazione a Notte**: (opzionale) inserire l’interno per la “deviazione a notte”, o lasciare il parametro vuoto
 
 .. warning :: Il valore inserito nei parametri **PO DN** e **Device Tapi o COM (per Nortel)** deve corrispondere **esattamente** (inclusi gli spazi ed i caratteri non alfanumerici) a quanto visualizzato nel *TestTapiDevice*, altrimenti il TConsole potrebbe non riconoscere il dispositivo.
+.. .. important :: **Solo per AVAYA CM con AES** (*TYPE=AVAYA_CSTA*) al termine dell'installazione vanno copiati i 4 files (librerie DLL) dalla cartella UPGRADE_CSTA, fornita nel pacchetto di installazione TConsole, alla cartella *\[INSTALLDIR\]\\bin\\* sovrascrivendo i files esistenti. Vanno inoltre impostati nel file *TConsole.ini* i 4 parametri relativi al CSTA link di Avaya (vedi parametro *AVAYA_CSTA_LINK* e successivi, descritti in :ref:`TConsole.ini AVAYA_CSTA`).
+.. important :: **Solo per AVAYA CM con AES** (*TYPE=AVAYA_CSTA*) al termine dell'installazione e prima del riavvio del PC vanno eseguite le seguenti operazioni:
+
+ .. - copiare i 4 files (librerie DLL) dalla cartella UPGRADE_CSTA, fornita nel pacchetto di installazione TConsole (ad es. *C:\\Telenia_Setup\\TConsole V5.7.27\\UPGRADE_CSTA\\*), alla cartella *\[INSTALLDIR\]\\bin\\* sovrascrivendo i files esistenti;
+ - copiare in *\[INSTALLDIR\]\\bin\\* i 4 files (librerie DLL) presenti nella cartella UPGRADE_CSTA, fornita nel pacchetto di installazione TConsole (ad es. *C:\\Telenia_Setup\\TConsole V5.7.27\\UPGRADE_CSTA\\*), sovrascrivendo in *\[INSTALLDIR\]\\bin\\* i files già esistenti;
+ - impostare nel file *TConsole.ini* i 4 parametri relativi al CSTA link di Avaya (vedi parametro *AVAYA_CSTA_LINK* e successivi, descritti in :ref:`TConsole.ini AVAYA_CSTA`).
 
 Parametri configurabili in TConsole.ini
 =======================================
@@ -31,7 +39,8 @@ Parametri configurabili in TConsole.ini
 
 .. warning :: Il valore inserito nei parametri **IADN** e **DEVICE** deve corrispondere **esattamente** (inclusi gli spazi ed i caratteri non alfanumerici) a quanto visualizzato nel *TestTapiDevice*, altrimenti il TConsole potrebbe non riconoscere il dispositivo.
 
-**Esempio TConsole.ini SIEMENS:**
+Esempio TConsole.ini SIEMENS
+----------------------------
 
 .. code-block:: ini
 
@@ -40,9 +49,8 @@ Parametri configurabili in TConsole.ini
     DEVICE="risorsa visualizzata dal TestTapiDevice e pilotabile via TAPI"
     TAPI_SLEEP_TRANSFER=400
 
-----------------------------
-
-**Esempio TConsole.ini CISCO senza TQM:**
+Esempio TConsole.ini CISCO senza TQM
+------------------------------------
 
 .. code-block:: ini
 
@@ -53,22 +61,22 @@ Parametri configurabili in TConsole.ini
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
-**Esempio tabparam CISCO senza TQM:**
+Esempio tabparam CISCO senza TQM
+--------------------------------
 
 .. code-block:: ini
-        
-        *              TQM_TYPE             -
 
-----------------------------
+        *              TQM_TYPE             -
 
 Per PBX Cisco è permesso l’utilizzo:
 
 - del sistema di accodamento TQM
 - Parcheggi
 
-Per queste opzioni fare riferimento al manuale di installazione dettagliato per TConsole in ambiente CISCO con TQM.
+.. important :: Per queste opzioni fare riferimento al manuale di installazione dettagliato per TConsole in ambiente Cisco con TQM.
 
-**Esempio TConsole.ini CISCO con TQM:**
+Esempio TConsole.ini CISCO con TQM
+----------------------------------
 
 .. code-block:: ini
 
@@ -92,15 +100,15 @@ Per queste opzioni fare riferimento al manuale di installazione dettagliato per 
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *TAPI_TVOX_PICKUP*
 
-**Esempio tabparam CISCO con TQM:**
+Esempio tabparam CISCO con TQM
+------------------------------
 
 .. code-block:: ini
-        
+
         *              TQM_TYPE             TAPI_TVOX_PICKUP
 
-----------------------------
-
-**Esempio TConsole.ini TAPI AVAYA CM (Softphone):**
+Esempio TConsole.ini TAPI AVAYA CM (Softphone)
+----------------------------------------------
 
 .. code-block:: ini
 
@@ -118,15 +126,17 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQ
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
-**Esempio tabparam TAPI AVAYA CM (Softphone):**
+Esempio tabparam TAPI AVAYA CM (Softphone)
+------------------------------------------
 
 .. code-block:: ini
-        
+
         *              TQM_TYPE             -
 
-----------------------------
+.. _TConsole.ini AVAYA_CSTA:
 
-**Esempio TConsole.ini TAPI AVAYA CM + AES (TSAPI):**
+Esempio TConsole.ini TAPI AVAYA CM + AES (TSAPI)
+------------------------------------------------
 
 .. code-block:: ini
 
@@ -143,13 +153,14 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQ
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
-**Esempio tabparam TAPI AVAYA CM + AES (TSAPI):**
+Esempio tabparam TAPI AVAYA CM + AES (TSAPI)
+--------------------------------------------
 
 .. code-block:: ini
-            
+
         *              TQM_TYPE             -
 
-**Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato di Avaya.**
+.. important :: Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato per installazione in ambiente Avaya.
 
 .. rubric:: Note
 
