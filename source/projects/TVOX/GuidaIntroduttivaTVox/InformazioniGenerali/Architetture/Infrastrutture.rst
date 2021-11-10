@@ -20,13 +20,15 @@ Successivamente, bisogna assicurarsi di disporre di:
 - un IP pubblico fisso assegnato all'istanza
 - un dominio sul DNS pubblico che risolve l'IP pubblico fisso sopra citato
 
-Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio* e attivando il pulsante "Accedi tramite dominio".
+Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio*.
+..Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio* e attivando il pulsante "Accedi tramite dominio".
+
+.. image:: /images/TVOX/PureCloud/01-domain-configuration_1.png
+.. .. image:: /images/TVOX/PureCloud/01-domain-configuration.png
 
 
-.. image:: /images/TVOX/PureCloud/01-domain-configuration.png
-
-
-.. important:: La configurazione dell'ip pubblico e del dominio va effettuata come prima cosa, prima ancora di attivare la licenza sull'istanza. In questa fase non sarà ancora possibile attivare il pulsante di accesso via dominio. Questo sarà possibile solamente dopo l'attivazione licenza.
+.. important:: **ATTENZIONE:** La configurazione dell'ip pubblico e del dominio va effettuata come prima cosa, prima ancora di attivare la licenza sull'istanza.
+.. .. important:: La configurazione dell'ip pubblico e del dominio va effettuata come prima cosa, prima ancora di attivare la licenza sull'istanza. In questa fase non sarà ancora possibile attivare il pulsante di accesso via dominio. Questo sarà possibile solamente dopo l'attivazione licenza.
 
 
 Il server TVox Pure Cloud espone i seguenti servizi:
