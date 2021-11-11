@@ -75,6 +75,8 @@ Per PBX Cisco è permesso l’utilizzo:
 
 .. important :: Per queste opzioni fare riferimento al manuale di installazione dettagliato per TConsole in ambiente Cisco con TQM.
 
+.. _TConsole.ini CISCO TQM:
+
 Esempio TConsole.ini CISCO con TQM
 ----------------------------------
 

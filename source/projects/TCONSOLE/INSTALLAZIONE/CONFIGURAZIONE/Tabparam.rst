@@ -30,20 +30,24 @@ Se configurato a *SI*, attiva il lookup in rubrica del numero chiamante: all'arr
 ATTIVA_SKIN
 -----------
 
-**Solo nella vista Normale**, se configurato a *SI* (valore di default), imposta l'interfaccia in una tonalità di grigio come nella seguente immagine:
+**Solo nella vista Normale**, se configurato a *SI* (valore di default), imposta i colori dell'interfaccia con tonalità prevalentemente di grigi, come nella seguente immagine:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/ATTIVA_SKIN_SI.png
 
-.. important :: Questa configurazione va a sovrascrivere le personalizzazioni dei colori eventualmente effettuate in alcune sezioni dall'interfaccia (ad es. per i :ref:`Tasti FLEX`) o tramite modifica dei files di configurazione.
+.. important :: Questa configurazione va a sovrascrivere le personalizzazioni dei colori eventualmente effettuate in alcune sezioni dell'interfaccia (ad es. per i :ref:`Tasti FLEX`) o tramite modifica dei files di configurazione.
 
-La seguente immagine illustra la stessa interfaccia TConsole precedente ma con il parametro *ATTIVA_SKIN=NO*:
+.. warning :: Nelle viste IPO e IPO PLUS questo parametro viene ignorato e la sua modifica non ha alcun effetto.
+
+La seguente immagine illustra la stessa interfaccia TConsole precedente ma con il parametro *ATTIVA_SKIN=NO* e la combinazione di colori predefinita al termine dell'installazione:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/ATTIVA_SKIN_NO.png
+
+.. _ACOD_RUB_EXT:
 
 ACOD_RUB_EXT
 ------------
 
-Vedi :ref:`Codice Impegno Linea`. Il valore di default è *0*.
+Definisce il codice di impegno linea da anteporre, in deteriminati contesti (vedi :ref:`Codice Impegno Linea`), al numero da chiamare. Il valore di default è *0*.
 
 PICKUP_SOUND_1
 --------------
@@ -51,4 +55,9 @@ PICKUP_SOUND_1
 TQM_TYPE
 --------
 
-.. vedi :ref:`Parametri TVox` e :ref:`Parametri TAPI`.
+Il valore di default è *-* (trattino). Deve essere valorizzato diversamente **solo nelle seguenti modalità**:
+
+- TAPI CISCO con TQM (vedi :ref:`TConsole.ini CISCO TQM`)
+- TVOX (vedi :ref:`Parametri TVox`)
+
+**In tutti gli altri casi il parametro va lasciato valorizzato a** *-* (trattino).

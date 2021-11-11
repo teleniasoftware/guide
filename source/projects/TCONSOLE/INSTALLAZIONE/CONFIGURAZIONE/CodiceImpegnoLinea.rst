@@ -7,7 +7,7 @@ Codice Impegno Linea
 Per effettuare la chiamata con il codice di impegno linea corretto occorre aver configurato correttamente:
 
 - tabella range DN (*rangedn*) definendo l’intervallo di numerazione interna della centrale
-- parametro *ACOD_RUB_EXT* nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) inserendo il codice di impegno linea (valore di default: *0*)
+- parametro *ACOD_RUB_EXT* nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) (vedi :ref:`ACOD_RUB_EXT`) inserendo il codice di impegno linea (valore di default: *0*)
 - la definizione della tabella delle reti (*tabrete*) con i relativi codici di impegno linea
 - la definizione del tipo di rete nei dettagli contatto di Rubrica Esterna (F3)
 
