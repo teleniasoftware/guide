@@ -33,7 +33,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
  
 .. toctree::  
    :hidden: 
-   :caption: TVOX - GUIDA INTRODUTTIVA
+   :caption: TVOX
    :maxdepth: 2
 
    /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
@@ -50,7 +50,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
 
 .. toctree::  
    :hidden: 
-   :caption: TVOX CLIENT - GUIDA INTRODUTTIVA
+   :caption: TVOX CLIENT
    :maxdepth: 2   
 
    /projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient 
