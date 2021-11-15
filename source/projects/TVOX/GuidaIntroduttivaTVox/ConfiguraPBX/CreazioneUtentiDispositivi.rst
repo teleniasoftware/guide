@@ -34,3 +34,5 @@ Con la configurazione del provisioning sicuro, per ogni telefono è presente un 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/01-url-provisioning-purecloud.png
 
 .. Nel caso di telefoni Yealink, 
+
+- :ref:`Sistemi Pure Cloud <infrastruttura>`
