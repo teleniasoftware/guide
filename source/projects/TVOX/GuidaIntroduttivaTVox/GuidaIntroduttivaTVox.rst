@@ -11,7 +11,7 @@ Partendo da un set di informazioni generali, tra cui una panoramica sul prodotto
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
 
     ./InformazioniGenerali/InformazioniGenerali
