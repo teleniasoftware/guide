@@ -18,11 +18,13 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX`
 
+:blue:`MCS`
+
 :blue:`TCONSOLE`
 
 :blue:`TSAM`
 
-La documentazione presentata nella home page di questo portale  si riferisce all’ultima Release |tvox| disponibile, per ottenere informazioni su una specifica release navigate il menu |releases| che si trova in fondo al menu.
+La documentazione presentata nella home page di questo portale si riferisce all’ultima Release |tvox| disponibile, per ottenere informazioni su una specifica release navigate il menu |releases| che si trova in fondo al menu.
 
 
 
@@ -45,6 +47,17 @@ La documentazione presentata nella home page di questo portale  si riferisce all
    xxx/projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
    xxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/
    xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
+
+.. toctree::  
+   :hidden: 
+   :caption: Mediant Communication System
+   :maxdepth: 2   
+
+   /projects/TVOXMediantCommunicationSystem/Prodotto
+   /projects/TVOXMediantCommunicationSystem/Architettura
+   /projects/TVOXMediantCommunicationSystem/Deploy
+   /projects/TVOXMediantCommunicationSystem/Networking
+   /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL 
 
 .. .. toctree::  
 ..   :hidden: 
