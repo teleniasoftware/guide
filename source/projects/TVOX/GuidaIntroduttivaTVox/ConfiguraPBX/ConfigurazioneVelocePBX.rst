@@ -7,7 +7,7 @@ In questa sezione troverai gli step fondamentali per poter attivare la tua centr
 
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     ./PrimiPassi
     ./CreazioneTrunk
