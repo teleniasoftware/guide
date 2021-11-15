@@ -33,11 +33,11 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
  
 .. toctree::  
    :hidden: 
-   :caption: TVOX
+   :caption: TVOX - GUIDA INTRODUTTIVA
    :maxdepth: 2
 
    /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
-   /projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient
+   XX/projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient
    xx/projects/TVOX/InformazioniGenerali/InformazioniGenerali
    xx/projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
    xx/projects/TVOX/ConfiguraPBX/ConfigurazioneVelocePBX
@@ -47,6 +47,13 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    xxx/projects/TVOX/TVOX_OCC_CONTACT_CENTER_TELEFONICO/
    xxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/
    xxxxx/projects/TVOX/TVOX_OCC_OMNICHANNEL_CONTACT_CENTER/SUPPORT/PerformanceTuning
+
+.. toctree::  
+   :hidden: 
+   :caption: TVOX CLIENT - GUIDA INTRODUTTIVA
+   :maxdepth: 2   
+
+   /projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient 
 
 .. toctree::  
    :hidden: 
