@@ -39,7 +39,7 @@ Con la configurazione del provisioning sicuro, per ogni telefono è presente un 
 .. :ref:`Sistemi Pure Cloud <infrastruttura>`
 
 
-Nel caso di telefoni Yealink, è attivo il provisioning via RPS. Si tratta di un servizio di Yealink che permette ad un telefono, alla prima accensione, di effettuare automaticamente una richiesta web per individuare il server TVox dal quale scaricare la sua configurazione, eliminando quindi la necessità di una pre-configurazione manuale.
+Nel caso di telefoni Yealink, è attivo il provisioning via `RPS <https://support.yealink.com/forward2download?path=ZIjHOJbWuW/DFrGTLnGyploAOxsQD/Xz/UplusSymbolq2lU036653TDiwrBfxz/BElK2gRiufplusSymbolXfMogMSzUeDNTfeK4uKrmJcySPdH5L6ZCVAIWLplusSymbollC7wlpLKz2kk42E24Q/8gRHNqUuQjL5uO4PYwC7Imh4ImwA/4cqC85uucVf7CWTgMYFEei8fLjhNLml5splusSymbolGQxnXU11oQ3XOigo=>`_. Si tratta di un servizio di Yealink che permette ad un telefono, alla prima accensione, di effettuare automaticamente una richiesta web per individuare il server TVox dal quale scaricare la sua configurazione, eliminando quindi la necessità di una pre-configurazione manuale.
 Ricevuta tale informazione, il telefono invierà direttamente la richiesta di provisioning a tale url.
 
 Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per provisionare nuovamente il telefono è necessario sbloccare manualmente il provisioning RPS tramite un apposito pulsante disponibile in OCC.
@@ -51,7 +51,7 @@ Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per p
 #. Attendere che la configurazione del telefono si completi (il telefono si riavvierà automaticamente alcune volte)
 #. Il telefono risulta registrato su TVox e disponibile all'utilizzo
 
-.. tip:: Il provisioning via RPS è disponibile alla prima accensione o dopo un reset alle condizioni di fabbrica
+.. tip:: Il provisioning via RPS è disponibile alla prima accensione o dopo un reset alle condizioni di fabbrica. Per ripetere questo tipo di configurazione, prima di procedere al reset devi sbloccare il provisioning RPS come indicato nella prossima immagine
 
-
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/02-provisioning-rps.png
 
