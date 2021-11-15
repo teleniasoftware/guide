@@ -28,3 +28,9 @@ Contestualmente si raccomanda di impostare anche il livello di sicurezza per pas
 
 .. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning.png
 
+
+Con la configurazione del provisioning sicuro, per ogni telefono è presente un URL di provisioning univoco che può essere impostato manualmente sul dispositivo.
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/01-url-provisioning-purecloud.png
+
+.. Nel caso di telefoni Yealink, 
