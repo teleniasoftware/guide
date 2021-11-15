@@ -53,7 +53,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :caption: TVOX CLIENT
    :maxdepth: 2   
 
-   /projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient 
+   /projects/CLIENT/GuidaIntroduttivaClient/GuidaIntroduttivaClient 
 
 .. toctree::  
    :hidden: 
