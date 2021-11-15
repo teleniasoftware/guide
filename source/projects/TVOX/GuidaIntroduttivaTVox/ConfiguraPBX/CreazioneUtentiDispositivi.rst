@@ -44,7 +44,7 @@ Ricevuta tale informazione, il telefono invierà direttamente la richiesta di pr
 
 Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per provisionare nuovamente il telefono è necessario sbloccare manualmente il provisioning RPS tramite un apposito pulsante disponibile in OCC.
 
-**Eseguire il provisioing di un telefono Yealink**
+**Eseguire il provisioning di un telefono Yealink**
 
 #. Creare l'interno su OCC - In questo modo viene creato l'url univoco di provisioning associato al MAC Address del telefono. Tale url viene comunicato da TVox al server RPS di Yealink
 #. Togliere dalla scatola il telefono ed accenderlo
