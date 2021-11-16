@@ -18,7 +18,7 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX`
 
-:blue:`MCS`
+.. :blue:`MCS`
 
 :blue:`TCONSOLE`
 
@@ -56,7 +56,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    /projects/CLIENT/GuidaIntroduttivaClient/GuidaIntroduttivaClient 
 
 .. toctree::  
-   :hidden: 
+..    :hidden: 
    :caption: Mediant Communication System
    :maxdepth: 2   
 
