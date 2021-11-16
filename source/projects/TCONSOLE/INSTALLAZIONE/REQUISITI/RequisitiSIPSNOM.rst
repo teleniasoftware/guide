@@ -18,10 +18,17 @@ Per le versioni SIP è necessario utilizzare un telefono SNOM, che **non deve es
 
 .. warning:: Non è garantito il corretto funzionamento di TConsole nel caso si cerchi di utilizzare un firmware di versione diversa dalle versioni specificate in questo documento.
 
-Deve essere garantita la completa visibilità tra telefono SNOM dedicato ed il PC su cui installare TConsole, in particolare:
+Deve essere garantita la completa visibilità, **agendo opportunamente sul Firewall di sistema se necessario**, tra telefono SNOM dedicato ed il PC su cui installare TConsole, in particolare:
 
 - **PC e telefono devono avere IP statico o comunque staticamente assegnato**
-- **il PC deve raggiungere in HTTP (ad es. via browser) l'IP del telefono e del server SIP**
+- **il PC deve raggiungere sulla porta 80 (HTTP) (ad es. via browser) l'IP del telefono e del server SIP**
+- **il telefono deve poter comunicare con il PC TConsole sulla porta 5452 TCP** (valore di default eventualmente modificabile, vedi :ref:`Parametri SIP SNOM`)
+
+.. important::
+  Se PC e telefono appartengono a LAN diverse è necessario garantire le medesime visibilità sulle porte indicate tra la LAN del telefono e la LAN del PC TConsole. In caso negativo si possono presentare tipicamente uno (o più) di questi comportamenti:
+
+  - da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
+  - una chiamata in ingresso arriva sul telefono, ma su TConsole non compare nulla
 
 Inoltre è necessario impostare sul telefono, accedendo via browser all'interfaccia web (*WUI*) di configurazione, alcuni parametri come indicato nelle figure che seguono (ipotizzando che l'IP del telefono sia *172.16.112.161*).
 
