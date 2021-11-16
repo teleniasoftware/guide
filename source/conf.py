@@ -81,7 +81,8 @@ rst_epilog = """
    <br />
 
 .. |tvox| replace:: TVox OmniChannel Contact Center
-.. |client| replace:: TVox Web Client
+.. |client| replace:: TVox WebClient
+.. |winweb| replace:: TVox WinWeb Client
 .. |dm| replace:: TVox Data Model
 .. |tvox_pbx| replace:: TVox UC&C
 .. |tvox_platform| replace:: Piattaforma TVox
