@@ -1,3 +1,5 @@
+.. _Parametri SIP SNOM:
+
 ==============================================
 Parametri SIP SNOM (nel caso di telefono SNOM)
 ==============================================
@@ -14,11 +16,11 @@ Parametri richiesti in fase di installazione (sezioni "SIP")
 - **IP PC TConsole (SIP only)**: indirizzo IP del PC
 
 .. important ::
-    Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico** (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, potrebbe determinare uno (o più) di questi comportamenti:
+    Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico** (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, determina tipicamente uno (o più) di questi comportamenti:
 
-    - Da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
-    - Una chiamata arriva sul telefono, ma su TConsole non compare nulla
-    - All’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo pallino rosso nella Status Bar in basso
+    - da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
+    - una chiamata in ingresso arriva sul telefono, ma su TConsole non compare nulla
+    - all’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo pallino rosso nella Status Bar in basso
 
 Parametri configurabili in TConsole.ini
 =======================================
@@ -40,7 +42,8 @@ Parametri configurabili in TConsole.ini
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([2]_) configurare il parametro **TQM_TYPE**\ =\ *-*
 
-**Esempio TConsole.ini SIP SNOM:**
+Esempio TConsole.ini SIP SNOM
+-----------------------------
 
 .. code-block:: ini
 
@@ -55,7 +58,8 @@ Nel file *\[INSTALLDIR\]\\config\\tabparam* ([2]_) configurare il parametro **TQ
     SIP_PO_USR=
     SIP_PO_PWD=
 
-**Esempio tabparam SIP SNOM:**
+Esempio tabparam SIP SNOM
+-------------------------
 
 .. code-block:: ini
         

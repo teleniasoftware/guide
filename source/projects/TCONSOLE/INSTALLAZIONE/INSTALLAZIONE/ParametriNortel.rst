@@ -20,7 +20,8 @@ Parametri configurabili in TConsole.ini
 - (se presenti più postazioni) modificare il parametro **ID** con il numero progressivo della postazione (vedi :ref:`Installazione Client`)
 - nel file *\[INSTALLDIR\]\\config\\tabparam* ([1]_) impostare il parametro **TQM_TYPE**\ =\ *-* (trattino), in questo modo si abilita il tasto “Notte/Giorno” (Sole Luna)
 
-**Esempio TConsole.ini NORTEL_M2250:**
+Esempio TConsole.ini NORTEL_M2250
+---------------------------------
 
 .. code-block:: ini
     
@@ -29,7 +30,8 @@ Parametri configurabili in TConsole.ini
     DEVICE=COM1
     ID=1
 
-**Esempio tabparam NORTEL_M2250:**
+Esempio tabparam NORTEL_M2250
+-----------------------------
 
 .. code-block:: ini
         

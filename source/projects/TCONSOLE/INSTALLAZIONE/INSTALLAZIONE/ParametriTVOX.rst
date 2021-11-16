@@ -68,7 +68,8 @@ Con questa configurazione il Posto Operatore lavorerà in modalità **PICKUP**: 
 
 Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P. La chiamata verrà messa in parcheggio e comparirà sul display TQM con l’etichetta “P”. Per riprenderla, l’operatore dovrà posizionarsi sulla riga della chiamata con le freccette e premere il pulsante "Invio" come per le altre chiamate in coda.
 
-**Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY):**
+Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY)
+-----------------------------------------------------------------
 
 .. code-block:: ini
 
@@ -97,7 +98,8 @@ Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P
     TQM_CONF_DN=
     TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
 
-**Esempio tabparam TVOX senza PICKUP (operatore in stato READY):**
+Esempio tabparam TVOX senza PICKUP (operatore in stato READY)
+-------------------------------------------------------------
 
 .. code-block:: ini
         
@@ -105,7 +107,8 @@ Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P
 
 ----------------------------
 
-**Esempio TConsole.ini TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio:**
+Esempio TConsole.ini TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio
+-------------------------------------------------------------------------------
 
 .. code-block:: ini
 
@@ -134,7 +137,8 @@ Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P
     TQM_CONF_DN=
     TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
 
-**Esempio tabparam TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio:**
+Esempio tabparam TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio
+---------------------------------------------------------------------------
 
 .. code-block:: ini
         
