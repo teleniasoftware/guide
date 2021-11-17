@@ -191,7 +191,7 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | DHCP                              | Dynamic Host Configuration Protocol                                                                                     |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| DM                                | Data Model: Consente l'accesso ai dati TVox, consentendo ad es. la creazione di report e dashboard                      |
+| DM                                | | Data Model: Consente l'accesso ai dati TVox, consentendo ad es. la creazione di report e dashboard                    |
 |                                   | | personalizzati oltre alla reportistica già disponibile in                                                             |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | DNIS                              | Dialed Number Identification Service: identifica il numero telefonico digitato dall'utente chiamante                    |
@@ -200,28 +200,28 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Data Retention                    | Strategia di mantenimento (definizione dei limiti temporali) dei dati all'interno del TVox                              |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Disaster Recovery                 | TVox che svolge il ruolo di Failover PBX per la sede principale in caso di evento che rende                             |
+| Disaster Recovery                 | | TVox che svolge il ruolo di Failover PBX per la sede principale in caso di evento che rende                           |
 |                                   | | indisponibile il TVox Master                                                                                          |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Hostname                          | Nome identificativo di TVox all'interno della rete                                                                      |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | IP TVox                           | Indirizzo IP che identifica il TVox                                                                                     |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| In House                          | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete interna                                |
+| In House                          | | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete interna                              |
 |                                   | | all'infrastruttura TVox (rete locale)                                                                                 |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Insight                           | Insight Server: TVox che mette a disposizione le dashboard evolute per il monitoraggio del                              |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| KB                                | Knowledge Base: Funzionalità TVox che mette a disposizione contenuti consultabili e organizzati                         |
+| KB                                | | Knowledge Base: Funzionalità TVox che mette a disposizione contenuti consultabili e organizzati                       |
 |                                   | | in categorie e sottocategorie                                                                                         |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| LDAP                              | Lightweight Directory Access Protocol: è un protocollo standard per l'interrogazione e la modifica                      |
+| LDAP                              | | Lightweight Directory Access Protocol: è un protocollo standard per l'interrogazione e la modifica                    |
 |                                   | | dei servizi di directory che gestiscono informazioni condivise disponibili tramite la rete                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Master                            | In un sistema di Continuous Monitoring & Reporting è il TVox che funge da sistema telefonico ATTIVO,                    |
+| Master                            | | In un sistema di Continuous Monitoring & Reporting è il TVox che funge da sistema telefonico ATTIVO,                  |
 |                                   | | oppure indica il TVox di riferimento per un TVox Branch Office o Disaster Recovery                                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Notification Service              | Consente di richiamare uno o più Web Service di terze parti, notificando gli eventi di chiamata                         |
+| Notification Service              | | Consente di richiamare uno o più Web Service di terze parti, notificando gli eventi di chiamata                       |
 |                                   | | e le relative informazioni                                                                                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | OCC                               | TVox Omnichannel Manager: Interfaccia WEB di amministrazione di TVox                                                    |
@@ -235,7 +235,7 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Peer to Peer (P2P)                | Comunicazione audio / video ove i canali RTP sono stabiliti direttamente tra i due interlocutori                        |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Popup Manager                     | Consente di invocare script (ad es. per eseguire popup) a fronte di chiamate ricevute dagli utenti                      |
+| Popup Manager                     | | Consente di invocare script (ad es. per eseguire popup) a fronte di chiamate ricevute dagli utenti                    |
 |                                   | | di un servizio                                                                                                        |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | RDP                               | Remote Desktop Protocol                                                                                                 |
@@ -254,50 +254,50 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | SSH                               | Secure Shell                                                                                                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Security Update                   | Sistema di verifica della consistenza della licenza TVox: attivazione, validità, aggiunta/rimozione                     |
+| Security Update                   | | Sistema di verifica della consistenza della licenza TVox: attivazione, validità, aggiunta/rimozione                   |
 |                                   | | di moduli, abilitazione all'upgrade                                                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Slave                             | In un sistema di Continuous Monitoring & Reporting è il TVox che funge da sistema telefonico PASSIVO                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Smartworking                      | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete esterna                                |
+| Smartworking                      | | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete esterna                              |
 |                                   | | all'infrastruttura TVox (internet)                                                                                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| TConsole                          | Applicazione multipiattaforma (per S.O. Windows) per la gestione del Posto Operatore (centralinista)                    |
+| TConsole                          | | Applicazione multipiattaforma (per S.O. Windows) per la gestione del Posto Operatore (centralinista)                  |
 |                                   | | da parte di operatori telefonici vedenti, ipo vedenti e non vedenti                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | TLS                               | Transport Layer Security                                                                                                |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | TTS                               | Text To Speech: Sintetizzazione vocale della voce a partire da un testo scritto                                         |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|                                   | Applicazione Client del TVox; funge da Unified Communication Client per gli utenti TVox                                 |
+|                                   | | Applicazione Client del TVox; funge da Unified Communication Client per gli utenti TVox                               |
 |                                   | | e da Contact Center Client per gli agenti di Contact Center.                                                          |
 | TVox Client                       | | Il TVox Client è previsto di default per gli agenti di Contact Center mentre è sottoposto a Licenza                   |
 |                                   | | per gli utenti base.                                                                                                  |
 |                                   | | È accessibile direttamente aprendo una finestra di Chrome (|client|)                                                  |
 |                                   | | oppure installando l'applicazione WinWeb (|winweb|)                                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|                                   | Mediant Communication System: TVox che consente di accedere tramite semplice connettività internet alle                 |
+|                                   | | Mediant Communication System: TVox che consente di accedere tramite semplice connettività internet alle               |
 | TVox MCS                          | | funzionalità del TVox in sede, senza esporre direttamente quest'ultimo su internet.                                   |
 |                                   | | È necessario per fruire di TVox Team App (sia in house che in Smartworking) e della Widget                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|                                   | Session Border Control: TVox utilizzato per interconnessione tra il TVox principale posizionato                         |
+|                                   | | Session Border Control: TVox utilizzato per interconnessione tra il TVox principale posizionato                       |
 | TVox SBC                          | | in Data Center e sedi periferiche che devono comunicare con il TVox principale,                                       |
 |                                   | | senza necessità di stabilire una VPN                                                                                  |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-|                                   | TVox che consente di estendere le funzionalità del TVox PBX fornendo servizi quali                                      |
+|                                   | | TVox che consente di estendere le funzionalità del TVox PBX fornendo servizi quali                                    |
 | TVox Support                      | | il canale mail (ticketing), Customer Journey o Insight.                                                               |
 |                                   | | Può consistere a sua volta di un sistema ridondato, con un TVox Support Master                                        |
 |                                   | | ed un TVox Support Slave ed un TVox Support di nodo                                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| TVox TQM                          | Telenia Queue Manager: TVox che svolge la funzione di gestione delle chiamate                                           |
+| TVox TQM                          | | Telenia Queue Manager: TVox che svolge la funzione di gestione delle chiamate                                         |
 |                                   | | per servizi di tipo Posto Operatore                                                                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| TVox Team App                     | Applicazione (disponibile sia per Android che per iOS)                                                                  |
+| TVox Team App                     | | Applicazione (disponibile sia per Android che per iOS)                                                                |
 |                                   | | che consente di estendere i servizi TVox ad utenti in mobiità                                                         |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | WebPhone                          | Dispositivo di tipo WEB (cuffie collegate al PC) e controllabile tramite TVox Client                                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| WebRTC                            | Web Real-Time Communication: tecnologia che consente ad applicazioni web di trasmettere flusso                          |
+| WebRTC                            | | Web Real-Time Communication: tecnologia che consente ad applicazioni web di trasmettere flusso                        |
 |                                   | | audio o video in modalità Peer to Peer e senza richiedere l'installazione di plugin o altri software                  |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Widget                            | Form web tramite il quale i clienti possono comunicare utilizzando i canali messi a disposizione da TVox                |
