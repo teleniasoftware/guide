@@ -8,7 +8,7 @@ Glossario
 
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | ASR / STT                         | | Automatic Speech Recognition / Speech To Text: Riconoscimento di un testo a partire da una voce                       |
-|                                   | |(riconoscimento vocale)                                                                                                |
+|                                   | | (riconoscimento vocale)                                                                                               |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Branch Office                     | TVox che svolge il ruolo di Failover PBX per una sede remota che non raggiunge il TVox Master                           |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
