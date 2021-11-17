@@ -19,7 +19,7 @@ Si tratta di un client orientato al contatto che, oltre a gestire il canale tele
 - Permette l’impostazione dello stato pronto e non pronto e visualizza lo stato delle code se l’utente che lo usa è un agente di Contact Center
 - Permette di attivare manualmente la registrazione della conversazione e specificare eventuali note
 
-Abbinato a teleoni Yealink, |client| prevede anche le seguenti funzionalità telefoniche:
+Abbinato a telefoni Yealink, |client| prevede anche le seguenti funzionalità telefoniche:
 
 - Risposta ad una chiamata in ingresso
 - Messa in attesa e ripresa (hold/unhold) di una chiamata attiva
