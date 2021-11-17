@@ -27,7 +27,7 @@ Abbinato a telefoni Yealink, |client| prevede anche le seguenti funzionalità te
 
 In ottica Contact Center è stato realizzato per estendere ai canali support, social media, web chat, video, ecc.. la comunicazione tra azienda e cliente.
 
-.... tip:: Necessita solo del browser Google Chrome 32-64bit in versione 64 o successive. E\' disponibile all'url https://<IP_TVOX>/client su cui è sufficiente indicare le credenziali di accesso del profilo utente o agente configurato nel sistema
+.. .. tip:: Necessita solo del browser Google Chrome 32-64bit in versione 64 o successive. E\' disponibile all'url https://<IP_TVOX>/client su cui è sufficiente indicare le credenziali di accesso del profilo utente o agente configurato nel sistema
 
 Solo nel contesto Microsoft Windows, |client| viene erogato sotto forma di applicazione *.exe* che a tutti gli effetti replica il client disponibile via browser ma installabile nella forma di pacchetto *.msi*.
 Tale applicazione prende il nome di **TVox WinWeb Client** o **client WinWeb**.
