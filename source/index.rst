@@ -91,6 +91,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :maxdepth: 6
 
    /projects/TCONSOLE/TConsole
+   /projects/TCONSOLE/TConsoleServer/TConsoleServer
 
 .. toctree::  
    :hidden: 
