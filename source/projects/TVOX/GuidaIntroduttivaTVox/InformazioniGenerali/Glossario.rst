@@ -14,7 +14,7 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | CCBS                              | Completion of Calls to Busy Subscriber: servizio di prenotazione chiamata su occupato                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| CJ                                | Customer Journey: Insieme delle interazioni multicanale del cliente con il                                              |
+| CJ                                | Customer Journey: Insieme delle interazioni multicanale del cliente con il |tvox|                                       |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | CLID                              | Calling Line Identifier: identifica il numero telefonico dell'utente chiamante                                          |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -29,7 +29,7 @@ Glossario
 | DHCP                              | Dynamic Host Configuration Protocol                                                                                     |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | DM                                | | Data Model: Consente l'accesso ai dati TVox, consentendo ad es. la creazione di report e dashboard                    |
-|                                   | | personalizzati oltre alla reportistica già disponibile in                                                             |
+|                                   | | personalizzati oltre alla reportistica già disponibile in |tvox|                                                      |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | DNIS                              | Dialed Number Identification Service: identifica il numero telefonico digitato dall'utente chiamante                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -47,7 +47,7 @@ Glossario
 | In House                          | | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete interna                              |
 |                                   | | all'infrastruttura TVox (rete locale)                                                                                 |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Insight                           | Insight Server: TVox che mette a disposizione le dashboard evolute per il monitoraggio del                              |
+| Insight                           | Insight Server: TVox che mette a disposizione le dashboard evolute per il monitoraggio del |tvox|                       |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | KB                                | | Knowledge Base: Funzionalità TVox che mette a disposizione contenuti consultabili e organizzati                       |
 |                                   | | in categorie e sottocategorie                                                                                         |
