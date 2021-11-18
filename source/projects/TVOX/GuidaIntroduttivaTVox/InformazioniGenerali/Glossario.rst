@@ -14,7 +14,8 @@ Glossario
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | CCBS                              | Completion of Calls to Busy Subscriber: servizio di prenotazione chiamata su occupato                                   |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| CJ                                | Customer Journey: Insieme delle interazioni multicanale del cliente con il |tvox|                                       |
+| CJ                                | | Customer Journey: Insieme delle interazioni multicanale del cliente                                                   |
+|                                   | | con il |tvox|                                                                                                         |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | CLID                              | Calling Line Identifier: identifica il numero telefonico dell'utente chiamante                                          |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
