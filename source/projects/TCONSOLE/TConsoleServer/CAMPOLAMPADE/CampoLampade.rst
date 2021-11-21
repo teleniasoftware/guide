@@ -3,7 +3,7 @@ Il campo lampade (BLF)
 ===============
 
 Il campo lampade consente di controllare lo stato di un insieme di telefoni. 
-Per abilitare la gestione Campo lampade BLF occorre settare il seguente parametro in *tabparam.ini*:
+Per abilitare la gestione campo lampade BLF occorre settare il seguente parametro in *tabparam.ini*:
 
 .. code-block:: ini
     
@@ -16,11 +16,23 @@ Esempio di file devices:
 
 .. code-block:: ini
 
+    ; esempio dispositivo Nortel
     line 17.0.0.4=4404,4414,
+
+    ; esempio dispositivo Cisco
     CISCO LINE: [SEP00112F557BFD] (3024)=3024,
+    
+    ; esempio dispositivo Innovaphone
     int_8002 (.)=8002,
+
+    ; esempio dispositivo SIP
     sip:2200@192.168.0.59=2200,
+
+    ; esempio dispositivo TVOX
     arossi=2213,
+
+    ; esempio dispositivo Avaya CM
+    5015=5015,
 
 .. important:: La sintassi è: device=dn,  
 
@@ -54,18 +66,25 @@ I parametri di fondamentale configurazione nel file *tabparam.ini* sono i seguen
 
 .. code-block:: ini
 
-    [SIPBLFSERVER] 
+    [SIPBLFSERVER]
+    ;	OUTBOUND_PROXY e REGISTRAR: ip del centralino SIP
     OUTBOUND_PROXY=192.168.0.59
     REGISTRAR=192.168.0.59
 
-    ;	USER e PASSWORD per registrarsi (come telefono) al fine di ottenere dalla centrale lo stato delle lampade  (configurare un interno affinchè si possano ricevere le subscription)
+    ;	USER e PASSWORD per registrarsi (come telefono) al fine di ottenere dalla centrale 
+    ;             lo stato delle lampade  (configurare un interno affinchè si possano ricevere le subscription)
     USER=2350
     PASSWORD=2350
 
-    ;	Indirizzo IP della macchina che ospita il servizio TConsoleServer. Verrà associato allo User Agent specificato dai parametri -su e -sp. Se omesso il processo cercherÓ automaticamente l'interfaccia di rete che raggiunge il PBX-SIP, in questo caso verificare l'opzione -int.
+    ;	Indirizzo IP della macchina che ospita il servizio TConsoleServer. Verrà associato
+    ;	allo User Agent specificato dai parametri -su e -sp.
+    ;	Se omesso il processo cercherÓ automaticamente l'interfaccia di rete
+    ;	che raggiunge il PBX-SIP, in questo caso verificare l'opzione -int.
     SIPBLFSERVER_IP=192.168.0.12
 
-    ;	Se omessa l'opzione SIPBLFSERVER_IP il processo cerca automaticamente l'interfaccia di rete che raggiunge il PBX-SIP. Il valore in ms e' il timeout scaduto il quale un'interfaccia di rete viene giudicata non idonea a
+    ;	Se omessa l'opzione SIPBLFSERVER_IP il processo cerca automaticamente l'interfaccia
+    ;	di rete che raggiunge il PBX-SIP. Il valore in ms e' il timeout
+    ;	scaduto il quale un'interfaccia di rete viene giudicata non idonea a
     ;	raggiungere il PBX-SIP
     IP_NETWORKINTERFACE_TIMEOUT=3000
 
@@ -124,7 +143,7 @@ BARRATELSERVER nel file *tabparam.ini*.
     Ip=192.168.0.4
     Port=5450
 
-BLF in ambiente TSAPI AVAYA CM 6.2 
+BLF in ambiente TSAPI AVAYA CM 6.2 e 8
 ===============
 Da TConsole 7.2 è possibile gestire il campo BLF per Avaya CM 6.2 via TSAPI.
 
@@ -142,7 +161,7 @@ Impostare quindi correttamente i parametri della sezione BLF e CSTAPARAMS  nel f
     LINK_USER=Telenia
     LINK_PASSWORD=!Telenia01
 
-I parametri definiti nella zona CSTAPARAMS vengono comunicati dal tecnico di centrale, i quali si riferiscono alla connessione su Avaya AC server AES.
+.. warning:: I parametri definiti nella zona CSTAPARAMS vengono comunicati dal tecnico di centrale, i quali si riferiscono alla connessione su Avaya AC server AES.
 
 
 Di seguito i parametri per alzare il livello di log, presenti in *tabparam.ini*
