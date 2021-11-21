@@ -146,7 +146,7 @@ BARRATELSERVER nel file *tabparam.ini*.
     Ip=192.168.0.4
     Port=5450
 
-BLF in ambiente TSAPI Avaya CM 6.2 e 8
+BLF in ambiente TSAPI Avaya CM 6.2 e Aura 8
 ===============
 Da TConsole 7.2 è possibile gestire il campo BLF per Avaya CM 6.2 via TSAPI.
 
