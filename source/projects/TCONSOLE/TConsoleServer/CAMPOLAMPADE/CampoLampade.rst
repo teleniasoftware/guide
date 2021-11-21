@@ -62,7 +62,7 @@ Il parametro da configurare in *tabparam.ini* è Type=SIP nella sessione [BLF].
 In ambiente SIP il servizio TConsoleServer  si ausiglia dell’applicativo TsipBLFServer.exe.
 
 
-I parametri di fondamentale configurazione nel file *tabparam.ini* sono i seguenti:
+I parametri di configurazione nel file *tabparam.ini* sono i seguenti:
 
 .. code-block:: ini
 
@@ -128,8 +128,10 @@ Type=TVOX nella sessione [BLF].
 
 .. note :: CAMPO LAMPADE CON UN NUMERO DI INTERNI MAGGIORE.
     Per una quantità maggiore di interni da controllare è preferibile utilizzare il servizio TBLFServer in sostituzione del servizio TConsoleServer (in questo caso il TConsoleServer non deve essere in funzione).
-    Per installare il TBlfServer è sufficiente copiare bin e config in c:\Programmi\Telenia\ TBlfServer e lanciare il batch Add_TBlfServer_svc.bat che si trova in bin (per installare il servizio).
-    Il servizio TBLFServer non ha bisogno ne di BDE ne di Runtime. Ha bisogno di tutti i file di ambiente (\setup\...\ambiente\BDS2006) da copiare in \windows\system32 per macchine a 32 bit o   C:\Windows\SysWOW64 per macchine a 64.
+    
+    Per installare il TBlfServer è sufficiente copiare bin e config in c:\\Programmi\\Telenia\\TBlfServer e lanciare il batch Add_TBlfServer_svc.bat che si trova in bin (per installare il servizio).
+    
+    Il servizio TBLFServer non ha bisogno nè di BDE nè di Runtime. Ha bisogno di tutti i file di ambiente (\\setup\...\ambiente\BDS2006) da copiare in \\windows\\system32 per macchine a 32 bit o   C:\\Windows\\SysWOW64 per macchine a 64.
 
 
 BLF in ambiente TAPI Telenia Barratel Server
@@ -163,6 +165,8 @@ Impostare quindi correttamente i parametri della sezione BLF e CSTAPARAMS  nel f
 
 .. warning:: I parametri definiti nella zona CSTAPARAMS vengono comunicati dal tecnico di centrale, i quali si riferiscono alla connessione su Avaya AC server AES.
 
+LOG e DLL
+===============
 
 Di seguito i parametri per alzare il livello di log, presenti in *tabparam.ini*
 
