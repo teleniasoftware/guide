@@ -1,6 +1,6 @@
-===============
+======================
 Il campo lampade (BLF)
-===============
+======================
 
 Il campo lampade consente di controllare lo stato di un insieme di telefoni. 
 Per abilitare la gestione campo lampade BLF occorre settare il seguente parametro in *tabparam.ini*:
