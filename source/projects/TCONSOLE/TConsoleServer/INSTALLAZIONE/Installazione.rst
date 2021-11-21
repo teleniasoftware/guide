@@ -4,9 +4,9 @@ Installazione
 
 L'installazione si effettua eseguendo il setup che provvede ad installare i programmi necessari. 
 
-Il percorso di installazione di default è C:\Programmi\Telenia\TConsoleServer.
+Il percorso di installazione di default è C:\\Programmi\\Telenia\\TConsoleServer.
 
-.. note:: Se si sta installando il TConsoleServer su una macchina in cui è già installato il TSAM o il TConsole, è necessario deselezionare tutti gli applicativi di supporto (BDE, Runtime, ...), lasciando flaggato i soli moduli TconsoleServer (Obbligatorio) e JVM (aggiuntivo).
+.. note:: Se si sta installando il TConsoleServer su una macchina in cui è già installato il TSAM o il TConsole, è necessario deselezionare tutti gli applicativi di supporto (BDE, Runtime, ...), lasciando flaggati i soli moduli TconsoleServer (obbligatorio) e JVM (aggiuntivo).
 
 Dopo l'installazione occorre configurare i parametri presenti nel file *tabparam.ini* all'interno della cartella config.
 
