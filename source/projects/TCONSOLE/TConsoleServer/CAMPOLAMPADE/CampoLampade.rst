@@ -34,6 +34,7 @@ Esempio di file devices:
     ; esempio dispositivo Avaya CM
     5015=5015,
 
+
 .. important:: La sintassi è: device=dn,  
 
 Descrizione degli interni (DN)
@@ -134,7 +135,7 @@ Type=TVOX nella sessione [BLF].
     Il servizio TBLFServer non ha bisogno nè di BDE nè di Runtime. Ha bisogno di tutti i file di ambiente (\\setup\...\ambiente\BDS2006) da copiare in \\windows\\system32 per macchine a 32 bit o   C:\\Windows\\SysWOW64 per macchine a 64.
 
 
-BLF in ambiente TAPI Telenia Barratel Server
+BLF in ambiente Tapi Telenia Barratel Server
 ===============
 Affinchè il campo lampade sia aggiornato è necessario che riceva informazioni (TAPI) dal modulo Telenia BarratelServer. Impostare quindi correttamente i parametri della sezione
 BARRATELSERVER nel file *tabparam.ini*.
@@ -145,7 +146,7 @@ BARRATELSERVER nel file *tabparam.ini*.
     Ip=192.168.0.4
     Port=5450
 
-BLF in ambiente TSAPI AVAYA CM 6.2 e 8
+BLF in ambiente TSAPI Avaya CM 6.2 e 8
 ===============
 Da TConsole 7.2 è possibile gestire il campo BLF per Avaya CM 6.2 via TSAPI.
 
