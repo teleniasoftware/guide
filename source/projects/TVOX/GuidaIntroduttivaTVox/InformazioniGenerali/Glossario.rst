@@ -48,7 +48,8 @@ Glossario
 | In House                          | | Modalità di accesso alle funzionalità TVox (TVox Client o TVox Team App) da rete interna                              |
 |                                   | | all'infrastruttura TVox (rete locale)                                                                                 |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Insight                           | Insight Server: TVox che mette a disposizione le dashboard evolute per il monitoraggio del |tvox|                       |
+| Insight                           | | Insight Server: TVox che mette a disposizione le dashboard evolute per il monitoraggio                                |
+|                                   | | del |tvox|                                                                                                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | KB                                | | Knowledge Base: Funzionalità TVox che mette a disposizione contenuti consultabili e organizzati                       |
 |                                   | | in categorie e sottocategorie                                                                                         |

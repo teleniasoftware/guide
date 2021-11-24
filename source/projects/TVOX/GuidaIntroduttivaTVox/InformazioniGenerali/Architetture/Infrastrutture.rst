@@ -22,7 +22,8 @@ Successivamente, bisogna assicurarsi di disporre di:
 - un dominio sul DNS pubblico che risolve l'IP pubblico fisso sopra citato
 
 Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio*.
-..Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio* e attivando il pulsante "Accedi tramite dominio".
+
+.. Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=>Configurazione di sistema=>Dominio* e attivando il pulsante "Accedi tramite dominio".
 
 .. image:: /images/TVOX/PureCloud/01-domain-configuration_1.png
 .. .. image:: /images/TVOX/PureCloud/01-domain-configuration.png
@@ -62,7 +63,7 @@ Sicurezza provisioning e SIP
 In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
 E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Impostazioni=>Avanzate=>Sicurezza* impostando il parametro "Sicurezza provisioning telefoni" con il valore "Sicuro e RPS".
 
-In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica.
+In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica).
 
 Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
 
