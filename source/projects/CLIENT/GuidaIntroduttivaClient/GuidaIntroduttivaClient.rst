@@ -2,7 +2,7 @@
 Guida Introduttiva a TVox WebClient
 ===================================
 
-|client| è lo strumento per la gestione di tutti i canali di comunicazione, in grado di ottimizzare l’operatività dell’Agente e migliorare l’esperienza dei clienti.
+|client| è lo strumento per la gestione di tutti i canali di comunicazione, in grado di ottimizzare l’operatività dell’utente e migliorare l’esperienza dei clienti.
 
 Si tratta di un client orientato al contatto che, oltre a gestire il canale telefonico, offre un set completo di funzionalità per la comunicazione in ottica Omnichannel.
 
