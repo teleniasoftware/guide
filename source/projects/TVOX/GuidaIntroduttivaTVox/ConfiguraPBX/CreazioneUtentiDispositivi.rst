@@ -12,7 +12,7 @@ Creazione Utenti tramite import
 
 
 
---------------------------------------------------------
+
 
 Provisioning dei dispositivi nel caso di TVox Pure Cloud
 ========================================================
@@ -56,7 +56,7 @@ Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per p
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/02-provisioning-rps.png
 
 
-------------------------------------------------------
+
 
 Creazione Utenti tramite configurazione diretta su occ
 ======================================================
