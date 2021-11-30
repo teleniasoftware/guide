@@ -1,4 +1,4 @@
-.. _creazione_interni&dispositivi:
+
 
 Creazione Utenti e Dispositivi
 ==============================
