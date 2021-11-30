@@ -3,8 +3,6 @@ Creazione Trunk
 ===============
 
 
-------------
-
 Definizione
 ============
 
