@@ -9,8 +9,8 @@ Il **Disaster Recovery Plan** (DRP, in italiano: *Piano di Disaster Recovery*) �
 Requisiti
 =========
 
-- la macchina TVox Master deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che vanno a formare il Cluster TVox
-- la macchina TVox DR deve disporre della licenza Client Disaster Recovery
+- la macchina |tvox_dr_master| deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che compongono il Cluster TVox
+- la macchina |tvox_dr_client| deve disporre della licenza Client Disaster Recovery
 - il TVox DR deve essere raggiunto da tutti i dispositivi SIP/WebRTC (SoftPhone, terminali SIP e ATA Gateway) puntando **al reale indirizzo IP, non deve essere quindi nattato**
 - per un corretto controllo telefonico del TVoxClient sui dispositivi supportati è necessario che tutti i terminali si presentino al TVox DR **con il loro reale indirizzo IP, non devono essere quindi nattati**. **Il TVox deve a sua volta essere in grado di raggiungere gli indirizzi IP reali dei terminali**
 - in caso di sistema ridondato il TVox DR deve avere piena visibilità anche dell’IP di nodo del Cluster TVox
@@ -19,32 +19,29 @@ Requisiti
 Configurazione del sistema TVox Disaster Recovery
 =================================================
 
-TVox DR Master
+|tvox_dr_master|
 --------------
 
-Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox Master impostare l'IP del TVox DR.
+Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox Master impostare l'IP del |tvox_dr_client|.
 
 ..
     .. image:: /images/DR/01_ip_configuration.png
     :scale: 60%
     :align: center
 
-.. image:: /images/DR/01_ip_configuration.png
+.. image:: /images/DR/01_dr_ip_configuration_master.png
 
-TVox DR
--------
+|tvox_dr_client|
+----------------
 
-.. TODO
+Nella sezione *Sistema=>Configurazione di sistema=>Rete=>Disaster Recovery* del |tvox_dr_client| impostare l'IP del |tvox_dr_master| ed, eventualmente, i destinatari email e/o SMS degli allarmi emessi in caso di mancata comunicazione, e di conseguenza mancata sincronizzazione, con il |tvox_dr_master|.
 
 ..
-    Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox DR impostare l'IP del TVox Master.
-
-    ..
-        .. image:: /images/DR/02_ip_configuration.png
-        :scale: 60%
-        :align: center
-
     .. image:: /images/DR/02_ip_configuration.png
+    :scale: 60%
+    :align: center
+
+.. image:: /images/DR/02_dr_ip_configuration_client.png
 
 Azioni necessarie per la messa in produzione del DR
 ===================================================
@@ -54,7 +51,7 @@ Lato Telenia verranno fornite le seguenti informazioni da aggiungere al DRP:
 - accertarsi che la piattaforma TVox della sede principale sia totalmente isolata e spenta
 - attivare manualmente il TVoxDisaster Recovery attraverso l’interfaccia web preposta
 
-.. important :: In base all’architettura specifica di ciascun cliente, quest’ultimo potrebbe avere la necessità di attivare altre procedure, ad es routing chiamate sul trunk di disaster (azione da intraprendere con l’operatore specifico), aggiornamento record DNS per far puntare i client attraverso il nome di dominio al TVox DR e non più al TVox Master o all’IP di nodo del Cluster TVox, etc.
+.. important :: In base all’architettura specifica di ciascun cliente, quest’ultimo potrebbe avere la necessità di attivare altre procedure, ad es routing chiamate sul trunk di disaster (azione da intraprendere con l’operatore specifico), aggiornamento record DNS per far puntare i client attraverso il nome di dominio al |tvox_dr_client| e non più al |tvox_dr_master| o all’IP di nodo del Cluster TVox, etc.
 
 Azioni necessarie per roll back del DR
 ======================================
