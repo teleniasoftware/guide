@@ -23,7 +23,7 @@ E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *I
 
 In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica.
 
-Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
+.. important:: ** BEST PRACTICE** Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
 
 .. warning:: **ATTENZIONE:** La modifica del parametro "Sicurezza e password utente" porta al riavvio del servizio di autenticazione. Per il tempo necessario al riavvio, non sarà possibile eseguire login.
 
@@ -55,3 +55,37 @@ Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per p
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/02-provisioning-rps.png
 
+
+------------------------------------------------------
+
+Creazione Utenti tramite configurazione diretta su occ
+======================================================
+
+Per la configurare le utenze PBX direttamente su OCC andare nella sezione *Gestione=>Utenti*.
+
+In fase di creazione è necessario configurare la parte relativa all'*anagrafica*
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/03-Anagrafica.JPG
+
+Assegnare poi il *Prfilo Principale* selezionando la voce *Utente*
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/04-ProfiloPrincipale.JPG
+
+
+Associare poi i dispositivi telefonici (esempio: APP, Client, WEB, dispositivi fisici)
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/05-Dispositivi.JPG
+
+.. warning:: **ATTENZIONE:** Per l'utenza con Profilo *Utente* è necessario associare almeno un dispositivo fisico.
+    
+Per fare in modo che l'utenza possa eseguire chiamate Outbound esterne al TVOX è necessario configurare opportunamente *Abilitazione* e *Filtro*
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/06-Abilitazioni.JPG
+
+Opzionale: Nel caso l'utente debba far parte di uno o più gruppi di risposta è possibile  associarli nella sezione *Gruppi di Risposta*
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/07-GruppoDiRisposta.JPG
+
+.. warning:: **BEST PRACTICE:** Se l'utenza creata non si autentica tramite LDAP in fase di configurazione della stessa è importante inserire una password complessa che rispetti i criteri di sicurezza riportati nell'immagine seguente.
+
+    .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/08-Criteri-di-Sicurezza.JPG
