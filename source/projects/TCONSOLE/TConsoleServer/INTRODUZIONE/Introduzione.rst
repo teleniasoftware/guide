@@ -3,7 +3,7 @@ Cos'è il TConsoleServer
 =======================
 
 
-É un modulo server che si installa come servizio di Windows. Permette di aggiungere e garantire maggiori funzionalità al client TConsole.
+È un modulo server che si installa come servizio di Windows. Permette di aggiungere e garantire maggiori funzionalità al client TConsole.
 
 Le funzionalità aggiuntive sono:
 

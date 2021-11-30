@@ -51,16 +51,16 @@ E' possibile che il campo lampade associ al numero di interno (DN) la descrizion
 
 BLF  in Ambiente Tapi Cisco / Avaya-IPOffice / Innovaphone 
 ===============
-Il parametro da configurare in *tabparam.ini* è Type=TAPI nella sessione [BLF].
+Il parametro da configurare in *tabparam.ini* è Type=TAPI nella sezione [BLF].
 
-.. note ::  Per Avaya IPOffice occorre acquistare la licenza PBX di” link cti pro”.
+.. note ::  Per Avaya IPOffice occorre acquistare la licenza PBX di ”link cti pro”.
 
 
 BLF  in Ambiente SIP
 ===============
-Il parametro da configurare in *tabparam.ini* è Type=SIP nella sessione [BLF].
+Il parametro da configurare in *tabparam.ini* è Type=SIP nella sezione [BLF].
 
-In ambiente SIP il servizio TConsoleServer  si ausiglia dell’applicativo TsipBLFServer.exe.
+In ambiente SIP il servizio TConsoleServer si ausilia dell’applicativo TsipBLFServer.exe.
 
 
 I parametri di configurazione nel file *tabparam.ini* sono i seguenti:
@@ -113,7 +113,7 @@ In ambiente Telenia TVox il campo lampade può essere gestito come “BLF in amb
 Sempre per un numero limitato di interni il campo lampade può essere configurato anche nel seguente modo: 
 *tabparam.ini*:
 
-Type=TVOX nella sessione [BLF].
+Type=TVOX nella sezione [BLF].
 
 .. code-block:: ini
 
@@ -150,7 +150,7 @@ BLF in ambiente TSAPI Avaya CM 6.2 e Aura 8
 ===============
 Da TConsole 7.2 è possibile gestire il campo BLF per Avaya CM 6.2 via TSAPI.
 
-Per ottenere il funzionamento del BLF, sulla stessa macchina il a macchina su cui risiede il TConsoleServer da rel 3.1 deve essere  installato il tsapi-client-win32-6_2-257 ( a cura del tecnico di centrale).
+Per ottenere il funzionamento del BLF, sulla stessa macchina su cui risiede il TConsoleServer da rel 3.1 deve essere installato il tsapi-client-win32-6_2-257 ( a cura del tecnico di centrale).
 
 Impostare quindi correttamente i parametri della sezione BLF e CSTAPARAMS  nel file *tabparam.ini*.
 
