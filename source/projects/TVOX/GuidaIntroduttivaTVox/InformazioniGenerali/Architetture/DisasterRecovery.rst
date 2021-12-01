@@ -36,12 +36,12 @@ Requisiti
 
 - la macchina |tvox_dr_master| deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che compongono il Cluster TVox
 - la macchina |tvox_dr_client| deve disporre della licenza Client Disaster Recovery
-.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 27017
-.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 5460, 5461, 27017
 - il TVox DR deve essere raggiunto da tutti i dispositivi SIP/WebRTC (SoftPhone, terminali SIP e ATA Gateway) puntando **al reale indirizzo IP, non deve essere quindi nattato**
 - per un corretto controllo telefonico del TVoxClient sui dispositivi supportati è necessario che tutti i terminali si presentino al TVox DR **con il loro reale indirizzo IP, non devono essere quindi nattati**. **Il TVox deve a sua volta essere in grado di raggiungere gli indirizzi IP reali dei terminali**
 - in caso di sistema ridondato il TVox DR deve avere piena visibilità anche dell’IP di nodo del Cluster TVox
 - nella configurazione di Disaster Recovery, è necessaria la presenza di un trunk direttamente attestato sul TVox DR
+.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 27017
+.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 5460, 5461, 27017
 
 Configurazione del sistema TVox Disaster Recovery
 =================================================
