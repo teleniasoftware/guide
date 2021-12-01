@@ -12,9 +12,11 @@ Creazione Utenti e Dispositivi
 
 Creazione Utenti tramite import
 ===============================
+Per effettuare la creazione utenti tramite import, bisogna accedere alla sezione OCC *Impostazioni=>Avanzate=>Import utenti da file*. 
 
+In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. Per effettuare una corretta importazione è necessario scaricare il file di template presente e popolarlo opportunamente rispetto agli utenti che si vogliono importare. All'interno del template si troveranno anche i codici da utilizzare per poter selezionare i campi multipli di un utente.
 
-
+.. important:: ** BEST PRACTICE** Una volta scaricato il file di template, non bisogna effettuare modifiche su altri componenti del TVox fino all'import del file, in quanto potrebbero cambiare i codici che identificano delle particolari configurazioni.
 
 
 
