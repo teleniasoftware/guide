@@ -6,11 +6,38 @@ Con il termine **Disaster Recovery** (brevemente DR, in italiano: *Recupero dal 
 
 Il **Disaster Recovery Plan** (DRP, in italiano: *Piano di Disaster Recovery*) è il documento che esplicita tali misure. Esso fa parte del più ampio **Business Continuity Plan** (BCP).
 
+Architettura
+============
+
+Un sistema TVox Disaster Recovery consiste nell'affiancare alla macchina TVox principale (|tvox_dr_master|) una seconda macchina TVox (|tvox_dr_client|). La sincronizzazione tra le due macchine garantisce che i dati presenti nel |tvox_dr_master| vengano replicati in tempo reale sul |tvox_dr_client|.
+
+In caso di indisponibilità del |tvox_dr_master| sarà possibile attivare la macchina |tvox_dr_client| in modo da garantire la continuità di servizio per il tempo necessario al ripristino della macchina |tvox_dr_master|.
+
+.. warning :: A differenza dell'architettura di Fault Tolerance (vedi :ref:`CM&R`), all'indisponibilità del |tvox_dr_master| NON corrisponde l'automatica attivazione della macchina |tvox_dr_client|, ma quest'ultima andrà attivata e disattivata **manualmente** agendo sulla sua interfaccia OCC.
+
 Requisiti
 =========
 
-- la macchina |tvox_dr_master| deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che compongono il Cluster |tvox_dr_master|
+- tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte:
+  
+  +-----------+----------------+-----------------+
+  | **Porta** | **Protocollo** | **Note**        |
+  +-----------+----------------+-----------------+
+  | 22        | TCP            | SSH             |
+  +-----------+----------------+-----------------+
+  | 873       | TCP            | FileSystem Sync |
+  +-----------+----------------+-----------------+
+  | 3306      | TCP            | MySQL           |
+  +-----------+----------------+-----------------+
+  | 27017     | TCP            | MongoDB         |
+  +-----------+----------------+-----------------+
+
+.. TODO 5460? 5461?
+
+- la macchina |tvox_dr_master| deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che compongono il Cluster TVox
 - la macchina |tvox_dr_client| deve disporre della licenza Client Disaster Recovery
+.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 27017
+.. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 5460, 5461, 27017
 - il TVox DR deve essere raggiunto da tutti i dispositivi SIP/WebRTC (SoftPhone, terminali SIP e ATA Gateway) puntando **al reale indirizzo IP, non deve essere quindi nattato**
 - per un corretto controllo telefonico del TVoxClient sui dispositivi supportati è necessario che tutti i terminali si presentino al TVox DR **con il loro reale indirizzo IP, non devono essere quindi nattati**. **Il TVox deve a sua volta essere in grado di raggiungere gli indirizzi IP reali dei terminali**
 - in caso di sistema ridondato il TVox DR deve avere piena visibilità anche dell’IP di nodo del Cluster TVox
@@ -20,7 +47,7 @@ Configurazione del sistema TVox Disaster Recovery
 =================================================
 
 |tvox_dr_master|
---------------
+----------------
 
 Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox Master impostare l'IP del |tvox_dr_client|.
 
@@ -50,7 +77,7 @@ Azioni necessarie per la messa in produzione del |tvox_dr_client|
 
 .. Lato Telenia verranno fornite le seguenti informazioni da aggiungere al DRP:
 
-- accertarsi che la piattaforma |tvox_dr_master| della sede principale sia totalmente isolata e spenta (in caso di sistema ridondato questo deve valere per entrambe le macchine che compongono il Cluster |tvox_dr_master|)
+- accertarsi che la piattaforma |tvox_dr_master| della sede principale sia totalmente isolata e spenta (in caso di sistema ridondato questo deve valere per entrambe le macchine che compongono il Cluster TVox)
 - attivare **manualmente** il |tvox_dr_client| cliccando sul relativo pulsante sull'OCC
 
 .. TODO aggiungere foto pulsante di attivazione DR
@@ -62,5 +89,5 @@ Azioni necessarie per roll back del |tvox_dr_client| e la riattivazione del |tvo
 
 .. - fermare l’erogazione del servizio di Disaster Recovery
 - disattivare il |tvox_dr_client| cliccando sul relativo pulsante sull'OCC
-- riattivare il TVox della sede principale
+- riattivare il |tvox_dr_master| della sede principale
 - adoperarsi per la messa a normale attività dei servizi specifici in base all’architettura del cliente
