@@ -13,7 +13,7 @@ Un sistema TVox Disaster Recovery consiste nell'affiancare alla macchina TVox pr
 
 In caso di indisponibilità del |tvox_dr_master| sarà possibile attivare la macchina |tvox_dr_client| in modo da garantire la continuità di servizio per il tempo necessario al ripristino della macchina |tvox_dr_master|.
 
-.. warning :: A differenza dell'architettura di Fault Tolerance (vedi :ref:`CM&R`), all'indisponibilità del |tvox_dr_master| NON corrisponde l'automatica attivazione della macchina |tvox_dr_client|, ma quest'ultima andrà attivata e disattivata **manualmente** agendo sulla sua interfaccia OCC.
+.. Note :: A differenza dell'architettura di Fault Tolerance (vedi :ref:`CM&R`), all'indisponibilità del |tvox_dr_master| NON corrisponde l'automatica attivazione della macchina |tvox_dr_client|, ma quest'ultima va attivata e disattivata **manualmente** agendo sulla sua interfaccia OCC.
 
 Requisiti
 =========
@@ -36,10 +36,10 @@ Requisiti
 
 - la macchina |tvox_dr_master| deve disporre della licenza Disaster Recovery. In caso di sistema ridondato questa licenza deve essere presente su entrambe le macchine che compongono il Cluster TVox
 - la macchina |tvox_dr_client| deve disporre della licenza Client Disaster Recovery
-- il TVox DR deve essere raggiunto da tutti i dispositivi SIP/WebRTC (SoftPhone, terminali SIP e ATA Gateway) puntando **al reale indirizzo IP, non deve essere quindi nattato**
-- per un corretto controllo telefonico del TVoxClient sui dispositivi supportati è necessario che tutti i terminali si presentino al TVox DR **con il loro reale indirizzo IP, non devono essere quindi nattati**. **Il TVox deve a sua volta essere in grado di raggiungere gli indirizzi IP reali dei terminali**
-- in caso di sistema ridondato il TVox DR deve avere piena visibilità anche dell’IP di nodo del Cluster TVox
-- nella configurazione di Disaster Recovery, è necessaria la presenza di un trunk direttamente attestato sul TVox DR
+- il |tvox_dr_client| deve essere raggiunto da tutti i dispositivi SIP/WebRTC (SoftPhone, terminali SIP e ATA Gateway) puntando **al reale indirizzo IP, non deve essere quindi nattato**
+- per un corretto controllo telefonico del TVoxClient sui dispositivi supportati è necessario che tutti i terminali si presentino al |tvox_dr_client| **con il loro reale indirizzo IP, non devono essere quindi nattati**. **Il TVox deve a sua volta essere in grado di raggiungere gli indirizzi IP reali dei terminali**
+- in caso di sistema ridondato il |tvox_dr_client| deve avere piena visibilità anche dell’IP di nodo del Cluster TVox
+- nella configurazione di Disaster Recovery, è necessaria la presenza di un trunk direttamente attestato sul |tvox_dr_client|
 .. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 27017
 .. - tra le macchine |tvox_dr_master| e |tvox_dr_client| dev'essere garantita l'apertura delle seguenti porte TCP: 22, 873, 3306, 5460, 5461, 27017
 
@@ -51,11 +51,6 @@ Configurazione del sistema TVox Disaster Recovery
 
 Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox Master impostare l'IP del |tvox_dr_client|.
 
-..
-    .. image:: /images/DR/01_ip_configuration.png
-    :scale: 60%
-    :align: center
-
 .. image:: /images/DR/01_dr_ip_configuration_master.png
 
 |tvox_dr_client|
@@ -63,12 +58,17 @@ Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox M
 
 Nella sezione *Sistema=>Configurazione di sistema=>Rete=>Disaster Recovery* del |tvox_dr_client| impostare l'IP del |tvox_dr_master| ed, eventualmente, i destinatari email e/o SMS degli allarmi emessi in caso di mancata comunicazione, e di conseguenza mancata sincronizzazione, con il |tvox_dr_master|.
 
-..
-    .. image:: /images/DR/02_ip_configuration.png
-    :scale: 60%
-    :align: center
-
 .. image:: /images/DR/02_dr_ip_configuration_client.png
+
+Una volta configurati i riferimenti IP tra le due macchine, nella sezione *Sistema=>Configurazione di sistema=>Replicazione* del |tvox_dr_client| avviare la sincronizzazione.
+
+.. TODO 03_dr_ip_configuration_client.png
+.. .. image:: /images/DR/03_dr_ip_configuration_client.png
+
+Il corretto completamento della sincronizzazione è espresso dai relativi indicatori, che diventeranno tutti di colore verde.
+
+.. TODO 04_dr_ip_configuration_client.png
+.. .. image:: /images/DR/04_dr_ip_configuration_client.png
 
 Azioni necessarie per la messa in produzione del |tvox_dr_client|
 =================================================================
