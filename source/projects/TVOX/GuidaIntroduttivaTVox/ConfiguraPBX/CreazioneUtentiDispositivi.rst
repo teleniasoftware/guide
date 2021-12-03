@@ -69,31 +69,58 @@ Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per p
 Creazione Utenti tramite configurazione diretta su occ
 ======================================================
 
-Per la configurare le utenze PBX direttamente su OCC andare nella sezione *Gestione=>Utenti*.
+Tramite OCC è possibile configurare direttamente una utenza PBX andando a specificare le seguenti informazioni: username,
+password, interni da associare, email, cellulare, abilitazioni all'utilizzo del client, redirezione su numeri esterni, deviazione di chiamata, gruppi di risposta / skill, Classe di servizio
+(es: Abilitazione, Filtro, Registrazione conversazioni) gruppi di Pick-up, abilitazioni di Voicemail, Conferenza e definizione di caselle FAX ove disponibili.
 
-In fase di creazione è necessario configurare la parte relativa all'*anagrafica*
+**Da OCC andare nella sezione "Gestione=>Utenti".**
+
+In fase di creazione è necessario configurare la parte relativa all'*anagrafica*, dove oltre alle credenziali di accesso (username e password), 
+è possibile andare a definire email, numero di cellulare e sito utente.
+
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/03-Anagrafica.JPG
 
-Assegnare poi il *Prfilo Principale* selezionando la voce *Utente*
+.. note:: Nel caso si abbia la necessità di aggiungere ulteriori campi identificativi dell'utenza (esempio: Azienda, Settore, Competenza), è possibile aggiungere fino a 10 ulteriori campi custom. Per configurare tali campi andare da OCC nella sezione *Gestione=>Rubriche=>Campi rubrica interna*.
+
+
+
+**Assegnare poi il "Profilo Principale" selezionando la voce "Utente"**
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/04-ProfiloPrincipale.JPG
 
 
-Associare poi i dispositivi telefonici (esempio: APP, Client, WEB, dispositivi fisici)
+**A seguire dovranno essere associati i dispositivi telefonici (esempio: APP, Client, WEB, dispositivi fisici)**
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/05-Dispositivi.JPG
 
 .. warning:: **ATTENZIONE:** Per l'utenza con Profilo *Utente* è necessario associare almeno un dispositivo fisico.
     
+
 Per fare in modo che l'utenza possa eseguire chiamate Outbound esterne al TVOX è necessario configurare opportunamente *Abilitazione* e *Filtro*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/06-Abilitazioni.JPG
 
-Opzionale: Nel caso l'utente debba far parte di uno o più gruppi di risposta è possibile  associarli nella sezione *Gruppi di Risposta*
+Opzionale: Nel caso l'utente debba far parte di uno o più gruppi di risposta è possibile associarli nella sezione *Gruppi di Risposta*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/07-GruppoDiRisposta.JPG
 
-.. warning:: **BEST PRACTICE:** Se l'utenza creata non si autentica tramite LDAP in fase di configurazione della stessa è importante inserire una password complessa che rispetti i criteri di sicurezza riportati nell'immagine seguente.
+.. important:: **BEST PRACTICE:** Se l'utenza creata non si autentica tramite LDAP in fase di configurazione della stessa è importante inserire una password complessa che rispetti i criteri di sicurezza riportati nell'immagine seguente.
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/08-Criteri-di-Sicurezza.JPG
+
+
+Per configurare la **casella vocale** dell'utente andare nella sezione *PBX* 
+
+    .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/CasellaVocale.JPG
+
+Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PBX* 
+
+    .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/Conferenza.JPG
+
+.. note:: Pin accesso telefonico
+    Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
+    Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
+    - Blocca / Sblocca il telefono 
+    - Chiamate in uscita nel contesto di Authorization code (fare riferimento a Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio) 
+    - Intrusione valida solo per i supervisori opportunamente configurati (fare riferimento al menu Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio). Nota: per effettuare lo sblocco del telefono o per iniziare una chiamata abilitata dall'Authorization code viene richiesta la digitazione del PIN a cui far seguire il tasto '#'.
