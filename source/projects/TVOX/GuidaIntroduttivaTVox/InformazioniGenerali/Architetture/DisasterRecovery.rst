@@ -13,7 +13,7 @@ Un sistema TVox Disaster Recovery consiste nell'affiancare alla macchina TVox pr
 
 In caso di indisponibilità del |tvox_dr_master| sarà possibile attivare la macchina |tvox_dr_client| in modo da garantire la continuità di servizio per il tempo necessario al ripristino della macchina |tvox_dr_master|.
 
-.. Note :: A differenza dell'architettura di Fault Tolerance (vedi :ref:`CM&R`), all'indisponibilità del |tvox_dr_master| NON corrisponde l'automatica attivazione della macchina |tvox_dr_client|, ma quest'ultima va attivata e disattivata **manualmente** agendo sulla sua interfaccia OCC.
+.. Warning :: A differenza dell'architettura di Fault Tolerance (vedi :ref:`CM&R`), all'indisponibilità del |tvox_dr_master| NON corrisponde l'automatica attivazione della macchina |tvox_dr_client|, ma quest'ultima va attivata e disattivata **manualmente** agendo sulla sua interfaccia OCC.
 
 Requisiti
 =========
@@ -56,16 +56,16 @@ Nella sezione *Sistema=>Configurazione di sistema=>Disaster Recovery* del TVox M
 |tvox_dr_client|
 ----------------
 
-Nella sezione *Sistema=>Configurazione di sistema=>Rete=>Disaster Recovery* del |tvox_dr_client| impostare l'IP del |tvox_dr_master| ed, eventualmente, i destinatari email e/o SMS degli allarmi emessi in caso di mancata comunicazione, e di conseguenza mancata sincronizzazione, con il |tvox_dr_master|.
+Nella sezione *Sistema=>Configurazione di sistema=>Rete=>Disaster Recovery* del |tvox_dr_client| impostare l'IP del |tvox_dr_master|. È possibile configurare anche i destinatari email e/o SMS degli allarmi emessi dal |tvox_dr_client| in condizioni di mancanza di visibilità con il |tvox_dr_master| (vedi Nota [1]_).
 
 .. image:: /images/DR/02_dr_ip_configuration_client.png
 
-Una volta configurati i riferimenti IP tra le due macchine, nella sezione *Sistema=>Configurazione di sistema=>Replicazione* del |tvox_dr_client| avviare la sincronizzazione.
+Una volta configurati i riferimenti IP tra le due macchine, nella sezione *Sistema=>Configurazione di sistema=>Replicazione* del |tvox_dr_client| avviare la sincronizzazione completa selezionando nel menu a tendina la voce *Tutto*.
 
 .. TODO 03_dr_ip_configuration_client.png
 .. .. image:: /images/DR/03_dr_ip_configuration_client.png
 
-Il corretto completamento della sincronizzazione è espresso dai relativi indicatori, che diventeranno tutti di colore verde.
+Il corretto completamento della sincronizzazione è espresso dai relativi indicatori, che al termine dell'operazione diventeranno tutti di colore verde.
 
 .. TODO 04_dr_ip_configuration_client.png
 .. .. image:: /images/DR/04_dr_ip_configuration_client.png
@@ -82,6 +82,9 @@ Azioni necessarie per la messa in produzione del |tvox_dr_client|
 
 .. TODO aggiungere foto pulsante di attivazione DR
 
+.. TODO 05_dr_activation_client.png
+.. .. image:: /images/DR/05_dr_activation_client.png
+
 .. important :: In base all’architettura specifica di ciascun cliente, quest’ultimo potrebbe avere la necessità di attivare altre procedure, ad es routing chiamate sul trunk di disaster (azione da intraprendere con l’operatore specifico), aggiornamento record DNS per far puntare i client attraverso il nome di dominio al |tvox_dr_client| e non più al |tvox_dr_master| o all’IP di nodo del Cluster TVox, etc.
 
 Azioni necessarie per roll back del |tvox_dr_client| e la riattivazione del |tvox_dr_master|
@@ -91,3 +94,7 @@ Azioni necessarie per roll back del |tvox_dr_client| e la riattivazione del |tvo
 - disattivare il |tvox_dr_client| cliccando sul relativo pulsante sull'OCC
 - riattivare il |tvox_dr_master| della sede principale
 - adoperarsi per la messa a normale attività dei servizi specifici in base all’architettura del cliente
+
+.. rubric:: Note
+
+.. [1] in queste condizioni gli allarmi emessi dal |tvox_dr_client|, non essendo disponibili lato |tvox_dr_master|, verranno inviati ai destinatari definiti in questa sezione.
