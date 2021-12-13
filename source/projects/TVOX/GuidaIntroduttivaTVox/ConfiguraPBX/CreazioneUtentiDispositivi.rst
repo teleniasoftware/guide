@@ -66,7 +66,7 @@ Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per p
 
 
 
-Creazione Utenti tramite configurazione diretta su occ
+Creazione Utenti tramite configurazione diretta su OCC
 ======================================================
 
 Tramite OCC è possibile configurare direttamente una utenza PBX andando a specificare le seguenti informazioni: username,
@@ -94,14 +94,14 @@ In fase di creazione è necessario configurare la parte relativa all'*anagrafica
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/05-Dispositivi.JPG
 
-.. warning:: **ATTENZIONE:** Per l'utenza con Profilo *Utente* è necessario associare almeno un dispositivo fisico.
+.. warning:: **ATTENZIONE:** Per l'utenza con Profilo *Utente* è necessario associare almeno un dispositivo SIP.
     
 
 Per fare in modo che l'utenza possa eseguire chiamate Outbound esterne al TVOX è necessario configurare opportunamente *Abilitazione* e *Filtro*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/06-Abilitazioni.JPG
 
-Opzionale: Nel caso l'utente debba far parte di uno o più gruppi di risposta è possibile associarli nella sezione *Gruppi di Risposta*
+**Opzionale**: Nel caso l'utente debba far parte di uno o più gruppi di risposta è possibile associarli nella sezione *Gruppi di Risposta*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/07-GruppoDiRisposta.JPG
 
@@ -118,9 +118,14 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/Conferenza.JPG
 
-.. note:: Pin accesso telefonico
-    Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
-    Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
-    - Blocca / Sblocca il telefono 
-    - Chiamate in uscita nel contesto di Authorization code (fare riferimento a Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio) 
-    - Intrusione valida solo per i supervisori opportunamente configurati (fare riferimento al menu Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio). Nota: per effettuare lo sblocco del telefono o per iniziare una chiamata abilitata dall'Authorization code viene richiesta la digitazione del PIN a cui far seguire il tasto '#'.
+.. note:: Impostazioni Telefono
+        .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/ImpostazioniTelefono.JPG
+        *Pin per accesso telefonico*: Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
+        Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
+        - Blocca / Sblocca il telefono 
+        - Chiamate in uscita nel contesto di Authorization code (fare riferimento a Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio) 
+        - Intrusione valida solo per i supervisori opportunamente configurati (fare riferimento al menu Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio). 
+        
+E' anche possibile configurare eventuali **Passante, Gruppi di pickup e Liste di numeri Brevi** 
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/UtentePBX.JPG
