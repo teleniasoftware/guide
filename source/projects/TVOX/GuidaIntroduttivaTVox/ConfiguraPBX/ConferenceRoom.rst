@@ -48,7 +48,7 @@ Parametro Generale:
 Parametri Specifici della Stanza Conferenza:
   "Nome": descrizione identificativa della conferenza
 
-  "Numero associato": numero interno da associare alla conferenza; questo numero deve far parte delle numereazioni definite dal parametro "Numerazione Conferenze"
+  "Numero associato": numero interno da associare alla conferenza; questo numero deve far parte delle numerazioni definite dal parametro "Numerazione Conferenze"
 
 I rimanenti parametri di configurazione Stanza di Conferenza sono da definire qual'ora siano di interesse e si suggerisce la lettura dell'HelpOnLine su ogni singolo parametro.
 
