@@ -15,6 +15,7 @@ In tale sezione si dovranno definire:
 - **Server** (Nome o indirizzo IP del server SMTP richiesto dalla piattaforma per inviare e-mail)
 
 - **Indirizzo E-mail** (L'indirizzo e-mail dovrebbe corrispondere all'indirizzo e-mail/alias dell'account, per il quale sono forniti i dettagli di autenticazione)
+
 .. warning:: L'indirizzo e-mail deve corrispondere ad una definita casella di posta su SMTP che memorizza ogni e-mail inviata dalla piattaforma e quelle non inviate con successo a causa di errori (i.e. destinatario non corretto). Questa casella di posta deve essere gestita dall'amministratore della piattaforma per correggere tutti gli errori riportati.
 
 - **Porta** (Porta SMTP in ascolto sul server)
