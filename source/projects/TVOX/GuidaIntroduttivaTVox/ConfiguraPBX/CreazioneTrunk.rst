@@ -10,7 +10,7 @@ Il SIP Trunking è una connessione telefonica esterna in arrivo da un ITSP , ovv
  
 Il SIP trunking si basa su linee voce che transitano sulla connessione IP e/o internet. 
  
-Utilizza il protocollo standard SIP (session Initiation Protocol).
+Utilizza il protocollo standard SIP (Session Initiation Protocol).
 
 
 
@@ -20,8 +20,8 @@ Utilizza il protocollo standard SIP (session Initiation Protocol).
 Configurazione
 ===============
 
-Per configurare un **Trunk VOIP** è necessario andare da occ nella sezione 
-CANALI - Telefono - Trunk
+Per configurare un **Trunk VOIP** è necessario andare da OCC nella sezione 
+Canali => Telefono => Trunk
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneTrunk/01_TRUNK_VOIP.JPG
 
@@ -45,7 +45,7 @@ Nella configurazione dove **TVOX si registra su Trunk**
 è necessario impostare la stringa di registrazione così come riportato nella figura precedente .
 Tale configurazione normalmente viene utilizzata per trunk Voip su internet 
 
-.. important:: **BEST PRACTICE:** Quando la comunicazione trunk avviene su ip pubblici nelle impostazioni avanzate del trunk è importante non avere il flag nella voce "peer to peer"
+.. important:: **BEST PRACTICE:** Quando la comunicazione avviene tramite ip pubblici, nelle impostazioni avanzate del trunk è importante togliere il flag dalla voce "peer to peer"
      
      .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneTrunk/02_TRUNK_VOIP.JPG
 
