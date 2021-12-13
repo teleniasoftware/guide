@@ -36,7 +36,7 @@ Configurazione Conferenza pubblica
 
 Una nuova Stanza di Conferenza Pubblica è configurabile da:
 
- OCC->Canali->Telefono->Conferenze
+ OCC=>Canali=>Telefono=>Conferenze
 
 
 E' obbligatorio definire i seguenti campi:
@@ -52,7 +52,7 @@ Parametri Specifici della Stanza Conferenza:
 
 I rimanenti parametri di configurazione Stanza di Conferenza sono da definire qual'ora siano di interesse e si suggerisce la lettura dell'HelpOnLine su ogni singolo parametro.
 
-E' fortemente consigliato l'utilizzo dei parametri PIN sia Utente che Amministratore per ovvie ragioni di Sicurezza
+.. important:: **BEST PRACTICE:** E' fortemente consigliato l'utilizzo dei parametri PIN sia Utente che Amministratore per ovvie ragioni di Sicurezza
 
 E' possibile associare al numero di conferenza pubblica una regola di ingresso al fine di permettere l'accesso alla conferenza anche chiamando dall'esterno.  
 
@@ -61,7 +61,7 @@ Configurazione Conferenza privata
 
 Una nuova Stanza di Conferenza Privata è configurabile da: 
 
- OCC->Utenti, in Edit di un Utente, nella sezione "PBX"
+ OCC=>Utenti, in Edit di un Utente, nella sezione "PBX"
 
 E' obbligatorio definire i seguenti campi:
 
