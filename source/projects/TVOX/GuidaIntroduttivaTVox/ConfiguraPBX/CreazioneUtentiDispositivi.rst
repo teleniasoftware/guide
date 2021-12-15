@@ -17,7 +17,7 @@ Per effettuare la creazione utenti tramite import, bisogna accedere alla sezione
 
 In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. Per effettuare una corretta importazione è necessario scaricare il file di template presente e popolarlo opportunamente rispetto agli utenti che si vogliono importare. All'interno del template si troveranno anche i codici da utilizzare per poter selezionare i campi multipli di un utente.
 
-.. important:: ** BEST PRACTICE** Una volta scaricato il file di template, non bisogna effettuare modifiche su altri componenti del TVox fino all'import del file, in quanto potrebbero cambiare i codici che identificano delle particolari configurazioni.
+.. important:: **BEST PRACTICE:** Una volta scaricato il file di template, non bisogna effettuare modifiche su altri componenti del TVox fino all'import del file, in quanto potrebbero cambiare i codici che identificano delle particolari configurazioni.
 
 .. warning:: **ATTENZIONE:** il file deve sempre essere scaricato dall'OCC nello stesso momento in cui si intende andare a popolarlo. Questo perchè il template includerà sempre una componente dinamica i codici e le eventuali abilitazioni che sono già presenti sul sistema, come i filtri, le abilitazioni e i dispositivi inseriti.
 
