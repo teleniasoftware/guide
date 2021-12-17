@@ -3,9 +3,9 @@ Dialplan
 ========
 
 In questa sezione verranno illustrate le configurazioni inerenti al *Dialplan* per poter definire gli instradamenti VOIP in uscita ed in ingresso al TVox.
-Si andranno a definire:
+Si andranno ad illustrare:
 
-- **Regiole di uscita**
+- **Regole di uscita**
 - **Abilitazioni**
 - **Filtri uscenti**
 - **Regole d'ingresso**
@@ -16,6 +16,19 @@ Regole di uscita
 
 Le regole di uscita definiscono le logiche di instradamento delle chiamate uscenti.
 In altre parole la regola di uscita associa ad una predefinita numerazione l'impegno di uno o più trunk OUTBOUND. 
+
+In fase di inserimento di una nuova numerazione di uscita i cursori associati alla text-edit consentono la definizione dei seguenti valori:
+
+- **Regola di composizione** : indica la numerazione componibile per la regola d'uscita.
+- **Codice d'accesso** : è la porzione opzionale della numerazione componibile che identifica il codice di accesso da anteporre per contattare i destinatari esterni al TVox.
+- **Digits to Trunk** : è la porzione della numerazione componibile che viene inoltrata al trunk associato.
+- **Numerazione remota**: è la porzione opzionale della numerazione componibile che si identifica come numerazione remota. La numerazione remota identifica le numerazioni che appartengono ad altri PBX interconnessi al TVox.
+
+Nella sezione **Trunk** si andranno a configurare i trunk e la modalità di impegno. Si potranno definire:
+
+- **Prefisso Di Chiamata** - Prefisso da aggiungere in testa al numero chiamato nell'eventualità di inviare una preselezione al carrier.
+- **Ricerca Su Clid** - Definisce il formato delle numerazioni interne per le quali si intende manipolare il CLID.
+- **Sostituzione Del Clid** - CLID presentato dalle chiamate in uscita identificate dal parametro Ricerca su clid..
 
 
 Abilitazioni
@@ -29,7 +42,8 @@ Le Abilitazioni sono dei raggruppamenti di regole di uscita organizzati in modo 
 Filtri uscenti
 ==============
 
-Il filtro uscente può essere associato solo ad utenti o ad agenti di Contact center e permette di definire un insieme di regole in modalità *Ammetti / Vieta * per configurare diversamente alcune numerazioni da quanto previsto dalle Abilitazioni.
+Il filtro uscente può essere associato solo ad utenti o ad agenti di Contact center e permette di definire un insieme di regole in modalità *Ammetti/Vieta* per configurare diversamente alcune numerazioni da quanto previsto dalle Abilitazioni.
+
 
 Regole di ingresso
 ==================
