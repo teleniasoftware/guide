@@ -118,14 +118,42 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/Conferenza.JPG
 
-.. note:: Impostazioni Telefono
+.. note:: Sezione PBX
+
+        Nella sezione PBX di ogni singola utenza si possono definire:
+
+        - PIN per accesso telefonico
+        - Lista di accesso
+        - Abilitazione per Authorization code
+        - Redirezione su numeri esterni
+
+
         .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/ImpostazioniTelefono.JPG
-        *Pin per accesso telefonico*: Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
+        
+        *Pin per accesso telefonico*:  Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
         Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
+   
         - Blocca / Sblocca il telefono 
+   
         - Chiamate in uscita nel contesto di Authorization code (fare riferimento a Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio) 
+   
         - Intrusione valida solo per i supervisori opportunamente configurati (fare riferimento al menu Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio). 
         
+        *Lista di accesso*: L'utente può essere dotato di una lista di accesso di tipo BLACK List o WHITE List tra quelle già definite. Le liste di accesso sono quelle definite dal menù Telefono ⇒ Liste di accesso
+
+        *Abilitazione per 'Authorization Code'*: Abilitazione telefonica per le chiamate uscenti effettuate in contesto Authorization Code. Per accedere alla prestazione è necessario sia definito il PIN nella sezione PBX che deve essere fornito al TVox Communication in fase di accesso alla funzionalità.
+
+        *Redirezione su numeri esterni* :Abilita/Disabilita la possibilità per l'utente di redirigere chiamate (call-forward) verso numeri esterni al TVox Communication sia via telefono sia via element manager. 
+        
+        
+        
+.. warning:: **ATTENZIONE:**  La prestazione *Redirezione su numeri esterni* non va confusa con la possibilità di contattare e quindi trasferire chiamate verso numerazioni esterne che è invece resa possibile dall'abilitazione telefonica (più eventuale filtro) che l'amministratore ha assegnato all'utente.
+
+.. warning:: **ATTENZIONE:** In fase di deviazione è possibile presentare il clid del chiamante nella deviazione proveniente dallo stesso sito utente. Permette di presentare il CLID del chiamante se la deviazione della chiamata a numeri esterni per chiamate interne proviene dallo stesso sito. 
+        **ES**: Se utente A chiama utente B che sono all'interno dello stesso sito, la chiamata verrà presentata con il CLID del chiamante, se invece utente A e utente B fossero su due siti diversi, la chiamata si presenterebbe con il CLID del deviante
+
+
+
 E' anche possibile configurare eventuali **Passante, Gruppi di pickup e Liste di numeri Brevi** 
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/UtentePBX.JPG
