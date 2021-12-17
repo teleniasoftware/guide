@@ -27,6 +27,32 @@ In tale sezione si dovranno definire:
 - **Username e password** (nel caso sia abilitata l'autenticazione)
 
 
+Configurazione Allarmi
+======================
+
+E' possibile profilare utenti destinati alla visualizzazione dello stato della piattaforma di sistema e degli avvisi di allarme generati dal TVox.
+
+La gestione degli allarmi avviene puntando alla sezione TSAM (https://ip_TVOX/tsam).
+
+In tale sezione è possibile:
+
+- avere il monitor degli allarmi generati
+  
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Monitor_Allarmi.JPG
+
+- configurare gli allarmi generati (in termini di priorità, descrizione, associazione a famiglie, etc.)
+  
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Configurazione_Allarmi.JPG
+
+- configurare destinatari allarmi
+  
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Destinatari.JPG
+
+- configurare liste allarmi
+  
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Liste_Allarmi.JPG
+
+
 
 
 
