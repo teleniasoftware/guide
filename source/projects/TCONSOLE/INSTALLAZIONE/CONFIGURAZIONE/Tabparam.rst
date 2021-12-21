@@ -20,6 +20,10 @@ Il file *tabparam* (si tratta di un file di testo senza estensione) contiene ult
 
     [...]
 
+    *              TCONSOLE_SERVER      127.0.0.1
+
+    [...]
+
     *              TQM_TYPE             -
 
 ABILITA_POPUP
@@ -51,6 +55,13 @@ Definisce il codice di impegno linea da anteporre, in deteriminati contesti (ved
 
 PICKUP_SOUND_1
 --------------
+
+TCONSOLE_SERVER
+---------------
+
+Il valore di default è *-* (trattino). Se è presente il TConsoleServer, deve essere valorizzato con l'IP della macchina su cui il TConsoleServer è installato: se si tratta dello stesso PC su cui è installato TConsole allora inserire il valore *127.0.0.1* (in questo caso NON inserire *localhost*).
+
+Per ulteriori dettagli fare riferimento alla Guida di Installazione del TConsoleServer
 
 TQM_TYPE
 --------
