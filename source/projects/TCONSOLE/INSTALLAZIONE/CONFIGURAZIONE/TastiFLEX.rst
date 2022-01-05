@@ -8,6 +8,8 @@ Le informazioni relative alle etichette associate ai dieci tasti FLEX della cons
 
 Il numero da chiamare va inserito preceduto dal carattere *@* (chiocciola) e, se si tratta di un numero esterno, deve includere l’eventuale codice di impegno linea richiesto (vedi FLEX 1 nell’esempio seguente, in cui il codice di impegno linea è *0* e il numero esterno da chiamare è *0452224600*).
 
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/tasti_FLEX.png
+
 .. code-block:: ini
 
     [FLEX]
@@ -32,8 +34,8 @@ Nell'esempio riportato, nella riga 1 la dicitura:
 indica rispettivamente:
 
 - numero ordinale (*Key*) del tasto FLEX: *1* (secondo tasto ICI **dal basso**)
-- stringa (*Desc*) presentata in vista Normale: *Telenia*
-- stringa (*Desc_IPO*) presentata in vista IPO e IPO PLUS: *TELN*
+- stringa (*Desc*) presentata **in vista Normale e in vista IPO**: *Telenia*
+- stringa (*Desc_IPO+*) presentata **solo in vista IPO PLUS**: *TELN*
 - numero da chiamare, comprensivo di codice di impegno linea (*0*): *00452224600*
 
 .. important ::

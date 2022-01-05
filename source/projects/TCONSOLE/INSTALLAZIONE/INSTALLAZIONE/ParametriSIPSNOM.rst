@@ -16,7 +16,12 @@ Parametri richiesti in fase di installazione (sezioni "SIP")
 - **IP PC TConsole (SIP only)**: indirizzo IP del PC
 
 .. important ::
-    Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico** (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, determina tipicamente uno (o più) di questi comportamenti:
+    Si ricorda che, per questa configurazione, **PC e telefono devono avere IP statico e devono poter comunicare:**
+
+    - sulla porta 80 (HTTP) del telefono
+    - sulla porta 5452 TCP del PC TConsole (valore di default, vedi parametro SIP_PO_PORT)
+
+    (vedi :ref:`Requisiti SIP SNOM`): una modifica effettuata successivamente dei parametri IP, senza l’opportuno aggiornamento del file *Tconsole.ini*, determina tipicamente uno (o più) di questi comportamenti:
 
     - da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
     - una chiamata in ingresso arriva sul telefono, ma su TConsole non compare nulla
@@ -31,9 +36,9 @@ Parametri configurabili in TConsole.ini
 - impostare il parametro **LINENUM**\ =\ *6* oppure *12* (linee disponibili sul telefono)
 - inserire nel parametro **QUEUE** l’interno per la “deviazione a notte” (opzionale), se non utilizzato lasciarlo vuoto
 - impostare il parametro **HOST** con l’indirizzo IP del telefono
-- impostare il parametro **PORT**\ =\ *80* (valore di default)
+- impostare il parametro **PORT**\ =\ *80* (valore di default): porta HTTP di comunicazione sul telefono
 - impostare il parametro **SIP_PO_HOST** con l’indirizzo IP del PC
-- impostare il parametro **SIP_PO_PORT**\ =\ *5452* (valore di default)
+- impostare il parametro **SIP_PO_PORT**\ =\ *5452* (valore di default): porta TCP di comunicazione sul PC TConsole
 - impostare il parametro **SIP_PO_SLEEP**\ =\ *250* (valore di default)
 - impostare il parametro **SIP_PO_USR** con lo username di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciare vuoto
 - impostare il parametro **SIP_PO_PWD** con la password di accesso all’interfaccia web del telefono ([1]_), se non impostato lasciare vuoto

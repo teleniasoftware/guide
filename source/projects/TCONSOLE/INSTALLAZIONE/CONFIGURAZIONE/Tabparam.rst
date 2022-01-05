@@ -6,8 +6,6 @@ Tabparam
 
 Il file *tabparam* (si tratta di un file di testo senza estensione) contiene ulteriori parametri di configurazione, tra i quali i più significativi sono di seguito descritti.
 
-.. **ABILITA_POPUP**, **ATTIVA_SKIN**, **ACOD_RUB_EXT**, **PICKUP_SOUND_1**, **TQM_TYPE**.
-
 .. code-block:: ini
 
     *              ABILITA_POPUP        SI
@@ -17,6 +15,10 @@ Il file *tabparam* (si tratta di un file di testo senza estensione) contiene ult
     [...]
 
     *              PICKUP_SOUND_1       Ring.wav
+    *              PICKUP_SOUND_2       -
+    *              PICKUP_SOUND_2_NUM   -1
+    *              PICKUP_SOUND_3       -
+    *              PICKUP_SOUND_3_NUM   -1
 
     [...]
 
@@ -25,6 +27,8 @@ Il file *tabparam* (si tratta di un file di testo senza estensione) contiene ult
     [...]
 
     *              TQM_TYPE             -
+    
+    [...]
 
 ABILITA_POPUP
 -------------
@@ -53,15 +57,69 @@ ACOD_RUB_EXT
 
 Definisce il codice di impegno linea da anteporre, in deteriminati contesti (vedi :ref:`Codice Impegno Linea`), al numero da chiamare. Il valore di default è *0*.
 
-PICKUP_SOUND_1
---------------
+PICKUP_SOUND_1, PICKUP_SOUND_2, PICKUP_SOUND_3
+----------------------------------------------
+
+Questi parametri, congiuntamente a *PICKUP_SOUND_2_NUM* e *PICKUP_SOUND_3_NUM*, permettono di personalizzare la notifica sonora (emessa da TConsole tramite l'audio del PC) che indica la presenza di chiamate in coda, e sono utilizzati **solo nelle seguenti modalità**:
+
+- TAPI CISCO con TQM (vedi :ref:`TConsole.ini CISCO TQM`)
+- TVOX (vedi :ref:`Parametri TVox`)
+
+.. code-block:: ini
+
+    [...]
+
+    *              PICKUP_SOUND_1       Ring.wav
+    *              PICKUP_SOUND_2       start.wav
+    *              PICKUP_SOUND_2_NUM   3
+    *              PICKUP_SOUND_3       notify.wav
+    *              PICKUP_SOUND_3_NUM   7
+    
+    [...]
+
+In riferimento all'esempio riportato:
+
+- con 1 o 2 chiamate in coda (numero inferiore a *PICKUP_SOUND_2_NUM=3*) verrà eseguito il file *PICKUP_SOUND_1=Ring.wav*
+- con 3, 4, 5 o 6 chiamate in coda (raggiungimento di *PICKUP_SOUND_2_NUM=3* ma numero inferiore a *PICKUP_SOUND_3_NUM=7*) verrà eseguito il file *PICKUP_SOUND_2=start.wav*
+- con 7 o più chiamate in coda (raggiungimento di *PICKUP_SOUND_3_NUM=7*) verrà eseguito il file *PICKUP_SOUND_3=notify.wav*
+
+I files audio indicati **devono trovarsi** in *\[INSTALLDIR\]\\sounds\\* ([1]_): al termine dell'installazione standard di TConsole alcuni files audio sono già presenti in questo percorso ma, se necessario, è possibile aggiungerne altri nello stesso formato.
+
+Sempre al termine dell'installazione standard i valori di default per le notifiche sonore sono i seguenti:
+
+.. code-block:: ini
+
+    [...]
+
+    *              PICKUP_SOUND_1       Ring.wav
+    *              PICKUP_SOUND_2       -
+    *              PICKUP_SOUND_2_NUM   -1
+    *              PICKUP_SOUND_3       -
+    *              PICKUP_SOUND_3_NUM   -1
+
+    [...]
+
+..
+    - *PICKUP_SOUND_1=Ring.wav*
+    - *PICKUP_SOUND_2=-* (trattino)
+    - *PICKUP_SOUND_2_NUM=-1*
+    - *PICKUP_SOUND_3=-* (trattino)
+    - *PICKUP_SOUND_3_NUM=-1*
+
+Con il risultato che per qualsiasi numero di chiamate in coda verrà eseguito sempre e solo il file *PICKUP_SOUND_1=Ring.wav*.
+
+.. warning :: Se per *PICKUP_SOUND_1*, *PICKUP_SOUND_2* o *PICKUP_SOUND_3* viene specificato un parametro o un nome file non valido (o inesistente) allora verrà utilizzato il suono di notifica predefinito di Windows.
+
+.. tip :: Per NON emettere alcuna notifica sonora per le chiamate in coda è possibile impostare come *PICKUP_SOUND_1* un file audio contenente silenzio, lasciando i valori di default per gli altri parametri.
 
 TCONSOLE_SERVER
 ---------------
 
-Il valore di default è *-* (trattino). Se è presente il TConsoleServer, deve essere valorizzato con l'IP della macchina su cui il TConsoleServer è installato: se si tratta dello stesso PC su cui è installato TConsole allora inserire il valore *127.0.0.1* (in questo caso NON inserire *localhost*).
+Vedi anche :ref:`Campo Lampade`.
 
-Per ulteriori dettagli fare riferimento alla Guida di Installazione del TConsoleServer
+Il valore di default è *-* (trattino). Se è presente il TConsoleServer, il parametro deve essere valorizzato con l'IP della macchina su cui il TConsoleServer è installato: se si tratta dello stesso PC su cui è installato TConsole allora inserire il valore *127.0.0.1* (in questo caso NON inserire *localhost*).
+
+Per i dettagli della configurazione fare riferimento al manuale di installazione del :ref:`TConsoleServer`.
 
 TQM_TYPE
 --------
@@ -72,3 +130,7 @@ Il valore di default è *-* (trattino). Deve essere valorizzato diversamente **s
 - TVOX (vedi :ref:`Parametri TVox`)
 
 **In tutti gli altri casi il parametro va lasciato valorizzato a** *-* (trattino).
+
+.. rubric:: Note
+
+.. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
