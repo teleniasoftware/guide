@@ -72,7 +72,7 @@ Contestualmente si raccomanda di impostare anche il livello di sicurezza per pas
 .. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning.png
 
 
-Per eseguire il provisioning segui le indicazioni che trovi :ref:`qui <creazione_interni&dispositivi>`
+Per eseguire il provisioning segui le indicazioni che trovi :ref:`qui <ProvisioningDispositivi>`
 
 
 .. :doc:`Ambiente cloud AWS<CloudAWS>`
