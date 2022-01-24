@@ -19,7 +19,7 @@ In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfrutta
 .. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning.png
 
 
-Il tema principale che va tenuto in considerazione per il corretto funzionamento dei dispositivi SIP è il NAT traversal, tecnica utilizzata nel voip per la trasmissione del traffico audio RTP.
+Il tema principale che va tenuto in considerazione per il corretto funzionamento dei dispositivi SIP (sia telefoni che voice gateways) è il NAT traversal, tecnica utilizzata nel voip per la trasmissione del traffico audio RTP.
 
 Il dispositivo deve supportare almeno uno dei seguenti protocolli, in ordine di preferenza:
 
