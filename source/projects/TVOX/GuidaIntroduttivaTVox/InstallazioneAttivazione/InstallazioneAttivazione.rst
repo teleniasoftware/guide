@@ -10,7 +10,7 @@ L'installazione di un'istanza TVox viene effettuata tramite un unico file di imm
 
 Su richiesta specifica, è possibile installare istanze TVox anche negli ambienti  *Microsoft Azure*  e  *Google Cloud* .
 
-.. important:: Il processo di installazione è completamente automatizzato: come prima cosa viene installato il sistema operativo  **AlmaLinux 8.5 (Arctic Sphynx)**, successivamente inizia l'installazione dello strato applicativo.
+.. important:: Il processo di installazione è completamente automatizzato e prevede: |br| |br| 1. l'installazione del sistema operativo  **AlmaLinux 8.5 (Arctic Sphynx)** |br| 2. l'installazione dello strato applicativo.
 
 
 Il procedimento di installazione non cambia a seconda del tipo di piattaforma che si deve implementare, ad esempio TVox Stand Alone in lan privata, TVox Branch Office, TVox in cloud o MCS. 
