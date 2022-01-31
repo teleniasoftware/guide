@@ -15,7 +15,7 @@ Su richiesta specifica, è possibile installare istanze TVox anche negli ambient
 
 Il procedimento di installazione non cambia a seconda del tipo di piattaforma che si deve implementare, ad esempio TVox Stand Alone in lan privata, TVox Branch Office, TVox in cloud o MCS. 
 
-E' nella fase di caricamento della licenza che si attiva opportunamente lo strato applicativo. La licenza attivata sull'istanza, quindi, determina il tipo di impianto.
+E\' nella fase di caricamento della licenza che si attiva opportunamente lo strato applicativo. La licenza attivata sull'istanza, quindi, determina il tipo di impianto.
 
 
 
