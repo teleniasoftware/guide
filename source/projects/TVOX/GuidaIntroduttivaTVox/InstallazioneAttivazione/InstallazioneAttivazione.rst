@@ -31,4 +31,4 @@ E' nella fase di caricamento della licenza che si attiva opportunamente lo strat
 
     ./InstallazioneHW
     ./InstallazioneAWS
-    ./AttvazioneLicenza
+    ./AttivazioneLicenza
