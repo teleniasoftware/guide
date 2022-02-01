@@ -1,4 +1,5 @@
 .. _infrastruttura:
+
 ===========================
 Tipologie di Infrastruttura
 ===========================
