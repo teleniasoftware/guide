@@ -2,33 +2,34 @@
 Caricare un Certicato SSL
 =========================
 
-Per la gestione dei certificati è necessario andare in OCC nella sezione **SISTEMA=> Accesso servizi=> Certificato SSL**
+Per la gestione dei certificati è necessario andare in OCC nella sezione *SISTEMA=> Accesso servizi=> Certificato SSL*
 
 Carica certificato
 ==================
 
-E' possibile caricare un nuovo certificato o aggiornare il certificato corrente.
+E\' possibile caricare un nuovo certificato o aggiornare il certificato corrente.
 
 La catena di certificazione è composta da:
-- Chiave Privata
-- Certificato contenente la Chiave Pubblica
+
+- *Chiave Privata*
+- Certificato contenente la *Chiave Pubblica*
 - Certificati intermedi (opzionali)
 
 
-Il caricamento può avvenire in 4 modalità
+Il caricamento può avvenire in quattro modalità:
 
 
-**File unico**, contenente l'intera catena di certificazione. Se crittografato, è necessario fornire anche una password; in questo caso sono supportati solo file crittografati in formato PKCS12 (pfx)    
+**File unico**, contenente l'intera catena di certificazione. Se crittografato, è necessario fornire anche una password. In questo caso sono supportati solo file crittografati in formato PKCS12 (pfx).  
    
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Certificati/SSL_File_Unico.JPG
 
 
-**Chiave Privata e Certificato**, dove il certificato deve contenere almeno la Chiave Pubblica. Sia per il certificato che per la chiave privata, è possibile caricare file crittografati con password rispettando i formati supportati, ovvero PKCS12 per il certificato (pfx) e PKCS8 per la chiave privata.
+**Chiave Privata e Certificato**, dove il certificato deve contenere almeno la *Chiave Pubblica*. Sia per il certificato che per la *Chiave Privata*, è possibile caricare file crittografati con password rispettando i formati supportati, ovvero PKCS12 per il certificato (pfx) e PKCS8 per la chiave privata.
     
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Certificati/SSL_Chiave_Privata.JPG
 
 
-**File separati**, dove Chiave Privata, Certificato con Chiave Pubblica e Certificati intermedi vengono caricati separatamente
+**File separati**, dove *Chiave Privata*, *Certificato con Chiave Pubblica* e *Certificati intermedi* vengono caricati separatamente.
     
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Certificati/SSL_File_Separati.JPG
 
@@ -49,7 +50,7 @@ In questa sezione è possibile generare e scaricare una nuova richiesta di firma
 Integrazione Let's Encrypt
 ===========================
 
-E' anche possibile abilitare l'utilizzo di certificati SSL gratuiti forniti da Let's Encrypt.
+E\' anche possibile abilitare l'utilizzo di certificati SSL gratuiti forniti da Let's Encrypt.
 
    .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Certificati/LetSEncrypt.JPG
 
