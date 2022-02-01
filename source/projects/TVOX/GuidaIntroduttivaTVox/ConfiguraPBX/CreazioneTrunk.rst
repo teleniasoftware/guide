@@ -20,8 +20,7 @@ Utilizza il protocollo standard SIP (Session Initiation Protocol).
 Configurazione
 ===============
 
-Per configurare un **Trunk VOIP** è necessario andare da OCC nella sezione 
-Canali => Telefono => Trunk
+Per configurare un **Trunk VOIP** è necessario andare da OCC nella sezione *Canali => Telefono => Trunk*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneTrunk/01_TRUNK_VOIP.JPG
 
