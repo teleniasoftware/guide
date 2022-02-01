@@ -14,7 +14,7 @@ Dato tale acceso, la procedura di attivazione è la seguente:
 
 * Selezionare la voce  **AMI della community** nel menu sulla sinistra, successivamente inserire nel campo di ricerca la parola  *tvox* e premere il tasto  *Invio*. Selezionare tra i risultati proposti la versione desiderata.
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/scelta_ami.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/scelta_ami.PNG
 
 * Selezionare il tipo di istanza desiderato e successivamente premere sul pulsante *Successivo: Configura i dettagli dell'istanza*
 
@@ -33,7 +33,7 @@ Successivamente premere sul pulsante *Successivo: Aggiungi Storage*
 
 * Configurare la dimensione del disco, espressa in GB, e scegliere il tipo di Volume (si consiglia la tipologia  *General Purpose SSD (gp3)*  ) e successivamente premere sul pulsante  *Successivo: Aggiungi Tag* 
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/aggiunta_storage.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/aggiunta_storage.PNG
 
 * Configurare gli eventuali tag se previsti dalla propria policy di gestione dell'ambiente, successivamente cliccare sul pulsante  *Successivo: Configura il gruppo di sicurezza* 
 |br| 
@@ -43,7 +43,7 @@ Successivamente premere sul pulsante *Successivo: Aggiungi Storage*
 
 * Verificare le informazioni riepilogate e quindi cliccare sul pulsante  *Lancio* . Il wizard di AWS proporrà quindi, come ultima scelta, di selezionare la coppia di chiavi di sicurezza per l'accesso all'istanza.
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/coppia_chiavi.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/InstallazioneAWS/coppia_chiavi.PNG
 
 
 Dopo aver cliccato sul pulsante Avvia le istanze, si esce dal wizard e AWS provvederà all'inizializzazione delle istanze stesse. Da quel momento, sarà possibile accedere alla loro amministrazione attraverso la sezione EC2 - Istanze.
