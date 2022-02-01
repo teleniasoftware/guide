@@ -51,3 +51,8 @@ Dopo aver cliccato sul pulsante  **Avvia le istanze** , si esce dal wizard e AWS
 
 .. tip:: In ambiente AWS, la password di accesso web ad OCC per l'utente admin corrisponde al'ID istanza 
 
+|br|
+|br|
+|br|
+
+
