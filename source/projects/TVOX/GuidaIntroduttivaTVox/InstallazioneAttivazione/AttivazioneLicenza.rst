@@ -55,7 +55,5 @@ Data la conferma, il sistema procederà in autonomia a notificare i processi e e
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/AttivazioneLicenza/notifica_processi.PNG
 
 
-Al termine di questa fase, che può durare alcuni minuti a second della tipologia di licenza caricata e dell'istanza hardware ospite, TVox sarà disponibile e pronto per la prima configurazione 
+Al termine di questa fase, che può durare alcuni minuti a second della tipologia di licenza caricata e dell'istanza hardware ospite, TVox sarà disponibile e pronto per la prima  :ref:`configurazione <configuraTvox>`
 
-
-.. :ref:`configuraTvox`
