@@ -1,3 +1,5 @@
+.. _configuraTvox:
+
 =====================================
 Configura Velocemente il tuo PBX TVox
 =====================================

@@ -41,3 +41,21 @@ Dopo questa operazione, verrà inviato un codice di verifica all'indirizzo email
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/AttivazioneLicenza/codice_verifica.PNG
 
 
+Quest'ultima operazione permette a TVox di ricevere dal License Server le informazioni relative ai moduli di licenza da attivare ed all'eventuale periodo di validità della licenza stessa. Vengono riepilogate le informazioni relative a:
+
+* Scadenza
+* Numero seriale
+* Nome azienda intestataria della licenza
+* Email associata
+
+Successivamente, si rende necessario procedere alla notifica interna dei processi ed al riavvio di sistema.
+Per fare questo, è necessario cliccare sul pulsante **Notifica i processi e riavvia il sistema**. Un prompt chiederà all'amministratore di confermare la scelta.
+Data la conferma, il sistema procederà in autonomia a notificare i processi e ed al riavvio, rendendo indisponibile OCC fino al termine di questa operazione.
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/InstallazioneAttivazione/AttivazioneLicenza/notifica_processi.PNG
+
+
+Al termine di questa fase, che può durare alcuni minuti a second della tipologia di licenza caricata e dell'istanza hardware ospite, TVox sarà disponibile e pronto per la prima configurazione 
+
+
+.. :ref:`configuraTvox`
