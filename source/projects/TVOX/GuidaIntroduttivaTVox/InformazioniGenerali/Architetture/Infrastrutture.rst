@@ -70,7 +70,7 @@ Contestualmente si raccomanda di impostare anche il livello di sicurezza per pas
 
 .. warning:: **ATTENZIONE:** La modifica del parametro "Sicurezza e password utente" porta al riavvio del servizio di autenticazione. Per il tempo necessario al riavvio, non sarà possibile eseguire login.
 
-.. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning.png
+.. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning_2.png
 
 
 Per eseguire il provisioning segui le indicazioni che trovi :ref:`qui <ProvisioningDispositivi>`
