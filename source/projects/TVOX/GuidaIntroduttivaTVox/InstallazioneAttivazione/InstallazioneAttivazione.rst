@@ -1,3 +1,5 @@
+.. _installazione_attivazione:
+
 ===========================
 Installazione e Attivazione
 ===========================
@@ -30,5 +32,6 @@ E\' nella fase di caricamento della licenza che si attiva opportunamente lo stra
     :maxdepth: 2
 
     ./InstallazioneHW
+    ./InstallazioneVM
     ./InstallazioneAWS
     ./AttivazioneLicenza

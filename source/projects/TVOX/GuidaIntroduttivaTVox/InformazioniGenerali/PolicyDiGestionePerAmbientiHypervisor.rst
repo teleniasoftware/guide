@@ -1,4 +1,5 @@
 .. _Nota di VMWare: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/performance/vsphere-esxi-vcenter-server-67-performance-best-practices.pdf
+.. _policy_hypervisor:
 
 =================================================
 Best Practice di gestione per ambienti Hypervisor
