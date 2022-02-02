@@ -4,7 +4,7 @@ Configurare la sezione SMTP e gli Allarmi
 
 Configurazione SMTP
 ====================
-In **OCC=> SISTEMA=> Configurazione di Sistema => SMTP** si abilita la piattaforma ad inviare e-mail attraverso il server specificato per la notifica di allarmi, documenti, fax e messaggi di segreteria telefonica.
+In OCC nella sezione  *SISTEMA=> Configurazione di Sistema => SMTP* si abilita la piattaforma ad inviare e-mail attraverso il server specificato per la notifica di allarmi, documenti, fax e messaggi di segreteria telefonica.
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/SMTP.JPG
 
@@ -22,7 +22,10 @@ In tale sezione si dovranno definire:
 
 .. warning:: Solitamente SMTP lavora sulle porte 25 (porta SMTP non-criptata predefinita),465 (criptazione SSL avviata automaticamente prima di ogni livello di comunicazione SMTP) e587 (è quasi come la porta standard SMTP. La criptazione SSL può essere avviata da un comando STARTTLS a livello SMTP se il server SMTP la supporta e il proprio ISP non filtra le risposte EHLO dal server)
 
-- **Tipo di Connessione sicura** (Abilita l'autenticazione SMTP in differenti modalità di criptazione a seconda del Server SMTP. SSL fornisce un modo per criptare il canale di comunicazione tra il computer e il server SMTP. STARTTL è un modo per prendere una connessione esistente non sicura e aggiornarla ad una sicura utilizzando SSL/TLS)
+- **Tipo di Connessione sicura** (Abilita l'autenticazione SMTP in differenti modalità di criptazione a seconda del Server SMTP. 
+  
+       - *SSL* fornisce un modo per criptare il canale di comunicazione tra il computer e il server SMTP. 
+       - *STARTTL* è un modo per prendere una connessione esistente non sicura e aggiornarla ad una sicura utilizzando SSL/TLS)
 
 - **Username e password** (nel caso sia abilitata l'autenticazione)
 
@@ -30,25 +33,25 @@ In tale sezione si dovranno definire:
 Configurazione Allarmi
 ======================
 
-E' possibile profilare utenti destinati alla visualizzazione dello stato della piattaforma di sistema e degli avvisi di allarme generati dal TVox.
+E\' possibile profilare utenti destinati alla visualizzazione dello stato della piattaforma di sistema e degli avvisi di allarme generati dal TVox.
 
 La gestione degli allarmi avviene puntando alla sezione TSAM (https://ip_TVOX/tsam).
 
 In tale sezione è possibile:
 
-- avere il monitor degli allarmi generati
+- avere il **monitor degli allarmi generati**
   
   .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Monitor_Allarmi.JPG
 
-- configurare gli allarmi generati (in termini di priorità, descrizione, associazione a famiglie, etc.)
+- **configurare gli allarmi** generati (in termini di priorità, descrizione, associazione a famiglie, etc.)
   
   .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Configurazione_Allarmi.JPG
 
-- configurare destinatari allarmi
+- **configurare destinatari allarmi** selezionando le utenze configurate sul TVOX oppure inserendo utenze esterne
   
   .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Destinatari.JPG
 
-- configurare liste allarmi
+- **configurare liste allarmi** dove si va ad associare un insieme di allarmi a i vari destinatari creati al punto precedente
   
   .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Liste_Allarmi.JPG
 
