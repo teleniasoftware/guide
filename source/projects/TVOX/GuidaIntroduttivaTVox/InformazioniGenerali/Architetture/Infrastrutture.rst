@@ -88,6 +88,11 @@ Sistemi Hybrid
 ==============
 
 
+L'architettura di un sistema TVox si può definire **Hybrid/Private Cloud** nel caso in cui TVox sia posto in cloud ma senza il modulo PURE CLOUD in licenza.
+
+In tali condizioni, la fruizione di linee tradizionali attestate nella sede, l’utilizzo di dispositivi quali gateway ata (fax analogici, cordless, campane ecc) e terminali SIP che eseguono la registrazione su TVox è possibile solamente sfruttando un collegamento MPLS o VPN.
+
+.. image:: /images/TVOX/HybridCloud/schema_hybrid.PNG
 
 
 
@@ -95,4 +100,8 @@ Sistemi Hybrid
 
 Sistemi on Premise
 ==================
+
+L'architettura è intesa come di tipo **On Premise** quando viene utilizzata l'infrastruttura IT dell'azienda, sia in modalità virtualizzata che su server fisico dedicato.
+
+.. image:: /images/TVOX/OnPremise/schema_onprem.PNG
 
