@@ -3,8 +3,8 @@ Creazione Trunk
 ===============
 
 
-Definizionee
-============
+Definizione
+===========
 
 Il SIP Trunking è una connessione telefonica esterna in arrivo da un ITSP , ovvero un internet telephony Service Provider, o fornitore di telefonia VoIP. 
  
