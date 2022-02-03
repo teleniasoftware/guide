@@ -3,7 +3,7 @@ Dialplan
 ========
 
 In questa sezione verranno illustrate le configurazioni inerenti al *Dialplan* per poter definire gli instradamenti VOIP in uscita ed in ingresso al TVox.
-Si andranno ad illustrare:
+Per andare a configurare tali voci è necessario andare da OCC nella sezione *CANALI=>Telefono*. Si andranno ad illustrare:
 
 - **Regole di uscita**
 - **Abilitazioni**
