@@ -30,7 +30,7 @@ Tramite OCC è possibile configurare direttamente una utenza PBX andando a speci
 password, interni da associare, email, cellulare, abilitazioni all'utilizzo del client, redirezione su numeri esterni, deviazione di chiamata, gruppi di risposta / skill, Classe di servizio
 (es: Abilitazione, Filtro, Registrazione conversazioni) gruppi di Pick-up, abilitazioni di Voicemail, Conferenza e definizione di caselle FAX ove disponibili.
 
-**Da OCC andare nella sezione "Gestione=>Utenti".**
+Da OCC andare nella sezione *Gestione=>Utenti*.
 
 In fase di creazione è necessario configurare la parte relativa all'*anagrafica*, dove oltre alle credenziali di accesso (username e password), 
 è possibile andare a definire email, numero di cellulare e sito utente.
@@ -42,12 +42,12 @@ In fase di creazione è necessario configurare la parte relativa all'*anagrafica
 
 
 
-**Assegnare poi il "Profilo Principale" selezionando la voce "Utente"**
+Assegnare poi il *Profilo Principale* selezionando la voce *Utente*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/04-ProfiloPrincipale.JPG
 
 
-**A seguire dovranno essere associati i dispositivi telefonici (esempio: APP, Client, WEB, dispositivi fisici)**
+A seguire dovranno essere associati i dispositivi telefonici (esempio: APP, Client, WEB, dispositivi fisici)**
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/05-Dispositivi.JPG
 
@@ -87,7 +87,7 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
 
         .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/ImpostazioniTelefono.JPG
         
-        *Pin per accesso telefonico*:  Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
+        **Pin per accesso telefonico**:  Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
         Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
    
         - Blocca / Sblocca il telefono 
@@ -96,11 +96,11 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
    
         - Intrusione valida solo per i supervisori opportunamente configurati (fare riferimento al menu Avanzate ⇒ Canale Telefonico ⇒ Codici di servizio). 
         
-        *Lista di accesso*: L'utente può essere dotato di una lista di accesso di tipo BLACK List o WHITE List tra quelle già definite. Le liste di accesso sono quelle definite dal menù Telefono ⇒ Liste di accesso
+        **Lista di accesso**: L'utente può essere dotato di una lista di accesso di tipo BLACK List o WHITE List tra quelle già definite. Le liste di accesso sono quelle definite dal menù Telefono ⇒ Liste di accesso
 
-        *Abilitazione per 'Authorization Code'*: Abilitazione telefonica per le chiamate uscenti effettuate in contesto Authorization Code. Per accedere alla prestazione è necessario sia definito il PIN nella sezione PBX che deve essere fornito al TVox Communication in fase di accesso alla funzionalità.
+        **Abilitazione per 'Authorization Code'**: Abilitazione telefonica per le chiamate uscenti effettuate in contesto Authorization Code. Per accedere alla prestazione è necessario sia definito il PIN nella sezione PBX che deve essere fornito al TVox Communication in fase di accesso alla funzionalità.
 
-        *Redirezione su numeri esterni* :Abilita/Disabilita la possibilità per l'utente di redirigere chiamate (call-forward) verso numeri esterni al TVox Communication sia via telefono sia via element manager. 
+        **Redirezione su numeri esterni** :Abilita/Disabilita la possibilità per l'utente di redirigere chiamate (call-forward) verso numeri esterni al TVox Communication sia via telefono sia via element manager. 
         
         
         
