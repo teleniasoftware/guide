@@ -25,24 +25,24 @@ occorre digitare il codice di servizio seguito dall'interno desiderato.
 Configurazione Gruppo Pickup
 ----------------------------
 
-La configurazione dei Gruppi di Pickup si trova nel seguente percorso:
+La configurazione dei Gruppi di Pickup si trova in OCC nella sezione *CANALI => Telefono => Gruppi di Pickup*
 
-    OCC->[CANALI]Telefono->Gruppi di Pickup
+Per prima cosa è obbligatoria (obbligo rappresentato dall'* di colore rosso accanto al nome del parametro) la definizione della *Numerazione gruppi di Pick Up* che rappresenta il range della numerazione interna assegnabile ai Gruppi di Pick Up che si andranno a definire. 
 
-Per prima cosa è obbligatoria (obbligo rappresentato dall'* di colore rosso accanto al nome del parametro) la definizione della "Numerazione gruppi di Pick Up" che rappresenta il range della numerazione interna assegnabile ai Gruppi di Pick Up che si andranno a definire. 
+Per tale numerazione è possibile specificare cifre da 0 a 9 e il carattere speciale X che indica un numero da 0 a 9. Ad esempio: 55X individua gruppi di Pick Up dalla numerazione 550 alla numerazione 559.
 
-Per tale numerazione è possibile specificare cifre da 0 a 9 e il carattere speciale X che indica un numero da 0 a 9. Ad esempio: 55X individua gruppi di Pick Up da 550 a 559.
-
-Per la definizione di un gruppo di Pink Up si procede dal tasto [Nuovo].
+Per la definizione di un gruppo di Pick Up si procede dal tasto *Nuovo*.
 
 I campi obbligatori per la definizione sono:
 
 - **Nome** :   Nome associato al Gruppo di Pick Up. Se si utilizza il TVox Client è possibile accedere alla prestazione di Pick Up selezionando dal relativo menù a tendina il nome del gruppo.
 - **Numero**: Numero da digitare dopo il codice di Pick Up (es. **) per effetture il Pick up di una chiamata che sta squillando sull'interno di uno degli utenti che appartengono al gruppo.
 
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/GruppiPickup/GruppoPickup.JPG
+
 Successivamente si procede nell'associazione degli utenti a tale gruppo di Pick Up, cercandoli tra gli utenti già definiti sul Tvox dall'apposito campo "Seleziona un utente". 
 
 Con un click sul campo, verrà proposto l'elenco degli utenti definiti su TVox e con un altro click si procede all'associazione.
 Per eventuale disassociazione dell'utente si procede con un click sull'icona "X" in corrispondenza della riga dell'utente desiderto.
 
-Al termine della configurazione del gruppo di Pickup si procede al salvataggio attraverso il tasto [SALVA]
+Al termine della configurazione del gruppo di Pickup si procede al salvataggio attraverso il tasto *SALVA*
