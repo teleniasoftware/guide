@@ -12,7 +12,7 @@ Verranno illustrati:
 
 - come connettere il TVOX alla PSTN (*Trunk*)
 
-- come creare i dispositivi SIP e associarli alle utenze (*Provisioning e crazione utenti*)
+- come creare i dispositivi SIP e associarli alle utenze (*Provisioning e creazione utenti*)
 
 - come configurare gli inbstradamenti del flusso telefonico (*Dialplan*)
 
