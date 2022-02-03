@@ -13,7 +13,7 @@ La connessione ad un server LDAP esterno è utilizzata per le seguenti ragioni:
 
 - **Autenticare gli utenti utilizzando le credenziali del server LDAP** (Queste credenziali sono utilizzate dagli utenti per accedere alle applicazioni Telenia)
 
-.. note:: è possibile avere anche più domini LDAP 
+.. note:: E\' possibile avere anche più domini LDAP 
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/LDAP/Domini.JPG
 
@@ -66,7 +66,7 @@ Per abilitare l'autenticazione utente sul server LDAP andare in OCC nella sezion
 
      .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/LDAP/Esclusione.JPG 
 
-.. note:: **Nella sezione *SISTEMA=>LDAP esterno=>Autenticazione utente su LDAP* è presente un form permette di testare una reale login di utente sul client TVox utilizzando l'autenticazone LDAP (nel caso in cui sia abilitata) oppure l'autenticazione TVox (nel caso in cui l'utente sia escluso oppure non ci sia l'autenticazione LDAP).
+.. note:: **Test Login**. Nella sezione *SISTEMA=>LDAP esterno=>Autenticazione utente su LDAP* è presente un form permette di testare una reale login di utente sul client TVox utilizzando l'autenticazone LDAP (nel caso in cui sia abilitata) oppure l'autenticazione TVox (nel caso in cui l'utente sia escluso oppure non ci sia l'autenticazione LDAP).
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/LDAP/TestLogin.JPG
 
