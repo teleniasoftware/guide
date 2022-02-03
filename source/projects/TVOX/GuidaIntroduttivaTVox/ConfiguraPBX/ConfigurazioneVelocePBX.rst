@@ -13,10 +13,10 @@ In questa sezione troverai gli step fondamentali per poter attivare la tua centr
 
     ./PrimiPassi
     ./CreazioneTrunk
-    ./CreazioneUtentiDispositivi
     ./ProvisioningDispositivi
+    ./CreazioneUtentiDispositivi
     ./Dialplan
-    ./DefinizioneGruppiRisposta
     ./GruppiPickup
     ./ConferenceRoom
+    ./DefinizioneGruppiRisposta
     ./ServiziIVR
