@@ -4,6 +4,76 @@
 Provisioning
 ============
 
+Passiamo ora in rassegna gli argomenti che riguardano la configurazione dei dispositivi
+telefonici che può essere gestita centralmente in TVox grazie al modulo di Provisioning dei
+telefoni configurabile al menu *Canali=>Telefono=>modelli di telefono* e  *Canali=>Telefono=>interni*.
+
+.. note:: Attraverso il modulo di Provisioning è possibile da TVox aggiornare il firmware e la configurazione dei telefoni in modalità centralizzata. Il provisioning si basa sull’associazione tra il MAC ADDRESS e l’interno assegnato al telefono. 
+
+
+
+Provisioning dei dispositivi telefonici
+=======================================
+
+In questa sezione andremo ad illustrare come configurare gli interni / modelli di telefoni. 
+Il percorso per accedere da OCC è *Canali=>Telefono=>modelli di telefono* e  *Canali=>Telefono=>interni*
+
+**Modelli di telefono**
+
+A livello di singolo modello possono essere configurati:
+
+- **Impostazioni VOIP** (*modalità di trasporto, Modalità invio DTMF, Peer to Peer, Codec, etc...*)
+
+- **Preferenze Telefono** (*autenticazione web, Localizzazione, NTP, etc...*)
+
+- **Tasti Funzione** (*in base al tipo di modello*)
+
+- **Espansione Tasti** (*in base al tipo di modello*)
+
+- **Intervallo porte RTP**
+
+- **Rubrica LDAP** (configurazione server LDAP per rubrica su telefono)
+
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/Modelli.JPG
+
+
+.. note:: Qualora non sia disponibile il modulo di provisioning il modello applicato è di tipo *generico* ed è comunque disponibile al menu *Canali=>Telefono=>Dispositivo generico* 
+
+
+**Gestione interni**
+
+La gestione Interni definisce gli interni e la loro identità da associare ai telefoni SIP e agli ATA FXS collegati al TVox Omnichannel Contact Center.
+
+Questa sezione permette l'amministrazione degli interni. 
+
+Per ciascun interno definito sono visualizzati i seguenti parametri:
+
+- l'utente assegnato all'interno. Se l'utente assegnato non esiste, il telefono associato all'interno può fare solo chiamate interne e di emergenza. Se l'utente assegnato è seguito dal carattere [*] significa che l'utente utilizza tale interno come secondario.
+
+- l'utente che utilizza l'interno. Se questo utente è diverso dall'utente assegnato, il suo nome viene messo in evidenza con una bordatura di colore giallo   . Tale situazione si presenta quando un utente si sposta su un interno diverso da quello assegnatogli operando con il TVox Client.
+
+- il modello configurato. E' il modello definito per l'interno nel momento in cui si associa un telefono ad un MAC Address quando si tratta di un telefono configurabile mediante provisioning.
+
+- il modello presentato. Rappresenta la descrizione del telefono / ATA FXS. Tale informazione viene fornita al TVox Omnichannel Contact Center direttamente dal telefono durante la fase di registrazione. Se il modello è diverso da quello configurato è ricercabile e viene presentato evidenziando il nome con una bordatura di colore rosso   .
+
+- lo stato SIP del telefono che può assumere i seguenti valori: 
+  
+     - Registrato: Il telefono associato funziona correttamente.
+     - Non Controllato: Il telefono è registrato ma la sua raggiungibilità non viene controllata.
+     - Non Registrato: in questo stato il telefono non può sicuramente ricevere chiamate.
+     - Risponde in ritardo: il telefono può solo effettuare chiamate e in generale rappresenta uno stato transitorio verso la fase di registrazione o la completa non raggiungibilità. Se tale stato si presenta in modo frequente la risoluzione del disservizio va ricercata nella gestione della rete.
+     - Non Raggiungibile: il telefono nello stato registrato non risulta più raggiungibile dal TVox Omnichannel Contact Center. In questo stato il telefono non può sicuramente ricevere chiamate.
+
+- configurazione Peer to Peer: ( P2P, non P2P). Fare riferimento al capitolo Comunicazione SIP della Guida TVox.
+
+- abilitazione alla registrazione: indica se l'utente è abilitato (o meno) alla registrazione delle conversazioni, in tal caso viene persa l'abilitazione del Peer to Peer sull'interno dell'utente.
+
+- MAC Address: l'indirizzo MAC associato al telefono configurato mediante provisioning.
+
+- Indirizzo IP: l'IP recuperato dal TVox Omnichannel Contact Center nel corso dell'ultima registrazione del telefono. Un click sull'indirizzo IP permette di accedere all'eventuale interfaccia di amministrazione del telefono.
+
+
 
 Provisioning dei dispositivi nel caso di TVox Pure Cloud
 ========================================================
