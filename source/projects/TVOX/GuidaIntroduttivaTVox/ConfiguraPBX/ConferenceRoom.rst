@@ -36,7 +36,7 @@ Configurazione Conferenza pubblica
 
 Una nuova Stanza di Conferenza Pubblica è configurabile da OCC nella sezione *Canali=>Telefono=>Conferenze*
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Conferenza/Pubblica.JPG
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Conferenza/Pubblica.NPG
 
 
 E\' obbligatorio definire i seguenti campi:
@@ -64,7 +64,7 @@ Configurazione Conferenza privata
 Una nuova Stanza di Conferenza Privata è configurabile da OCC nella sezione *Utenti*, in Edit di un Utente, nel TAB *PBX*
 
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Conferenza/Pubblica.JPG
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Conferenza/Privata.PNG
 
 
 E\' obbligatorio definire i seguenti campi:
