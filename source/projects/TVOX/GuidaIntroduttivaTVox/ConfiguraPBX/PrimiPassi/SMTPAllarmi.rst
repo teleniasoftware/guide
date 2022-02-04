@@ -6,7 +6,7 @@ Configurazione SMTP
 ====================
 In OCC nella sezione  *SISTEMA=> Configurazione di Sistema => SMTP* si abilita la piattaforma ad inviare e-mail attraverso il server specificato per la notifica di allarmi, documenti, fax e messaggi di segreteria telefonica.
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/SMTP.JPG
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/SMTP.PNG
 
 
 
@@ -41,19 +41,19 @@ In tale sezione è possibile:
 
 - avere il **monitor degli allarmi generati**
   
-  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Monitor_Allarmi.JPG
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Monitor_Allarmi.PNG
 
 - **configurare gli allarmi** generati (in termini di priorità, descrizione, associazione a famiglie, etc.)
   
-  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Configurazione_Allarmi.JPG
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Configurazione_Allarmi.PNG
 
 - **configurare destinatari allarmi** selezionando le utenze configurate sul TVOX oppure inserendo utenze esterne
   
-  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Destinatari.JPG
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Destinatari.PNG
 
 - **configurare liste allarmi** dove si va ad associare un insieme di allarmi a i vari destinatari creati al punto precedente
   
-  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Liste_Allarmi.JPG
+  .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/SMTP-Allarmi/Liste_Allarmi.PNG
 
 
 
