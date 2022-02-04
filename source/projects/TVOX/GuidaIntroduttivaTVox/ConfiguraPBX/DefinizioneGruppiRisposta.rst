@@ -10,7 +10,7 @@ Se in questa sezione sono già presenti degli Skillset o dei Gruppi di risposta 
 - nella voce **Ambito di utilizzo** selezionare *Gruppo di risposta*;
 - nel menu **Tipologia di chiamata** selezionare la strategia di distribuzione desiderata.
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/GruppiRisposta/Tipologia.JPG
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/GruppiRisposta/Tipologia.PNG
 
 Una volta creato il gruppo è possibile, nell'apposita sezione, associare gli utenti facendo clic nel menu a tendina sul nome dell'utente da aggiungere.
 
