@@ -2,7 +2,7 @@
 Gestione Certificati SSL
 =========================
 
-.. |mcs_certificate_generation| image:: ../../images/MCS/mcs_certificate_generation.png
+.. |mcs_certificate_generation| image:: ../../images/MCS/mcs_certificate_generation_2.png
 .. |mcs_customer_list| image:: ../../images/MCS/certificate_customer_list.png
 .. |mcs_customer_certificate_upload| image:: ../../images/MCS/crtificate_customer_upload.png
 
