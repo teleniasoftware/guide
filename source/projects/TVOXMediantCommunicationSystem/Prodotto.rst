@@ -16,7 +16,7 @@ Come rappresentato in figura, MCS è necessario nel momento in cui si ha la nece
 * integrare al TVox applicazioni aziendiali residenti in cloud
 * utilizzare la widget del TVox integrata sul web
 
-TVox MCS è multitenant, consentendo quindi di esporre su internet servizi erogati da più piattaforme TVox **fino ad un massimo di 250**. A TVox MCS deve essere associato un dominio pubblico e può essere installato su piattaforme server standard  o virtualizzate **purché compatibili con il sistema operativo Linux CentOS 7 64 Bit**, come ad esempio:
+TVox MCS è multitenant, consentendo quindi di esporre su internet servizi erogati da più piattaforme TVox **fino ad un massimo di 250**. A TVox MCS deve essere associato un dominio pubblico e può essere installato su piattaforme server standard  o virtualizzate **Almalinux 8.5 Arctic Sphynx**, come ad esempio:
 
 - **VMWare** (ESXi / vSphere) Richiesti Workstation v.7 e setup VMWare Tools 
 - **Citrix System XEN Center** Installazione in modalità Hardware-assited Virtual Machine (no ParaVirtualization) 
