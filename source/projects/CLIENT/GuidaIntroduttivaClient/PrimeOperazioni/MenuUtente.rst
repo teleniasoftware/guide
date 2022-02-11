@@ -4,5 +4,3 @@
 Menu utente
 ===========
 
-
-asdasd
