@@ -14,5 +14,5 @@ Questa sezione presenta le informazioni generali relative alla |tvox_platform|
     ./CoseTVox
     ./PolicyDiGestionePerAmbientiHypervisor
     ./Prerequisiti
-    ./Vulnerabilità
+    ./XXXVulnerabilità
     ./Architetture
