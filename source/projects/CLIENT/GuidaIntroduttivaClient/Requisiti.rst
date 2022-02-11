@@ -5,7 +5,7 @@ Requisiti
 =========
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
-    ./RequisitiWeb
-    ./RequisitiWinWeb
+    ./Requisiti/RequisitiWeb
+    ./Requisiti/RequisitiWinWeb
