@@ -32,9 +32,12 @@ Questi parametri vanno **obbligatoriamente** configurati nella sezione *Sistema=
 .. image:: /images/TVOX/PureCloud/01-domain-configuration_1.png
 .. .. image:: /images/TVOX/PureCloud/01-domain-configuration.png
 
+|br|
 
+Networking
+----------
 
-Il server TVox Pure Cloud espone i seguenti servizi:
+Il server TVox Pure Cloud espone alcuni servizi, di conseguenza le seguenti costituiscono le regole da implementare in ingresso da Internet verso TVox:
 
 
 +---------------+-----------------+----------------------------------------+
@@ -58,6 +61,11 @@ Il server TVox Pure Cloud espone i seguenti servizi:
 +---------------+-----------------+----------------------------------------+
 |       80      |       TCP       |          Nginx / Let's Encrypt         |
 +---------------+-----------------+----------------------------------------+
+
+
+
+
+
 
 Sicurezza provisioning e SIP
 ============================
