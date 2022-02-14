@@ -36,4 +36,4 @@ L’installazione di TVox MCS necessita di risorse che dipendono dalla consisten
 
 Il sistema TVox MCS dovrà essere connesso a Internet con disponibilità di banda (massima) di circa 60 KB/s per ogni connessione attiva dei dispositivi (APP, UCC Web RTC e Widget).
 
-.. warning:: Il servizio MCS non è ridondabile!
+.. warning:: Il servizio MCS non è ridondabile! Su richiesta, è possibile definire una procedura di backup concordata con il Cusomter Service di Telenia.
