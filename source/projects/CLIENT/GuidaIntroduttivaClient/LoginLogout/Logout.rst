@@ -1,7 +1,7 @@
-.. _menuutente:
+.. _logout:
 
-===========
-Menu utente
-===========
+======
+Logout
+======
 
 Una volta effettuato con successo il login, cliccando sull’icona Account si potrà scegliere la modalità di utilizzo:

@@ -18,6 +18,6 @@ Inserire le credenziali in dotazione e cliccare sul tasto Login.
 Nel caso di |winweb|, eseguire l'applicazione e successivamente inserire le credenziali, cliccando infine sul tasto Login:
 
 
-.. image:: /images/CLIENT/PrimeOperazioni/LoginWinWeb.PNG
+.. image:: /images/CLIENT/PrimeOperazioni/LoginWinWeb.PNG   
 
 
