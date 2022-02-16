@@ -21,4 +21,4 @@ Il |client| si presenta con alcune aree e sezioni che sono visualizzate in funzi
 *  **Area di ricerca contatti e dialpad** (è possibile ricercare velocemente un contatto per avviare una comunicazione, od immettere un numero da chiamare direttamente) |br| |br| 
 
 
-.. image:: /images/CLIENT/aree_client.PNG
+.. image:: /images/CLIENT/aree_client.png
