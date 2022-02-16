@@ -78,8 +78,9 @@ Tale applicazione prende il nome di **TVox WinWeb Client** o **client WinWeb**.
 
 .. toctree::
     :maxdepth: 1
+    :hidden:
     
 
     ./Requisiti
-    ./PrimeOperazioni
+    ./LoginLogout
     
