@@ -1,7 +1,0 @@
-.. _menuutente:
-
-===========
-Menu utente
-===========
-
-    
