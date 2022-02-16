@@ -83,5 +83,6 @@ Tale applicazione prende il nome di **TVox WinWeb Client** o **client WinWeb**.
 
     ./Requisiti
     ./LoginLogout
+    ./Panoramica
     ./MenuUtente
     

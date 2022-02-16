@@ -15,7 +15,7 @@ E\' riportato il dispositivo telefonico in uso dall'utente (verde se il disposit
 
 Sull'avatar inoltre è riportato in tempo reale lo stato di presence dell'utente.
 
-.. tip:: La **Presence** indica lo stato di presenza e disponibilità dell'utente e si trova sempre abbinata all'avatar che rappresenta un utente TVox. Può assumere le seguenti colorazioni:  |br| |br| **VERDE**: l'utente è loggato con il |client| (o con |app|) e risulta libero telefonicamente |br| **ROSSO**: l'utente è loggato con il |client| e risulta occupato telefonicamente |br| **GIALLO**: l'utente è loggato con il |client|, risulta libero telefonicamente e sta utilizzando un profilo di tipo Agente posto in stato NR (Not Ready) con opportuno codice di attività che indica che l'utente è momentaneamente lontano dalla propria postazione |br| **GRIGIO**: l'utente non è loggato nè con |client| nè con |app|
+.. note:: La **Presence** indica lo stato di presenza e disponibilità dell'utente e si trova sempre abbinata all'avatar che rappresenta un utente TVox. Può assumere le seguenti colorazioni:  |br| |br| **VERDE**: l'utente è loggato con il |client| (o con |app|) e risulta libero telefonicamente |br| **ROSSO**: l'utente è loggato con il |client| e risulta occupato telefonicamente |br| **GIALLO**: l'utente è loggato con il |client|, risulta libero telefonicamente e sta utilizzando un profilo di tipo Agente posto in stato NR (Not Ready) con opportuno codice di attività che indica che l'utente è momentaneamente lontano dalla propria postazione |br| **GRIGIO**: l'utente non è loggato nè con |client| nè con |app|
 
 
 Posizionando il puntatore del mouse in questa zona, viene automaticamente presentato il menu utente, che contiene le seguenti voci:
