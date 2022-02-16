@@ -24,3 +24,8 @@ Posizionando il puntatore del mouse in questa zona, viene automaticamente presen
 * **Dispositivi telefonici assegnati all'utente**: Vengono riportati tutti i dispositivi telefonici assegnati dall'amministratore di sistema all'utente. In grassetto è riportato il dispositivo telefonico in uso, eventuali altri dispositivi sono riportati con carattere senza evidenza e possono riportare una casella di spunta sulla loro destra. Nel caso in cui si spunti la casella su uno o più dei dispositivi aggiuntivi, TVox contattatterà l'utente anche su questi dispositivi quando l'utente stesso è chiamato sul canale telefonico.
 * **Utilizza altro telefono**: Permette all'utente di prendere il controllo di un dispositivo non assegnato a sè stesso (ad esempio, se si sposta in sala riunioni e ha bisogno di utlizzare il telefono posto sul tavolo della sala)
 * **Blocca telefono**: Permette all'utente di bloccare il proprio dispositivo telefonico fisico per le chiamate in uscita (per impedire, ad esempio, che altri utenti utilizzino tale dispositivo per effettuare chiamate che verrebbero addebitate a lui)
+* **Invio SMS**: Se configurato, permette all'utente di compilare un form per l'invio di un sms ad un numero mobile
+* **Abilita DND**: Se configurato, permette all'utente di porsi in stato Do Not Disturb. In tale stato, la presente dell'utente assume la colorazione rossa con barra orrizzontale bianca. Inoltre, viene evidenziato un contatore del tempo in tale stato con sfondo rosso sopra al campo di ricerca posto nella parte superiore sinistra del client.
+* **Log Out**: Permette all'utente di effettuare l'operazione :ref:`logout <logout>`
+
+
