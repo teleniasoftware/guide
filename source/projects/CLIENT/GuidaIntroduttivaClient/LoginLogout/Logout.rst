@@ -9,7 +9,7 @@ Per effettuare il logout, è necessario aprire il menu utente posto nella parte 
 Successivamente, selezionare l'ultima opzione corrispondente a logout:
 
 
-.. image:: /images/CLIENT/PrimeOperazioni/Logout.PNG
+.. image:: /images/CLIENT/PrimeOperazioni/Logout.png
 
 
 
