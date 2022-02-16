@@ -26,4 +26,4 @@ Posizionando il puntatore del mouse in questa zona, viene automaticamente presen
 * **Blocca telefono**: Permette all'utente di bloccare il proprio dispositivo telefonico fisico per le chiamate in uscita (per impedire, ad esempio, che altri utenti utilizzino tale dispositivo per effettuare chiamate che verrebbero addebitate a lui)
 * **Invio SMS**: Se configurato, permette all'utente di compilare un form per l'invio di un sms ad un numero mobile
 * **Abilita DND**: Se configurato, permette all'utente di porsi in stato Do Not Disturb. In tale stato, la presente dell'utente assume la colorazione rossa con barra orrizzontale bianca. Inoltre, viene evidenziato un contatore del tempo in tale stato con sfondo rosso sopra al campo di ricerca posto nella parte superiore sinistra del client.
-* **Log Out**: Permette all'utente di effettuare l'operazione _logout
+* **Log Out**: Permette all'utente di effettuare l'operazione `<logout>`_ 
