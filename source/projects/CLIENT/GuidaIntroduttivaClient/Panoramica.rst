@@ -6,9 +6,10 @@ Panoramica TVox Client
 
 Il |client| si presenta con alcune aree e sezioni che sono visualizzate in funzione dell’operatività che viene eseguita in uno specifico istante. Principalmente, le aree possono riassumersi in:
 
-*  **Menu client**, disposto nella barra verticale sull'estrema sinistra, consente l’accesso a diverse funzionalità e servizi |br| |br| 
 
 *  **Menu utente**, disponibile in corrispondenza del nome e cognome posizionato nella parte superiore destra del client |br| |br| 
+
+*  **Menu client**, disposto nella barra verticale sull'estrema sinistra, consente l’accesso a diverse funzionalità e servizi |br| |br| 
 
 *  **Area riservata alle interazioni** più recenti o in primo piano |br| |br| 
 
