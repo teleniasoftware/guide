@@ -48,7 +48,7 @@ Per ogni terminale telefonico deve essere prevista una licenza Avaya IP Softphon
 A tal proposito è necessario configurare la centrale con tipi di terminali correttamente
 supportati dall’Avaya Soft Phone, infatti quest’ultimo permette il controllo solo di terminali digitali di tipo 24xx oppure di terminali IP della serie 46xx o 96xx. Quindi, anche se i terminali che si utilizzano sono di tipo 14xx o 16xx, dovranno essere configurati sulla centrale rispettivamente come 24xx e 46xx o 96xx.
 
-.. rubric:: Note
+.. rubrica:: Note
 
 .. [1] 
 
