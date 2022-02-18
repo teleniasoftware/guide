@@ -30,7 +30,7 @@ Inoltre vi è la possibilità di filtrare le chiamate per:
 
 .. image:: /images/CLIENT/MenuClient/cronologia_2.PNG
 
-E' possibile infine, selezionando una o più chiamate non rispose, segnarle come gestite oppure cancellarle oppure anche cancellare tutte le chiamate contenute nella propria cronologia.
+E\' possibile infine, selezionando una o più chiamate non rispose, segnarle come gestite oppure cancellarle oppure anche cancellare tutte le chiamate contenute nella propria cronologia.
 
 
 .. warning:: la cancellazione di fatto pulisce solamente l'area Cronologia del client, non cancella le informazioni relative alle chiamate in questione contenute nel database di TVox.
