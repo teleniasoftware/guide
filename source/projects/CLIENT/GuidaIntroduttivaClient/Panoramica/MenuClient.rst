@@ -9,7 +9,7 @@ Il menu client è presente nella barra verticale sull'estrema sinistra e consent
 
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 3
 
     ./MenuClient/Intranet
     ./MenuClient/Preferiti
