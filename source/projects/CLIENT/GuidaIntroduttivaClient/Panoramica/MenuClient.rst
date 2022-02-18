@@ -1,0 +1,6 @@
+.. _menuclient:
+
+===========
+Menu Client
+===========
+

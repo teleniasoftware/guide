@@ -23,3 +23,18 @@ Il |client| si presenta con alcune aree e sezioni che sono visualizzate in funzi
 
 
 .. image:: /images/CLIENT/aree_client.png
+
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    
+
+    ./Panoramica/MenuUtente
+    ./Panoramica/MenuClient
+    ./Panoramica/Interazioni
+    ./Panoramica/ChatCollaborativa
+    ./Panoramica/CustomerJourney
+    ./Panoramica/DettaglioContatto
+    ./Panoramica/RicercaDialpad
+    

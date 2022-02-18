@@ -1,0 +1,6 @@
+.. _chatcollaborativa:
+
+==================
+Chat Collaborativa
+==================
+
