@@ -7,7 +7,6 @@ TVox **Contact Center Omnicanale** è il modulo della piattaforma TVox per la ge
 Per ciascun cliente è possibile definire IVR e servizi di Contact center personalizzabili.
 
 
-
 .. Warning :: Quando parliamo di TVox **Contact Center Omnicanale** possiamo avere architettura **Stand Alone** (vedi :ref:`StandAlone`) o **Fault Tolerance** (vedi :ref:`CM&R`), 
 
 
