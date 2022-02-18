@@ -44,6 +44,24 @@ Tornando nella sezione Preferiti di rubrica sarà possibile visualizzare i conta
 .. image:: /images/CLIENT/MenuClient/preferiti_3.PNG
 
 
+Ponendo il mouse sul contatto preferito (come evidenziato in figura) verranno proposte delle scorciatoie per avviare una comunicazione col contatto:
+
+* Invio di chat interna
+* Chiamata telefonica ai numeri configurati in anagrafica
+* Video-Chiamata (se chi vuole avviare la comunicazione è dotato dei dispositivi per poter video-chiamare)
+* Invio di email (il click su questa opzione propone la scelta di quale applicazione esterna utilizzare per l'invio mail)
+* Invio di SMS
+* Mostra task
+* Notifica stato utente (se l'utente non è collegato la notifica è relativa a quando l'utente si collega, se l'utente è collegato ed occupato telefonicamente, la notifica è relativa a quando l'utente tornerà libero)
+* Stato
+* Rimozione del contatto dal gruppo
+* Associazione del contatto col gruppo
+  
+
+.. image:: /images/CLIENT/MenuClient/preferiti_4.PNG
+
+Sull'estrema destra è disponibile il pulsante per levare il contatto dai preferiti o per cambiare l'associazione al gruppo di preferiti
+
 
 
 
