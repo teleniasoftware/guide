@@ -34,7 +34,7 @@ Il |client| si presenta con alcune aree e sezioni che sono visualizzate in funzi
     ./Panoramica/MenuClient
     ./Panoramica/Interazioni
     ./Panoramica/ChatCollaborativa
-    ./Panoramica/CustomerJourney
+    .. ./Panoramica/CustomerJourney
     ./Panoramica/DettaglioContatto
     ./Panoramica/RicercaDialpad
     
