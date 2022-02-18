@@ -31,3 +31,11 @@ registrati tutti i telefoni SIP ed eventuali ATA FXS.
 
 
 .. important :: Un vincolo essenziale per il sistema ridondato è legato al fatto che TVox Master e Slave devono reciprocamente risultare accessibili con continuità: viene demandato quindi agli apparati hardware e software che compongono l'infrastruttura di rete dell'utente finale il compito fondamentale di mantenere costantemente accessibili le due piattaforme.
+
+Configurazione
+==============
+
+Per andare a configurare la parte faul tolerance è necessario andare da OCC nella sezione *Configurazione di Sistema -> Rete - Fault tolerance* ed impostare i rifeirmenti ip della machcina ridondata e del nodo.
+
+.. important :: La procedura di configurazione di machcine ridondate prevede che entrambi le machcine siano licenziate e poi andare a configurare la parte di fault tilerance su tutte e due con successivo riavvio.
+    
