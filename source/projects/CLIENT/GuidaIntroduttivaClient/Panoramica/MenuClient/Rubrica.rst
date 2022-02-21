@@ -11,7 +11,7 @@ Inoltre, in base al ruolo assegnato dall'amministratore di sistema, ogni utente 
 
 E\' possibile infine esportare l'elenco dei contatti di una rubrica o importare nuovi contatti in una rubrica.
 
-.. tip:: I termini *Rubrica* e *Anagrafica* sono sononimi. Sono sinomini anche rubric enterna e rubrica aziendale, intendendo sempre una rubrica che contiene contatti che non fanno parte dell'azienda
+.. tip:: I termini *Rubrica* e *Anagrafica* sono sononimi. Sono sinomini anche rubrica esterna e rubrica aziendale, intendendo sempre una rubrica che contiene contatti che non fanno parte dell'azienda
 
 
 In TVox esistono 3 tipi di rubriche:
