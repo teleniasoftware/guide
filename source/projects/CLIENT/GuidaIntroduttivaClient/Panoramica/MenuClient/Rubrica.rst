@@ -55,6 +55,11 @@ I pulsanti presenti in alto a destra permettono rispettivamente di:
 
 .. image:: /images/CLIENT/MenuClient/rubrica_azioni.PNG
 
+.. tip::  **Best Practice** |br| La ricerca in rubrica si può eseguire anche dal campo **Chiama o cerca contatto** posto sopra l'area delle interazioni. Da quella posizione la ricerca è possibile per nome, cognome e numero di telefono e viene eseguita su tutte le tipologie di rubriche che l'utente può vedere. L'operazione eseguita da qui risulta più comoda per l'utente che ha necessità di avviare velocemente una comunicazione con un contatto.
+
+.. image:: /images/CLIENT/MenuClient/ricerca_dialpad.PNG
+
+
 
 
 
