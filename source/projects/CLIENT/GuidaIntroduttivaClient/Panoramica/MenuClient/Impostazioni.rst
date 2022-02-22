@@ -4,12 +4,12 @@
 Impostazioni
 ============
 
-Il menu client è presente nella barra verticale sull'estrema sinistra e consente di accedere a diverse funzionalità e sezioni del |client|. Le voci del menu sono:
+Di seguito un dettaglio delle tab che compongono la sezione Impostazioni del |client|.
 
 
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 5
 
     ./Impostazioni/Profilo
     ./Impostazioni/DeviazioneChiamata
