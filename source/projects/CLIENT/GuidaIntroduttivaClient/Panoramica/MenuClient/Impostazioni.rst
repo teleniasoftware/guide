@@ -12,11 +12,11 @@ Il menu client è presente nella barra verticale sull'estrema sinistra e consent
     :maxdepth: 4
 
     ./Impostazioni/Profilo
-    ./Impostazioni/DeviazioniChiamata
+    ./Impostazioni/DeviazioneChiamata
     ./Impostazioni/CasellaVocale
     ./Impostazioni/Conferenza
     ./Impostazioni/ImpostazioniGenerali
-    ./Impostazioni/DispositiviWeb
+    ./Impostazioni/DispositiviWebphone
     ./Impostazioni/Download
     ./Impostazioni/Log
     
