@@ -14,7 +14,7 @@ Da questa sezione è possibile inviare una segnalazione oppure eseguire il downl
 
 .. image:: /images/CLIENT/MenuClient/Impostazioni/client_log.PNG
 
-L' **invio di una segnalazione**  consente all'utente di inserire una breve descrizione del motivo per cui sta inviando la segnalazione ed eventualmente di allegare della documentazione a supporto della segnalazione (ad esempio, uno screenshot che mostri l'oggetto della segnalazione)
+L\' **invio di una segnalazione**  consente all'utente di inserire una breve descrizione del motivo per cui sta inviando la segnalazione ed eventualmente di allegare della documentazione a supporto della segnalazione stessa (ad esempio, uno screenshot che mostri il problema oggetto della segnalazione)
 
 .. image:: /images/CLIENT/MenuClient/Impostazioni/client_log_invio.PNG
 
