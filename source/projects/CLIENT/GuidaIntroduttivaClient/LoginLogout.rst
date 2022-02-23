@@ -9,7 +9,6 @@ L’accesso a |client| o a |winweb| è consentito con username e password person
 
 .. toctree::
     :maxdepth: 3
-    :hidden:
-
+    
     ./LoginLogout/Login
     ./LoginLogout/Logout

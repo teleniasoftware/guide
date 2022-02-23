@@ -4,9 +4,10 @@
 Requisiti 
 =========
 
+I requisiti per la fruizione di |client| e |winweb| sono esposti di seguito.
+
 .. toctree::
     :maxdepth: 3
-    :hidden:
-
+    
     ./Requisiti/RequisitiWeb
     ./Requisiti/RequisitiWinWeb
