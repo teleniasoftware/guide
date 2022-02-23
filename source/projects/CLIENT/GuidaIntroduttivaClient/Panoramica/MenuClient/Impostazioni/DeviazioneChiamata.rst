@@ -6,6 +6,8 @@ Deviazione Chiamata
 
 Questa sezione presenta la configurazione delle deviazioni che sono attive per l'utente.
 
+.. tip::  **Best Practice**  |br| Per gestire correttente la deviazione chiamate e poter avere un riscontro su TVox delle deviazioni stesse è necessario che la configurazione sia effettuata via OCC o via client e NON direttamente sul dispositivo telefonico in uso.
+
 L'utente ha la possibilità di definire il trattamento di deviazione delle chiamate, distinte tra interne ed esterne, verso le seguenti destinazioni alternative:
 
 *  **Chiama altro numero** : inoltra le chiamate ad un numero telefonico interno o esterno.
