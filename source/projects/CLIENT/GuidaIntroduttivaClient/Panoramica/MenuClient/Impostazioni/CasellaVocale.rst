@@ -11,4 +11,4 @@ Accedendo a questa tab è possibile abilitare o meno l’utilizzo della propria 
 *  **Numero massimo di messaggi vocali memorizzabili** : Numero massimo di messaggi che è possibile mantenere nella propria voicemail. Superato tale limite non saranno registrati nuovi messaggi sino alla loro eliminazione.
 *  **Notifiche** : Abilita/disabilita la notifica via email quando la voicemail registra un nuovo messaggio vocale.
 
-.. image:: /images/CLIENT/MenuClient/Impostazioni/client_profilo.PNG
+.. image:: /images/CLIENT/MenuClient/Impostazioni/client_casella_vocale.PNG

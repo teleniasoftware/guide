@@ -1,3 +1,5 @@
+.. _conferenceroom:
+
 ====================
 Stanze di Conferenza
 ====================
