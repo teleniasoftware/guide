@@ -23,4 +23,5 @@ L\' **invio di una segnalazione**  consente all'utente di inserire una breve des
 
 La segnalazione così inviata diventa disponibile su OCC all'amministratore di sistema, che può procedere con l'analisi o inoltrare la segnalazione stessa a chi è preposto ad essa.
 
+|br| 
 
