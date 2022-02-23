@@ -23,7 +23,7 @@ Alla pressione del tasto Invio il fax verrà inserito nella coda di spedizione g
 
 .. image:: /images/CLIENT/MenuClient/fax_invio.PNG
 
-Se l'utente ha il permesso di  **Ricezione**  fax per una determinata casella, potrà visualizzare nella tab Spediti/Ricevuti anche l'elenco di fax ricevuti sulla casella stessa con la possibilità di scaricare il documento ed aprirlo (pulsante download presente sull'estrema destra di ogni riga della tabella)
+Se l'utente ha il permesso di  **Ricezione**  fax per una determinata casella, potrà visualizzare nella tab  **Spediti/Ricevuti**  anche l'elenco di fax ricevuti sulla casella stessa con la possibilità di scaricare il documento ed aprirlo (pulsante download presente sull'estrema destra di ogni riga della tabella)
 
 Può inoltre effettuare una ricerca tra i fax presenti in elenco utilizzando i filtri a disposizione sopra la tabella.
 
