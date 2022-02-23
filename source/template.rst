@@ -27,6 +27,11 @@ Lista numerata:
 #. Elemento
 #. Elemento
 
+Link:
+-----
+
+:ref:`questo è un link <logout>` |br| |br| 
+
 .. important:: Questo è un testo importante
 
 .. tip:: Questo è un testo suggerimento
