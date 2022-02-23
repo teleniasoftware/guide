@@ -3,9 +3,8 @@
 ===========
 Interazioni
 ===========
-.. https://www.youtube.com/embed/tSu5D3RVbos
-.. https://www.youtube.com/embed/SIpgmI5Py2Q
 
+|br|
 
 .. raw:: html
 
