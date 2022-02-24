@@ -7,8 +7,7 @@ Gestione chiamate telefoniche
 
 .. toctree::
     :maxdepth: 2
-    :hidden:
-    
+        
 
     ./Chiamata/AvviareChiamata
     ./Chiamata/RispondereChiamata
