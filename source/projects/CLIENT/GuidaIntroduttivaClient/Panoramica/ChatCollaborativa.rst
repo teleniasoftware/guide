@@ -63,3 +63,9 @@ Sotto l'editor è disponibile un piccolo set di utility per la formattazione del
 
 
 .. image:: /images/CLIENT/chat_editor.PNG
+
+
+==========================================================
+
+
+.. note:: Nel caso di focus su interazione di contatto esterno, quest'area del client non presenta la pagina di chat collaborativa ma un'area definita come :ref:`Customer Journey <cj>`
