@@ -21,9 +21,9 @@ In caso contrario, se l'utente attiva un profilo di tipo agente, l'area presenta
 .. image:: /images/CLIENT/cj_riepilogo.PNG
 
 
-**Cusomter Satisfaction** : viene presentata un icona stilizzata a forma di viso rossa gialla o verde che rappresenta il valore NPS che il contatto ha lasciato l'ultima volta che ha partecipato ad un sondaggio di valutazione al termine di una chiamata telfonica al servizio di contact Center
+**Cusomter Satisfaction** : viene presentata un icona stilizzata a forma di viso rossa gialla o verde che rappresenta il valore NPS che il contatto ha lasciato l'ultima volta che ha partecipato ad un sondaggio di valutazione al termine di una chiamata telefonica al servizio di contact center
 
-**Interazioni** : viene presentato il numero totale di interazioni occorse ed il numero di interazioni non gestite (perse), e la stessa copia di dati relativi alla giornata odierna. In entrambi i casi i due numeri sono separati da una barra.
+**Interazioni** : viene presentato il numero totale di interazioni occorse ed il numero di interazioni non gestite (perse), e la stessa coppia di dati relativi alla giornata odierna. In entrambi i casi i due numeri sono separati da una barra.
 
 **Ticket** : Viene presentato il numero di ticket aperti ed il numero di quelli in escalation
 
@@ -33,7 +33,7 @@ In caso contrario, se l'utente attiva un profilo di tipo agente, l'area presenta
 .. image:: /images/CLIENT/cj_timeline.PNG
 
 
-Nella timeline, per ogni interazione vengono riportate informazioni di dettaglio in base al canale attraverso il quale l'interazione è avvenuta.
+Nella timeline, per ogni interazione vengono riportate informazioni di dettaglio in base al canale attraverso il quale l'interazione è avvenuta, oltre al nome dell'agente che ha gestito l'interazione stessa (riportato sulla sinistra della linea)
 
 
 .. image:: /images/CLIENT/cj_timeline_esplosa.PNG
