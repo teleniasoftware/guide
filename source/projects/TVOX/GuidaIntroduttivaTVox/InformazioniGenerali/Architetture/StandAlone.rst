@@ -4,8 +4,8 @@
 TVox Stand Alone
 ================
 
-Quando parliamo di TVox **Stand Alone** intendiamo parlare di piattaforma software VOIP,  interamente amministrabile via WEB, 
- che può essere installata su unico **server dedicato** o **macchina virtuale**.
+
+Quando parliamo di TVox **Stand Alone** intendiamo parlare di piattaforma software VOIP,  interamente amministrabile via WEB, che può essere installata su unico **server dedicato** o **macchina virtuale**.
 
 .. note :: I sistemi di virtualizzazione supportati sono:
       - VMWare (ESXi / vSphere)
