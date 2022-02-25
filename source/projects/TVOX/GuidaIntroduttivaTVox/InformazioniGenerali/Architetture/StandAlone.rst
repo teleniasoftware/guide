@@ -30,6 +30,7 @@ piuttosto che in **cloud**
 .. important :: Si ricorda che il dimensionamento hardware dipende dalle componenti presenti in licenza
 
 .. note :: I sistemi di virtualizzazione supportati sono:
+   
       - VMWare (ESXi / vSphere)
       - Citrix System XEN Center  (Installazione in modalità Hardware-assited Virtual Machine - no ParaVirtualization)
       - Oracle VM Virtual Box (Richiesto setup extension pack)
