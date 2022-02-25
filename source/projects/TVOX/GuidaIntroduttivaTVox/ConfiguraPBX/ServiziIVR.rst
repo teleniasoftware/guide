@@ -61,32 +61,60 @@ Blocchetti disponibili
 
 Nella prima release, il BPM mette a disposizione le seguenti tipologie di blocchetto
 
-- *Start*: definisce l'inizio del processo
-- *Stop*: definisce il termine del processo
-- *Play*: riproduce un file audio
-- *Transfer*: gira la chiamata ad un numero specificato
-- *Close call*: abbatte la chiamata
-- *Load service*: carica un servizio di contact center
-- *Digit Gateway*: riproduce un file audio, poi riceve un digit e permette di seguire diverse frecce in base alla scelta.
-- *Load Service advanced*: carica un servizio passando una serie di parametri di configurazione
-- *Get digits*: riceve una serie di digits terminata da # o dal raggiungimento di un limite massimo impostabile
-- *Play digits*: riproduce la serie di digits raccolta
-- *Start recording*: inizia la registrazione della chiamata
-- *Stop recording*: interrompe la registrazione della chiamata
-- *Text to Speech*: riproduce un testo facendo text-recognition
-- *Condition gateway*: valuta una condizione tipo if e segue frecce diverse in base all'esito vero o falso
-- *GET Request*: interroga un servizio esterno disponibile in HTTP
-- *Set variable value*: calcola un valore e lo memorizza in una variabile
-- *Free text ASR*: ascolta la voce dell'utente e trascrive quanto detto in forma testuale
-- *Switch*: osserva il valore di una variabile e segue la freccia etichettata con quel valore
-- *DQL Database query*: esegue una query SQL su un database e ne salva il risultato in una variabile
-- *Calendar check*: controlla un calendario tra quelli configurati sul TVOX
-- *Transfer to Voicemail*: carica la casella vocale
-- *Send Alarm*: invia un allarme con testo e priorità impostati
-- *Custom PHP code*: esegue un codice scritto custom in PHP per il blocchetto
-- *Check service activation*: controlla se un servizio è o meno attivo
-- *Access call variable*: fornisce accesso in lettura e scrittura alle variabili di chiamata, mappandole a variabili locali
 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Blocchetto               | Descrizione                                                                                             | 
++==========================+=========================================================================================================+
+| Start                    | definisce l'inizio del processo                                                                         | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Stop                     | definisce il termine del processo                                                                       | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Play                     | riproduce un file audio                                                                                 | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Transfer                 | gira la chiamata ad un numero specificato                                                               | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Close call               | abbatte la chiamata                                                                                     | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Load service             | carica un servizio di contact center                                                                    | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Digit Gateway            | riproduce un file audio, poi riceve un digit e permette di seguire diverse frecce in base alla scelta   | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Load Service advanced    | carica un servizio passando una serie di parametri di configurazione                                    | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Get digits               | riceve una serie di digits terminata da # o dal raggiungimento di un limite massimo impostabile         | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Play digits              | riproduce la serie di digits raccolta                                                                   | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Start recording          | inizia la registrazione della chiamata                                                                  | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Stop recording           | interrompe la registrazione della chiamata                                                              | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Text to Speech           | riproduce un testo facendo text-recognition                                                             | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Condition gateway        | valuta una condizione tipo if e segue frecce diverse in base all'esito vero o falso                     | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| GET Request              | interroga un servizio esterno disponibile in HTTP                                                       | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Set variable value       | calcola un valore e lo memorizza in una variabile                                                       | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Free text ASR            | ascolta la voce dell'utente e trascrive quanto detto in forma testuale                                  | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Switch                   | osserva il valore di una variabile e segue la freccia etichettata con quel valore                       | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| SQL Database query       | esegue una query SQL su un database e ne salva il risultato in una variabile                            | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Calendar check           | controlla un calendario tra quelli configurati sul TVOX                                                 | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Transfer to Voicemail    | carica la casella vocale                                                                                | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Send Alarm               | invia un allarme con testo e priorità impostati                                                         | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Custom PHP code          | esegue un codice scritto custom in PHP per il blocchetto                                                | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Check service activation | controlla se un servizio è o meno attivo                                                                | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
+| Access call variable     | fornisce accesso in lettura e scrittura alle variabili di chiamata, mappandole a variabili locali       | 
++--------------------------+---------------------------------------------------------------------------------------------------------+
 
 Validazione e salvataggio
 =========================
