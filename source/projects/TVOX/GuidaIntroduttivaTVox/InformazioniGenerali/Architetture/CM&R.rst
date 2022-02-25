@@ -37,5 +37,5 @@ Configurazione
 
 Per andare a configurare la parte faul tolerance è necessario andare da OCC nella sezione *Configurazione di Sistema -> Rete - Fault tolerance* ed impostare i rifeirmenti ip della machcina ridondata e del nodo.
 
-.. important :: La procedura di configurazione di machcine ridondate prevede che entrambi le machcine siano licenziate e poi andare a configurare la parte di fault tilerance su tutte e due con successivo riavvio.
+.. important :: La procedura di configurazione di macchine ridondate prevede che entrambi le machcine siano licenziate e poi andare a configurare la parte di fault tilerance su tutte e due con successivo riavvio.
     
