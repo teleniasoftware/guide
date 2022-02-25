@@ -7,13 +7,6 @@ TVox Stand Alone
 
 Quando parliamo di TVox **Stand Alone** intendiamo parlare di piattaforma software VOIP,  interamente amministrabile via WEB, che può essere installata su unico **server dedicato** o **macchina virtuale**.
 
-.. note :: I sistemi di virtualizzazione supportati sono:
-      - VMWare (ESXi / vSphere)
-      - Citrix System XEN Center  (Installazione in modalità Hardware-assited Virtual Machine - no ParaVirtualization)
-      - Oracle VM Virtual Box (Richiesto setup extension pack)
-      - Microsoft Hyper-V Server (Da concordare con il supporto sistemistico di Telenia Software che si riserva di valutare la necessità di un collaudo ad-hoc)
-
-
 Gli operatori posso essere dotati di telefono VOIP o utilizzare il softhpone integrato nel client.
 
 
@@ -35,4 +28,10 @@ piuttosto che in **cloud**
    :align: center
 
 .. important :: Si ricorda che il dimensionamento hardware dipende dalle componenti presenti in licenza
+
+.. note :: I sistemi di virtualizzazione supportati sono:
+      - VMWare (ESXi / vSphere)
+      - Citrix System XEN Center  (Installazione in modalità Hardware-assited Virtual Machine - no ParaVirtualization)
+      - Oracle VM Virtual Box (Richiesto setup extension pack)
+      - Microsoft Hyper-V Server (Da concordare con il supporto sistemistico di Telenia Software che si riserva di valutare la necessità di un collaudo ad-hoc)
 
