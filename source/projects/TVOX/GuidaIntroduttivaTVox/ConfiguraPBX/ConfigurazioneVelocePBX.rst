@@ -6,23 +6,11 @@ Configura Velocemente il tuo PBX TVox
 
 In questa sezione troverai gli step fondamentali per poter attivare la tua centrale telefonica TVox PBX.
 
-Verranno illustrati:
+Nella prima parte verrà illustrato come caricare un certificato, configurare la sezione SMTP e collegare ad un server LDAP Aziendale
 
-- come caricare un certificato, configurare la sezione SMTP e collegare ad un server LDAP Aziendale
+Si andrà poi a spiegare come connettere il TVOX alla PSTN (*Trunk*), creare i dispositivi SIP e associarli alle utenze (*Provisioning e creazione utenti*) e configurare gli inbstradamenti del flusso telefonico (*Dialplan*)
 
-- come connettere il TVOX alla PSTN (*Trunk*)
-
-- come creare i dispositivi SIP e associarli alle utenze (*Provisioning e creazione utenti*)
-
-- come configurare gli inbstradamenti del flusso telefonico (*Dialplan*)
-
-- come configurare conference room (*Stanze di conferenza*) [Opzionale] 
-
-- come configurare *gruppi di pickup* [Opzionale] 
-
-- come configurare *gruppi di risposta* [Opzionale]  
-
-- come creare *IVR*  [Opzionale]  
+Negli ultimi paragrafi si fare vedere come configurare conference room (*Stanze di conferenza*), *gruppi di pickup*, *gruppi di risposta* e come creare *IVR* (*BPM*) 
 
 
 .. toctree::
