@@ -20,7 +20,7 @@ system**) in real time tra Master e TVox Slave.
 .. note:: Il funzionamento in modalità ridondata prevede che quando il sistema Master risulta inaccessibile allo Slave quest'ultimo si elegge automaticamente Master attivando sulla propria interfaccia di rete l'IP TVox e consentendo a tutti i dispositivi SIP di proseguire nel loro normale funzionamento. Tale architettura permette di evitare politiche di Failover sui dispositivi SIP che inevitabilmente introdurrebbero delle latenze ulteriori e semplificarne la configurazione
 
 .. important :: 
-    **Per mantenere l'erogazione dei dati di reportistica esposti tratmite OCC, è necessario che le due piattaforme siano allineate**
+    **Per mantenere l'erogazione dei dati di reportistica esposti tramite OCC, è necessario che le due piattaforme siano allineate**
 
 Requisiti
 =========

@@ -54,11 +54,11 @@ Per fare in modo che l'utenza possa eseguire chiamate Outbound esterne al TVOX �
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/08-Criteri-di-Sicurezza.JPG
 
 
-Per configurare la **casella vocale** dell'utente andare nella sezione *PBX* 
+Per configurare la **casella vocale** dell'utente, andare nella sezione *PBX* 
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/CasellaVocale.JPG
 
-Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PBX* 
+Per configurare la **stanza di conferenza** dell'utente, andare nella sezione *PBX* 
 
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/Conferenza.JPG
 
@@ -87,7 +87,7 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
 
         **Abilitazione per 'Authorization Code'**: Abilitazione telefonica per le chiamate uscenti effettuate in contesto Authorization Code. Per accedere alla prestazione è necessario sia definito il PIN nella sezione PBX che deve essere fornito al TVox Communication in fase di accesso alla funzionalità.
 
-        **Redirezione su numeri esterni** :Abilita/Disabilita la possibilità per l'utente di redirigere chiamate (call-forward) verso numeri esterni al TVox Communication sia via telefono sia via element manager. 
+        **Redirezione su numeri esterni**: Abilita/Disabilita la possibilità per l'utente di redirigere chiamate (call-forward) verso numeri esterni al TVox Communication sia via telefono sia via element manager. 
         
         
         
@@ -98,13 +98,14 @@ Per configurare la **stanza di conferenza** dell'utente andare nella sezione *PB
 
 
 
-E' anche possibile configurare eventuali **Passante, Gruppi di pickup e Liste di numeri Brevi** 
+E\' anche possibile configurare eventuali **Passante, Gruppi di pickup e Liste di numeri Brevi** 
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/UtentePBX.JPG
 
 
 Creazione Utenti tramite import
 ===============================
+
 Per effettuare la creazione utenti tramite import, bisogna accedere alla sezione OCC *Impostazioni=>Avanzate=>Import utenti da file*. 
 
 In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. Per effettuare una corretta importazione è necessario scaricare il file di template presente e popolarlo opportunamente rispetto agli utenti che si vogliono importare. All'interno del template si troveranno anche i codici da utilizzare per poter selezionare i campi multipli di un utente.

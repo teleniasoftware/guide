@@ -1,7 +1,7 @@
 .. _Nota di VMWare: https://blogs.vmware.com/vsphere/2018/07/timekeeping-within-esxi.html
 
 ==============================
-Pincipali Anomalie Riscontrate
+Principali Anomalie Riscontrate
 ==============================
 
 I problemi di funzionamento del software Telenia possono essere riassunti nelle seguenti categorie:

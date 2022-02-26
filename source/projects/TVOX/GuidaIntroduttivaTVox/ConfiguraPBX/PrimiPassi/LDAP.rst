@@ -55,6 +55,7 @@ In tale sezione si dovranno impostare:
 
 Autenticazione tramite server LDAP
 ==================================
+
 Per abilitare l'autenticazione utente sul server LDAP andare in OCC nella sezione *SISTEMA=> Configurazione di Sistema => LDAP Esterno* ed impostare il flag *Autenticazione tramite server LDAP*
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/LDAP/LDAP_autenticazione.JPG
@@ -73,7 +74,8 @@ Per abilitare l'autenticazione utente sul server LDAP andare in OCC nella sezion
 Importazione utenti da server LDAP
 ==================================
 
-**Configurazione**
+Configurazione
+--------------
 
 
 Nel caso di connessione TVOX tramite Active Directory, oltre alla gestioen dell'autenticazione, è possibile importare e sincronizzare utenti da server LDAP.
@@ -95,7 +97,9 @@ Per ogni mappatura è anche possibile impostare la modalità di aggiornamento da
     .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/LDAP/IMPORT03.JPG
 Per i dettagli della manipolazione della numerazione interna si rimanda all'Help On Line presente in OCC
 
-**Import**
+
+Import
+--------------
 
 Una volta configurata la sezione relativa alla configurazione *Import utenti da LDAP* e possibile sia importare manualmente che eseguire schdualzioni di import.
 

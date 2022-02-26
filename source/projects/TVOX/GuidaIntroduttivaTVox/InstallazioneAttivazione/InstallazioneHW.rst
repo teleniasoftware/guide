@@ -24,6 +24,6 @@ Il dimensionamento della piattaforma TAM/TVox dipende dai seguenti fattori:
 Per procedere all’installazione è possibile scaricare il setup aggiornato del sistema TVox Communication
 attraverso il seguente link: http://www.teleniasoftware.it/download/tvox/iso.php e masterizzare l’immagine ISO su un supporto DVD Dual Layer da 8.5 Gb.
 
-.. note:: E' altresì possibile l'installazione via USB utilizzando un qualsiasi programma che esegua la scrittura RAW dell'ISO direttamente sul drive USB come suggerito in questo link: https://wiki.centos.org/HowTos/InstallFromUSBkey 
+.. note:: E\' altresì possibile l'installazione via USB utilizzando un qualsiasi programma che esegua la scrittura RAW dell'ISO direttamente sul drive USB come suggerito in questo link: https://wiki.centos.org/HowTos/InstallFromUSBkey 
         
         Ad esempio il seguente programma può essere utile per scrivere l'ISO su un drive USB http://www.netbsd.org/~martin/rawrite32/download.html dopo aver scaricato l'eseguibile è sufficiente selezionare il file .iso desiderato e procedere alla scrittura su USB facendo attenzione che tale operazione fa perdere tutto il contenuto eventualmente presente su quel drive.
