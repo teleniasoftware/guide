@@ -135,7 +135,11 @@ Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-web
 Le pagine "entity-filtro", "entity-abilitazione", "entity-registrazione","entity-lingua", "entity-device" indicano gli ID che devono essere inseriti nelle colonne delle altre pagine:
 
 "entity-filtro": usato nella pagina "profili utente" nella colonna "filtro" e nella pagina "profili agente" nella colonna "filtro"
+
 "entity-abilitazione": usato nella pagina "profili utente" nella colonna "abilitazione" e nella pagina "profili agente" nella colonna "abilitazione"
+
 "entity-registrazione": usato nella pagina "profili utente" nella colonna "Registrazione conversazioni" e nella pagina "profili agente" nella colonna "Registrazione conversazioni"
+
 "entity-lingua": usato nella pagina "anagrafica" nella colonna "lingua" 
+
 "entity-device": usato nella pagina "dispositivi sip" nelle colonne "Vendor" e "Model"
