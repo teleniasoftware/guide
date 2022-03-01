@@ -114,32 +114,28 @@ In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. 
 
 .. warning:: **ATTENZIONE:** il file deve sempre essere scaricato dall'OCC nello stesso momento in cui si intende andare a popolarlo. Questo perchè il template includerà sempre una componente dinamica i codici e le eventuali abilitazioni che sono già presenti sul sistema, come i filtri, le abilitazioni e i dispositivi inseriti.
 
-**Come importare solo dispositivi**
+**Come importare solo dispositivi**: Per importare solo i dispositivi è necessario compliare il foglio nominato "dispositivi sip" non inserendo alcun dato sulla colonna username. In questo modo verrà creato un dispositivo per ogni riga compilata e non verrà associato a nessun utente.
 
-Per importare solo i dispositivi è necessario compliare il foglio nominato "dispositivi sip" non inserendo alcun dato sulla colonna username. In questo modo verrà creato un dispositivo per ogni riga compilata e non verrà associato a nessun utente.
+**Come importare solo utenti**: Per importare solo utenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'utente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili utente" con le specifiche del profilo utente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'utente che si sta creando. È possibile inserire un solo profilo di tipo utente.
 
-**Come importare solo utenti**
+**Come importare solo agenti**: Per importare solo agenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'agente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili agente" con le specifiche del profilo agente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'agente che si sta creando. È possibile inserire più profili agente su un utente.
 
-Per importare solo utenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'utente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili utente" con le specifiche del profilo utente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'utente che si sta creando. È possibile inserire un solo profilo di tipo utente.
+**Come abilitare una feature di tipo "Flag"**: Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-webphone, flag-app, flag-mcs ) è sufficente inserire qualsiasi carattere all'interno della cella perchè il sistema capisca che è abilitato
 
-**Come importare solo agenti**
+.. warning:: **ATTENZIONE:** L'import di Dispositivi e/o Utenti può essere utilizzato solo per la creazione degli stessi, e non per la modifica. 
 
-Per importare solo agenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'agente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili agente" con le specifiche del profilo agente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'agente che si sta creando. È possibile inserire più profili agente su un utente.
+Le pagine "entity-filtro", "entity-abilitazione", "entity-registrazione", "entity-lingua", "entity-device" indicano gli ID che devono essere inseriti nelle colonne delle altre pagine:
 
-**Come abilitare una feature di tipo "Flag"**
+**"entity-filtro":** usato nella pagina "profili utente" nella colonna "filtro" e nella pagina "profili agente" nella colonna "filtro".
 
-Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-webphone, flag-app, flag-mcs ) è sufficente inserire qualsiasi carattere all'interno della cella perchè il sistema capisca che è abilitato
+**"entity-abilitazione":** usato nella pagina "profili utente" nella colonna "abilitazione" e nella pagina "profili agente" nella colonna "abilitazione".
 
-.. warning:: **ATTENZIONE:** L'import di Dispositivi e/o Utenti può essere utilizzato solo per la creazione degli stessi, e non per la modifica.
+**"entity-registrazione":** usato nella pagina "profili utente" nella colonna "Registrazione conversazioni" e nella pagina "profili agente" nella colonna "Registrazione conversazioni".
 
-Le pagine "entity-filtro", "entity-abilitazione", "entity-registrazione","entity-lingua", "entity-device" indicano gli ID che devono essere inseriti nelle colonne delle altre pagine:
+**"entity-lingua":** usato nella pagina "anagrafica" nella colonna "lingua".
 
-"entity-filtro": usato nella pagina "profili utente" nella colonna "filtro" e nella pagina "profili agente" nella colonna "filtro"
+**"entity-device":** usato nella pagina "dispositivi sip" nelle colonne "Vendor" e "Model".
 
-"entity-abilitazione": usato nella pagina "profili utente" nella colonna "abilitazione" e nella pagina "profili agente" nella colonna "abilitazione"
+La procedura di caricamento va a validare il file xls prima ancora di caricare i dati, permettendo di non caricare la macchina e di avere l'output degli errori con riferimento della riga.
 
-"entity-registrazione": usato nella pagina "profili utente" nella colonna "Registrazione conversazioni" e nella pagina "profili agente" nella colonna "Registrazione conversazioni"
-
-"entity-lingua": usato nella pagina "anagrafica" nella colonna "lingua" 
-
-"entity-device": usato nella pagina "dispositivi sip" nelle colonne "Vendor" e "Model"
+Passato il controllo formale, il parsing del file indicherà il contenuto da importare e quindi il totale di Dispositi e/o Utenti. 
