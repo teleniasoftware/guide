@@ -125,3 +125,13 @@ Per importare solo agenti è necessario compliare il foglio "anagrafica" inseren
 
 **Come abilitare una feature di tipo "Flag"**
 Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-webphone, flag-app, flag-mcs ) è sufficente inserire qualsiasi carattere all'interno della cella perchè il sistema capisca che è abilitato
+
+.. warning:: **ATTENZIONE:** L'import di Dispositivi e/o Utenti può essere utilizzato solo per la creazione degli stessi, e non per la modifica.
+
+Le pagine "entity-filtro", "entity-abilitazione", "entity-registrazione","entity-lingua", "entity-device" indicano gli ID che devono essere inseriti nelle colonne delle altre pagine:
+
+"entity-filtro": usato nella pagina "profili utente" nella colonna "filtro" e nella pagina "profili agente" nella colonna "filtro"
+"entity-abilitazione": usato nella pagina "profili utente" nella colonna "abilitazione" e nella pagina "profili agente" nella colonna "abilitazione"
+"entity-registrazione": usato nella pagina "profili utente" nella colonna "Registrazione conversazioni" e nella pagina "profili agente" nella colonna "Registrazione conversazioni"
+"entity-lingua": usato nella pagina "anagrafica" nella colonna "lingua" 
+"entity-device": usato nella pagina "dispositivi sip" nelle colonne "Vendor" e "Model"
