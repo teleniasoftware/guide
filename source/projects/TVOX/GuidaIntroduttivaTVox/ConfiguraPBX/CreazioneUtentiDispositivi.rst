@@ -74,6 +74,8 @@ Per configurare la **stanza di conferenza** dell'utente, andare nella sezione *P
 
         .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/ImpostazioniTelefono.JPG
         
+        |br|
+        
         **Pin per accesso telefonico**:  Numero di identificazione personale dell'utente TVox Omnichannel Contact Center.
         Necessario per utilizzare correttamente le seguenti funzionalità telefoniche:
    
@@ -112,15 +114,15 @@ In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. 
 
 .. important:: **BEST PRACTICE:** Una volta scaricato il file di template, non bisogna effettuare modifiche su altri componenti del TVox fino all'import del file, in quanto potrebbero cambiare i codici che identificano delle particolari configurazioni.
 
-.. warning:: **ATTENZIONE:** il file deve sempre essere scaricato dall'OCC nello stesso momento in cui si intende andare a popolarlo. Questo perchè il template includerà sempre una componente dinamica i codici e le eventuali abilitazioni che sono già presenti sul sistema, come i filtri, le abilitazioni e i dispositivi inseriti.
+.. warning:: **ATTENZIONE:** il file deve sempre essere scaricato dall'OCC nello stesso momento in cui si intende andare a popolarlo. Questo perchè il template includerà sempre una componente dinamica con i codici e le eventuali abilitazioni che sono già presenti sul sistema, come i filtri, le abilitazioni e i dispositivi inseriti.
 
-**Come importare solo dispositivi**: Per importare solo i dispositivi è necessario compliare il foglio nominato "dispositivi sip" non inserendo alcun dato sulla colonna username. In questo modo verrà creato un dispositivo per ogni riga compilata e non verrà associato a nessun utente.
+**Come importare solo dispositivi**: Per importare solo i dispositivi è necessario compilare il foglio nominato "dispositivi sip" non inserendo alcun dato sulla colonna username. In questo modo verrà creato un dispositivo per ogni riga compilata e non verrà associato a nessun utente.
 
-**Come importare solo utenti**: Per importare solo utenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'utente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili utente" con le specifiche del profilo utente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'utente che si sta creando. È possibile inserire un solo profilo di tipo utente.
+**Come importare solo utenti**: Per importare solo utenti è necessario compilare il foglio "anagrafica" inserendo le informazioni base dell'utente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili utente" con le specifiche del profilo utente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'utente che si sta creando. È possibile inserire un solo profilo di tipo utente.
 
-**Come importare solo agenti**: Per importare solo agenti è necessario compliare il foglio "anagrafica" inserendo le informazioni base dell'agente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili agente" con le specifiche del profilo agente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'agente che si sta creando. È possibile inserire più profili agente su un utente.
+**Come importare solo agenti**: Per importare solo agenti è necessario compilare il foglio "anagrafica" inserendo le informazioni base dell'agente (username, password, pin, nome, cognome, ecc...) e poi compilare il foglio "profili agente" con le specifiche del profilo agente linkando, tramite la colonna username, le informazioni di anagrafica con quelle dell'agente che si sta creando. È possibile inserire più profili agente su un utente.
 
-**Come abilitare una feature di tipo "Flag"**: Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-webphone, flag-app, flag-mcs ) è sufficente inserire qualsiasi carattere all'interno della cella perchè il sistema capisca che è abilitato
+**Come abilitare una feature di tipo "Flag"**: Per abilitare una casella di tipo "Flag" (ES: flag-webclient, flag-webclient-webphone, flag-app, flag-mcs ) è sufficente inserire qualsiasi carattere all'interno della cella perchè il sistema capisca che è abilitato.
 
 .. warning:: **ATTENZIONE:** L'import di Dispositivi e/o Utenti può essere utilizzato solo per la creazione degli stessi, e non per la modifica. 
 
