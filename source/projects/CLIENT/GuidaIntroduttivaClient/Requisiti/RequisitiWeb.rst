@@ -26,5 +26,3 @@ Di seguito i requisiti minimi:
 +-------------------------+----------------------------------------------------------------------------------------------------------------+
 | Dispositivi audio/video | Videocamera/microfono ed altoparlanti su portatile, dispositivi esterni compatibili |br| USB 2.0 su PC Desktop |
 +-------------------------+----------------------------------------------------------------------------------------------------------------+
-
-.. note:: 
