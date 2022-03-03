@@ -1,3 +1,5 @@
+.. _Manuale Installazione:
+
 =================================
 Manuale di Installazione TConsole
 =================================
