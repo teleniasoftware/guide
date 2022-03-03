@@ -4,7 +4,7 @@ TConsole 5
 
 .. image:: /images/TCONSOLE/TConsole_logo.png
 
-TConsole è la soluzione basata su PC per il posto operatore e può essere utilizzato su diverse tipologie di centrale tra cui Nortel, Cisco, Avaya, |tvox| e qualsiasi altro centralino SIP che consenta l’utilizzo di telefoni SNOM (vedi :ref:`centrali compatibili`).
+TConsole è la soluzione basata su PC Windows per il posto operatore e può essere utilizzato su diverse tipologie di centrale tra cui Nortel, Cisco, Avaya, |tvox| e qualsiasi altro centralino SIP che consenta l’utilizzo di telefoni SNOM (vedi :ref:`centrali compatibili`).
 
 **TConsole è adatto per centralinisti vedenti, ipo vedenti e non vedenti.**
 
