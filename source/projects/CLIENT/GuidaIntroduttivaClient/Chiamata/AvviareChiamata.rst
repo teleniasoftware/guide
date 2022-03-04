@@ -10,7 +10,14 @@ In caso di contatto interno o di contatto esterno censito in rubrica, è suffici
 
 
 .. image:: /images/CLIENT/avvio_chiamata_1.PNG
-    
 
-In alternativa, è necessario aprire l’interazione relativa ad un contatto presente in rubrica (interna o esterna) e selezionare
+
+In alternativa, è possibile aprire l’interazione relativa ad un contatto presente in rubrica (interna o esterna) e selezionare i pulsanti cornetta presenti nel dettaglio contatto
+
+.. image:: /images/CLIENT/avvio_chiamata_2.PNG
+
+
+
+Altra possibilità è l'inserimento di un numero nell'area :ref:`Ricerca contatti e Dialpad <ricercadialpad>` e successiva pressione del tasto *Invio* della tastiera.
+
 
