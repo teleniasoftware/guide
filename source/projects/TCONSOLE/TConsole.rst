@@ -15,7 +15,7 @@ TConsole è caratterizzato da una semplice ed intuitiva interfaccia grafica, pro
 È fornito di una rubrica locale che permette di gestire e di ricercare in modo semplice e rapido i numeri interni o esterni e di inoltrare la chiamata automaticamente senza la necessità di comporre il numero telefonico.
 
 .. important ::
-    La conoscenza delle funzioni di base del posto operatore (dispositivio telefonico oppure dispositivo M2250 o PC-CIU nel caso Nortel) è un pre-requisito per l’utilizzo del posto operatore Telenia TConsole.
+    La conoscenza delle funzioni di base del posto operatore (dispositivo telefonico oppure dispositivo M2250 o PC-CIU nel caso Nortel) è un pre-requisito per l’utilizzo del posto operatore Telenia TConsole.
 
     **L’installazione e la configurazione di TConsole deve essere effettuata a cura di un tecnico qualificato.**
 
@@ -23,7 +23,7 @@ TConsole è caratterizzato da una semplice ed intuitiva interfaccia grafica, pro
 
 Questa documentazione si suddivide in due macrosezioni:
 
-- :ref:`Manuale Installazione`, destinato principalmente ad un tecnico per eseguire correttamente l'installazione e configurazione dell'applicazione
+- :ref:`Manuale Installazione`, destinato principalmente a personale tecnico affinché possa eseguire correttamente l'installazione e la configurazione dell'applicazione
 - :ref:`Guida Utente`, necessaria all'operatore centralinista per lavorare correttamente sfruttando l'interfaccia del programma e le funzionalità messe a disposizione
 
 .. toctree::
@@ -34,4 +34,4 @@ Questa documentazione si suddivide in due macrosezioni:
 
 .. rubric:: Note
 
-.. [1] per disporre su TConsole l'informazione relativa al numero di chiamate in coda, ed eseguire funzioni quali pickup della chiamata e parcheggi **è necessaria la presenza di un TVOX** che svolga la funzione di TQM
+.. [1] per disporre su TConsole dell'informazione relativa al numero di chiamate in coda, ed eseguire funzioni quali pickup della chiamata e parcheggi **è necessaria la presenza di un TVOX** che svolga la funzione di TQM
