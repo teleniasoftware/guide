@@ -2,7 +2,7 @@
 Cos'è TVox
 ==========
 
-**TVox** è una piattaforma software interamente amministrabile via web basata su Sistema Operativo AlmaLinux 8.4 (Electric Cheetah) mirata ad una gestione efficiente ed efficace di tutte le interazioni che coinvolgono gli utenti di un'azienda tra loro e gli stessi utenti con i clienti dell'azienda.
+**TVox** è una piattaforma software interamente amministrabile via web basata su Sistema Operativo AlmaLinux 8.5 (Arctic Sphynx) mirata ad una gestione efficiente ed efficace di tutte le interazioni che coinvolgono gli utenti di un'azienda tra loro e gli stessi utenti con i clienti dell'azienda.
 
 .. note:: **TVox UC&C - Unified Communications & Collaboration** riunisce tutte le funzionalità delle classiche centrali telefoniche integrando aspetti tecnologivi innovativi per le aziende che intendono differenziarsi nello sforzo di far percepire l'attenzione al cliente.
 
