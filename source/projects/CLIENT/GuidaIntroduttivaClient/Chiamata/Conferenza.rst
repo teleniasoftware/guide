@@ -1,8 +1,8 @@
 .. _conferenza:
 
-===============================
-Avviare una chiamata telefonica
-===============================
+=========================
+Effettuare una conferenza
+=========================
 
 
 asad
