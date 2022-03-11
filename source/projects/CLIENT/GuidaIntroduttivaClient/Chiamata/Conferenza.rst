@@ -26,7 +26,7 @@ Per entrare in conferenza, l'utente che l'ha avviata dovrà cliccare sul pulsant
 .. image:: /images/CLIENT/conf_attiva.PNG
 
 
-L'utente che ha avviato la conferenza ha la possibilità di inserire altri utenti chiamandoli uno per volta e ripetendo per ognuno la stessa azione compiuta per il primo inserimento.
+L'utente che ha avviato la conferenza ha la possibilità di inserire altri utenti (interni od esterni) chiamandoli uno per volta e ripetendo per ognuno la stessa azione compiuta per il primo inserimento.
 
 
 .. tip:: Per entrare in una stanza di conferenza privata, gli utenti non proprietari possono chiamare direttamente il numero interno della stanza stessa se ne hanno conoscenza.
@@ -35,8 +35,10 @@ L'utente che ha avviato la conferenza ha la possibilità di inserire altri utent
 
 
 
-L'utente che dispone di una propria stanza di conferenza è a tutti gli effetti l'amministratore della stanza. |br|  Con una conferenza attiva, ha la possibilità di silenziare e di escluldere singolarmente gli utenti che partecipano, oltre che di concludere per tutti la conferenza stessa
+L'utente che dispone di una propria stanza di conferenza è a tutti gli effetti l'amministratore della stanza. |br|  Con una conferenza attiva, ha la possibilità di silenziare e di escludere singolarmente i partecipanti, oltre che di concludere per tutti la conferenza stessa.
 
 
 .. image:: /images/CLIENT/concludi_conf.PNG
+
+
 
