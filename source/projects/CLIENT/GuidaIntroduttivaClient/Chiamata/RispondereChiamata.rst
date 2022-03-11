@@ -15,7 +15,7 @@ Per rispondere, è necessario cliccare sul pulsante verde presente nel blocchett
 
     .. raw:: html
 
-        <iframe width="900" height="515" src="https://www.youtube.com/embed/825OyDoNF3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+        <iframe width="908" height="515" src="https://www.youtube.com/embed/825OyDoNF3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
 asdad
