@@ -11,7 +11,7 @@ Cliccando su tale pulsante, la persona con cui si sta conversando viene inserita
 
 .. image:: /images/CLIENT/inserimento_conf.PNG
 
-Sul menu verticale del client compare una nuova icona che simboleggia la stanza di conferenza e che permette di accedere alla sezione del client dedicata alla conferenza attiva
+Sul menu verticale del client compare una nuova icona che simboleggia la stanza di conferenza e che permette di accedere alla sezione del client dedicata alla conferenza attiva. Gli utenti partecipanti sono identificati da un box rettangolare che ne riporta il nome, un avatar ed un timer che conteggia il tempo di partecipazione di ogni utente.
 
 .. image:: /images/CLIENT/icona_conf.PNG
 
@@ -35,7 +35,8 @@ L'utente che ha avviato la conferenza ha la possibilità di inserire altri utent
 
 
 
+L'utente che dispone di una propria stanza di conferenza è a tutti gli effetti l'amministratore della stanza. Con una conferenza attiva, ha la possiblità di silenziare e di escluldere singolarmente gli utenti che partecipano, oltre che di concludere per tutti la conferenza stessa
 
 
-
+.. image:: /images/CLIENT/concludi_conf.PNG
 
