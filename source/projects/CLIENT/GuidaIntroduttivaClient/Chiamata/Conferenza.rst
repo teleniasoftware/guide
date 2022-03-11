@@ -29,9 +29,9 @@ Per entrare in conferenza, l'utente che l'ha avviata dovrà cliccare sul pulsant
 L'utente che ha avviato la conferenza ha la possibilità di inserire altri utenti chiamandoli uno per volta e ripetendo per ognuno la stessa azione compiuta per il primo inserimento.
 
 
-.. tip:: Per entrare in una stanza di conferenza, gli altri utenti possono chiamare direttamente il numero della stanza se lo si conosce.
+.. tip:: Per entrare in una stanza di conferenza privata, gli utenti non proprietari possono chiamare direttamente il numero interno della stanza stessa se ne hanno conoscenza.
 
-    ATTENZIONE: il numero di una stanza di conferenza provata è noto solamente al proprietario, che può trovare tale informazione nella sezione :ref:`Impostazioni-Conferenza <conferenza>` del proprio client.
+     **ATTENZIONE**: il numero di una stanza di conferenza privata è noto solamente al proprietario, che può trovare tale informazione nella sezione :ref:`Impostazioni-Conferenza <conferenza>` del proprio client.
 
 
 
