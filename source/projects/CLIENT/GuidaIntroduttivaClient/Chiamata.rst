@@ -11,5 +11,5 @@ Gestione chiamate telefoniche
 
     ./Chiamata/AvviareChiamata
     ./Chiamata/RispondereChiamata
-    .. ./Chiamata/
+    ./Chiamata/Conferenza
     .. ./Chiamata
