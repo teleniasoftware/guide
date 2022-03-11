@@ -35,7 +35,7 @@ L'utente che ha avviato la conferenza ha la possibilità di inserire altri utent
 
 
 
-L'utente che dispone di una propria stanza di conferenza è a tutti gli effetti l'amministratore della stanza. Con una conferenza attiva, ha la possiblità di silenziare e di escluldere singolarmente gli utenti che partecipano, oltre che di concludere per tutti la conferenza stessa
+L'utente che dispone di una propria stanza di conferenza è a tutti gli effetti l'amministratore della stanza. |br|  Con una conferenza attiva, ha la possibilità di silenziare e di escluldere singolarmente gli utenti che partecipano, oltre che di concludere per tutti la conferenza stessa
 
 
 .. image:: /images/CLIENT/concludi_conf.PNG
