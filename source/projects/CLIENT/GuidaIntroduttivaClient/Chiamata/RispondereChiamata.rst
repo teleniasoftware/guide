@@ -15,6 +15,6 @@ Per rispondere, è necessario cliccare sul pulsante verde presente nel blocchett
 
     .. raw:: html
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/825OyDoNF3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+        <iframe alignment="center" width="560" height="315" src="https://www.youtube.com/embed/825OyDoNF3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
 
