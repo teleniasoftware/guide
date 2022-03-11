@@ -11,7 +11,7 @@ Quando si riceve una chiamata, viene proposto un popup direttamente dal browser 
 
 Per rispondere, è necessario cliccare sul pulsante verde presente nel blocchetto chiamata che compare all'interno del client.
 
-.. tip:: Se il client in esecuzione è il |winweb| la risposta è possibile anche utilizzando una scorciatoia di tasti della tastiera. Per poterla configurare si veda il seguente video
+.. tip:: Se il client in esecuzione è il **|winweb|** la risposta è possibile anche utilizzando una  **scorciatoia di tasti della tastiera** . Per poterla configurare si veda il seguente video
 
     .. raw:: html
 
