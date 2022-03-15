@@ -83,12 +83,12 @@ Nella sezione *Sistema=>Configurazione di sistema=>Rete=>Disaster Recovery* del 
 Una volta configurati i riferimenti IP tra le due macchine, nella sezione *Sistema=>Configurazione di sistema=>Replicazione* del |tvox_dr_client| avviare la sincronizzazione completa selezionando nel menu a tendina la voce *Tutto*.
 
 .. TODO 03_dr_ip_configuration_client.png
-.. .. image:: /images/DR/03_dr_ip_configuration_client.png
+.. image:: /images/DR/03_dr_ip_configuration_client.PNG
 
 Il corretto completamento della sincronizzazione è espresso dai relativi indicatori, che al termine dell'operazione diventeranno tutti di colore verde.
 
 .. TODO 04_dr_ip_configuration_client.png
-.. .. image:: /images/DR/04_dr_ip_configuration_client.png
+.. image:: /images/DR/04_dr_ip_configuration_client.PNG
 
 
 
