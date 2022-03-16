@@ -10,20 +10,14 @@ Guida Utente TConsole
 
 Questa sezione riporta la Guida utente per poter utilizzare il posto operatore TConsole.
 
-..
- TODOTODOTODOTODOTODO
-
 .. toctree::
     :maxdepth: 5
  
-    ./REQUISITI/Requisiti
-    ./INSTALLAZIONE/Installazione
-    Configurazione
-    Barra Braille
-    Sintesi Vocale
-    Backup
-    Rimozione
-
-
-..    /projects/TCONSOLE/INSTALLAZIONE/Installazione
-   
+    ./CONSOLE/Console
+    ./VISTANORMALE/VistaNormale
+    ./VISTAIPO/VistaIPO
+    ./VISTAIPOPLUS/VistaIPOPLUS
+    ./PRESTAZIONIEVOLUTE/PrestazioniEvolute
+    ./PRENOTAZIONI/Prenotazioni
+    ./AUSILI/Ausili
+    ./OPERAZIONITELEFONICHE/OperazioniTelefoniche
