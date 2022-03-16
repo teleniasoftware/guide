@@ -1,8 +1,8 @@
 .. _Nota di VMWare: https://blogs.vmware.com/vsphere/2018/07/timekeeping-within-esxi.html
 
-==============================
+===============================
 Principali Anomalie Riscontrate
-==============================
+===============================
 
 I problemi di funzionamento del software Telenia possono essere riassunti nelle seguenti categorie:
 
@@ -77,10 +77,10 @@ Anomalie legate al tipo di Hypervisor utilizzato
 
 
 
-------------------------------------------------
+------------------------------
 
 Anomalie legate al Timekeeping
-================================================
+==============================
     
 **Descrizione problema:** Solitamente il problema si manifesta con il blocco delle applicazioni in running nell’OS guest e/o crash del cluster applicativo.
     
@@ -99,7 +99,7 @@ Anomalie legate al Timekeeping
 Tabella riassuntiva
 ===================
 
-In tabella vengono riassunti le anomalie evidenziate:    
+In tabella vengono riassunti le anomalie evidenziate:
 
 +-----------------------------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 |  **Problema**               |  **Effetto**                                                                                           |  **Soluzione**                                                                                         |

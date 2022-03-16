@@ -93,7 +93,7 @@ Il corretto completamento della sincronizzazione è espresso dai relativi indica
 
 
 Configurazione Terminali SNOM
-------------------------------
+-----------------------------
 Per configurare un terminale SNOM di un sistema TVox dotato di TVox-DR eseguire i seguenti passi:
 
 - Configurare la seconda identità duplicando i valori immessi per la prima identità tranne che per i parametri “Server” e “Outbound Proxy” che vanno settati con l'indirizzo IP del TVox-DR. Si consiglia nella seconda identità di impostare il parametro “Display text for idle screen” inserendo 2 asterischi prima del valore dell'interno in modo da fornire un feedback sul display del telefono che indica l'utilizzo dell'identità di fallback. Evitare di utilizzare il joystick del terminale telefonico al fine di rimanere sull'identità principale

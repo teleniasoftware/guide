@@ -69,7 +69,7 @@ Il server TVox Pure Cloud espone alcuni servizi, di conseguenza le seguenti cost
 
 
 Sicurezza provisioning e SIP
-============================
+----------------------------
 In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
 E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Impostazioni=>Avanzate=>Sicurezza* impostando il parametro "Sicurezza provisioning telefoni" con il valore "Sicuro e RPS".
 
