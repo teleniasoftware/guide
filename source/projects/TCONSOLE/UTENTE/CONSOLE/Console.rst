@@ -23,11 +23,16 @@ TConsole è un’applicazione modulare e si presenta in modalità di visualizzaz
 
 Sono disponibili tre diverse viste, che si differenziano per il livello di ingrandimento via via crescente:
 
-- **Normale**: vista standard, sempre disponibile con il modulo TConsole base, per operatori normalmente vedenti
-- **IPO**: vista opzionale destinata ad un operatore ipovedente; i caratteri sono ingranditi
-- **IPO PLUS**: vista opzionale destinata ad un operatore ipovedente con caratteri ulteriormente ingranditi (vengono visualizzate le funzionalità principali)
+..
+    - **Vista Normale**: vista standard, sempre disponibile con il modulo TConsole base, per operatori normalmente vedenti
+    - **Vista IPO**: vista opzionale destinata ad un operatore ipovedente; i caratteri sono ingranditi
+    - **Vista IPO PLUS**: vista opzionale destinata ad un operatore ipovedente con caratteri ulteriormente ingranditi (vengono visualizzate le funzionalità principali)
 
-.. important :: Per disporre delle viste IPO o IPO PLUS è richiesta la presenza dell'apposita licenza.
+- :ref:`Vista Normale`: vista standard, sempre disponibile con il modulo TConsole base, per operatori normalmente vedenti
+- :ref:`Vista IPO`: vista opzionale destinata ad un operatore ipovedente; i caratteri sono ingranditi
+- :ref:`Vista IPO PLUS`: vista opzionale destinata ad un operatore ipovedente con caratteri ulteriormente ingranditi (vengono visualizzate le funzionalità principali)
+
+.. important :: Per disporre delle viste IPO e IPO PLUS è richiesta la presenza dell'apposita licenza.
 
 Si riporta di seguito un esempio di vista Normale:
 

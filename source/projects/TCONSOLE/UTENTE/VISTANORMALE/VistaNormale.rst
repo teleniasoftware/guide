@@ -1,3 +1,5 @@
+.. _Vista Normale:
+
 =============
 Vista Normale
 =============

@@ -1,3 +1,5 @@
+.. _Vista IPO PLUS:
+
 ==============
 Vista IPO PLUS
 ==============
