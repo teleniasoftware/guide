@@ -69,7 +69,7 @@ Il server TVox Pure Cloud espone alcuni servizi, di conseguenza le seguenti cost
 
 
 Sicurezza provisioning e SIP
-----------------------------
+----------------------------    
 In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
 E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Impostazioni=>Avanzate=>Sicurezza* impostando il parametro "Sicurezza provisioning telefoni" con il valore "Sicuro e RPS".
 
@@ -97,11 +97,16 @@ Sistemi Hybrid
 ==============
 
 
-L'architettura di un sistema TVox si può definire **Hybrid/Private Cloud** nel caso in cui TVox sia posto in cloud ma senza il modulo PURE CLOUD in licenza.
+L'architettura di un sistema TVox si può definire **Hybrid/Private Cloud** nel caso in cui TVox sia posto in una infrastruttura cloud ma senza il modulo PURE CLOUD in licenza.
 
 In tali condizioni, la fruizione di linee tradizionali attestate nella sede, l’utilizzo di dispositivi quali gateway ata (fax analogici, cordless, campane ecc) e terminali SIP che eseguono la registrazione su TVox è possibile solamente sfruttando un collegamento MPLS o VPN.
 
 .. image:: /images/TVOX/HybridCloud/schema_hybrid.PNG
+
+
+
+Si parla di architettura ibrida anche nel caso di TVox con licenza PURE CLOUD consentendo l’interconnessione di terminali sia in modalità pure cloud sia in modalità tradizionale.
+
 
 
 
