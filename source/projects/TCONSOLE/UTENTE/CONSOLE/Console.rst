@@ -19,21 +19,44 @@ L’utente deve inserire le proprie credenziali utente TConsole (username e pass
 ..
  .. note :: Nella finestra di login è possibile verificare quali moduli TConsole sono disponibili: ad es. ####
 
+TConsole è un’applicazione modulare e si presenta in modalità di visualizzazione (di seguito denominate **viste**) differenti in base alle prestazioni incluse ed alle configurazioni eseguite.
 
-..
- TODOTODOTODOTODOTODO
+Sono disponibili tre diverse viste, che si differenziano per il livello di ingrandimento via via crescente:
 
-.. toctree::
-    :maxdepth: 5
- 
-    ./REQUISITI/Requisiti
-    ./INSTALLAZIONE/Installazione
-    Configurazione
-    Barra Braille
-    Sintesi Vocale
-    Backup
-    Rimozione
+- **Normale**: vista standard, sempre disponibile con il modulo TConsole base, per operatori normalmente vedenti
+- **IPO**: vista opzionale destinata ad un operatore ipovedente; i caratteri sono ingranditi
+- **IPO PLUS**: vista opzionale destinata ad un operatore ipovedente con caratteri ulteriormente ingranditi (vengono visualizzate le funzionalità principali)
 
+.. important :: Per disporre delle viste IPO o IPO PLUS è richiesta la presenza dell'apposita licenza.
 
-..    /projects/TCONSOLE/INSTALLAZIONE/Installazione
-   
+Si riporta di seguito un esempio di vista Normale:
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/vista_normale_sezioni.png
+
+Titolo
+======
+
+Barra di Stato
+==============
+
+Menu
+====
+
+Strumenti
+---------
+
+Chiamate
+--------
+
+Configurazione
+--------------
+
+Vista
+-----
+
+?
+-
+
+Come mostrato in figura, questa opzione visualizza informazioni relative all’applicazione; in particolare sono significativi i numeri di versione.
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
