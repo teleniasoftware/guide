@@ -1,3 +1,4 @@
+.. _mcs_preview: 
 ==================================
 MCS - Mediant Communication System
 ==================================

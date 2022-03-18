@@ -4,7 +4,7 @@
 Tipologie di Infrastruttura
 ===========================
 
-------------------
+
 
 Sistemi Pure Cloud
 ==================
