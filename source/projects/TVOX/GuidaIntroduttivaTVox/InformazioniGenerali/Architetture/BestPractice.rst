@@ -17,8 +17,11 @@ Qual è la scelta migliore in termini architetturali? VEDIAMOLO INSIEME!
 
 Nel prospetto che trovi nell'immagine precedente, abbiamo messo a confronto le 2 principali opzioni architetturali **TVOX PURE CLOUD** e **TVOX MCS**, con l'obiettivo di evidenziare analogie e differenze in merito a:
 
+|br| 
+
 * **SMART WORKING**: In entrambi i casi gli utenti TVox hanno la possibilità di fruire di |client| o |winweb| con semplice connessione internet.
   
+|br| 
 
   .. tip:: Nel caso di architettura Tvox+MCS l'accesso in smart working al client è possibile a fronte della presenza di licenze  *Webclient in Smart Working*  e/o  *Utenti TVoxTeam Smartworking* che consentono l'abilitazione nominale a singolo utente della funzionalità smart working
 
