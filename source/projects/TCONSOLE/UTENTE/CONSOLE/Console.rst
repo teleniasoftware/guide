@@ -12,16 +12,16 @@ L’utente deve inserire le proprie credenziali utente TConsole (username e pass
 .. NOTA: il pulsante "Modifica Password" è opzionale e, se presente, consente all’utente di cambiare la password associata al proprio identificativo.
 
 ..
- .. important :: L’avvio di TConsole può essere configurato in modo da eseguire automaticamente la procedura di autenticazione con un identicativo di utente predefinito.
+ .. note :: L’avvio di TConsole può essere configurato in modo da eseguire automaticamente la procedura di autenticazione con un identicativo di utente predefinito.
 
-.. important :: L’installazione standard prevede il login automatico a TConsole tramite un'utenza predefinita. È possibile modificare questa configurazione in modo da ripristinare la richiesta di autenticazione dell'utente.
+.. note :: L’installazione standard prevede il login automatico a TConsole tramite un'utenza predefinita. È possibile modificare questa configurazione in modo da ripristinare la richiesta di autenticazione dell'utente.
 
 ..
  .. note :: Nella finestra di login è possibile verificare quali moduli TConsole sono disponibili: ad es. ####
 
-TConsole è un’applicazione modulare e si presenta in modalità di visualizzazione (di seguito denominate **viste**) differenti in base alle prestazioni incluse ed alle configurazioni eseguite.
+TConsole è un’applicazione modulare e si presenta in modalità di visualizzazione, di seguito denominate **viste**, che differiscono in base alle prestazioni incluse ed alle configurazioni eseguite.
 
-Sono disponibili tre diverse viste, che si differenziano per il livello di ingrandimento via via crescente:
+**Sono disponibili tre diverse viste**, che si differenziano per il livello di ingrandimento via via crescente:
 
 ..
     - **Vista Normale**: vista standard, sempre disponibile con il modulo TConsole base, per operatori normalmente vedenti
@@ -34,34 +34,49 @@ Sono disponibili tre diverse viste, che si differenziano per il livello di ingra
 
 .. important :: Per disporre delle viste IPO e IPO PLUS è richiesta la presenza dell'apposita licenza.
 
-Si riporta di seguito un esempio di vista Normale:
+Si riporta di seguito un esempio di vista Normale con l'indicazione delle diverse sezioni dell'interfaccia:
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/vista_normale_sezioni.png
+
+Titolo e Barra di Stato sono in comune a tutte e tre le viste.
+
+**Nella vista Normale (e solamente in questa) possono essere presenti uno o più dei seguenti contesti**:
+
+- Rubrica (F3): rubrica unificata, sempre disponibile e in grado di memorizzare sia numeri interni che esterni
+- Rubrica Interna (F2): rubrica opzionale, in grado di memorizzare solo numeri interni (normalmente è la Rubrica Interna di un SAM/TSAM alla quale TConsole accede come Client)
+- Campo lampade
+.. - Rubrica Web
+.. - Liste di selezione abbreviata
+.. - Prenotazioni
+
+**Nelle viste Ipo e Ipo Plus i contesti disponibili sono solo Rubrica (F3) e, opzionalmente, Rubrica Interna (F2)**.
+
+In queste viste il contesto delle rubriche e la parte di controllo della Console sono visualizzate ognuna a schermo intero con la possibilità di commutare da una all’altra tramite opportune combinazioni di tasti (si rimanda alla sezione relativa del presente manuale).
+
+In questo capitolo si prosegue descrivendo le parti comuni alle viste; successivamente verranno illustrate in dettaglio le viste stesse ed i contesti opzionali.
 
 Titolo
 ======
 
+Nel titolo dell’applicazione, oltre al nome del programma e del produttore del software, vengono riportate informazioni quali:
+
+- numero della postazione: significativo nel caso di postazioni multiple per poterle distinguere (vedi parametro :ref:`ID` nel file *TConsole.ini*)
+- utente: identificativo utilizzato per effettuare il login all’applicazione; si possono associare prestazioni e configurazioni differenti (vedi :ref:`Profilo Utente`) ad utenti diversi
+- tipo della console/telefono utilizzato: evidenzia la codifica della console (a seconda dell'ambiente e della tipologia di installazione) attualmente in uso
+
+.. _Barra di Stato:
+
 Barra di Stato
 ==============
 
-Menu
-====
+La barra di stato è divisa in cinque parti, nelle quali vengono rispettivamente visualizzate le seguenti informazioni:
 
-Strumenti
----------
-
-Chiamate
---------
-
-Configurazione
---------------
-
-Vista
------
-
-?
--
-
-Come mostrato in figura, questa opzione visualizza informazioni relative all’applicazione; in particolare sono significativi i numeri di versione.
-
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+- data odierna (del PC)
+- ora corrente (del PC)
+- icona di connessione al dispositivo telefonico controllato ("pallino"): "pallino verde": connessione funzionante, "pallino rosso": connessione non funzionante (dispositivo non visibile da TConsole)
+- icona di connessione al database ("cilindro"): "cilindro grigio": connessione corretta, "cilindro con X rossa": connessione non funzionante
+- icona di connessione al servizio :ref:`TConsoleServer` ("PC"): icona "PC": connessione funzionante, icona "PC con X rossa": connessione non funzionante
+- icona "altoparlante"
+- testo inviato all’eventuale :ref:`Barra Braille Lilli` collegata al PC (se abilitato il parametro :ref:`BRAILLE_STRING_ON_STATUS_BAR` nel file *TConsole.ini*)
+- messaggio a scorrimento destinato ad una singola postazione TConsole della rete
+- messaggio a scorrimento destinato a tutte le postazioni TConsole della rete

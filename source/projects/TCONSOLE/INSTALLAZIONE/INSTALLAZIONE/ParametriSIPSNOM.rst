@@ -25,7 +25,7 @@ Parametri richiesti in fase di installazione (sezioni "SIP")
 
     - da TConsole si riesce a fare partire una chiamata, ma poi non si riesce a controllarla (occorre utilizzare il telefono) e non viene visualizzata nel loop (Linea 0, Linea 1, ...)
     - una chiamata in ingresso arriva sul telefono, ma su TConsole non compare nulla
-    - all’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo pallino rosso nella Status Bar in basso
+    - all’avvio di TConsole viene visualizzato il messaggio *Problemi durante l’apertura di <DN>. Funzionalità telefoniche non disponibili*, con relativo "pallino rosso" nella :ref:`Barra di Stato` in basso
 
 Parametri configurabili in TConsole.ini
 =======================================

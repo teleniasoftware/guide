@@ -26,7 +26,14 @@ DISPLAY_ACTIVE_STATE
 
     DISPLAY_ACTIVE_STATE=SI
 
-.. descrivere il parametro ID per il TConsoleServer e per il tratamento VIP
+.. _ID:
+
+ID
+--
+
+In presenza di più di una postazione TConsole, questo parametro va configurato con un numero progressivo e *univoco* per ogni postazione. Il valore di default è *1*.
+
+.. important :: La configurazione di questo parametro è necessaria in ambiente Nortel per la corretta gestione delle chiamate VIP (vedi :ref:`Parametri Nortel` e :ref:`Installazione Client`).
 
 TAPI_CALL_ON_BUSY_CODE
 ----------------------
@@ -214,9 +221,16 @@ Sempre per la Barra Braille Lilli è possibile impostare il tipo di alfabeto uti
     ;	TABLE=8 o TABLE=6 (alfabeto braille a 6 o 8 pti)
     TABLE=8
 
-..
-	BRAILLE_STRING_ON_STATUS_BAR
-	----------------------------
+.. _BRAILLE_STRING_ON_STATUS_BAR:
+
+BRAILLE_STRING_ON_STATUS_BAR
+----------------------------
+
+Se impostato a *SI*, permette di visualizzare anche nella :ref:`Barra di Stato` di TConsole il testo inviato alla Barra Braille. Il valore di default è *NO*.
+
+.. code-block:: ini
+
+    BRAILLE_STRING_ON_STATUS_BAR=NO
 
 Configurazione dei tasti funzione per Barra Braille Lilli
 ---------------------------------------------------------

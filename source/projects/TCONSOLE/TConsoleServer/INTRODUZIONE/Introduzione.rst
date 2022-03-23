@@ -8,6 +8,6 @@ Cos'è il TConsoleServer
 Le funzionalità aggiuntive sono:
 
 - lo stato di tutti i PO
-- un campo lampade che mostra lo stato di un insieme di telefoni controllati
-- la gestione delle chiamate 'VIP'
+- un Campo Lampade che mostra lo stato di un insieme di telefoni controllati
+- la gestione delle chiamate "VIP" (**solo per Nortel**)
 - gestione parcheggi comuni tra i PO

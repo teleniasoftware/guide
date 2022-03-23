@@ -14,7 +14,7 @@ Il posto operatore TConsole può essere installato in modalità Client per esser
 
 .. In questa modalità le informazioni di configurazione quali i profili utente e i parametri di sistema, i dati di rubrica ed altre eventuali applicazioni Server (es. rubrica web, liste di selezione abbreviata) presenti sul Server potranno essere condivise da tutte le postazioni.
 
-In una configurazione con due o più postazioni TConsole, **ciascuna di esse dovrà essere numerata univocamente a partire da 1** (vedi :ref:`Configurazione`) e dovrà essere connessa al Server per mezzo di una rete LAN.
+In una configurazione con due o più postazioni TConsole, **ciascuna di esse dovrà essere numerata univocamente a partire da 1** (vedi parametro :ref:`ID` nel file *TConsole.ini*) e dovrà essere connessa al Server per mezzo di una rete LAN.
 
 .. important ::
     La postazione Server dovrà essere dotata di un indirizzo IP fisso (statico) al quale le postazioni Client faranno riferimento.

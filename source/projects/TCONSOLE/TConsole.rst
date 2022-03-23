@@ -12,7 +12,7 @@ TConsole è il posto operatore che gestisce in modo rapido ed efficiente le chia
 
 TConsole è caratterizzato da una semplice ed intuitiva interfaccia grafica, progettata per essere utilizzabile anche da operatori inesperti o diversamente abili, che migliora l’immagine aziendale e le performance di servizio ai clienti-utenti.
 
-È fornito di una rubrica locale che permette di gestire e di ricercare in modo semplice e rapido i numeri interni o esterni e di inoltrare la chiamata automaticamente senza la necessità di comporre il numero telefonico.
+È fornito di una rubrica **locale** ([2]_) che permette di gestire e di ricercare in modo semplice e rapido i numeri interni o esterni e di inoltrare la chiamata automaticamente senza la necessità di comporre il numero telefonico.
 
 .. important ::
     La conoscenza delle funzioni di base del posto operatore (dispositivo telefonico oppure dispositivo M2250 o PC-CIU nel caso Nortel) è un pre-requisito per l’utilizzo del posto operatore Telenia TConsole.
@@ -35,3 +35,4 @@ Questa documentazione si suddivide in due macrosezioni:
 .. rubric:: Note
 
 .. [1] per disporre su TConsole dell'informazione relativa al numero di chiamate in coda, ed eseguire funzioni quali pickup della chiamata e parcheggi **è necessaria la presenza di un TVOX** che svolga la funzione di TQM
+.. [2] in presenza di più postazioni TConsole è possibile utilizzare un'unica rubrica centralizzata, condivisa da tutte le postazioni (vedi :ref:`Installazione Client`). È anche possibile, previa verifica di fattibilità, predisporre una procedura di import dei dati di rubrica da una fonte esterna.

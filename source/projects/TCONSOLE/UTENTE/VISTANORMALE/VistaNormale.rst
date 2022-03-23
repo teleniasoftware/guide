@@ -7,6 +7,28 @@ Vista Normale
 xxx
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/console.png
+    
+Menu
+====
+
+Strumenti
+---------
+
+Chiamate
+--------
+
+Configurazione
+--------------
+
+Vista
+-----
+
+?
+-
+
+Come mostrato in figura, questa opzione visualizza informazioni relative all’applicazione; in particolare sono significativi i numeri di versione.
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
 
 yyy
 
