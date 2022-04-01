@@ -18,7 +18,7 @@ I parametri inseriti in questa fase vengono memorizzati nel file di configurazio
 
 *\[INSTALLDIR\]\\TConsole.ini* ([1]_)
 
-Altri parametri, utili a personalizzare il comportamento di Tconsole e descritti in :ref:`Altri Parametri`, sono contenuti in ulteriori files presenti all'interno della cartella:
+Altri parametri, utili a personalizzare il comportamento di TConsole e descritti in :ref:`Altri Parametri`, sono contenuti in ulteriori files presenti all'interno della cartella:
 
 *\[INSTALLDIR\]\\config\\* ([1]_)
 

@@ -61,7 +61,7 @@ Titolo
 Nel titolo dell’applicazione, oltre al nome del programma e del produttore del software, vengono riportate informazioni quali:
 
 - numero della postazione: significativo nel caso di postazioni multiple per poterle distinguere (vedi parametro :ref:`ID` nel file *TConsole.ini*)
-- utente: identificativo utilizzato per effettuare il login all’applicazione; si possono associare prestazioni e configurazioni differenti (vedi :ref:`Profilo Utente`) ad utenti diversi
+- utente: identificativo utilizzato per effettuare il login all’applicazione; ad utenti differenti si possono associare prestazioni e configurazioni differenti (vedi :ref:`Profilo Utente`)
 - tipo della console/telefono utilizzato: evidenzia la codifica della console (a seconda dell'ambiente e della tipologia di installazione) attualmente in uso
 
 .. _Barra di Stato:
@@ -73,10 +73,14 @@ La barra di stato è divisa in cinque parti, nelle quali vengono rispettivamente
 
 - data odierna (del PC)
 - ora corrente (del PC)
-- icona di connessione al dispositivo telefonico controllato ("pallino"): "pallino verde": connessione funzionante, "pallino rosso": connessione non funzionante (dispositivo non visibile da TConsole)
-- icona di connessione al database ("cilindro"): "cilindro grigio": connessione corretta, "cilindro con X rossa": connessione non funzionante
-- icona di connessione al servizio :ref:`TConsoleServer` ("PC"): icona "PC": connessione funzionante, icona "PC con X rossa": connessione non funzionante
-- icona "altoparlante"
-- testo inviato all’eventuale :ref:`Barra Braille Lilli` collegata al PC (se abilitato il parametro :ref:`BRAILLE_STRING_ON_STATUS_BAR` nel file *TConsole.ini*)
+- icona (*"pallino"*) di connessione al dispositivo telefonico controllato: *"pallino verde"*: connessione funzionante, *"pallino rosso"*: connessione non funzionante (dispositivo non visibile da TConsole)
+- icona (*"cilindro"*) di connessione al database: *"cilindro grigio"*: connessione corretta, *"cilindro con X rossa"*: connessione non funzionante
+- icona (*"PC"*) di connessione al servizio :ref:`TConsoleServer` ([1]_): icona *"PC"*: connessione funzionante, icona *"PC con X rossa"*: connessione non funzionante
+- icona *"altoparlante"*
+- testo inviato all’eventuale :ref:`Barra Braille` collegata al PC (se abilitato il parametro :ref:`BRAILLE_STRING_ON_STATUS_BAR` nel file *TConsole.ini*)
 - messaggio a scorrimento destinato ad una singola postazione TConsole della rete
 - messaggio a scorrimento destinato a tutte le postazioni TConsole della rete
+
+.. rubric:: Note
+
+.. [1] affinché la relativa icona sia presente, il :ref:`Campo Lampade` deve essere abilitato a livello di :ref:`Profilo Utente`

@@ -35,4 +35,4 @@ Questa documentazione si suddivide in due macrosezioni:
 .. rubric:: Note
 
 .. [1] per disporre su TConsole dell'informazione relativa al numero di chiamate in coda, ed eseguire funzioni quali pickup della chiamata e parcheggi **è necessaria la presenza di un TVOX** che svolga la funzione di TQM
-.. [2] in presenza di più postazioni TConsole è possibile utilizzare un'unica rubrica centralizzata, condivisa da tutte le postazioni (vedi :ref:`Installazione Client`). È anche possibile, previa verifica di fattibilità, predisporre una procedura di import dei dati di rubrica da una fonte esterna.
+.. [2] in presenza di più postazioni TConsole è possibile utilizzare un'unica rubrica centralizzata, condivisa da tutte le postazioni (vedi :ref:`Installazione Client`). È anche possibile, previa verifica di fattibilità, predisporre una procedura di import dei dati di rubrica da una fonte esterna
