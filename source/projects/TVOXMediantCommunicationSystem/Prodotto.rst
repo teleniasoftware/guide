@@ -16,6 +16,8 @@ Come rappresentato in figura, MCS è necessario nel momento in cui si ha la nece
 * integrare al TVox applicazioni aziendiali residenti in cloud
 * utilizzare la widget del TVox integrata sul web
 
+.. important:: AD una istanza  **MCS di release 22**  è possibile collegare TVox di release 10.26, 21, 22 |br| |br| Nel caso invece di una istanza MCS di release precedente, NON è possibile collegare TVox di release 22 ma solamente TVox di release inferiori. Per qualsiasi dubbio è possibile contattare il supporto tecnico di Telenia Software
+
 TVox MCS è multitenant, consentendo quindi di esporre su internet servizi erogati da più piattaforme TVox **fino ad un massimo di 250**. A TVox MCS deve essere associato un dominio pubblico e può essere installato su piattaforme server standard  o virtualizzate **Almalinux 8.5 Arctic Sphynx**, come ad esempio:
 
 - **VMWare** (ESXi / vSphere) Richiesti Workstation v.7 e setup VMWare Tools 
