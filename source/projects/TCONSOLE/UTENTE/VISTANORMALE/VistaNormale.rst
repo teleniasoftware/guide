@@ -47,7 +47,7 @@ Tali liste vengono visualizzate ognuna in una finestra del tipo seguente (in que
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/ListaChiamateEntranti.png
 
-Nella terza colonna la lettera *I* sta per *Chiamata Interna*, mentre *E* sta per *Chiamata Esterna*. Se in rubrica è abilitato il lookup e il numero chiamante è contenuto in rubrica, nel campo *Descrizione* viene presentato il nome del contatto di Rubrica Interna o Esterna.
+Nella terza colonna la lettera *I* sta per *Chiamata Interna*, mentre *E* sta per *Chiamata Esterna*. Se in rubrica è abilitato il lookup (vedi :ref:`ABILITA_POPUP`) e il numero chiamante è contenuto in rubrica, nel campo *Descrizione* viene presentato il nome del contatto di Rubrica Interna o Esterna.
 
 In questa finestra è possibile eseguire le seguenti operazioni:
 

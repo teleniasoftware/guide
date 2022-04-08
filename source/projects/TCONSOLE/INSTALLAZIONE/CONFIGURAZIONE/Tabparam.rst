@@ -30,6 +30,8 @@ Il file *tabparam* (si tratta di un file di testo senza estensione) contiene ult
     
     [...]
 
+.. _ABILITA_POPUP:
+
 ABILITA_POPUP
 -------------
 
