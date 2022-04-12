@@ -1,5 +1,6 @@
 .. _sms_multiaccount:
 .. _Agcom: https://www.agcom.it/alias
+.. _PMF - Plus Messaging Framework: https://www.plus-srl.com/pmf/
 
 
 ========================
@@ -51,8 +52,12 @@ Messagenet
 KPNQwest
 --------
 
-
 .. image:: /images/TVOX/sms_kpn.PNG
+
+*  **Descrizione**: breve descrizione dell'account. La descrizione consente di riconoscere a prima vista l'account nell'elenco di tutti gli account configurati (vedi immagine seguente)
+*  **Username**: username dell'account fornito dal provider
+*  **Password**: password dell'account fornito dal provider
+*  **Email dell'account amministrativo**: indirizzo email associato all'account fornito dal provider
 
 
 |br|
@@ -61,8 +66,17 @@ KPNQwest
 PLUS - PMF
 ----------
 
-
 .. image:: /images/TVOX/sms_plus.PNG
+
+*  **Descrizione**: breve descrizione dell'account. La descrizione consente di riconoscere a prima vista l'account nell'elenco di tutti gli account configurati (vedi immagine seguente)
+*  **Username**: cusername dell'account fornito dal provider
+*  **Password**: password dell'account fornito dal provider
+*  **UUID Utente**: Il parametro userUUID è il codice di identificazione per l'autenticazione `PMF - Plus Messaging Framework`_
+*  **Accedi tramite**: indica la modalità di login al servizio PMF
+*  **Nome del mittente**: Nome utilizzato come mittente dell'SMS
+*  **pmfUrl**: URL del servizio PMF
+*  **pmfQName**: QName del servizio PMF  
+
 
 
 |br|
@@ -74,5 +88,19 @@ TIM
 
 .. image:: /images/TVOX/sms_tim.PNG
 
+.. important:: 
+    La configurazione dell'account con provider TIM prevede che sia stato sottoscritto un contratto con Telecom Italia per l'utilizzo dei servizi di messaggistica in base alla convenzione  **Consip6** 
+    Il contratto è associato ad uno o più servizi identificati dai seguenti codici:
+     * BAS
+     * InfoMessage AVC
+     * InfoCity AVD
+     * Informazioni FIGLIO
+     * Infosondaggi
+    Questi parametri definiscono il codice del servizio acquistato che si intende utilizzare
 
+*  **Descrizione**: breve descrizione dell'account. La descrizione consente di riconoscere a prima vista l'account nell'elenco di tutti gli account configurati (vedi immagine seguente)
+*  **Username**: cusername dell'account fornito dal provider
+*  **Password**: password dell'account fornito dal provider
+*  **Contratto**: si veda la nota *important* precedente
+*  **Codice del servizio acquistato**: si veda la nota *important* precedente
 
