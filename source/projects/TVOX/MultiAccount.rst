@@ -1,7 +1,6 @@
-.. _sms_multiaccount:
 .. _Agcom: https://www.agcom.it/alias
 .. _PMF - Plus Messaging Framework: https://www.plus-srl.com/pmf/
-
+.. _sms_multiaccount:
 
 ========================
 Servizi WEB di invio SMS
