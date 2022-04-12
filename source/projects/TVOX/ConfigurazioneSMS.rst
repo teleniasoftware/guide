@@ -25,9 +25,10 @@ Da qui è possibile scegliere che tipo di server utilizzare configurando opportu
 * :ref:`MultiTech MultiModem iSMS e MultiTech MultiConnect rCell <sms_multitech>`
 
 
-.. .. toctree::
-..    :maxdepth: 2
+.. toctree::
+   :maxdepth: 2
+   :hidden:
  
-..    MultiAccount
-..    Multitech
+   MultiAccount
+   MultiTech
 
