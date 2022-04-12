@@ -110,7 +110,9 @@ Creazione Utenti tramite import
 
 Per effettuare la creazione utenti tramite import, bisogna accedere alla sezione OCC *Impostazioni=>Avanzate=>Import utenti da file*. 
 
-In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. Per effettuare una corretta importazione è necessario scaricare il file xls di template presente e popolarlo opportunamente rispetto agli utenti che si vogliono importare. All'interno del template si troveranno anche i codici da utilizzare per poter selezionare i campi multipli di un utente.
+In questa sezione è possibile importare dei nuovi utenti all'interno del TVox. Per effettuare una corretta importazione è necessario scaricare il file xls di template cliccando su "Scarica file di template" e popolarlo opportunamente rispetto agli utenti che si vogliono importare. All'interno del template si troveranno anche i codici da utilizzare per poter selezionare i campi multipli di un utente.
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/01-import-utenti.png
 
 .. important:: **BEST PRACTICE:** Una volta scaricato il file di template, non bisogna effettuare modifiche su altri componenti del TVox fino all'import del file, in quanto potrebbero cambiare i codici che identificano delle particolari configurazioni.
 
@@ -138,6 +140,11 @@ Le pagine "entity-filtro", "entity-abilitazione", "entity-registrazione", "entit
 
 **"entity-device":** usato nella pagina "dispositivi sip" nelle colonne "Vendor" e "Model".
 
-La procedura di caricamento va a validare il file xls prima ancora di caricare i dati, permettendo di non caricare la macchina e di avere l'output degli errori con riferimento della riga.
+Una volta terminata la compilazione del file, cliccare su "Carica file". Apparirà un avviso prima del caricamento che informa che il file template deve essere generato dalla funzione genera template della macchina. 
 
-Passato il controllo formale, il parsing del file indicherà il contenuto da importare e quindi il totale di Dispositi e/o Utenti. 
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/02-import-utenti.png
+
+Premendo continua, la procedura andrà a validare il file e lo farà prima ancora di lavorarlo, permettendo di non caricare la macchina e di avere l'output degli errori con riferimento della riga.
+
+Passato il controllo formale, il parsing del file indicherà il contenuto da importare e quindi il totale di Dispositi e/o Utenti. L’importatore al momento non esegue modifiche, quindi esegue solo una creazione e se incontra un username o un interno già esistente, restituirà un errore. Il file non risulterà essere sbagliato in questo caso e permetterà di andare avanti con questo indicando solamente la riga che ha generato l’errore. Dopo il primo inserimento, verrà restituitta una stima delle tempistiche di caricamento.
+

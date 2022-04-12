@@ -35,11 +35,26 @@ Chiamate
 
 TConsole memorizza automaticamente il numero, lo stato del Display (con l'eventuale nome del chiamante/chiamato/linea), la data e l’ora di ogni chiamata effettuata o ricevuta. Mediante il menu *Chiamate* è possibile accedere a tali liste ed eseguire, eventualmente, la richiamata ad uno di questi numeri.
 
-Il menu è composto dalle seguenti voci:
+Il menu contiene le seguenti voci principali:
 
 - **Richiama Ultima** (*Ctrl+R*): richiama il numero dell’ultima chiamata in uscita effettuata
-- **Lista Entranti** (*Ctrl+E*): visualizza la lista delle ultime 25 chiamate ricevute, con la possibilità di richiamare il numero di una di queste
-- **Lista Uscenti** (*Ctrl+U*): visualizza la lista delle ultime 25 chiamate effettuate, con la possibilità di richiamare il numero di una di queste
+- **Lista Chiamate Entranti** (*Ctrl+E*): visualizza la lista delle ultime 25 chiamate ricevute, con la possibilità di richiamare il numero di una di queste
+- **Lista Chiamate Uscenti** (*Ctrl+U*): visualizza la lista delle ultime 25 chiamate effettuate, con la possibilità di richiamare il numero di una di queste
+
+**Lista Chiamate Entranti/Uscenti**
+
+Tali liste vengono visualizzate ognuna in una finestra del tipo seguente (in questo caso per le chiamate entranti: per le chiamate uscenti è presente una finestra analoga) con le logiche di seguito descritte:
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/ListaChiamateEntranti.png
+
+Nella terza colonna la lettera *I* sta per *Chiamata Interna*, mentre *E* sta per *Chiamata Esterna*. Se in rubrica è abilitato il lookup (vedi :ref:`ABILITA_POPUP`) e il numero chiamante è contenuto in rubrica, nel campo *Descrizione* viene presentato il nome del contatto di Rubrica Interna o Esterna.
+
+In questa finestra è possibile eseguire le seguenti operazioni:
+
+- scorrere la lista, selezionando la riga voluta, mediante i tasti freccia della tastiera o muovendo la barra di scorrimento verticale con il mouse
+- richiamare il numero relativo al record selezionato premendo il tasto *Invio* della tastiera (NON il tasto *Invio* del tastierino numerico), oppure cliccando sul pulsante *Chiama* oppure facendo doppio click sul numero con il mouse
+- azzerare la lista cliccando sul pulsante *Azzèra Lista*
+- tornare alla finestra principale di TConsole tramite *Alt+F4* o cliccando sul pulsante *Annulla*
 
 Configurazione
 --------------
