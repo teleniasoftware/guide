@@ -89,7 +89,7 @@ TIM
 .. image:: /images/TVOX/sms_tim.PNG
 
 .. important:: 
-    La configurazione dell'account con provider TIM prevede che sia stato sottoscritto un contratto con Telecom Italia per l'utilizzo dei servizi di messaggistica in base alla convenzione  **Consip6** 
+    La configurazione dell'account con provider TIM prevede che sia stato sottoscritto un contratto con Telecom Italia per l'utilizzo dei servizi di messaggistica in base alla convenzione  **Consip6**. |br| 
     Il contratto è associato ad uno o più servizi identificati dai seguenti codici:
      * BAS
      * InfoMessage AVC
