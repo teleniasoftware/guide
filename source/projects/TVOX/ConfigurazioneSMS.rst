@@ -12,7 +12,7 @@ La prestazione è resa disponibile in modalità click-to-sms via :ref:`TVox Clie
 avvisi/allarmi che si ritiene necessario propagare verso numeri cellulari.
 
 
-L'interfaccia di configurazione della componente SMS server è presente in OCC alla sezione Sistema - Configurazione di sistema - SMS
+L'interfaccia di configurazione della componente SMS server è presente in OCC alla sezione *Sistema - Configurazione di sistema - SMS*
 
 
 .. image:: /images/TVOX/sezione_sms.PNG
