@@ -19,7 +19,7 @@ L'interfaccia di configurazione della componente SMS server è presente in OCC a
 
 |br|
 
-Da qui è possibile scegliere che tipo di server utilizzare configurando opportunamente il parametro  *Modello* :
+Da qui è possibile scegliere che tipo di server utilizzare configurando opportunamente il parametro *Modello*:
 
 * :ref:`Multi-account <sms_multiaccount>`
 * :ref:`MultiTech MultiModem iSMS e MultiTech MultiConnect rCell <sms_multitech>`
