@@ -1,6 +1,6 @@
-==========================================
-Performance Tuning
-==========================================
+.. ==========================================
+.. Performance Tuning
+.. ==========================================
 
 
 Nella sezione Performance Tuning è possibile effettuare dei settings del sistema di support al fine di migliorarne le prestazioni.
