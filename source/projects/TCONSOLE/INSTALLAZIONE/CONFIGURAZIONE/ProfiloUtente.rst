@@ -75,3 +75,5 @@ Per modificare uno di questi parametri fare doppio clic sulla voce interessata p
 In questo caso si è scelto di abilitare la vista IPO, pertanto è necessario anche mettere il flag su *IPO* nel riquadro *Ruolo*, oltre che disporre della relativa licenza.
 
 Dopo aver impostato i permessi e assegnato funzioni e abilitazioni, per rendere effettive le operazioni effettuate cliccare su *Modifica*.
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/profilo_utente6.png

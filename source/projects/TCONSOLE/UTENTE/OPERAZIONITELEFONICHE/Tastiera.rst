@@ -15,6 +15,7 @@ Tabella riassuntiva utilizzo della tastiera
 ===========================================
 
 .. spostare in installazione???
+
 Parametrizzazione dei Tasti Funzione
 ====================================
 

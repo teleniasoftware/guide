@@ -18,7 +18,7 @@ Strumenti
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Strumenti.png
 
-Il menu Strumenti è composto dalle seguenti voci:
+Il menu *Strumenti* è composto dalle seguenti voci:
 
 - **Data e Ora** (*Ctrl+D*): se abilitata la Sintesi Vocale (vedi :ref:`Profilo Utente`), riproduce la data e ora corrente del PC. Utile ad operatori diversamente abili
 - **Blocca Urbane** (*Ctrl+B*): solo per console Nortel di tipo M2250/CIU emula il tasto *TGB 0*, il quale deve essere programmato sul PBX per svolgere questa funzione
@@ -51,8 +51,8 @@ Nella terza colonna la lettera *I* sta per *Chiamata Interna*, mentre *E* sta pe
 
 In questa finestra è possibile eseguire le seguenti operazioni:
 
-- scorrere la lista, selezionando la riga voluta, mediante i tasti freccia della tastiera o muovendo la barra di scorrimento verticale con il mouse
-- richiamare il numero relativo al record selezionato premendo il tasto *Invio* della tastiera (NON il tasto *Invio* del tastierino numerico), oppure cliccando sul pulsante *Chiama* oppure facendo doppio click sul numero con il mouse
+- scorrere la lista, selezionando la riga desiderata, mediante i tasti freccia della tastiera o muovendo la barra di scorrimento verticale con il mouse
+- richiamare il numero relativo al record selezionato premendo il tasto *Invio* della tastiera (NON il tasto *Invio\[Tn\]* del tastierino numerico), oppure cliccando sul pulsante *Chiama* oppure facendo doppio click sul numero con il mouse
 - azzerare la lista cliccando sul pulsante *Azzèra Lista*
 - tornare alla finestra principale di TConsole tramite *Alt+F4* o cliccando sul pulsante *Annulla*
 
@@ -62,6 +62,16 @@ Configurazione
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Configurazione.png
 
 .. TODO: Colori? in alternativa spostare in installazione
+
+Il menu *Configurazione* è composto dalle seguenti voci:
+
+.. - **Colori** (*Ctrl+C*): consente di personalizzare i colori di visualizzazione in modo da adattare l’applicazione ai propri gusti e abitudini
+- **Colori** (*Ctrl+C*): nella scheda **Form** consente di personalizzare carattere e colori di visualizzazione della maschera principale del programma in modo da adattare l’applicazione ai propri gusti e abitudini
+- **Telefono** (*Ctrl+T*): disponibile solo per console Nortel di tipo M2250/CIU, consente di regolare il volume ed il tono di squillo (buzzer) della console stessa
+- **Rubrica Interna**: opzione non ancora attiva
+- **Rubrica Esterna**: opzione non ancora attiva
+- **Sintesi Vocale** (*Ctrl+Alt+V*): se abilitata la funzionalità di Sintesi Vocale, permette di modificare, fino al successivo riavvio del programma ([1]_), i parametri della voce: tipo voce, velocità testo, velocità numeri etc.
+- **Sintesi On/Off** (*Ctrl+Alt+S*): se abilitata la funzionalità di Sintesi Vocale, permette di abilitarla o disabilitarla temporaneamente, fino alla pressione della medesima combinazione di tasti oppure fino al riavvio del programma; viene riprodotto lo stato della sintesi
 
 Vista
 -----
@@ -82,9 +92,9 @@ Come mostrato in figura, questa opzione visualizza informazioni relative all’a
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
 
-.. important :: zzz
+.. .. important :: zzz
 
-.. note :: ttt
+.. .. note :: ttt
 
 Pannelli della Console
 ======================
@@ -128,6 +138,11 @@ Inserimento nominativi
 Modifica e cancellazione nominativi
 -----------------------------------
 
-xxx
+.. xxx
 
 .. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+
+.. rubric:: Note
+
+.. .. [1] Le modifiche applicate ai parametri della Sintesi Vocale rimangono effettive fino al successivo riavvio di TConsole, quando vengono ripristinati i parametri precedenti alle modifiche applicate tramite l'interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro Permessi, funzionalità Sintesi Vocale
+.. [1] al riavvio di TConsole vengono ripristinati i parametri della Sintesi Vocale precedenti alle modifiche applicate tramite l'interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro *Permessi*, funzionalità **Sintesi Vocale**
