@@ -66,7 +66,7 @@ In base alla configurazione di TConsole scelta l’operatore può lavorare in un
 
 Con questa configurazione il Posto Operatore lavorerà in modalità **PICKUP**: agendo in **NOTREADY** avrà a disposizione il display del TQM con le chiamate in coda e, muovendosi con le freccette, potrà scegliere quale chiamata gestire. Una volta posizionato sulla chiamata desiderata potrà rispondere tramite il tasto "Invio" della tastiera (non quello del tastierino numerico sulla destra).
 
-Per mettere in park una chiamata, eseguire la combinazione di tasti CTRL+SHIFT+P. La chiamata verrà messa in parcheggio e comparirà sul display TQM con l’etichetta “P”. Per riprenderla, l’operatore dovrà posizionarsi sulla riga della chiamata con le freccette e premere il pulsante "Invio" come per le altre chiamate in coda.
+Per mettere in park una chiamata, eseguire la combinazione di tasti *CTRL+SHIFT+P*. La chiamata verrà messa in parcheggio e comparirà sul display TQM con l’etichetta “P”. Per riprenderla, l’operatore dovrà posizionarsi con le freccette sulla riga della chiamata e premere il tasto "Invio" come per le altre chiamate in coda.
 
 Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY)
 -----------------------------------------------------------------
