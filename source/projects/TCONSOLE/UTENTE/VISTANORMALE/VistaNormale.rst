@@ -45,6 +45,8 @@ Il menu contiene le seguenti voci principali:
 - **Lista Chiamate Entranti** (*Ctrl+E*): visualizza la lista delle ultime 25 chiamate ricevute, con la possibilità di richiamare il numero di una di queste
 - **Lista Chiamate Uscenti** (*Ctrl+U*): visualizza la lista delle ultime 25 chiamate effettuate, con la possibilità di richiamare il numero di una di queste
 
+.. _Lista Chiamate Entranti/Uscenti:
+
 **Lista Chiamate Entranti/Uscenti**
 
 Tali liste vengono visualizzate ognuna in una finestra del tipo seguente (in questo caso per le chiamate entranti: per le chiamate uscenti è presente una finestra analoga) con le logiche di seguito descritte:
@@ -132,6 +134,8 @@ Per modificare volume e tono del segnale acustico emesso dalla console CIU/M2250
 
 **Solo per la console CIU** è possibile attivare/disattivare, tramite l'opportuno flag "Audio", l’audio del segnale acustico della console. Per console M2250 la finestra è identica ma il flag non è presente.
 
+.. _Vista:
+
 Vista
 -----
 
@@ -145,6 +149,13 @@ Tqm
 -----
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Tqm.png
+
+Il menu *Tqm*, presente **solo quando TConsole è configurato in modalità TVOX** (vedi :ref:`Parametri TVox`), è composto dalle seguenti voci:
+
+- **Login** (*Ctrl+Shift+F7*): Esegue, se non già effettuato, il Login dell'operatore ([2]_)
+- **Logout** (*Ctrl+Shift+F8*): Esegue, se non già effettuato, il Logout dell'operatore ([2]_)
+- **Stato** > **Ready** (*Ctrl+Shift+F11*): Imposta l'operatore in stato Ready (Pronto)
+- **Stato** > **NotReady** (*Ctrl+Shift+F12*): Imposta l'operatore in stato NotReady (Non Pronto)
 
 ? (Informazioni)
 ----------------
@@ -174,6 +185,15 @@ Questa è la parte di controllo della console o telefono che l’applicazione ge
 
 Util: comandi di utilità
 ------------------------
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Util.png
+
+- **[?] Help** (*F1*):  visualizza l’Help in linea
+- **[Sole/Luna]** (*Ctrl+Alt+N*):  il pulsante Giorno/Notte pone lo stato della console in libero/occupato: per il significato e configurazione di tali stati si rimanda alla configurazione del PBX. Per TConsole in modalità TVox (vedi :ref:`Parametri TVox`) il pulsante è disattivato.
+- **[Stato PO]** (*F4*): per TConsole in modalità non vedente riporta, in Sintesi Vocale e/o in Barra Braille, informazioni relative allo stato della console. Oltre a questo, in tutte le modalità la pressione del tasto toglie il focus dalla Rubrica e lo riporta alla console principale del programma
+- **[Postit]** (*F9*): attiva/disattiva la finestra PostIt per consentire di digitare da tastierino numerico il numero da chiamare dettato durante durante la conversazione, senza che la digitazione metta in attesa la chiamata in corso
+- **[In]** (*Ctrl+E*): visualizza la finestra con l’elenco delle ultime chiamate entranti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
+- **[Out]** (*Ctrl+U*): visualizza la finestra con l’elenco delle ultime chiamate uscenti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
 
 .. _ICI:
 
@@ -239,3 +259,4 @@ Modifica e cancellazione nominativi
 
 .. .. [1] Le modifiche applicate ai parametri della Sintesi Vocale rimangono effettive fino al successivo riavvio di TConsole, quando vengono ripristinati i parametri precedenti alle modifiche applicate tramite l'interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro Permessi, funzionalità Sintesi Vocale
 .. [1] al riavvio di TConsole vengono ripristinati i parametri della Sintesi Vocale precedenti alle modifiche applicate tramite interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro *Permessi*, funzionalità **Sintesi Vocale**
+.. [2] il Login e il Logout dell'operatore avvengono automaticamente rispettivamente al momento dell’apertura e della chiusura di TConsole

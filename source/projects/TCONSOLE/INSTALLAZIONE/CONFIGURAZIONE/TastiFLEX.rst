@@ -49,7 +49,7 @@ indica rispettivamente:
     - contenuto del FLEX: *8=NOTTE/GIOR,NOTTE,@*502330,*
 
 .. tip ::
-    Sempre nella configurazione TConsole TVOX, i FLEX da 0 a 5 non sono visibili poiché sono coperti dai pulsanti utilizzati per le funzioni TQM ("Login", "Logout" etc.), ma rimangono sempre attivabili tramite le combinazioni di tasti predefinite (SHIFT+F1, SHIFT+F2 etc. - vedi :ref:`Guida Utente`).
+    Sempre nella configurazione TConsole TVOX, i FLEX da 0 a 5 non sono visibili poiché sono coperti dai pulsanti utilizzati per le funzioni TQM ("Login", "Logout" etc.), ma rimangono sempre attivabili tramite le combinazioni di tasti predefinite (*SHIFT+F1*, *SHIFT+F2* etc. - vedi :ref:`Guida Utente`).
 
 .. rubric:: Note
 

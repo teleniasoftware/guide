@@ -9,7 +9,7 @@ TConsole è stato installato e collaudato nei seguenti ambienti:
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 | **Brand**           | **System**                    | **System release**                               | **Recommended terminals**                                             | **Protocol**          |
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
-| Telenia Software    |                               | vedi :ref:`Tabella compatibilità TConsole TVOX`  | SNOM: vedi :ref:`Requisiti TVOX`                                      | CSTA, SIP             |
+| Telenia Software    | |tvox|                        | vedi :ref:`Tabella compatibilità TConsole TVOX`  | SNOM: vedi :ref:`Requisiti TVOX`                                      | CSTA, SIP             |
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 || Avaya              || Communication Manager e Aura || 5.1                                             || 1616, 1608, 1416, 1408, telefoni SIP di tipo J1XX                    || TAPI                 |
 ||                    ||                              ||                                                 || Aura 5.2.1 NON compatibile con One-X 6.2 SP14                        ||                      |
