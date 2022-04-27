@@ -103,7 +103,7 @@ I componenti sono raggruppati nel seguente modo:
 
 - pulsanti :ref:`ICI`
 - pulsanti :ref:`FLEX`
-- pulsanti :ref:`FIX`
+- pulsanti :ref:`Fix`
 - pulsanti :ref:`Keypad`
 - pulsanti :ref:`Loop`
 - aree di testo (descrizione Linee) del :ref:`Loop`
@@ -155,7 +155,7 @@ Il menu *Tqm*, presente **solo quando TConsole è configurato in modalità TVOX*
 - **Login** (*Ctrl+Shift+F7*): Esegue, se non già effettuato, il Login dell'operatore ([2]_)
 - **Logout** (*Ctrl+Shift+F8*): Esegue, se non già effettuato, il Logout dell'operatore ([2]_)
 - **Stato** > **Ready** (*Ctrl+Shift+F11*): Imposta l'operatore in stato Ready (Pronto)
-- **Stato** > **NotReady** (*Ctrl+Shift+F12*): Imposta l'operatore in stato NotReady (Non Pronto)
+- **Stato** > **Not Ready** (*Ctrl+Shift+F12*): Imposta l'operatore in stato NotReady (Non Pronto)
 
 ? (Informazioni)
 ----------------
@@ -175,7 +175,7 @@ Questa è la parte di controllo della console o telefono che l’applicazione ge
 - :ref:`ICI`
 - :ref:`Display`
 - :ref:`Loop`
-- :ref:`FIX`
+- :ref:`Fix`
 - :ref:`Keypad`
 - :ref:`Comandi`
 - :ref:`FLEX`
@@ -188,47 +188,100 @@ Util: comandi di utilità
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Util.png
 
-- **[?] Help** (*F1*):  visualizza l’Help in linea
-- **[Sole/Luna]** (*Ctrl+Alt+N*):  il pulsante Giorno/Notte pone lo stato della console in libero/occupato: per il significato e configurazione di tali stati si rimanda alla configurazione del PBX. Per TConsole in modalità TVox (vedi :ref:`Parametri TVox`) il pulsante è disattivato.
+- **[?] (Help)** (*F1*):  visualizza l’Help in linea
+- **[Sole/Luna] (Giorno/Notte)** (*Ctrl+Alt+N*):  il pulsante Giorno/Notte pone lo stato della console in libero/occupato: per il significato e configurazione di tali stati si rimanda alla configurazione del PBX. Per TConsole in modalità TVox (vedi :ref:`Parametri TVox`) il pulsante è disattivato.
 - **[Stato PO]** (*F4*): per TConsole in modalità non vedente riporta, in Sintesi Vocale e/o in Barra Braille, informazioni relative allo stato della console. Oltre a questo, in tutte le modalità la pressione del tasto toglie il focus dalla Rubrica e lo riporta alla console principale del programma
 - **[Postit]** (*F9*): attiva/disattiva la finestra PostIt per consentire di digitare da tastierino numerico il numero da chiamare dettato durante durante la conversazione, senza che la digitazione metta in attesa la chiamata in corso
-- **[In]** (*Ctrl+E*): visualizza la finestra con l’elenco delle ultime chiamate entranti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
-- **[Out]** (*Ctrl+U*): visualizza la finestra con l’elenco delle ultime chiamate uscenti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
+- **[In] (Lista Ch. Entranti)** (*Ctrl+E*): visualizza la finestra con l’elenco delle ultime chiamate entranti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
+- **[Out] (Lista Ch. Uscenti)** (*Ctrl+U*): visualizza la finestra con l’elenco delle ultime chiamate uscenti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
 
 .. _ICI:
 
 ICI: identificazione chiamate entranti
 --------------------------------------
 
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/ICI.png
+
+Questo pannello (*Incoming Call Identification*) indica all’operatore la tipologia delle chiamate che si presentano alla console: le etichette riportate (*Interna*, *Esterna* etc.) dipendono dalla configurazione del PBX e, in certi contesti, sono modificabili (vedi :ref:`Tasti ICI`).
+
+L’arrivo di una chiamata attiva il relativo pulsante che consente, se premuto, di rispondere direttamente a quel tipo di chiamata senza utilizzare i pulsanti "Linea"; questa funzionalità permette, ad es. nel caso si presentino in ingresso più chiamate di diverso tipo, di privilegiare la risposta ad un tipo di chiamata (ad es. le chiamate con ICI *Esterna*) rispetto ad un altro.
+
+La selezione del pulsante può avvenire anche tramite tastiera, premendo i tasti da *Ctrl+F1* a *Ctrl+F10*, dove il pulsante più basso corrisponde a *Ctrl+F1*, quello più alto a *Ctrl+F10*.
+
 .. _Display:
 
 Display
 -------
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Display.png
+
+Il pannello *Display* è composto da tre righe:
+
+- la prima (**Linea sorgente**) fornisce informazioni relative alla chiamata in ingresso
+- la seconda (**Linea destinazione**) fornisce informazioni sulla chiamata in uscita
+- la terza (**Stato della console**) riporta lo stato della console o telefono (*Libero*/*Occupato*/*Notte*/*Attivo*) e, se previsto dalla configurazione TConsole, il numero delle chiamate in coda
+
+Le informazioni relative alle linee sorgente e destinazione, tipicamente numero chiamante e numero chiamato, linea e nome associato al numero, possono variare in base alla programmazione del PBX. Ad esempio, in riferimento all'immagine precedente:
+
+- la Linea sorgente visualizza il numero chiamante *0452224660* e il numero chiamato *42264* (in questo caso è l'interno del PO; in altri contesti si può presentare la numerazione pubblica chiamata)
+- la Linea destinazione visualizza il numero *4226* che il PO sta chiamando, con la Linea sorgente messa in attesa
+- lo Stato della console è *Attivo*
 
 .. _Loop:
 
 Loop: pulsanti di impegno linea
 -------------------------------
 
-.. _FIX:
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Loop.png
 
-FIX: comandi di base
+Per rispondere ad una chiamata in ingresso, si utilizzano i pulsanti *Linea* (loop); a fianco di ciascun pulsante viene riportato lo stato della linea.
+I pulsanti possono essere cliccati con il  mouse oppure selezionati da tastiera mediante le combinazioni di tasti da *Ctrl+0[Tn]* a *Ctrl+5[Tn]* (se le linee visualizzate sono 6, altrimenti fino a *CTRL+11[Tn]* per 12 linee).
+
+.. important:: Nel caso di più chiamate in ingresso in contemporanea, il tasto *+[Tn]* (tasto di Risposta/Impegno) risponde alla prima chiamata che sta squillando.
+
+.. note:: Per centrali che prevedono l'impegno linea la pressione del relativo pulsante va ad impegnare la rispettiva linea. La pressione del *+[Tn]* impegna la prima linea libera.
+
+Ad esempio, in riferimento all'immagine precedente:
+
+- la Linea 0 è in stato *In Attesa* (può trattarsi indifferentemente di una chiamata in ingresso oppure di una chiamata effettuata dal PO)
+- la Linea 1 è in stato *Risposta* (è la linea attiva, con cui il PO si trova ora in conversazione)
+- sulla linea 2 sta squillando una chiamata in ingresso il cui numero è associato al contatto "Scomparin" di Rubrica ([3]_)
+- sulla linea 3 sta squillando un'altra chiamata in ingresso dal numero 0452224660 che non è associato ad alcun contatto di Rubrica
+
+In queste condizioni è possibile eseguire una delle seguenti azioni:
+
+- premere *Ctrl+2[Tn]* oppure *+[Tn]* per rispondere alla chiamata in ingresso da "Scomparin" sulla linea 2
+- premere *Ctrl+3[Tn]* per rispondere alla chiamata in ingresso dal numero 0452224660 sulla linea 3
+- premere *Ctrl+0[Tn]* per riprendere la chiamata sulla linea 0, mettendo in attesa la linea 1 e lasciando in ring la linea 2
+- (se previsto lato centrale) premere *Ctrl+4[Tn]* per impegnare la linea 4, mettendo in attesa la linea 1 e lasciando in ring la linee 2 e 3
+
+.. _Fix:
+
+Fix: comandi di base
 --------------------
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Fix.png
 
 .. _Keypad:
 
 Keypad: tastiera telefonica
 ---------------------------
 
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Keypad.png
+
 .. _Comandi:
 
 Comandi
 -------
 
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Comandi.png
+
 .. _FLEX:
 
 FLEX: comandi definiti dall’utente
 ----------------------------------
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/FLEX.png
 
 ..
     .. _TQM:
@@ -260,3 +313,4 @@ Modifica e cancellazione nominativi
 .. .. [1] Le modifiche applicate ai parametri della Sintesi Vocale rimangono effettive fino al successivo riavvio di TConsole, quando vengono ripristinati i parametri precedenti alle modifiche applicate tramite l'interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro Permessi, funzionalità Sintesi Vocale
 .. [1] al riavvio di TConsole vengono ripristinati i parametri della Sintesi Vocale precedenti alle modifiche applicate tramite interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro *Permessi*, funzionalità **Sintesi Vocale**
 .. [2] il Login e il Logout dell'operatore avvengono automaticamente rispettivamente al momento dell’apertura e della chiusura di TConsole
+.. [3] per abilitare il lookup in Rubrica per le chiamate in ingresso occorre abilitare il parametro :ref:`ABILITA_POPUP`
