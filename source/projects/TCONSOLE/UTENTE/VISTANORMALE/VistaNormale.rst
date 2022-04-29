@@ -243,17 +243,18 @@ I pulsanti possono essere cliccati con il  mouse oppure selezionati da tastiera 
 
 Ad esempio, in riferimento all'immagine precedente:
 
-- la Linea 0 è in stato *In Attesa* (può trattarsi indifferentemente di una chiamata in ingresso oppure di una chiamata effettuata dal PO)
+- la Linea 0 è in stato *In Attesa* (può trattarsi indifferentemente di una chiamata ricevuta e risposta oppure di una chiamata effettuata, in seguito messa in attesa dal PO)
 - la Linea 1 è in stato *Risposta* (è la linea attiva, con cui il PO si trova ora in conversazione)
 - sulla linea 2 sta squillando una chiamata in ingresso il cui numero è associato al contatto "Scomparin" di Rubrica ([3]_)
 - sulla linea 3 sta squillando un'altra chiamata in ingresso dal numero 0452224660 che non è associato ad alcun contatto di Rubrica
 
 In queste condizioni è possibile eseguire una delle seguenti azioni:
 
-- premere *Ctrl+2[Tn]* oppure *+[Tn]* per rispondere alla chiamata in ingresso da "Scomparin" sulla linea 2
-- premere *Ctrl+3[Tn]* per rispondere alla chiamata in ingresso dal numero 0452224660 sulla linea 3
-- premere *Ctrl+0[Tn]* per riprendere la chiamata sulla linea 0, mettendo in attesa la linea 1 e lasciando in ring la linea 2
-- (se previsto lato centrale) premere *Ctrl+4[Tn]* per impegnare la linea 4, mettendo in attesa la linea 1 e lasciando in ring la linee 2 e 3
+- premere *Ctrl+2[Tn]* oppure *+[Tn]* per rispondere alla chiamata in ingresso da "Scomparin" sulla linea 2, mettendo in attesa anche la linea 1 e lasciando in ring la chiamata in ingresso dal numero 0452224660 sulla linea 3
+- premere *Ctrl+3[Tn]* per rispondere alla chiamata in ingresso dal numero 0452224660 sulla linea 3, mettendo in attesa anche la linea 1 e lasciando in ring la chiamata in ingresso da "Scomparin" sulla linea 2
+- premere *Ctrl+0[Tn]* per riprendere la chiamata sulla linea 0, mettendo in attesa la linea 1 e lasciando in ring le linee 2 e 3
+- premere *-[Tn]* per mettere in attesa anche la chiamata sulla linea 1, lasciando in ring le linee 2 e 3
+- (se previsto lato centrale) premere *Ctrl+4[Tn]* per impegnare la linea 4, mettendo in attesa anche la linea 1 e lasciando in ring le linee 2 e 3
 
 .. _Fix:
 
@@ -262,12 +263,28 @@ Fix: comandi di base
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Fix.png
 
+Sono le funzioni "classiche" della console, indipendenti dalla programmazione del PBX pertanto sono sempre presenti. Sono normalmente utilizzate nel corso della procedura di trasferimento di una chiamata.
+
+In particolare:
+
+- **[Escl.] (Excl Src)** (*Ctrl+Shift+F5*): **Escludi chiamante** (origine), tasto della **prima** riga: pone nello stato *Attesa* il chiamante e permette di parlare con il chiamato senza che il chiamante ascolti
+- **[Escl.] (Excl Dest)** (*Ctrl+Shift+F4*): **Escludi chiamato** (destinazione), tasto della **seconda** riga: pone nello stato *Attesa* il chiamato e permette di parlare con il chiamante senza che il chiamato ascolti
+- **[Ril.] (Rls Src)** (*Ctrl+Shift+F3*): **Rilascia chiamante** (origine), tasto della **prima** riga: rilascia il chiamante dalla conversazione e torna in linea con il chiamato
+.. _Rilascia chiamato:
+- **[Ril.] (Rls Dest)** (*Ctrl+Shift+F2* oppure *\*[Tn]*): **Rilascia chiamato** (destinazione), tasto della **seconda** riga: rilascia il chiamato dalla conversazione e torna in linea con il chiamante
+
 .. _Keypad:
 
 Keypad: tastiera telefonica
 ---------------------------
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Keypad.png
+
+Per comporre il numero manualmente si può utilizzare il tastierino numerico del PC (parte destra della tastiera) o cliccare sui pulsanti di composizione presenti sul pannello *Keypad*.
+
+.. important:: In questo contesto in caso di errata digitazione del numero da chiamare **non** è possibile cancellarne una parte (ad esempio l'ultima cifra tramite il tasto *backspace*): va annullata l'intera digitazione tramite la funzione **Rilascia chiamato** (*Ctrl+Shift+F2* oppure *\*[Tn]*) (vedi :ref:`Rilascia chiamato <Rilascia chiamato>`) e a questo punto bisogna ripetere interamente la digitazione del numero.
+
+.. accenno alla funzione postit in cui è possibile usare il backspace?
 
 .. _Comandi:
 
@@ -282,6 +299,15 @@ FLEX: comandi definiti dall’utente
 ----------------------------------
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/FLEX.png
+
+Queste funzioni programmabili dipendono:
+
+- dalla configurazione del PBX, nel caso di console Nortel M2250/CIU: in questo caso è opportuno configurare le etichette visualizzate in modo che corrispondano alle impostazioni del PBX (tasti funzione della console se si tratta di M2250)
+- dalla configurazione di TConsole, nel caso di telefono SNOM o di telefono controllato via TAPI
+
+La selezione del pulsante può avvenire cliccandoci sopra con il mouse oppure da tastiera, premendo le combinazioni di tasti da *Shift+F1*, *Shift+F2* etc. fino a *Shift+F11*, dove il pulsante FLEX più basso corrisponde a *Shift+F1*, quello più alto a *Shift+F11* (per il primo FLEX in alto **NON** viene utilizzata la combinazione *Shift+F10*).
+
+La configurazione dei tasti FLEX e delle loro etichette è descritta in :ref:`Tasti FLEX`.
 
 ..
     .. _TQM:
