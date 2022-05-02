@@ -181,6 +181,10 @@ Questa è la parte di controllo della console o telefono che l’applicazione ge
 - :ref:`FLEX`
 .. - :ref:`TQM`
 
+.. important:: Questi pannelli consistono solitamente di pulsanti e aree di testo: i pulsanti sono attivabili cliccandoci sopra con il tasto sinistro del mouse oppure tramite combinazioni di tasti. Per conoscere la combinazione di tasti associata ad un determinato pulsante è sufficiente posizionarsi con il mouse sopra il pulsante per far comparire il popup indicante la relativa combinazione di tasti.
+
+.. important:: La dicitura *[Tn]* indica di utilizzare il tasto funzione **del tastierino numerico** (*Keypad*): ad esempio *\*[Tn]* indica l'asterisco del tastierino numerico, *Invio[Tn]* indica il tasto *Invio* del tastierino numerico, e così via.
+
 .. _Util:
 
 Util: comandi di utilità
@@ -270,7 +274,6 @@ In particolare:
 - **[Escl.] (Excl Src)** (*Ctrl+Shift+F5*): **Escludi chiamante** (origine), tasto della **prima** riga: pone nello stato *Attesa* il chiamante e permette di parlare con il chiamato senza che il chiamante ascolti
 - **[Escl.] (Excl Dest)** (*Ctrl+Shift+F4*): **Escludi chiamato** (destinazione), tasto della **seconda** riga: pone nello stato *Attesa* il chiamato e permette di parlare con il chiamante senza che il chiamato ascolti
 - **[Ril.] (Rls Src)** (*Ctrl+Shift+F3*): **Rilascia chiamante** (origine), tasto della **prima** riga: rilascia il chiamante dalla conversazione e torna in linea con il chiamato
-.. _Rilascia chiamato:
 - **[Ril.] (Rls Dest)** (*Ctrl+Shift+F2* oppure *\*[Tn]*): **Rilascia chiamato** (destinazione), tasto della **seconda** riga: rilascia il chiamato dalla conversazione e torna in linea con il chiamante
 
 .. _Keypad:
@@ -282,7 +285,7 @@ Keypad: tastiera telefonica
 
 Per comporre il numero manualmente si può utilizzare il tastierino numerico del PC (parte destra della tastiera) o cliccare sui pulsanti di composizione presenti sul pannello *Keypad*.
 
-.. important:: In questo contesto in caso di errata digitazione del numero da chiamare **non** è possibile cancellarne una parte (ad esempio l'ultima cifra tramite il tasto *backspace*): va annullata l'intera digitazione tramite la funzione **Rilascia chiamato** (*Ctrl+Shift+F2* oppure *\*[Tn]*) (vedi :ref:`Rilascia chiamato <Rilascia chiamato>`) e a questo punto bisogna ripetere interamente la digitazione del numero.
+.. important:: In questo contesto, in caso di errata digitazione del numero da chiamare **non** è possibile cancellarne una parte (ad esempio l'ultima cifra tramite il tasto *backspace*): va annullata l'intera digitazione tramite la funzione **Rilascia chiamato** (*Ctrl+Shift+F2* oppure *\*[Tn]*) (decritta in :ref:`Fix`) e a questo punto bisogna ripetere interamente la digitazione del numero.
 
 .. accenno alla funzione postit in cui è possibile usare il backspace?
 
@@ -305,7 +308,9 @@ Queste funzioni programmabili dipendono:
 - dalla configurazione del PBX, nel caso di console Nortel M2250/CIU: in questo caso è opportuno configurare le etichette visualizzate in modo che corrispondano alle impostazioni del PBX (tasti funzione della console se si tratta di M2250)
 - dalla configurazione di TConsole, nel caso di telefono SNOM o di telefono controllato via TAPI
 
-La selezione del pulsante può avvenire cliccandoci sopra con il mouse oppure da tastiera, premendo le combinazioni di tasti da *Shift+F1*, *Shift+F2* etc. fino a *Shift+F11*, dove il pulsante FLEX più basso corrisponde a *Shift+F1*, quello più alto a *Shift+F11* (per il primo FLEX in alto **NON** viene utilizzata la combinazione *Shift+F10*).
+La selezione del pulsante può avvenire cliccandoci sopra con il mouse oppure da tastiera, premendo le combinazioni di tasti da *Shift+F1*, *Shift+F2* etc. fino a *Shift+F11*, dove il pulsante FLEX più basso corrisponde a *Shift+F1*, quello più alto a *Shift+F11*.
+
+.. warning:: Per il primo FLEX in alto **NON** viene utilizzata la combinazione *Shift+F10*, ma si deve utilizzare *Shift+F11*.
 
 La configurazione dei tasti FLEX e delle loro etichette è descritta in :ref:`Tasti FLEX`.
 
@@ -318,8 +323,37 @@ La configurazione dei tasti FLEX e delle loro etichette è descritta in :ref:`Ta
 Rubrica F3
 ==========
 
+TConsole integra una rubrica telefonica mediante la quale è possibile gestire (localmente od in maniera centralizzata) una notevole quantità di nominativi sia interni che esterni, effettuando rapide ricerche e composizioni automatiche. Questo è il contesto sempre presente.
+
+Il contesto Rubrica si compone delle seguenti parti:
+
+- campi di selezione per la ricerca dei nominativi
+- risultato della ricerca
+- dettaglio dei nominativi trovati
+- quantità di nominativi ricercati
+- tasto di ricerca (da tastiera tasto *[Invio]* **non del tastierino numerico**)
+- tasto di ricerca alternativa (da tastiera *F11* - vedi parametro :ref:`RIC_ALT`) 
+- tasto per la composizione automatica dei numeri telefonici (da tastiera *F12* - vedi parametro :ref:`F12`)
+- funzioni per la manutenzione della Rubrica (inserimento/modifica dei contatti o impostazione dei colori)
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Rubrica.png
+
 Ricerca nominativi
 ------------------
+
+Per eseguire una nuova ricerca seguire le seguenti istruzioni:
+
+- premere il tasto *F3* della tastiera: a questo punto il cursore si posiziona nel primo campo di ricerca (default *Descrizione*) svuotando l'eventuale ricerca precedente;
+- se desiderato, indicare le opzioni di ricerca compilando i vari campi in modo da restringere la ricerca effettuata. Il tasto *Tab* consente di spostarsi sul campo successivo
+- cliccare sul pulsante *Cerca* ("lente d'ingrandimento") o premere il tasto *Invio* (NON del tastierino numerico);
+
+I nominativi soddisfacenti le opzioni di ricerca verranno elencati nell’area di visualizzazione: spostando il cursore con i tasti freccia o selezionando un particolare nominativo con il mouse, il dettaglio del record viene mostrato nelle apposite finestre sottostanti.
+
+.. note:: Se nessun dato viene specificato nei campi di ricerca, verranno visualizzati **tutti** i nominativi presenti in rubrica.
+
+Ricerca contestuale: si intende la ricerca di una parola in tutti i campi di rubrica (si utilizza sempre le logiche qbe). 
+Per attivare la ricerca contestuale si utilizza il tasto [-] (selezionabile con il mouse) in alto a sx nel riquadro delle edit di ricerca oppure utilizzando la sequenza da tastiera *Ctrl+Shift+T*. Ripetendo la stessa sequenza si passa nella modalità di ricerca standard.
+I tasti di ricerca possono essere spostati nel lato destro o sinistro della finestra in base al parametro utente opportunamente configurato: *Tasti Ricerca a Sx SI/NO*
 
 Composizione automatica
 -----------------------

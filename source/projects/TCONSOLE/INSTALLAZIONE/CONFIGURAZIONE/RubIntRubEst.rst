@@ -9,12 +9,14 @@ I files *Rubint.ini* e *RubEst.ini* contengono rispettivamente le configurazioni
 Sezione COMMON
 ==============
 
+.. _F12:
+
 F12
 ---
 
 Qualora un contatto di rubrica contenga più di un numero associato (ad es. *interno telefonico*, *cellulare*, *numero di casa* etc., ognuno definito **in un distinto campo di rubrica**), TConsole consente, tramite combinazioni di tasti, di selezionare verso quale dei numeri associati ad un contatto avviare la chiamata.
 
-È possibile definire fino a 4 campi di rubrica (da settare **con il nome del campo del database**, NON con l'etichetta presentata su TConsole, vedi :ref:`Rubint.ini RubEst.ini Sezione LABELS`) utilizzabili per avviare la chiamata di un contatto rispettivamente tramite i tasti funzione: F12, Shift+F12, Ctrl+F12, Alt+F12.
+È possibile definire fino a 4 campi di rubrica (da settare **con il nome del campo del database**, NON con l'etichetta presentata su TConsole, vedi :ref:`Rubint.ini RubEst.ini Sezione LABELS`) utilizzabili per avviare la chiamata di un contatto rispettivamente tramite i tasti funzione: *F12*, *Shift+F12*, *Ctrl+F12*, *Alt+F12*.
 
 **Esempio di RubEst.ini** (file di configurazione della rubrica **Esterna**)\ **:**
 
@@ -27,23 +29,25 @@ Qualora un contatto di rubrica contenga più di un numero associato (ad es. *int
 
 Con questa configurazione (configurazione di default), una volta ricercato un contatto in rubrica Esterna:
 
-- premendo F12 parte la chiamata verso il numero definito nel campo TEL_EST del contatto
-- premendo Shift+F12 parte la chiamata verso il numero definito nel campo LIBERO_1 del contatto
-- premendo Ctrl+F12 parte la chiamata verso il numero definito nel campo LIBERO_2 del contatto
-- premendo Alt+F12 parte la chiamata verso il numero definito nel campo LIBERO_3 del contatto
+- premendo *F12* parte la chiamata verso il numero definito nel campo *TEL_EST* del contatto
+- premendo *Shift+F12* parte la chiamata verso il numero definito nel campo *LIBERO_1* del contatto
+- premendo *Ctrl+F12* parte la chiamata verso il numero definito nel campo *LIBERO_2* del contatto
+- premendo *Alt+F12* parte la chiamata verso il numero definito nel campo *LIBERO_3* del contatto
 
-.. important :: Il numero contenuto nel campo associato ad F12 viene considerato come numero **principale** del contatto. Per questo e per gli altri campi di rubrica contenenti un numero, nel caso si tratti di un numero esterno che necessita di un codice impegno linea da anteporre, vale quanto descritto in :ref:`Codice Impegno Linea`.
+.. important :: Il numero contenuto nel campo associato ad *F12* viene considerato come numero **principale** del contatto. Per questo e per gli altri campi di rubrica contenenti un numero, nel caso si tratti di un numero esterno che necessita di un codice impegno linea da anteporre, vale quanto descritto in :ref:`Codice Impegno Linea`.
 
 .. tip ::
     **Solo nella sezione [MASTER]** (vista Normale) è possibile avviare la chiamata verso il numero definito in un qualsiasi campo di rubrica (anche se non è tra i 4 campi definiti nel parametro *F12*) tramite doppio clic del mouse sul campo interessato.
 
     Viceversa da tastiera, ossia tramite le combinazioni di tasti indicate, e in tutte le viste: Normale, IPO e IPO PLUS, è possibile avviare la chiamata **solo** verso i numeri contenuti nei 4 campi definiti nel parametro *F12*.
 
+.. _RIC_ALT:
+
 RIC_ALT
 -------
 Questo parametro è utilizzato per la ricerca alternativa all’interno della rubrica Interna/Esterna e va settato **con il nome del campo del database** (quindi NON con l'etichetta presentata su TConsole, vedi :ref:`Rubint.ini RubEst.ini Sezione LABELS`) su cui verrà effettuata la ricerca alternativa.
 
-**Se lasciato vuoto**, la ricerca alternativa verrà effettuata nel campo del dettaglio contatto che si trova selezionato al momento della pressione del tasto funzione associato (default F11).
+**Se lasciato vuoto**, la ricerca alternativa verrà effettuata nel campo del dettaglio contatto che si trova selezionato al momento della pressione del tasto funzione associato (default *F11*).
 
 Es. per eseguire la ricerca alternativa **sempre** nel campo *SETTORE* del contatto di rubrica visualizzato:
 
