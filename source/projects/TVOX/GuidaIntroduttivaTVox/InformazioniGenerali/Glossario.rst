@@ -70,7 +70,7 @@ Glossario
 | PBX IP/IP di nodo                 | | In un sistema di Continuous Monitoring & Reporting è l'indirizzo IP condiviso (IP virtuale) tra                       |
 |                                   | | TVox Master e TVox Slave. È l'IP al quale fare riferimento per fruire dei servizi TVox                                |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| PD                                | Power Dialer: Strumento di generazione automatica di chiamate outbound per il                                           |
+| PD                                | Power Dialer: Strumento di generazione automatica di chiamate outbound per il |tvox|                                    |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Peer to Peer (P2P)                | Comunicazione audio / video ove i canali RTP sono stabiliti direttamente tra i due interlocutori                        |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
