@@ -24,7 +24,7 @@ Hardware
 - Scheda audio per Sintesi Vocale e segnalazioni acustiche
 - 5 porte USB libere (per dongle, tastiera QWERTY, mouse, barra Braille, alimentazione mixer)
 - Monitor 4/3 o 16/9 con risoluzione minima 1280*1024
-- Tastiera QWERTY con tastierino numerico (keypad)
+- Tastiera QWERTY **con tastierino numerico** (*Keypad*)
 - Mouse
 
 Opzionali

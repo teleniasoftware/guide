@@ -1,3 +1,4 @@
+.. _QBE: https://en.wikipedia.org/wiki/Query_by_Example
 .. _Vista Normale:
 
 =============
@@ -332,9 +333,11 @@ Il contesto Rubrica si compone delle seguenti parti:
 - dettaglio dei nominativi trovati
 - quantità di nominativi ricercati
 - tasto di ricerca (da tastiera tasto *[Invio]* **non del tastierino numerico**)
-- tasto di ricerca alternativa (da tastiera *F11* - vedi parametro :ref:`RIC_ALT`) 
+- tasto di ricerca alternativa (da tastiera *F11* - vedi parametro :ref:`RIC_ALT`)
 - tasto per la composizione automatica dei numeri telefonici (da tastiera *F12* - vedi parametro :ref:`F12`)
 - funzioni per la manutenzione della Rubrica (inserimento/modifica dei contatti o impostazione dei colori)
+
+.. important:: Tutti i parametri per la configurazione dei campi di ricerca e di visualizzazione (etichetta visualizzata e ordine di presentazione) sono descritti in :ref:`RubInt.ini e RubEst.ini`.
 
 .. image:: /images/TCONSOLE/UTENTE/CONSOLE/Rubrica.png
 
@@ -343,30 +346,74 @@ Ricerca nominativi
 
 Per eseguire una nuova ricerca seguire le seguenti istruzioni:
 
-- premere il tasto *F3* della tastiera: a questo punto il cursore si posiziona nel primo campo di ricerca (default *Descrizione*) svuotando l'eventuale ricerca precedente;
+- premere il tasto *F3* della tastiera: a questo punto il cursore si posiziona nel primo campo di ricerca (default *Descrizione*) svuotando tutti i campi dall'eventuale compilazione dovuta ad una ricerca precedente
 - se desiderato, indicare le opzioni di ricerca compilando i vari campi in modo da restringere la ricerca effettuata. Il tasto *Tab* consente di spostarsi sul campo successivo
-- cliccare sul pulsante *Cerca* ("lente d'ingrandimento") o premere il tasto *Invio* (NON del tastierino numerico);
+- cliccare sul pulsante *Cerca* ("lente d'ingrandimento") o premere il tasto *Invio* (NON del tastierino numerico)
 
-I nominativi soddisfacenti le opzioni di ricerca verranno elencati nell’area di visualizzazione: spostando il cursore con i tasti freccia o selezionando un particolare nominativo con il mouse, il dettaglio del record viene mostrato nelle apposite finestre sottostanti.
+I nominativi soddisfacenti le opzioni di ricerca verranno elencati nell’area di visualizzazione (sezione **MASTER**): spostando il cursore con i tasti freccia o selezionando un particolare nominativo con il mouse, il dettaglio del record viene mostrato nelle apposite finestre sottostanti (sezione **DETAIL**).
 
-.. note:: Se nessun dato viene specificato nei campi di ricerca, verranno visualizzati **tutti** i nominativi presenti in rubrica.
+.. important:: Se nessun dato viene specificato nei campi di ricerca, verranno restituiti **tutti** i nominativi presenti in rubrica.
 
-Ricerca contestuale: si intende la ricerca di una parola in tutti i campi di rubrica (si utilizza sempre le logiche qbe). 
-Per attivare la ricerca contestuale si utilizza il tasto [-] (selezionabile con il mouse) in alto a sx nel riquadro delle edit di ricerca oppure utilizzando la sequenza da tastiera *Ctrl+Shift+T*. Ripetendo la stessa sequenza si passa nella modalità di ricerca standard.
-I tasti di ricerca possono essere spostati nel lato destro o sinistro della finestra in base al parametro utente opportunamente configurato: *Tasti Ricerca a Sx SI/NO*
+.. note:: Per la ricerca in rubrica si utilizzano le logiche `QBE`_ (*Query By Example*).
+
+I tasti di ricerca possono anche essere spostati nel lato destro o sinistro della finestra in base al parametro utente opportunamente configurato: *Tasti Ricerca a Sx = SI/NO* (vedi :ref:`Profilo Utente`).
+
+Ricerca testuale/Ricerca multicampo
+-----------------------------------
+
+La *ricerca testuale* è una diversa modalità di ricerca che avviene ricercando la parola in tutti i campi di Rubrica, anziché nel singolo campo di volta in volta specificato.
+
+Per attivare questa modalità cliccare con il mouse sul tasto **[-]** in alto a destra nel riquadro dei campi di ricerca (vedi circoletto rosso nell'immagine precedente) oppure utilizzare la combinazione di tasti *Ctrl+Shift+T*.
+
+Ripetendo la stessa manovra (il pulsante in questo caso è diventato **[+]**) si passa alla modalità di ricerca multicampo standard.
+
+.. note:: Questa configurazione viene mantenuta anche dopo la chiusura di TConsole.
 
 Composizione automatica
 -----------------------
 
+È possibile comporre automaticamente il numero associato ad un nominativo cliccando sui pulsanti *F12* (**Invio numero alla consolle**) presente in alto a destra del contesto di Rubrica o, da tastiera, premendo il tasto *F12*.
+
+Un’estensione alla composizione automatica è data dalla pressione contemporanea dei tasti *Shift*, *Ctrl*, *Alt* ed il tasto *F12*: in questo caso il numero composto è prelevato da uno dei 3 campi alternativi opportunamente configurati. Ad es., facendo riferimento alla figura precedente, premendo *Shift+F12* viene composto, se popolato, il numero presente nella colonna *Cellulare*.
+
+La configurazione dei campi da utilizzare per la composizione automatica è descritta nel parametro :ref:`F12`.
+
 Inserimento nominativi
 ----------------------
+
+La pressione del pulsante **Inser.** o della combinazione di tasti *Ctrl+Shift+I* permette l’inserimento di un nuovo nominativo in Rubrica.
+
+L’operazione si realizza compilando opportunamente i campi delle finestre sotto riportate, agendo sui pannelli *Dati 1*, *Dati 2* e *Dati 3*.
+
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati1.png
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati2.png
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati3.png
+
+.. important :: È importante specificare la Rete (pannello Dati 1) in modo da specificare il tipo del numero telefonico (interno o esterno).
+
+La pressione del pulsante *Inserisci* crea nell’archivio un nuovo nominativo con i dati specificati.
+
+La pressione del pulsante *Annulla* non inserisce alcun nominativo.
+
+I pulsanti *Modifica* ed *Elimina* in questa fase sono disabilitati.
 
 Modifica e cancellazione nominativi
 -----------------------------------
 
-.. xxx
+Facendo clic con il tasto destro del mouse, seguito dal clic sulla voce *Modifica*, su un nominativo risultato di una ricerca oppure premendo il tasto *Ctrl+Shift+M* con un nominativo selezionato, è possibile accedere alla finestra di modifica/cancellazione (diversa da quella di inserimento solamente per i pulsanti *Modifica* ed *Elimina* abilitati).
 
-.. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaModificaDati1.png
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaModificaDati2.png
+
+Per modificare il nominativo compilare opportunamente i campi desiderati (facendo attenzione al campo *Rete*) e terminare cliccando sul pulsante *Modifica*: il nominativo verrà immediatamente aggiornato in rubrica.
+
+Per cancellare il nominativo cliccare invece sul pulsante *Elimina*.
+
+La pressione del pulsante *Annulla* lascia il nominativo inalterato.
+
+Il pulsante *Inserisci* in questa fase è disabilitato.
+
+.. note :: Sia la modifica che l'eliminazione di un contatto prevedono una seconda finestra di conferma per evitare di eseguire la manovra accidentalmente.
 
 .. rubric:: Note
 
