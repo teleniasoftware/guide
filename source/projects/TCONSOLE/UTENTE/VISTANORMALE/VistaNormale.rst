@@ -374,7 +374,7 @@ Ripetendo la stessa manovra (il pulsante in questo caso è diventato **[+]**) si
 Composizione automatica
 -----------------------
 
-È possibile comporre automaticamente il numero associato al nominativo di Rubrica selezionato cliccando sui pulsanti *F12* (**Invio numero alla consolle**) presente in alto a destra del contesto di Rubrica o, da tastiera, premendo il tasto *F12*.
+È possibile comporre automaticamente il numero associato al nominativo di Rubrica selezionato cliccando sul pulsante *F12* (**Invio numero alla consolle**) presente in alto a destra del contesto di Rubrica o, da tastiera, premendo il tasto *F12*.
 
 Un’estensione alla composizione automatica è data dalla pressione contemporanea dei tasti *Shift*, *Ctrl*, *Alt* ed il tasto *F12*: in questo caso il numero composto è prelevato da uno dei 3 campi alternativi opportunamente configurati. Ad es., facendo riferimento alla figura precedente, premendo *Shift+F12* viene composto, se popolato, il numero presente nella colonna *Cellulare*.
 
