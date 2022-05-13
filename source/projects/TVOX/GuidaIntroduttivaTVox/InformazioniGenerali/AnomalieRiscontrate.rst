@@ -69,8 +69,8 @@ Anomalie legate al tipo di Hypervisor utilizzato
 
 - Tipo di hardware utilizzato:
     - questo DEVE essere supportato/certificato dall’owner della soluzione Hypevisor utilizzata (si ricorda che l’utilizzo di ambienti Hyper-V Microsoft, multi-purpose, non ne implica il supporto). Fare riferimento ai seguenti link per la verifica dell’hardware in uso:
-        - Hyper-V Microsoft, https://docs.microsoft.com/it-it/windows-ser-ver/virtualization/hyper-v/system-requirements-for-hyper-v-on-win-dows (esiste un tool per la certificazione dell’hardware in uso e, in caso di problemi, Telenia software si riserva la possibilità di richiesta del report)
-        - Vmware, https://www.vmware.com/resources/compatibil-ity/search.php
+        - Hyper-V Microsoft, https://docs.microsoft.com/it-it/windows-server/virtualization/hyper-v/system-requirements-for-hyper-v-on-windows (esiste un tool per la certificazione dell’hardware in uso e, in caso di problemi, Telenia software si riserva la possibilità di richiesta del report)
+        - Vmware, https://www.vmware.com/resources/compatibility/search.php
         - Citrix, http://hcl.xenserver.org/
 - Tipo di versione utilizzata dell’Hypervisor:
     - Questa DEVE supportare la versione del OS guest Linux utilizzato
