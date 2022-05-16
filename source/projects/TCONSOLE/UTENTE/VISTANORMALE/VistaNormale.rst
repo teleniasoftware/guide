@@ -21,7 +21,7 @@ Le voci del menu sono accessibili cliccandoci sopra con il mouse oppure premendo
 Strumenti
 ---------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Strumenti.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Strumenti.png
 
 Il menu *Strumenti* è composto dalle seguenti voci:
 
@@ -36,7 +36,7 @@ Il menu *Strumenti* è composto dalle seguenti voci:
 Chiamate
 --------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Chiamate.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Chiamate.png
 
 TConsole memorizza automaticamente il numero, lo stato del Display (con l'eventuale nome del chiamante/chiamato/linea), la data e l’ora di ogni chiamata effettuata o ricevuta. Mediante il menu *Chiamate* è possibile accedere a tali liste ed eseguire, eventualmente, la richiamata ad uno di questi numeri.
 
@@ -52,27 +52,24 @@ Il menu contiene le seguenti voci principali:
 
 Tali liste vengono visualizzate ognuna in una finestra del tipo seguente (in questo caso per le chiamate entranti: per le chiamate uscenti è presente una finestra analoga) con le logiche di seguito descritte:
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/ListaChiamateEntranti.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/ListaChiamateEntranti.png
 
 Nella terza colonna la lettera *I* sta per *Chiamata Interna*, mentre *E* sta per *Chiamata Esterna*. Se in rubrica è abilitato il lookup (vedi :ref:`ABILITA_POPUP`) e il numero chiamante è contenuto in rubrica, nel campo *Descrizione* viene presentato il nome del contatto di Rubrica Interna o Esterna.
 
 In questa finestra è possibile eseguire le seguenti operazioni:
 
 - scorrere la lista, selezionando la riga desiderata, mediante i tasti freccia della tastiera o muovendo la barra di scorrimento verticale con il mouse
-- richiamare il numero relativo al record selezionato premendo il tasto *Invio* della tastiera (NON il tasto *Invio\[Tn\]* del tastierino numerico), oppure cliccando sul pulsante *Chiama* oppure facendo doppio click sul numero con il mouse
-- azzerare la lista cliccando sul pulsante *Azzèra Lista*
-- tornare alla finestra principale di TConsole tramite *Alt+F4* o cliccando sul pulsante *Annulla*
+- richiamare il numero relativo al record selezionato premendo il tasto *Invio* della tastiera (NON il tasto *Invio\[Tn\]* del tastierino numerico), oppure cliccando sul pulsante **Chiama** oppure facendo doppio click sul numero con il mouse
+- azzerare la lista cliccando sul pulsante **Azzèra Lista**
+- tornare alla finestra principale di TConsole tramite *Alt+F4* o cliccando sul pulsante **Annulla**
 
 Configurazione
 --------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Configurazione.png
-
-.. TODO: Colori? in alternativa spostare in installazione
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Configurazione.png
 
 Il menu *Configurazione* è composto dalle seguenti voci:
 
-.. - **Colori** (*Ctrl+C*): consente di personalizzare i colori di visualizzazione in modo da adattare l’applicazione ai propri gusti e abitudini
 - **Colori** (*Ctrl+C*): nella scheda **Form** consente di personalizzare carattere e colori di visualizzazione della maschera principale del programma in modo da adattare l’applicazione ai propri gusti e abitudini. Per la modifica della combinazione di colori di determinate sezioni dell'applicazione o di determinati pulsanti fare riferimento a :ref:`Selezione Colori`
 - **Telefono** (*Ctrl+T*): disponibile **solo per console Nortel di tipo CIU/M2250**, consente di regolare il volume ed il tono di squillo (buzzer) della console stessa
 - **Rubrica Interna**: opzione non ancora attiva
@@ -85,22 +82,13 @@ Il menu *Configurazione* è composto dalle seguenti voci:
 Selezione Colori
 ----------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/SelezioneColori.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/SelezioneColori.png
 
-.. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/SelezioneColori_old.png
+.. .. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/SelezioneColori_old.png
 
 La finestra *Selezione Colori* permette di impostare il carattere e i colori dei pulsanti e delle aree di testo della Rubrica e della Console facendo clic con il tasto destro del mouse sulla sezione o sul componente interessato.
 
 I componenti sono raggruppati nel seguente modo:
-
-..
-  - pulsanti ICI
-  - pulsanti FLEX
-  - pulsanti Fix
-  - pulsanti Keypad
-  - pulsanti Linea (pannello Loop)
-  - aree di testo descrizione Linee (pannello Loop)
-  - aree di testo Display
 
 - pulsanti :ref:`ICI`
 - pulsanti :ref:`FLEX`
@@ -118,7 +106,7 @@ La modalità di selezione e di impostazione dei parametri è uguale per tutti:
 - impostare il colore di sfondo "**BG**" (*BackGround*), cliccando sul colore preferito con il tasto destro del mouse
 - selezionare la dimensione del carattere e lo stile
 - nella parte inferiore della finestra viene riprodotto un esempio delle impostazioni scelte sia per la vista Normale che per quella IPO
-- salvare le scelte fatte cliccando sul pulsante "Conferma", oppure ignorarle cliccando su "Annulla"
+- salvare le scelte fatte cliccando sul pulsante **Conferma**, oppure ignorarle cliccando su **Annulla**
 
 **Le scelte confermate diventano immediatamente operative.**
 
@@ -129,7 +117,7 @@ La modalità di selezione e di impostazione dei parametri è uguale per tutti:
 Telefono (solo per Nortel CIU o Nortel M2250)
 ---------------------------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/ConfigurazioneTelefonoNortelCIU.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/ConfigurazioneTelefonoNortelCIU.png
 
 Per modificare volume e tono del segnale acustico emesso dalla console CIU/M2250 cliccare sulle freccette per impostare il valore desiderato.
 
@@ -140,16 +128,16 @@ Per modificare volume e tono del segnale acustico emesso dalla console CIU/M2250
 Vista
 -----
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Vista.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Vista.png
 
 L’opzione *Vista* consente di commutare dalla vista Normale (*Ctrl+Alt+N*) alle altre viste disponibili, se abilitate a livello di :ref:`Profilo Utente`. Ad esempio, nella precedente immagine è abilitata anche la vista IPO (*Ctrl+Alt+I*), mentre non sono abilitate le viste IPO PLUS (*Ctrl+Alt+Z*) e la vista Batteria (*Ctrl+Alt+B*).
 
 .. note :: Nonostante questo menu sia visivamente disponibile solo nella vista Normale, le configurazioni di tasti indicate sono utilizzabili anche dopo aver commutato ad una vista qualsiasi: ad esempio, trovandosi nella vista IPO PLUS, si potrà commutare direttamente alla vista Normale tramite *Ctrl+Alt+N* oppure alla vista IPO tramite *Ctrl+Alt+I*.
 
 Tqm
------
+---
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Tqm.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Tqm.png
 
 Il menu *Tqm*, presente **solo quando TConsole è configurato in modalità TVOX** (vedi :ref:`Parametri TVox`), è composto dalle seguenti voci:
 
@@ -161,11 +149,11 @@ Il menu *Tqm*, presente **solo quando TConsole è configurato in modalità TVOX*
 ? (Informazioni)
 ----------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Informazioni.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Informazioni.png
 
 Come mostrato in figura, questa opzione visualizza informazioni relative all’applicazione; in particolare sono significativi i numeri di versione.
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/info.png
 
 Pannelli della Console
 ======================
@@ -191,7 +179,7 @@ Questa è la parte di controllo della console o telefono che l’applicazione ge
 Util: comandi di utilità
 ------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Util.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Util.png
 
 - **[?] (Help)** (*F1*):  visualizza l’Help in linea
 - **[Sole/Luna] (Giorno/Notte)** (*Ctrl+Alt+N*):  il pulsante Giorno/Notte pone lo stato della console in libero/occupato: per il significato e configurazione di tali stati si rimanda alla configurazione del PBX. Per TConsole in modalità TVox (vedi :ref:`Parametri TVox`) il pulsante è disattivato.
@@ -205,7 +193,7 @@ Util: comandi di utilità
 ICI: identificazione chiamate entranti
 --------------------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/ICI.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/ICI.png
 
 Questo pannello (*Incoming Call Identification*) indica all’operatore la tipologia delle chiamate che si presentano alla console: le etichette riportate (*Interna*, *Esterna* etc.) dipendono dalla configurazione del PBX e, in certi contesti, sono modificabili (vedi :ref:`Tasti ICI`).
 
@@ -218,7 +206,7 @@ La selezione del pulsante può avvenire anche tramite tastiera, premendo i tasti
 Display
 -------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Display.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Display.png
 
 Il pannello *Display* è composto da tre righe:
 
@@ -237,7 +225,7 @@ Le informazioni relative alle linee sorgente e destinazione, tipicamente numero 
 Loop: pulsanti di impegno linea
 -------------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Loop.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Loop.png
 
 Per rispondere ad una chiamata in ingresso, si utilizzano i pulsanti *Linea* (loop); a fianco di ciascun pulsante viene riportato lo stato della linea.
 I pulsanti possono essere cliccati con il  mouse oppure selezionati da tastiera mediante le combinazioni di tasti da *Ctrl+0[Tn]* a *Ctrl+5[Tn]* (se le linee visualizzate sono 6, altrimenti fino a *CTRL+11[Tn]* per 12 linee).
@@ -266,7 +254,7 @@ In queste condizioni è possibile eseguire una delle seguenti azioni:
 Fix: comandi di base
 --------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Fix.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Fix.png
 
 Sono le funzioni "classiche" della console, indipendenti dalla programmazione del PBX pertanto sono sempre presenti. Sono normalmente utilizzate nel corso della procedura di trasferimento di una chiamata.
 
@@ -282,7 +270,7 @@ In particolare:
 Keypad: tastiera telefonica
 ---------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Keypad.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Keypad.png
 
 Per comporre il numero manualmente si può utilizzare il tastierino numerico del PC (parte destra della tastiera) o cliccare sui pulsanti di composizione presenti sul pannello *Keypad*.
 
@@ -295,14 +283,14 @@ Per comporre il numero manualmente si può utilizzare il tastierino numerico del
 Comandi
 -------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Comandi.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Comandi.png
 
 .. _FLEX:
 
 FLEX: comandi definiti dall’utente
 ----------------------------------
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/FLEX.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/FLEX.png
 
 Queste funzioni programmabili dipendono:
 
@@ -339,7 +327,7 @@ Il contesto Rubrica si compone delle seguenti parti:
 
 .. important:: Tutti i parametri per la configurazione dei campi di ricerca e di visualizzazione (etichetta visualizzata e ordine di presentazione) sono descritti in :ref:`RubInt.ini e RubEst.ini`.
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/Rubrica.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/Rubrica.png
 
 Ricerca nominativi
 ------------------
@@ -387,45 +375,44 @@ La pressione del pulsante **Inser.** o della combinazione di tasti *Ctrl+Shift+I
 
 L’operazione si realizza compilando opportunamente i campi delle finestre sotto riportate, agendo sui pannelli *Dati 1*, *Dati 2* e *Dati 3*.
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati1.png
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati2.png
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaInserisciDati3.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaInserisciDati1.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaInserisciDati2.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaInserisciDati3.png
 
 .. important :: È importante specificare la Rete (pannello *Dati 1*) in modo da specificare il tipo del numero telefonico (interno o esterno).
 
 .. tip :: Da tastiera il tasto *Tab* consente di spostarsi sul campo successivo, rimanendo all'interno dello stesso pannello (ad es. *Dati 1*). Per spostarsi da un pannello all'altro utilizzare *Ctrl+Tab*.
 
-La pressione del pulsante "Inserisci" crea nell’archivio un nuovo nominativo con i dati specificati.
+La pressione del pulsante **Inserisci** crea nell’archivio un nuovo nominativo con i dati specificati.
 
-La pressione del pulsante "Annulla" non inserisce alcun nominativo.
+La pressione del pulsante **Annulla** non inserisce alcun nominativo.
 
-I pulsanti "Modifica" ed "Elimina" in questa fase sono disabilitati.
+I pulsanti **Modifica** ed **Elimina** in questa fase sono disabilitati.
 
-.. warning :: Nel riquadro "Visibilità" **NON** togliere il flag dalla voce *Centralino* altrimenti il record, pur rimanendo presente nel database, non sarà più visibile nella Rubrica TConsole.
+.. warning :: Nel riquadro **Visibilità** **NON** togliere il flag dalla voce *Centralino* altrimenti il record, pur rimanendo presente nel database, non sarà più visibile nella Rubrica TConsole.
 
 .. tip :: Nelle immagini precedenti il campo *Libero_5* del pannello *Dati 2* e tutti i campi del pannello *Dati 3* sono disabilitati, e di conseguenza NON modificabili da TConsole, in quanto NON sono state definite le rispettive etichette nella :ref:`Rubint.ini RubEst.ini Sezione LABELS` del file *RubEst.ini*.
 
 Modifica e cancellazione nominativi
 -----------------------------------
 
-Facendo clic con il tasto destro del mouse, seguito dal clic sulla voce "Modifica", su un nominativo risultato di una ricerca oppure premendo il tasto *Ctrl+Shift+M* con un nominativo selezionato, è possibile accedere alla finestra di modifica/cancellazione (diversa da quella di inserimento solamente per i pulsanti "Modifica" ed "Elimina" abilitati).
+Facendo clic con il tasto destro del mouse, seguito dal clic sulla voce "Modifica", su un nominativo risultato di una ricerca oppure premendo il tasto *Ctrl+Shift+M* con un nominativo selezionato, è possibile accedere alla finestra di modifica/cancellazione (diversa da quella di inserimento solamente per i pulsanti **Modifica** ed **Elimina** abilitati).
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaModificaDati1.png
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/RubricaModificaDati2.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaModificaDati1.png
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaModificaDati2.png
 
-Per modificare il nominativo compilare opportunamente i campi desiderati (facendo attenzione al campo *Rete*) e terminare cliccando sul pulsante "Modifica": il nominativo verrà immediatamente aggiornato in Rubrica.
+Per modificare il nominativo compilare opportunamente i campi desiderati (facendo attenzione al campo *Rete*) e terminare cliccando sul pulsante **Modifica**: il nominativo verrà immediatamente aggiornato in Rubrica.
 
-Per cancellare il nominativo cliccare invece sul pulsante "Elimina".
+Per cancellare il nominativo cliccare invece sul pulsante **Elimina**.
 
-La pressione del pulsante "Annulla" lascia il nominativo inalterato.
+La pressione del pulsante **Annulla** lascia il nominativo inalterato.
 
-Il pulsante "Inserisci" in questa fase è disabilitato.
+Il pulsante **Inserisci** in questa fase è disabilitato.
 
 .. note :: Sia la modifica che l'eliminazione di un contatto prevedono una seconda finestra di conferma per evitare di eseguire la manovra accidentalmente.
 
 .. rubric:: Note
 
-.. .. [1] Le modifiche applicate ai parametri della Sintesi Vocale rimangono effettive fino al successivo riavvio di TConsole, quando vengono ripristinati i parametri precedenti alle modifiche applicate tramite l'interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro Permessi, funzionalità Sintesi Vocale
 .. [1] al riavvio di TConsole vengono ripristinati i parametri della Sintesi Vocale precedenti alle modifiche applicate tramite interfaccia dell'applicazione. Per rendere effettive queste modifiche i valori desiderati vanno impostati nel :ref:`Profilo Utente`, riquadro *Permessi*, funzionalità **Sintesi Vocale**
 .. [2] il Login e il Logout dell'operatore avvengono automaticamente rispettivamente al momento dell’apertura e della chiusura di TConsole
 .. [3] per abilitare il lookup in Rubrica per le chiamate in ingresso occorre abilitare il parametro :ref:`ABILITA_POPUP`

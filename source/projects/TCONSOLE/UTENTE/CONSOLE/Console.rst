@@ -36,13 +36,13 @@ TConsole è un’applicazione modulare e si presenta in diverse modalità di vis
 
 Si riporta di seguito un esempio di vista Normale con l'indicazione delle diverse sezioni dell'interfaccia:
 
-.. image:: /images/TCONSOLE/UTENTE/CONSOLE/vista_normale_sezioni.png
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/vistaNormaleSezioni.png
 
 Titolo e Barra di Stato sono in comune a tutte e tre le viste.
 
 **Nella vista Normale (e solamente in questa) possono essere presenti uno o più dei seguenti contesti**:
 
-- Rubrica (*F3*): rubrica unificata, sempre disponibile e in grado di memorizzare sia numeri interni che esterni
+- Rubrica (*F3*): detta anche Rubrica Esterna, è la rubrica unificata, sempre disponibile e in grado di memorizzare sia numeri interni che esterni
 - Rubrica Interna (*F2*): rubrica opzionale, in grado di memorizzare solo numeri interni (normalmente è la Rubrica Interna di un SAM/TSAM alla quale TConsole accede come Client)
 - Campo lampade
 .. - Rubrica Web
