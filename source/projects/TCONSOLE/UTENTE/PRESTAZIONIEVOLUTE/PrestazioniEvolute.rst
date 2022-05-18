@@ -2,20 +2,18 @@
 Prestazioni evolute (altri contesti)
 ====================================
 
-Nella vista in modalità IPO, per facilitare la lettura da parte dell’operatore, la finestra principale dell’applicazione TConsole è stata sdoppiata in due finestre distinte, a tutto schermo, facilmente commutabili da una all’altra:
-
-- finestra Console
-- finestra Rubrica (Interna od Esterna)
-
-Per questo motivo i contesti disponibili sono solamente Rubrica (F3) e, opzionalmente, Rubrica Interna (F2).
-
-Il passaggio da una finestra all’altra avviene nelle seguenti modalità:
-
-- dalla finestra Console alla finestra Rubrica mediante i tasti F2 (Rubrica Interna) o F3 (Rubrica Esterna)
-- dalla finestra Rubrica alla finestra Console con il tasto F4 (per entrambi i tipi  di rubrica)
-
 Rubrica Interna F2
 ==================
+
+Questo contesto opzionale è normalmente attivato quando TConsole è client di un sistema TSAM, cioè è in collegamento (via LAN) con tale sistema che viene utilizzato per le procedure di autenticazione a TConsole.
+
+Inoltre, sempre sul TSAM, risiede il database con i dati di Rubrica.
+
+La Rubrica Interna è quindi costituita dall’elenco degli interni del sistema telefonico aziendale.
+
+In presenza di questa rubrica, la Rubrica F3 assume il significato di sola Rubrica Esterna, anche se al suo interno potranno comunque essere presenti numeri classificati come appartenenti alla rete Interna.
+
+La struttura ed il funzionamento di questo contesto è analogo al contesto :ref:`Rubrica F3`, alla quale si rimanda per le procedure di ricerca, composizione automatica, inserimento, modifica e cancellazione nominativi.
 
 ..
     Rubrica Web
@@ -30,8 +28,9 @@ Rubrica Interna F2
 TQM
 ===
 
-Campo Lampade
-=============
+..
+    Campo Lampade
+    =============
 
 Blocco Notes
 ============
@@ -45,7 +44,3 @@ Blocco Notes
 
     Modifica
     --------
-
-xxx
-
-.. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png

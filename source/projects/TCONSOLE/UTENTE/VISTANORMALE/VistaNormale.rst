@@ -155,6 +155,8 @@ Come mostrato in figura, questa opzione visualizza informazioni relative all’a
 
 .. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/info.png
 
+.. _Pannelli della Console:
+
 Pannelli della Console
 ======================
 
@@ -308,6 +310,8 @@ La configurazione dei tasti FLEX e delle loro etichette è descritta in :ref:`Ta
 
     TQM: comandi per la gestione TQM
     ----------------------------------
+
+.. _Rubrica F3:
 
 Rubrica F3
 ==========
