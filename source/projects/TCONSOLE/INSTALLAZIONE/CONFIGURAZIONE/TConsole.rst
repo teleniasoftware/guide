@@ -33,7 +33,7 @@ ID
 
 In presenza di più di una postazione TConsole, questo parametro va configurato con un numero progressivo e *univoco* per ogni postazione. Il valore di default è *1*.
 
-.. important :: La configurazione di questo parametro è **fondamentale** in ambiente Nortel per la corretta gestione delle chiamate VIP (vedi :ref:`Parametri Nortel` e :ref:`Installazione Client`).
+.. important :: La configurazione di questo parametro è **fondamentale** in ambiente Nortel per la corretta gestione delle chiamate VIP (vedi :ref:`Prenotazioni VIP`, :ref:`Parametri Nortel` e :ref:`Installazione Client`).
 
 TAPI_CALL_ON_BUSY_CODE
 ----------------------

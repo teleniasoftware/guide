@@ -61,6 +61,13 @@ ACOD_RUB_EXT
 
 Definisce il codice di impegno linea da anteporre, in deteriminati contesti (vedi :ref:`Codice Impegno Linea`), al numero da chiamare. Il valore di default è *0*.
 
+.. _ABILITA_PMI:
+
+ABILITA_PMI
+-----------
+
+**Solo in modalità Nortel**, se configurato a *SI*, abilita la visualizzazione della finestra delle Prenotazioni VIP, per consentire la gestione delle chiamate VIP (vedi :ref:`Prenotazioni VIP`). Il valore di default è *NO*.
+
 PICKUP_SOUND_1, PICKUP_SOUND_2, PICKUP_SOUND_3
 ----------------------------------------------
 
@@ -115,6 +122,8 @@ Con il risultato che per qualsiasi numero di chiamate in coda verrà eseguito se
 .. warning :: Se per *PICKUP_SOUND_1*, *PICKUP_SOUND_2* o *PICKUP_SOUND_3* viene specificato un parametro o un nome file non valido (o inesistente) allora verrà utilizzato il suono di notifica predefinito di Windows.
 
 .. tip :: Per NON emettere alcuna notifica sonora per le chiamate in coda è possibile impostare come *PICKUP_SOUND_1* un file audio contenente silenzio, lasciando i valori di default per gli altri parametri.
+
+.. _TCONSOLE_SERVER:
 
 TCONSOLE_SERVER
 ---------------

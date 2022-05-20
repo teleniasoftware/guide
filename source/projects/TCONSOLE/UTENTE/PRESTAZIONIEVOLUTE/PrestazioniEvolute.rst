@@ -35,6 +35,19 @@ TQM
 Blocco Notes
 ============
 
+Attivabile tramite *F7*, consente all'operatore TConsole di creare delle note condivisibili con le altre postazioni e consultarle poi solo se conoscono il nome con cui sono state inserite.
+
+.. image:: /images/TCONSOLE/UTENTE/PRESTAZIONIEVOLUTE/BloccoNotes.png
+
+Per creare una nuova nota o modificare una nota esistente:
+
+- compilare il campo *NOME*
+- cliccare su **Cerca** oppure premere *Invio* (NON del tastierino numerico) per cercare una nota avente il nome appena digitato
+- se esiste già una nota con questo nome, il contenuto verrà visualizzato in basso, altrimenti ci si troverà nella condizione di inserimento di una nuova nota
+- digitare il contenuto della nuova nota o modificare la nota esistente: per andare a capo utilizzare la combinazione *CTRL+Invio* (NON del tastierino numerico)
+- cliccare su **Salva** oppure premere *Alt+S* per salvare la nota
+- per eliminare una nota, dopo averla cercata cliccare su **Elimina** oppure premere *Alt+E*
+
 ..
     Registro Chiamate
     =================
