@@ -14,7 +14,7 @@ Menu
 
 Sotto il titolo è presente il menu orizzontale dell’applicazione, per mezzo del quale è possibile accedere ad alcune funzioni supplementari ed alla configurazione del Posto Operatore.
 
-.. note :: Alcune di queste opzioni possono essere temporaneamente o permanentemente disabilitate in base alla configurazione corrente dell’applicazione o delle prestazioni abilitate all'utenza TConsole che ha effettuato l'accesso.
+.. note:: Alcune di queste opzioni possono essere temporaneamente o permanentemente disabilitate in base alla configurazione corrente dell’applicazione o delle prestazioni abilitate all'utenza TConsole che ha effettuato l'accesso.
 
 Le voci del menu sono accessibili cliccandoci sopra con il mouse oppure premendo la lettera sottolineata in combinazione con il tasto *Alt* (es. *Alt+S*, *Alt+C*, *Alt+O*, *Alt+V*). Nel menu sono anche indicate le combinazioni di tasti con le quali è possibile attivare la funzionalità direttamente dalla tastiera del PC (particolarmente utili per operatori ipovedenti o non vedenti, ad es. *Ctrl+D*, *Ctrl+Alt+X*).
 
@@ -110,9 +110,9 @@ La modalità di selezione e di impostazione dei parametri è uguale per tutti:
 
 **Le scelte confermate diventano immediatamente operative.**
 
-.. important :: I pulsanti hanno due differenti stati: *Normale* e *Attivo*, per i quali è opportuno impostare combinazioni di colori diverse tra loro. Le aree di testo hanno solamente lo stato *Normale*.
+.. important:: I pulsanti hanno due differenti stati: *Normale* e *Attivo*, per i quali è opportuno impostare combinazioni di colori diverse tra loro. Le aree di testo hanno solamente lo stato *Normale*.
 
-.. warning :: Evitare di impostare per primo piano e sfondo la stessa tonalità di colore, pena l'illeggibilità del pulsante o dell'area di testo. Questo può accadere ad es. quando si clicca con il tasto destro e il sinistro del mouse sullo stesso colore: in questo caso compare "**FB**" sulla stessa casella di selezione colore.
+.. warning:: Evitare di impostare per primo piano e sfondo la stessa tonalità di colore, pena l'illeggibilità del pulsante o dell'area di testo. Questo può accadere ad es. quando si clicca con il tasto destro e il sinistro del mouse sullo stesso colore: in questo caso compare "**FB**" sulla stessa casella di selezione colore.
 
 Telefono (solo per Nortel CIU o Nortel M2250)
 ---------------------------------------------
@@ -132,7 +132,7 @@ Vista
 
 L’opzione *Vista* consente di commutare dalla vista Normale (*Ctrl+Alt+N*) alle altre viste disponibili, se abilitate a livello di :ref:`Profilo Utente`. Ad esempio, nella precedente immagine è abilitata anche la vista IPO (*Ctrl+Alt+I*), mentre non sono abilitate le viste IPO PLUS (*Ctrl+Alt+Z*) e la vista Batteria (*Ctrl+Alt+B*).
 
-.. note :: Nonostante questo menu sia visivamente disponibile solo nella vista Normale, le configurazioni di tasti indicate sono utilizzabili anche dopo aver commutato ad una vista qualsiasi: ad esempio, trovandosi nella vista IPO PLUS, si potrà commutare direttamente alla vista Normale tramite *Ctrl+Alt+N* oppure alla vista IPO tramite *Ctrl+Alt+I*.
+.. note:: Nonostante questo menu sia visivamente disponibile solo nella vista Normale, le configurazioni di tasti indicate sono utilizzabili anche dopo aver commutato ad una vista qualsiasi: ad esempio, trovandosi nella vista IPO PLUS, si potrà commutare direttamente alla vista Normale tramite *Ctrl+Alt+N* oppure alla vista IPO tramite *Ctrl+Alt+I*.
 
 Tqm
 ---
@@ -185,7 +185,7 @@ Util: comandi di utilità
 
 - **[?] (Help)** (*F1*):  visualizza l’Help in linea
 - **[Sole/Luna] (Giorno/Notte)** (*Ctrl+Alt+N*):  il pulsante Giorno/Notte pone lo stato della console in libero/occupato: per il significato e configurazione di tali stati si rimanda alla configurazione del PBX. Per TConsole in modalità TVox (vedi :ref:`Parametri TVox`) il pulsante è disattivato.
-- **[Stato PO]** (*F4*): per TConsole in modalità non vedente riporta, in Sintesi Vocale e/o in Barra Braille, informazioni relative allo stato della console. Oltre a questo, in tutte le modalità la pressione del tasto toglie il focus dalla Rubrica e lo riporta alla console principale del programma
+- **[Stato PO]** (*F4*): per TConsole in modalità non vedente riporta, in Sintesi Vocale e/o in Barra Braille, informazioni relative allo stato della console. Oltre a questo, in tutte le modalità la pressione del tasto toglie il focus per la digitazione dalla Rubrica e lo riporta alla console principale del programma
 - **[Postit]** (*F9*): attiva/disattiva la finestra PostIt per consentire di digitare da tastierino numerico il numero da chiamare dettato durante durante la conversazione, senza che la digitazione metta in attesa la chiamata in corso
 - **[In] (Lista Ch. Entranti)** (*Ctrl+E*): visualizza la finestra con l’elenco delle ultime chiamate entranti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
 - **[Out] (Lista Ch. Uscenti)** (*Ctrl+U*): visualizza la finestra con l’elenco delle ultime chiamate uscenti (vedi :ref:`Lista Chiamate Entranti/Uscenti <Lista Chiamate Entranti/Uscenti>`)
@@ -383,9 +383,9 @@ L’operazione si realizza compilando opportunamente i campi delle finestre sott
 .. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaInserisciDati2.png
 .. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/RubricaInserisciDati3.png
 
-.. important :: È importante specificare la Rete (pannello *Dati 1*) in modo da specificare il tipo del numero telefonico (interno o esterno).
+.. important:: È importante specificare la Rete (pannello *Dati 1*) in modo da specificare il tipo del numero telefonico (interno o esterno).
 
-.. tip :: Da tastiera il tasto *Tab* consente di spostarsi sul campo successivo, rimanendo all'interno dello stesso pannello (ad es. *Dati 1*). Per spostarsi da un pannello all'altro utilizzare *Ctrl+Tab*.
+.. tip:: Da tastiera il tasto *Tab* consente di spostarsi sul campo successivo, rimanendo all'interno dello stesso pannello (ad es. *Dati 1*). Per spostarsi da un pannello all'altro utilizzare *Ctrl+Tab*.
 
 La pressione del pulsante **Inserisci** crea nell’archivio un nuovo nominativo con i dati specificati.
 
@@ -393,9 +393,9 @@ La pressione del pulsante **Annulla** non inserisce alcun nominativo.
 
 I pulsanti **Modifica** ed **Elimina** in questa fase sono disabilitati.
 
-.. warning :: Nel riquadro **Visibilità** **NON** togliere il flag dalla voce *Centralino* altrimenti il record, pur rimanendo presente nel database, non sarà più visibile nella Rubrica TConsole.
+.. warning:: Nel riquadro **Visibilità** **NON** togliere il flag dalla voce *Centralino* altrimenti il record, pur rimanendo presente nel database, non sarà più visibile nella Rubrica TConsole.
 
-.. tip :: Nelle immagini precedenti il campo *Libero_5* del pannello *Dati 2* e tutti i campi del pannello *Dati 3* sono disabilitati, e di conseguenza NON modificabili da TConsole, in quanto NON sono state definite le rispettive etichette nella :ref:`Rubint.ini RubEst.ini Sezione LABELS` del file *RubEst.ini*.
+.. tip:: Nelle immagini precedenti il campo *Libero_5* del pannello *Dati 2* e tutti i campi del pannello *Dati 3* sono disabilitati, e di conseguenza NON modificabili da TConsole, in quanto NON sono state definite le rispettive etichette nella :ref:`Rubint.ini RubEst.ini Sezione LABELS` del file *RubEst.ini*.
 
 Modifica e cancellazione nominativi
 -----------------------------------
@@ -413,7 +413,7 @@ La pressione del pulsante **Annulla** lascia il nominativo inalterato.
 
 Il pulsante **Inserisci** in questa fase è disabilitato.
 
-.. note :: Sia la modifica che l'eliminazione di un contatto prevedono una seconda finestra di conferma per evitare di eseguire la manovra accidentalmente.
+.. note:: Sia la modifica che l'eliminazione di un contatto prevedono una seconda finestra di conferma per evitare di eseguire la manovra accidentalmente.
 
 .. rubric:: Note
 

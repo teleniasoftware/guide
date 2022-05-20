@@ -36,9 +36,9 @@ Con questa configurazione (configurazione di default), una volta ricercato un co
 - premendo *Ctrl+F12* parte la chiamata verso il numero definito nel campo *LIBERO_2* del contatto
 - premendo *Alt+F12* parte la chiamata verso il numero definito nel campo *LIBERO_3* del contatto
 
-.. important :: Il numero contenuto nel campo associato ad *F12* viene considerato come numero **principale** del contatto. Per questo e per gli altri campi di rubrica contenenti un numero, nel caso si tratti di un numero esterno che necessita di un codice impegno linea da anteporre, vale quanto descritto in :ref:`Codice Impegno Linea`.
+.. important:: Il numero contenuto nel campo associato ad *F12* viene considerato come numero **principale** del contatto. Per questo e per gli altri campi di rubrica contenenti un numero, nel caso si tratti di un numero esterno che necessita di un codice impegno linea da anteporre, vale quanto descritto in :ref:`Codice Impegno Linea`.
 
-.. tip ::
+.. tip::
     **Solo nella sezione [MASTER]** (vista Normale) è possibile avviare la chiamata verso il numero definito in un qualsiasi campo di rubrica (anche se non è tra i 4 campi definiti nel parametro *F12*) tramite doppio clic del mouse sul campo interessato.
 
     Viceversa da tastiera, ossia tramite le combinazioni di tasti indicate, e in tutte le viste: Normale, IPO e IPO PLUS, è possibile avviare la chiamata **solo** verso i numeri contenuti nei 4 campi definiti nel parametro *F12*.
@@ -74,12 +74,12 @@ Questa sezione contiene:
 - eventuali vincoli sul tipo di dato (numero o stringa) che il campo può contenere
 - eventuali vincoli sul valore che può essere inserito nel campo
 
-.. important ::
+.. important::
     I vincoli sul tipo di dato e sul valore che esso può contenere sono verificati al momento della modifica o inserimento di un contatto effettuati **tramite interfaccia di TConsole**. Se si prova a inserire un dato che non rispetta tali vincoli, al momento del salvataggio del contatto verrà restituito un messaggio di errore con la descrizione del vincolo non rispettato.
 
     Se la rubrica viene importata direttamente nel database TConsole (tramite file CSV, SQL, ...) gli unici vincoli che vengono controllati al momento dell'importazione sono i vincoli di struttura della tabella del database.
 
-.. warning :: Se in questa sezione viene eliminata o commentata una delle righe di associazione campo - etichetta, su TConsole verrà presentato come etichetta il nome stesso del campo, e dalla rubrica TConsole **non** sarà possibile inserire né modificarne il contenuto.
+.. warning:: Se in questa sezione viene eliminata o commentata una delle righe di associazione campo - etichetta, su TConsole verrà presentato come etichetta il nome stesso del campo, e dalla rubrica TConsole **non** sarà possibile inserire né modificarne il contenuto.
 
 **Esempio di RubEst.ini** (file di configurazione della rubrica **Esterna**)\ **:**
 
@@ -127,8 +127,7 @@ Sezioni QUERY e QUERY_IPO
 
 In questa sezione è possibile specificare, eventualmente differenziando in base al tipo di vista utilizzata (Normale o IPO/IPO PLUS), quali campi del database rendere disponibili **per la ricerca in rubrica**, e in quale ordine presentarli. È anche possibile specificare un'etichetta personalizzata da visualizzare solo in una determinata vista.
 
-.. important ::
-    Le sezioni QUERY e QUERY_IPO si riferiscono ai campi di rubrica presentati per la ricerca rispettivamente nella vista Normale e nelle viste IPO/IPO PLUS.
+.. important:: Le sezioni QUERY e QUERY_IPO si riferiscono ai campi di rubrica presentati per la ricerca rispettivamente nella vista Normale e nelle viste IPO/IPO PLUS.
 
 Per NON visualizzare un campo del database in una determinata sezione è sufficiente eliminare o commentare la riga corrispondente assicurandosi che, ove richiesto, i campi da visualizzare siano **univocamente numerati a partire da 1 e senza interruzioni nella numerazione**: se ad es. si vogliono visualizzare 6 campi, questi dovranno **necessariamente** essere numerati da 1 a 6.
 
@@ -217,7 +216,7 @@ In questa sezione è possibile specificare, eventualmente differenziando in base
 
 Per NON visualizzare un campo del database in una determinata sezione è sufficiente eliminare o commentare la riga corrispondente assicurandosi che, ove richiesto, i campi da visualizzare siano **univocamente numerati a partire da 1 e senza interruzioni nella numerazione**: se ad es. si vogliono visualizzare 6 campi, questi dovranno **necessariamente** essere numerati da 1 a 6.
 
-.. warning :: Il campo n. 0 è riservato all'indicatore (pallino colorato) del :ref:`Campo Lampade` nella sezione MASTER e **non può essere modificato**.
+.. warning:: Il campo n. 0 è riservato all'indicatore (pallino colorato) del :ref:`Campo Lampade` nella sezione MASTER e **non può essere modificato**.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/CONFIGURAZIONE/rubrica.png
 
@@ -283,9 +282,9 @@ indicano rispettivamente:
 - numero ordinale (*Idx*) di posizionamento del campo del database *LIBERO_1*: *5* (sesto campo da sinistra considerando anche l'indicatore per il Campo Lampade), è largo 144 pixel e verrà presentato con l'etichetta *Cellulare* definita nella :ref:`Rubint.ini RubEst.ini Sezione LABELS`)
 
 ..
-    .. warning :: Per il Campo Lampade il valore *Idx* (posizione dell'indicatore) **deve** essere configurato pari a *0*.
+    .. warning:: Per il Campo Lampade il valore *Idx* (posizione dell'indicatore) **deve** essere configurato pari a *0*.
 
-.. tip :: **Solo nella sezione [MASTER]** (vista Normale) è possibile modificare con il mouse la larghezza delle colonne.
+.. tip:: **Solo nella sezione [MASTER]** (vista Normale) è possibile modificare con il mouse la larghezza delle colonne.
 
 Sempre relativamente allo stesso esempio, nella sezione [DETAIL] nelle righe 3 e 4 le diciture:
 

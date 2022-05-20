@@ -235,7 +235,7 @@ Se impostato a *SI*, permette di visualizzare anche nella :ref:`Barra di Stato` 
 Configurazione dei tasti funzione per Barra Braille Lilli
 ---------------------------------------------------------
 
-Per l’associazione dei tasti funzione della Barra Braille **alle rispettive combinazioni di tasti della tastiera del PC** (e di conseguenza alle funzionalità di TConsole) è presente una configurazione predefinita che è possibile modificare a seconda delle esigenze dell’operatore:
+Per l’associazione dei tasti funzione della Barra Braille Lilli **alle rispettive combinazioni di tasti della tastiera del PC** (e di conseguenza alle funzionalità di TConsole) è presente una configurazione predefinita che è possibile modificare a seconda delle esigenze dell’operatore:
 
 .. code-block:: ini
 
