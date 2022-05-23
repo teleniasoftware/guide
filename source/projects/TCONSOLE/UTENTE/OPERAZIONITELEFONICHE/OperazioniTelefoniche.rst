@@ -138,15 +138,87 @@ Dopo aver risposto ad una chiamata, l’operatore può inoltrarla ad un numero c
          - l’operatore è nuovamente in conversazione con il chiamante
 
 
+|br|
+
 
 Ritorno all’operatore di chiamata non risposta
 ==============================================
 
+Nel caso di inoltro di una chiamata ad un utente interno, se l’utente chiamato non risponde entro un certo tempo (impostato sul PBX), la chiamata può ritornare all’operatore che l’ha inoltrata.
+
+In questo caso:
+
+- La console emette un tono di avviso
+- l’opportuno indicatore **ICI** si attiva
+- la linea si pone nello stato *Ritorno Lib*
+- Per poter riprendere la chiamata:
+   - cliccare sul pulsante **ICI** opportuno, oppure
+   - cliccare sul pulsante **Linea** evidenziato, oppure
+   - premere il corrispondente tasto **Ctrl + 0 .. 5 [Tn]**, oppure
+   - premere il tasto **Più [Tn]**
+- la linea si pone nello stato **Dest. Lib**, l’indicatore **Escl.Ch.ato** si accende e l’operatore torna in conversazione con l’utente chiamante
+- rilasciare l’utente chiamato cliccando sul pulsante **Ril.Ch.ato** o premendo il tasto **Ctrl+Shift+F3** o **Asterisco [Tn]**
+- la linea si pone nello stato *Risposta*
+
+
+|br|
+
+
+
+
 Ritorno all’operatore in ambiente TVOX
 ======================================
 
+Nel caso di Utilizzo di TConsole in ambiente TVOX è possibile avere le seguenti tipologie di ritorno:
+
+- **Ritorno per Non Rosposta**: Avviene quando un utente TVOX ha configurato nella sezione *Mobilità* un ritorno a Capolinea sul Servizio PO per *Attesa Superata*
+- **Ritorno per Occupato**: Avviene quando un utente TVOX ha configurato nella sezione *Mobilità* un ritorno a Capolinea sul Servizio PO per *Interno Occupato*
+- **Ritorno per Deviato**: Avviene quando un utente TVOX ha configurato nella sezione *Mobilità* un ritorno a Capolinea sul Servizio PO per *Sempre*
+- **Ritorno Irregolare**: Avviene quando un utente TVOX ha configurato nella sezione *Mobilità* un ritorno a Capolinea sul Servizio PO *Interno non Attivo*
+- **Ritorno Generico**: Avviene quando si ha un ritorno di tipo sconosciuto, oppure quando si ha un ritorno da un servizio, oppure quando viene effettuata la deviazione a PO direttamente sul telefono e non dalla sezione Mobilità di TVOX
+
+Nel caso di ritorno al momento della risposta, la linea 1 del display del TConsole presenta le seguenti informazioni:
+
+<CLID> <DNIS>-<REDIRECT FROM DN>
+
+
+|br|
+
+
+
+
 Attesa in catena (Solo per Nortel)
 ==================================
+
+Dato il caso di un utente chiamante che desidera parlare sequenzialmente con più utenti, è possibile inoltrate la chiamata ad ogni singolo utente in modo tale che, quando una conversazione termina, la chiamata ritorni automaticamente all’operatore che potrà così inoltrarla all’utente successivo.
+
+Per poter eseguire questa operazione:
+
+- rispondere alla chiamata con la modalità già descritta
+
+Eseguire l'inoltro della chiamata:
+
+- selezionare il numero telefonico richiesto, utilizzando la tastiera numerica
+- durante la selezione, l’indicatore **Escl. Ch.nte** si accende e il chiamante viene messo automaticamente in attesa
+- al tono di libero la linea si pone nello stato *Dest.Lib.*
+- l’operatore inoltra la chiamata senza consultazione premendo consecutivamente il pulsante Attesa ( ) o il tasto Meno [Tn] ed il pulsante Rilascio ( ) o il tasto Invio [Tn];
+ la linea si pone nello stato Attesa trasf.;
+ alla risposta dell’utente chiamato la linea si pone nello stato Attesa in Catena;
+ quando l’utente chiamato chiude la conversazione, la linea si pone nello stato In attesa;
+ riprendere la chiamata:
+o cliccando sul pulsante Linea della linea nello stato In Attesa, oppure
+o premendo il corrispondente tasto Ctrl + 0 .. 5 [Tn], oppure
+o premendo il tasto Più [Tn];
+ la linea si pone nello stato Risposta;
+ è possibile terminare la chiamata con il pulsante Rilascio ( ) o il tasto Invio [Tn] oppure
+inoltrare la chiamata nella modalità più opportuna.
+se l’utente chiamato non risponde
+ la console emette un tono di avviso;
+ la chiamata ritorna all’operatore;
+ la linea si pone nello stato Attesa Dest.Lib.;
+ è possibile gestire la chiamata come descritto nella modalità Ritorno all’operatore di
+chiamata non risposta descritta in precedenza.
+
 
 Chiamata ad un numero interno o esterno
 =======================================
@@ -158,6 +230,6 @@ Chiamata ad un numero interno o esterno
 Inclusione (Solo per Nortel)
 ============================
 
-xxx
+
 
 .. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
