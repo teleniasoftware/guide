@@ -201,34 +201,127 @@ Eseguire l'inoltro della chiamata:
 - selezionare il numero telefonico richiesto, utilizzando la tastiera numerica
 - durante la selezione, l’indicatore **Escl. Ch.nte** si accende e il chiamante viene messo automaticamente in attesa
 - al tono di libero la linea si pone nello stato *Dest.Lib.*
-- l’operatore inoltra la chiamata senza consultazione premendo consecutivamente il pulsante Attesa ( ) o il tasto Meno [Tn] ed il pulsante Rilascio ( ) o il tasto Invio [Tn];
- la linea si pone nello stato Attesa trasf.;
- alla risposta dell’utente chiamato la linea si pone nello stato Attesa in Catena;
- quando l’utente chiamato chiude la conversazione, la linea si pone nello stato In attesa;
- riprendere la chiamata:
-o cliccando sul pulsante Linea della linea nello stato In Attesa, oppure
-o premendo il corrispondente tasto Ctrl + 0 .. 5 [Tn], oppure
-o premendo il tasto Più [Tn];
- la linea si pone nello stato Risposta;
- è possibile terminare la chiamata con il pulsante Rilascio ( ) o il tasto Invio [Tn] oppure
-inoltrare la chiamata nella modalità più opportuna.
-se l’utente chiamato non risponde
- la console emette un tono di avviso;
- la chiamata ritorna all’operatore;
- la linea si pone nello stato Attesa Dest.Lib.;
- è possibile gestire la chiamata come descritto nella modalità Ritorno all’operatore di
-chiamata non risposta descritta in precedenza.
+- l’operatore inoltra la chiamata senza consultazione premendo consecutivamente il pulsante **Attesa** o il tasto **Meno [Tn]** ed il pulsante **Rilascio** o il tasto **Invio [Tn]**
+- la linea si pone nello stato *Attesa trasf.*
+- alla risposta dell’utente chiamato la linea si pone nello stato *Attesa in Catena*
+- quando l’utente chiamato chiude la conversazione, la linea si pone nello stato *In attesa*
+- riprendere la chiamata:
+   - cliccando sul pulsante **Linea** della linea nello stato *In Attesa*, oppure
+   - premendo il corrispondente tasto **Ctrl + 0 .. 5 [Tn]**, oppure
+   - premendo il tasto **Più [Tn]**
+- la linea si pone nello stato *Risposta*
+- è possibile terminare la chiamata con il pulsante **Rilascio** o il tasto **Invio [Tn]** oppure inoltrare la chiamata nella modalità più opportuna
+  
+Se l’utente chiamato non risponde:
+
+- la console emette un tono di avviso
+- la chiamata ritorna all’operatore
+- la linea si pone nello stato *Attesa Dest.Lib.*
+- è possibile gestire la chiamata come descritto nella modalità *Ritorno all’operatore di chiamata non risposta* descritta in precedenza.
+
+|br|
 
 
 Chiamata ad un numero interno o esterno
 =======================================
 
-..
-    Chiamata in conferenza
-    ======================
+L’operatore può effettuare una chiamata a qualsiasi numero interno o esterno al sistema telefonico; nel caso di numero esterno, è necessario conoscere il codice di accesso alle linee esterne (tipicamente 0).
+
+- Impegnare una linea
+   - cliccando sul pulsante **Linea** di una linea nello stato *Libero*, oppure
+   - premendo il corrispondente tasto **Ctrl + 0 .. 5 [Tn]**, oppure
+   - premendo il tasto **Più [Tn]**
+- la linea si pone nello stato *Impegno*
+- per chiamate esterne, digitare il codice di accesso (si sente il tono di centrale)
+- selezionare il numero desiderato cliccando sui pulsanti del Keypad o premendo i tasti numerici del tastierino
+- se l’utente è libero:
+   - l’operatore sente il tono di libero
+   - la linea si pone nello stato *In Chiamata*
+   - alla risposta dell’utente la linea si pone nello stato *Risposta*
+- se l’utente è occupato
+   - l’operatore sente il tono di occupato
+   - la linea si pone nello stato *Occupato*
+- per terminare la chiamata cliccare sul pulsante **Rilascio** o premere il tasto **Invio [Tn]**.
+
+
+|br|
+
+
+
+Chiamata in conferenza
+======================
+
+L’operatore può effettuare, su richiesta di un utente interno o esterno, una conferenza con un massimo di sei utenti, operatore incluso. E’ possibile utilizzare un massimo di due giunzioni.
+
+**Attivazione della conferenza**
+
+.. note:: Si presuppone di avere già una chiamata in corso (entrante o uscente) corrispondente al primo partecipante alla conferenza
+
+- selezionare il numero telefonico del partecipante successivo
+- durante la selezione, l’indicatore **Escl. Ch.nte** si accende; gli altri partecipanti alla conferenza vengono messi automaticamente in attesa
+- al tono di libero la linea si pone nello stato *Dest.Lib.*
+- alla risposta del numero selezionato, la linea si pone nello stato *Estesa*
+- per includere l’utente nella conferenza, cliccare sul pulsante **Conferenza** o premere il tasto **Ctrl+Shift+F1**
+- l’indicatore **Escl. Ch.nte** si spegne e la linea si pone nello stato *Risposta*
+
+Ripetere i passi elencati per ogni partecipante alla conferenza.
+
+**Disattivazione temporanea**
+
+E’ possibile abbandonare temporaneamente la conferenza, per esempio, per gestire altre chiamate. 
+
+- cliccare sul pulsante **Rilascio** o premere il tasto **Invio [Tn]**
+- la linea si pone nello stato *In Attesa*
+- i partecipanti alla conferenza continuano ad essere in collegamento fra loro
+- l’operatore può elaborare altre chiamate su altre linee.
+
+**Riattivazione della conferenza**
+
+- cliccando sul pulsante **Linea** della linea nello stato *In Attesa*, oppure
+- premendo il corrispondente **tasto Ctrl + 0 .. 5 [Tn]**, oppure
+- premendo il tasto **Più [Tn]**
+
+**Rilascio della conferenza da parte del PO**
+
+- cliccare sul pulsante **Ril.Ch.nte** o premere il tasto **Ctrl+Shift+F3**
+- cliccare sul pulsante **Rilascio**o premere il tasto **Invio [Tn]**
+- la linea si pone nello stato *Libero*
+
+|br|
+
+
+
+
 
 Inclusione (Solo per Nortel)
 ============================
+
+Questa prestazione, opportunamente configurata sul PBX, consente di comunicare con utenti che risultano occupati in un’altra conversazione.
+
+Al momento dell’inoltro di una chiamata ad un interno che risulta occupato:
+
+- la linea si pone nello stato *Dest.Occ.*
+- cliccare sul pulsante **Flex** che riporta la descrizione **Inclusione** o premere il relativo tasto **Shift+Fn**
+- l’indicatore **Inclusione** si accende e la linea si pone nello stato *Estesa*
+- l’operatore è in conferenza con l’utente chiamato ed il suo interlocutore
+
+L’utente accetta la chiamata:
+
+- quando l’interlocutore riaggancia l’indicatore **Inclusione** si spegne
+- inoltrare la chiamata cliccando sul pulsante **Rilascio** o premendo il tasto **Invio [Tn]**
+  
+Se l’utente rifiuta la chiamata:
+
+- rilasciare la conferenza cliccando sul pulsante **Ril.Ch.ato** o premendo il tasto **Ctrl+Shift+F3** o **Asterisco [Tn]**
+- gli indicatori **Inclusione** e **Escl. Ch.nte** si spengono e la linea si pone nello stato *Risposta*
+- l’operatore è nuovamente in conversazione con il chiamante.
+  
+
+.. note:: Premendo due volte Inclusione si va in comunicazione solo con il numero chiamato (e non con il suo interlocutore)
+
+
+
+
 
 
 
