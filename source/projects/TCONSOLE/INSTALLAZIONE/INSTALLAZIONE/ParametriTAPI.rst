@@ -162,7 +162,8 @@ Esempio tabparam TAPI AVAYA CM + AES (TSAPI)
 
         *              TQM_TYPE             -
 
-.. important :: Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato per installazione in ambiente Avaya.
+.. important :: Per TConsole in ambiente Avaya fare riferimento ai link riportati di seguito
+
 
 .. toctree::
     :maxdepth: 2
