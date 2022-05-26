@@ -42,7 +42,8 @@ La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI03.PNG
 
-.. Esempio::
+.. code-block:: ini
+
     AES: <ip-address del server AES> 
     port number 450
 
@@ -88,9 +89,11 @@ Verifica funzionamento TSAPI
 
 Ad installazione terminata lancia re l'applicazione TSAPI test
 
-.. Esempio:: 
+.. code-block:: ini
+
     USR: Telenia
     PWD: xxxxxxxxxx
+
 Eseguire una chiamata (Es. da 5000 a 5009) per verificare il buon  funzionamento della  comunicazione TSAPI..
 
 
@@ -177,7 +180,7 @@ Trattamento Notte AUTOMATICA
 ----------------------------
 Configurare una  Coverage Path con un numero massimo di squilli trascorsi i quali la chiamata viene inoltrata ad  un altro numero o gestita tramite un annuncio di dissuasione. La Coverage Path creata deve essere associata all’Hunt-Group dedicato alla gestione del PO.
 
-- **Lato ACM**: 
+- *Lato ACM*: 
 Per la creazione della coverage eseguire il comando sul CM Avaya add coverage path xx (nel nostro esempio la coverage utilizzata è la numero 1)
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf10.PNG
@@ -201,8 +204,8 @@ Si possono configurare 2 metodi per gestire la notte in maniera manuale che sono
 Trasferire in modalità BLIND le chiamate in arrivo sul P.O. verso un numero alternativo (CTRL-N).
 Tale modalità attiva lo stato NOTTE per un P.O. alla volta
 
-- Lato ACM: disponibilità di un DN a cui deviare le chiamate
-- Lato TCONSOLE: In C:\Programmi\Telenia\TConsole\TConsole.ini valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
+- *Lato ACM*: disponibilità di un DN a cui deviare le chiamate
+- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
 
 
 **Metodo 2 – Configurazione tasto notte**
@@ -223,6 +226,7 @@ Una volta assegnato il tasto a tutte le postazioni PO è possibile inserire nel 
     Sul TConsole, deve essere creato il tasto FLEX con lo stesso codice creato precedentemente su Avaya come feauture-access-code. Nell’esempio sopra il codice *65*.
 
 .. code-block:: ini
+
     [FLEX]
     ; 	Key=Desc,Desc_IPO+,[<tipo>numero],
     0=NOTTE,NOTTE,@65,*
@@ -234,13 +238,14 @@ Inoltro su occupato
 
 Possibilità di inoltrare chiamate veso interni già occupati ponendole in coda sul telefono.
 
-- Lato ACM: configurare nei feauture-access- codes il *Priority Calling Access Code=*. Nell’esempio sotto è stato impostato il codice *60*
+- *Lato ACM*: configurare nei feauture-access- codes il *Priority Calling Access Code=*. Nell’esempio sotto è stato impostato il codice *60*
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf15.PNG
 
-- Lato TCONSOLE: In C:\Programmi\Telenia\TConsole\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro TAPI_CALL_ON_BUSY_CODE con il codice di Inoltro su occupato. 
+- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro TAPI_CALL_ON_BUSY_CODE con il codice di Inoltro su occupato. 
 
-.. Esempio::
+.. code-block:: ini
+    
     **TAPI_CALL_ON_BUSY_CODE**= *60*
 
 Il **TAPI_CALL_ON_BUSY_CODE** se attivato viene anteposto nei seguenti casi:
@@ -253,6 +258,7 @@ Il **TAPI_CALL_ON_BUSY_CODE** se attivato viene anteposto nei seguenti casi:
 E’ possibile selezionare il campo di rubrica su cui inviare il busycode compilando opportunamente rubest.ini e rubint.ini come segue:
 
 .. code-block:: ini
+
     [COMMON]
     F12_BUSYCODE=Flag_F12,Flag_Shift+F12,Flag_Ctrl+F12,Flag_Alt+F12
     Per ognuno dei 4 flag, i valori ammessi sono:
@@ -268,7 +274,7 @@ Ritorni a P.O.
 --------------
 
 Abilitare il ritorno delle chiamate trasferite dal P.O. verso interni in caso di non risposta.
-- Lato ACM: impostare nei system-parameters feauture il parametron “Station call transfer recall timer (n) sec” inserendo al posto di n il numero di secondi passati i quali la chiamata trasferita dal PO all’interno in caso di non risposta torna al PO.
+- *Lato ACM*: impostare nei system-parameters feauture il parametron “Station call transfer recall timer (n) sec” inserendo al posto di n il numero di secondi passati i quali la chiamata trasferita dal PO all’interno in caso di non risposta torna al PO.
 
 .. NOTE:: Questo è un parametro di sistema che agisce anche sui trasferimenti effettuati dagli altri interni e non solo per i PO.
 
@@ -277,7 +283,7 @@ Nell’esempio sotto il parametro è stato impostato ad 8 secondi.
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf16.PNG
 
 
-- Lato TCONSOLE: In C:\Programmi\Telenia\TConsole\TConsole.ini  nella sezione *[TAPI-SIP]* valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
+- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini  nella sezione *[TAPI-SIP]* valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
 
 **TAPI_CALLEDNAME_ON_DNIS_UNK**=SI
 
