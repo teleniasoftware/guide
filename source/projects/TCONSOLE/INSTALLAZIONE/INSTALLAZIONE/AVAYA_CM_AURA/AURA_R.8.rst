@@ -102,19 +102,21 @@ Configurazione TConsole e AVAYA AURA R. 8
 
 Lato Tconsole, configurare opportunamente il file TConsole.ini. Di seguito un esempio:
 
-*[PO]
-;	TYPE: Tipo di centrale
-TYPE=AVAYA_CSTA
-;	IADN: Interno del PO da controllare
-IADN=3005
-;	DEVICE:  device da controllare (es. Cisco Line: [SEP00221904C2A7] (3028)) o com a cui collegare il dispositivo (es. COM1) 
-DEVICE=3005*
+.. code-block:: ini
+    
+    [PO]
+    ;	TYPE: Tipo di centrale
+    TYPE=AVAYA_CSTA
+    ;	IADN: Interno del PO da controllare
+    IADN=3005
+    ;	DEVICE:  device da controllare (es. Cisco Line: [SEP00221904C2A7] (3028)) o com a cui collegare il dispositivo (es. COM1) 
+    DEVICE=3005
 
-*[TAPI-SIP]
-AVAYA_CSTA_LINK=AVAYA#CM#CSTA#AES
-AVAYA_CSTA_LINK_VERSION=ECS2-6
-AVAYA_CSTA_LINK_USR=PO1
-AVAYA_CSTA_LINK_PWD=Console@01*
+    [TAPI-SIP]
+    AVAYA_CSTA_LINK=AVAYA#CM#CSTA#AES
+    AVAYA_CSTA_LINK_VERSION=ECS2-6
+    AVAYA_CSTA_LINK_USR=PO1
+    AVAYA_CSTA_LINK_PWD=Console@01*
 
 
 Lato Avaya sono necessarie alcune configurazioni base per il corretto funzionamento del PO con il TConsole.
@@ -220,9 +222,10 @@ Una volta assegnato il tasto a tutte le postazioni PO è possibile inserire nel 
 
     Sul TConsole, deve essere creato il tasto FLEX con lo stesso codice creato precedentemente su Avaya come feauture-access-code. Nell’esempio sopra il codice *65*.
 
-*[FLEX]
-; 	Key=Desc,Desc_IPO+,[<tipo>numero],
-0=NOTTE,NOTTE,@65,*
+.. code-block:: ini
+    [FLEX]
+    ; 	Key=Desc,Desc_IPO+,[<tipo>numero],
+    0=NOTTE,NOTTE,@65,*
 
 .. Important:: Quando si ha la necessità di abilitare la funzionalità Notte, è importante che su tutte le postazioni sia attivo il tasto altrimenti la centrale Avaya considererà disponibile la/le postazione/i su cui la funzionalità non è stata abilitata.
 
@@ -236,6 +239,7 @@ Possibilità di inoltrare chiamate veso interni già occupati ponendole in coda 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf15.PNG
 
 - Lato TCONSOLE: In C:\Programmi\Telenia\TConsole\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro TAPI_CALL_ON_BUSY_CODE con il codice di Inoltro su occupato. 
+
 .. Esempio::
     **TAPI_CALL_ON_BUSY_CODE**= *60*
 
@@ -248,13 +252,16 @@ Il **TAPI_CALL_ON_BUSY_CODE** se attivato viene anteposto nei seguenti casi:
 
 E’ possibile selezionare il campo di rubrica su cui inviare il busycode compilando opportunamente rubest.ini e rubint.ini come segue:
 
-*[COMMON]
-F12_BUSYCODE=Flag_F12,Flag_Shift+F12,Flag_Ctrl+F12,Flag_Alt+F12
-Per ognuno dei 4 flag, i valori ammessi sono:
-- S, SI, Y, YES, 1
-- N, NO, 0
-in qualsiasi combinazione minuscola/maiuscola.
-Esempio: F12_BUSYCODE=SI,N,si,Yes*
+.. code-block:: ini
+    [COMMON]
+    F12_BUSYCODE=Flag_F12,Flag_Shift+F12,Flag_Ctrl+F12,Flag_Alt+F12
+    Per ognuno dei 4 flag, i valori ammessi sono:
+    
+    - S, SI, Y, YES, 1
+    - N, NO, 0
+    in qualsiasi combinazione minuscola/maiuscola.
+    
+    Esempio: F12_BUSYCODE=SI,N,si,Yes
 
 
 Ritorni a P.O.
@@ -280,17 +287,19 @@ Campo Lampade
 
 Lato TConsoleserver configurare il file tabpara.ini nel seguente modo:
 
-*[BLF]
-Active=YES
-QueryDescription=NO
-;	Type: TAPI o SIP o TVOX o CSTA
-Type=TAPI
-ActiveBlfOnDB=NO
-;	abilita il getstatus sui device tapi. se lo status è ko riavvio la lampada
-TestDeviceTimeout=20000
+.. code-block:: ini
 
-*[CSTAPARAMS]
-AVAYA_CSTA_LINK=AVAYA#CM#CSTA#AES
-AVAYA_CSTA_LINK_VERSION=ECS2-6
-AVAYA_CSTA_LINK_USR=PO1
-AVAYA_CSTA_LINK_PWD=Console@01
+    [BLF]
+    Active=YES
+    QueryDescription=NO
+    ;	Type: TAPI o SIP o TVOX o CSTA
+    Type=TAPI
+    ActiveBlfOnDB=NO
+    ;	abilita il getstatus sui device tapi. se lo status è ko riavvio la lampada
+    TestDeviceTimeout=20000
+
+    [CSTAPARAMS]
+    AVAYA_CSTA_LINK=AVAYA#CM#CSTA#AES
+    AVAYA_CSTA_LINK_VERSION=ECS2-6
+    AVAYA_CSTA_LINK_USR=PO1
+    AVAYA_CSTA_LINK_PWD=Console@01
