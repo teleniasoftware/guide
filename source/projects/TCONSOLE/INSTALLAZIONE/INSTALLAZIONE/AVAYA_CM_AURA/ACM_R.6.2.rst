@@ -30,9 +30,9 @@ La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI03.PNG
 
-.. Esempio:
-AES: <ip-address del server AES> 
-port number 450
+.. Esempio::
+    AES: <ip-address del server AES> 
+    port number 450
 
 Premere il tasto  Add to list
 
@@ -44,15 +44,16 @@ Premere il tasto  Add to list
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI05.PNG
 
-    
+
 Verifica funzionamento TSAPI
 =============================
 
 Ad installazione terminata lancia re l'applicazione TSAPI test
 
-.. Esempio:
-USR: Telenia
-PWD: !Telenia01
+.. Esempio:: 
+    USR: Telenia
+    PWD: xxxxxxxxxxx
+
 Eseguire una chiamata (Es. da 5000 a 5009) per verificare il buon  funzionamento della  comunicazione TSAPI..
 
 

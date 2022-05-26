@@ -42,12 +42,11 @@ La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI03.PNG
 
-.. Esempio:
-AES: <ip-address del server AES> 
-port number 450
+.. Esempio::
+    AES: <ip-address del server AES> 
+    port number 450
 
 Premere il tasto  Add to list
-
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI04.PNG
 
@@ -59,23 +58,26 @@ Utilizzare un web browser per accedere al server AES Avaya per creare le utenze 
 
 Tramite l’interfaccia di un web browser, inserire https://<ip-addr> nel campo indirizzi del web browser, dove <ip-addr> è l’indirizzo IP di management del server AES.
 
-Dal menu dell’AES, seleziona User Management  User Admin  Add User. Verrà proposta una nuova finestra dove andranno compilati i campi come indicato nell’immagine sotto riportata (Figura 2).
+Dal menu dell’AES, seleziona *User Management => User Admin => Add User*. Verrà proposta una nuova finestra dove andranno compilati i campi come indicato nell’immagine sotto riportata (**Figura 2**).
+
 Nel nostro test è stato creato un utente con queste caratteristiche:
+
 - User Id = PO1
 - User Password = xxxxxxxxx
 
-..NOTE: inserire a YES il campo CT User confermando con il tasto Apply in fondo alla pagina.
+.. note :: inserire a YES il campo CT User confermando con il tasto Apply in fondo alla pagina.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf01.PNG
 
-Creato l’utente PO (o gli utenti), selezionare nel menù di sinistra la voce Security  Security Database  CTI Users  List All Users
+Creato l’utente PO (o gli utenti), selezionare nel menù di sinistra la voce *Security => Security Database => CTI Users => List All Users*
 
-Nella tabella che comparirà selezionare l’utente appena creato e premere il tasto Edit
+Nella tabella che comparirà selezionare l’utente appena creato e premere il tasto *Edit*
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf02.PNG
 
 Spuntare il campo Unrestricted Access come da immagine e premere Apply Changes.
-L’utente PO è pronto per interfacciarsi correttamente con la T.Console Telenia
+
+L’utente PO è pronto per interfacciarsi correttamente con il TConsole.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Aura_conf03.PNG
 
@@ -86,9 +88,9 @@ Verifica funzionamento TSAPI
 
 Ad installazione terminata lancia re l'applicazione TSAPI test
 
-Esempio:
-USR: Telenia
-PWD: !Telenia01
+.. Esempio:: 
+    USR: Telenia
+    PWD: xxxxxxxxxx
 Eseguire una chiamata (Es. da 5000 a 5009) per verificare il buon  funzionamento della  comunicazione TSAPI..
 
 
