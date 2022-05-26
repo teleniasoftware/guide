@@ -291,7 +291,7 @@ Nell’esempio sotto il parametro è stato impostato ad 8 secondi.
 Campo Lampade
 -------------
 
-Lato TConsoleserver configurare il file tabpara.ini nel seguente modo:
+Lato TConsoleserver configurare il file tabparam.ini nel seguente modo:
 
 .. code-block:: ini
 
