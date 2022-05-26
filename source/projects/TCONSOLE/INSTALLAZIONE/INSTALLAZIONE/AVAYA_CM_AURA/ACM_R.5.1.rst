@@ -35,6 +35,7 @@ supportati dall’Avaya Soft Phone, infatti quest’ultimo permette il controllo
 
 Installazione Avaya IP Softphone
 =================================
+Avaya IP Softphone si installa sul PC che ospita Tconsole come descritto nelle pagine seguenti.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaIPSoftPhone01.PNG
 
