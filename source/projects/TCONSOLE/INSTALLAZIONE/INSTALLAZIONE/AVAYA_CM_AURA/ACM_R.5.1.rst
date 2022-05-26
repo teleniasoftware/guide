@@ -50,7 +50,7 @@ Lanciando per la prima volta il softphone vengono chieste delle configurazioni. 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/ConfigurazioneAvayaIPSoftPhone02.PNG
 
-Impostare Configuration: “Control of Avaya Telephone (via the server)”. Nel caso invece si voglia usere il softphone impostare Configuration: “Road Warrior” e inserire la password.
+Impostare Configuration: *Control of Avaya Telephone (via the server)*. Nel caso invece si voglia usere il softphone impostare Configuration: *Road Warrior* e inserire la password.
 
 Di seguito gli altri screenshot di configurazione dell’interno 641 usato come PO. Ricordiamo che il 641 è un telefono IP fisico.
 
