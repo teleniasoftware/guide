@@ -3,9 +3,10 @@ Avaya CM R.5.1
 =========
 L’accodamento simultaneo delle chiamate sui terminali dei P.O. è realizzato attraverso un sistema a doppia copertura, occorre quindi definire un Coverage Path relativo ad un Coverage Answer Group a cui appartengono tutti i terminali dedicati ai P.O. 
 
-Il Coverage Answer Group deve essere inserito in un apposito Hunt Group indirizzato da un VDN configurato come attendant Vectoring e gestito tramite un vettore. Attraverso questa architettura tutte le chiamate indirizzate al servizio di ATTENDANT vengono presentate a tutti i telefoni dei P.O. e il primo che risponde svincola la chiamata consentendo agli altri P.O. di gestire le altre. Ogni P.O. è in grado di gestire fino a 5 chiamate contemporanee quindi un singolo servizio di ATTENDANT basato su un coverage Answer Group consente un massimo di 8 P.O. e una gestione di 40 chiamate contemporanee. 
+Il **Coverage Answer Group** deve essere inserito in un apposito Hunt Group indirizzato da un VDN configurato come attendant Vectoring e gestito tramite un vettore. 
+Attraverso questa architettura tutte le chiamate indirizzate al servizio di **ATTENDANT** vengono presentate a tutti i telefoni dei P.O. e il primo che risponde svincola la chiamata consentendo agli altri P.O. di gestire le altre. Ogni P.O. è in grado di gestire fino a 5 chiamate contemporanee quindi un singolo servizio di **ATTENDANT* basato su un coverage Answer Group consente un massimo di 8 P.O. e una gestione di 40 chiamate contemporanee. 
 
-Nel caso in cui i servizi Attendant siano regolati da un calendario/Orario occorre prevedere tale prestazione sull’AVAYA Communication Manager in modo da inoltrare le chiamate ai  P.O. solo nei giorni e negli orari desiderati.
+Nel caso in cui i servizi **ATTENDANT** siano regolati da un calendario/orario occorre prevedere tale prestazione sull’AVAYA Communication Manager in modo da inoltrare le chiamate ai  P.O. solo nei giorni e negli orari desiderati.
 
 L’Overflow viene gestito in tre modi:
 
@@ -14,8 +15,9 @@ L’Overflow viene gestito in tre modi:
 - Un annuncio di dissuasione se disponibile sull’AVAYA Communication Manager l’apposita scheda annunci.
 
 La gestione Notte può essere attivata in due modalità 
-- AUTOMATICA configurando sul Coverage Path un numero massimo di squilli trascorsi i quali la chiamata viene inoltrata ad un altro numero o gestita tramite un annuncio di dissuasione 
-- MANUALE attraverso un tasto del TConsole preconfigurato per trasferire in modalità BLIND le chiamate in arrivo sul P.O. verso un numero alternativo. Tale modalità attiva lo stato NOTTE per tutti i P.O. 
+
+- **AUTOMATICA** configurando sul Coverage Path un numero massimo di squilli trascorsi i quali la chiamata viene inoltrata ad un altro numero o gestita tramite un annuncio di dissuasione 
+- **MANUALE** attraverso un tasto del TConsole preconfigurato per trasferire in modalità BLIND le chiamate in arrivo sul P.O. verso un numero alternativo. Tale modalità attiva lo stato NOTTE per tutti i P.O. 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Schema_Blocchi.PNG
 
@@ -55,3 +57,8 @@ Di seguito gli altri screenshot di configurazione dell’interno 641 usato come 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/ConfigurazioneAvayaIPSoftPhone03.PNG
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/ConfigurazioneAvayaIPSoftPhone04.PNG
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/ConfigurazioneAvayaIPSoftPhone05.PNG
+
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/ConfigurazioneAvayaIPSoftPhone06.PNG
+
