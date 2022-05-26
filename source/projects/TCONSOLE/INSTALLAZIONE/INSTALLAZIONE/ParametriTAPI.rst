@@ -164,6 +164,14 @@ Esempio tabparam TAPI AVAYA CM + AES (TSAPI)
 
 .. important :: Per TConsole in ambiente Avaya fare riferimento al manuale di installazione dettagliato per installazione in ambiente Avaya.
 
+.. toctree::
+    :maxdepth: 2
+ 
+    ./AVAYA_CM_AURA/AVAYA_INTRO.rst
+    
+
+
+
 .. rubric:: Note
 
 .. [1] valore di default di *\[INSTALLDIR\]*: |tconsole_default_installdir|
