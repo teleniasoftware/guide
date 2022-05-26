@@ -2,9 +2,9 @@
 AURA R.8
 =========
 
-Per la realizzazione del test è stata utilizzata una piattaforma Avaya in versione 8.x..
+Per la realizzazione dell'ambiente test è stata utilizzata una piattaforma Avaya in versione 8.x..
 
-Figura 1 Vengono illustrate le componenti Avaya utilizzate per la realizzazione del test. 
+In Figura  Vengono illustrate le componenti Avaya utilizzate per la realizzazione dell'ambiente di test. 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/Schema_Blocchi_AURA.PNG
 
@@ -14,11 +14,11 @@ Licenze AES
 
 La comunicazione tragli applicativi Telenia (Tconsole e Tconsoleserver) e Avaya è garantita dalle funzionalità del server Avaya AES (Application Enablement Services), attivabile attraverso licenza TSAPI Simultaneous Users.
 
-La licenza utente di base TSAPI viene spesso definita "licenza basata su agente" o "licenza basata su stazione". È destinata ad applicazioni che desiderano monitorare o controllare una stazione o monitorare uno split ACD. Nel file di licenza è indicata come licenza "Utente simultaneo". 
+La licenza utente di base TSAPI viene spesso definita *licenza basata su agente* o *licenza basata su stazione*. È destinata ad applicazioni che desiderano monitorare o controllare una stazione o monitorare uno split ACD. Nel file di licenza è indicata come licenza "Utente simultaneo". 
 
 Le licenze devono essere dimensionate in termini di numero di agenti, stazioni o divisioni ACD che si desidera monitorare e controllare contemporaneamente.
 
-NOTE: Per la funzionalità “campo lampade” (BLF) è necessario avere una licenza AES “Utente simultaneo” aggiuntiva. 
+NOTE: Per la funzionalità “campo lampade” (BLF) è necessario avere una licenza AES *Utente simultaneo* aggiuntiva. 
 
 
 Prerequisito terminale telefonico
@@ -42,7 +42,7 @@ La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI03.PNG
 
-Es.:
+.. Esempio:
 AES: <ip-address del server AES> 
 port number 450
 

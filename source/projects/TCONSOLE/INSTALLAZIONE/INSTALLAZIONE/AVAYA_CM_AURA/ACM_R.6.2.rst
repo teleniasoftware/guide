@@ -42,6 +42,9 @@ Premere il tasto  Add to list
     Premere il tasto Install
 
 
+.. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI05.PNG
+
+    
 Verifica funzionamento TSAPI
 =============================
 
