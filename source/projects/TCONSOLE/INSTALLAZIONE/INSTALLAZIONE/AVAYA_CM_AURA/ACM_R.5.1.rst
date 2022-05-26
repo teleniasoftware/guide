@@ -75,7 +75,7 @@ Di seguito gli altri screenshot di configurazione dell’interno 641 usato come 
 Configurazione TConsole e AVAYA CM 5.1
 =======================================
 
-C:\Programmi\Telenia\TConsole\TConsole.ini settare i seguenti parametri come segue:
+C:\\Programmi\\Telenia\\TConsole\\TConsole.ini settare i seguenti parametri come segue:
 
 .. code-block:: ini
 
@@ -108,14 +108,14 @@ Trasferire in modalità BLIND le chiamate in arrivo sul P.O. verso un numero alt
 Tale modalità attiva lo stato NOTTE per un P.O. alla volta
 
 - *Lato ACM*: disponibilità di un DN a cui deviare le chiamate
-- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
+- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
 
 Inclusione
 ----------
 Possibilità da parte del P.O. di includersi in una conversazione attiva su un interno
 
 - *Lato ACM*: COR-Can be a service observer=y
-- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini nella sezione [FLEX] configurare un tasto con il codice per l’inclusione.
+- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini nella sezione [FLEX] configurare un tasto con il codice per l’inclusione.
 
 Es. 2=Inclusione,Inc,@*88,
 
@@ -125,9 +125,10 @@ Inoltro su occupato
 Possibilità di inoltrare chiamate veso interni già occupati ponendole in coda sul telefono.
 
 - *Lato ACM*: Priority Calling acces code=*60
-- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro **TAPI_CALL_ON_BUSY_CODE** con il codice di Inoltro su occupato. 
+- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro **TAPI_CALL_ON_BUSY_CODE** con il codice di Inoltro su occupato. 
 
 Es: TAPI_CALL_ON_BUSY_CODE=*60
+
 
 Il **TAPI_CALL_ON_BUSY_CODE** se attivato viene anteposto nei seguenti casi:
 
@@ -144,20 +145,21 @@ E’ possibile selezionare il campo di rubrica su cui inviare il busycode compil
     [COMMON]
     F12_BUSYCODE=Flag_F12,Flag_Shift+F12,Flag_Ctrl+F12,Flag_Alt+F12
     
-*Per ognuno dei 4 flag, i valori ammessi sono:
+.. Warning::Per ognuno dei 4 flag, i valori ammessi sono:
 
-- *S, SI, Y, YES, 1
-
-- *N, NO, 0
-in qualsiasi combinazione minuscola/maiuscola.
-Esempio: F12_BUSYCODE=SI,N,si,Yes*
+  - S, SI, Y, YES, 1
+  - N, NO, 0
+  
+  in qualsiasi combinazione minuscola/maiuscola.
+  Esempio: F12_BUSYCODE=SI,N,si,Yes*
 
 
 Ritorni a P.O.
 --------------
 Abilitare il ritorno delle chiamate trasferite dal P.O. verso interni in caso di non risposta.
+
 - *Lato ACM*: Station call transfer recall timer (0) sec.
-- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
+- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
 
 .. code-block:: ini
 
@@ -168,7 +170,7 @@ Gestione delle trasferte in modalità forzata
 ---------------------------------------------
 Nel caso in cui si abbiano delle particolari configurazioni dei flussi entranti per cui la trasferta nella modalità classica non dovesse funzionare, si può attivare un diverso tipo di trasferta TAPI nel seguente modo:
 
-- *Lato TConsole*: In C:\Programmi\Telenia\TConsole\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_FORCE_SETUP_T**
+- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_FORCE_SETUP_T**
   
   .. code-block:: ini
       
