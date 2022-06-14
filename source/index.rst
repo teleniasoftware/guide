@@ -37,7 +37,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :maxdepth: 2
 
    /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
-   xx/projects/TVOX/Privacy&Security/Privacy&Security
+   /projects/TVOX/Privacy&Security/Privacy&Security
    xx/projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient
    xx/projects/TVOX/InformazioniGenerali/InformazioniGenerali
    xx/projects/TVOX/InstallazioneAttivazione/InstallazioneAttivazione
