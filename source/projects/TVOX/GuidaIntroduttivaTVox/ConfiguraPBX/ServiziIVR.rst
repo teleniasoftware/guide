@@ -132,8 +132,8 @@ Il progetto viene esportato in un file e viene caricato sul server, con notifica
 
 
 
-Gestione della variabili
-==========================
+Gestione delle variabili
+========================
 
 Lo strumento rende possibile operare in maniera molto simile a come si fa con uno script programmato con codice. 
 
