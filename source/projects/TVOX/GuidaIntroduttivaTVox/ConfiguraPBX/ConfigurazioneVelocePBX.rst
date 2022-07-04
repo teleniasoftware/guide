@@ -24,4 +24,4 @@ Negli ultimi paragrafi si esporrà come configurare conference room (*stanze di 
     ./GruppiPickup
     ./ConferenceRoom
     ./DefinizioneGruppiRisposta
-    ./ServiziIVR
+    ./BPM
