@@ -5,7 +5,7 @@ BPM
 .. toctree::
     :maxdepth: 5
 
-    ./BPM/CreazioneProcessi
+    BPM/CreazioneProcessi
     ./BPM/ValidazioneSalvataggio
     ./BPM/RegoleConvenzioniProcessi
     ./BPM/GestioneVariabili
