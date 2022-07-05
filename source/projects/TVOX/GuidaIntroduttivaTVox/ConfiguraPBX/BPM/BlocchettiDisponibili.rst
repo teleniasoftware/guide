@@ -7,6 +7,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     :maxdepth: 2
 
     ./Blocchetti/StartStop 
+    ./Blocchetti/Play 
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
