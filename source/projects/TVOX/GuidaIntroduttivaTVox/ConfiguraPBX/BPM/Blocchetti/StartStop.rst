@@ -1,8 +1,12 @@
-Start Event
+Blocchetto Start Event
 ======================
 
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/start.png
 
 
 
-Start Event
+
+Blocchetto End Event
 ======================
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/end.png
