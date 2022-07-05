@@ -1,4 +1,4 @@
-Blocchetto Play
+Play
 ======================
 
 Il blocchetto \"Play\" permette la riproduzione di un file audio non interrompibile precedentemente configurato su OCC->Gestione->Messaggi Vocali.
