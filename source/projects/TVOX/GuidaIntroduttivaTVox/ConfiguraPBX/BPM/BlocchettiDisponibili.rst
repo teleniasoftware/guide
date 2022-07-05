@@ -1,7 +1,8 @@
 Blocchetti disponibili
 ======================
 
-Nella prima release, il BPM mette a disposizione le seguenti tipologie di blocchetto
+Il BPM mette a disposizione le seguenti tipologie di blocchetto:
+
 .. toctree::
     :maxdepth: 5
 
