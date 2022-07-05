@@ -4,7 +4,7 @@ Blocchetti disponibili
 Il BPM mette a disposizione le seguenti tipologie di blocchetto:
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     ./Blocchetti/StartStop 
 
