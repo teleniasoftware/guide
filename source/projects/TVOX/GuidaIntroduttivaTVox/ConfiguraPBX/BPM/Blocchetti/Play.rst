@@ -10,3 +10,8 @@ Il blocchetto \"Play\" permette la riproduzione di un file audio non interrompib
 .. note:: All'interno del blocchetto viene presentata l\'anteprima del nome del file. 
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/play_blocchetto.png
+
+
+**Campi configurabili**
+
+- **Seleziona messaggio**: Permette di scegliere un messaggio vocale precedentemente configurato

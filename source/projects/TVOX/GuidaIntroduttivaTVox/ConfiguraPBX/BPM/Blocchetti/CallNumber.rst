@@ -15,3 +15,11 @@ Il blocchetto \"Call Number\" permette di effettuare una chiamata verso un numer
     - **chanunavail** : il canale telefonico non è disponibile 
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/callnumber_config.png
+
+**Campi configurabili**
+
+- **Numero telefonico**: numero telefonico da chiamare; deve essere indicato il numero comprensivo di codice di accesso (se configurato)
+- **Tempo di ring**: tempo massimo di ring espresso in secondi
+- **Tentativi**: numero massimo di tentativi in attesa della risposta del numero chiamato, dopo il quale si va allo passo successivo
+- **Abilitazione**: abilitazione da utilizzare per la chiamata in uscita
+- **Registrazione della chiamata**: abilita/disabilita la registrazione della chiamata
