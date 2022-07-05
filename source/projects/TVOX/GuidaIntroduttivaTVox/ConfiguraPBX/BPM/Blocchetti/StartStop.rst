@@ -1,4 +1,4 @@
-Blocchetto Start Event
+Start Event
 ======================
 
 Il blocchetto \"Create Start Event\" è il primo blocchetto che deve essere inserito all'interno di una mappa BPM in quanto identifica l'inizio del processo stesso.
@@ -8,7 +8,7 @@ Il blocchetto \"Create Start Event\" è il primo blocchetto che deve essere inse
 .. important:: All'interno di una mappa può essere presente un solo evento di Start, ed è obbligatorio inserirlo. 
 
 
-Blocchetto End Event
+End Event
 ======================
 
 Il blocchetto \"Create End event\" determina la fine del processo BPM. 
