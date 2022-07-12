@@ -13,6 +13,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/LoadService 
     ./Blocchetti/LoadServiceADV
     ./Blocchetti/DigitGateway
+    ./Blocchetti/GetDigit
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
