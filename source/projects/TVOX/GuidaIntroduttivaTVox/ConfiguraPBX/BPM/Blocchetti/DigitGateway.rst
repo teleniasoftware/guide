@@ -29,6 +29,6 @@ Esempio di configurazione:
 - **Timeout - file audio da riprodurre**: Eventuale messaggio da riprodurre a fronte della scadenza del Tempo di attesa.
 - **Azione non valida - File audio da riprodurre**: Eventuale messaggio da riprodurre a fronte di una scelta errata.
 - **Tentativi esauriti - File audio da riprodurre**: Eventuale messaggio da riprodurre a fronte di tentativi esauriti
-- 
+  
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway_config.png
