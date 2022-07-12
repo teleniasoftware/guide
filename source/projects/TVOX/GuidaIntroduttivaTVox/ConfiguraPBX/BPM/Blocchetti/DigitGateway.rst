@@ -7,7 +7,7 @@ E' presente inoltre un'ulteriore scelta ("unmatch") che permette di precorrere u
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway.png
 
 .. important::  **Scelta non valida:** Perchè la scelta non sia valida deve verificarsi una delle seguenti condizioni: 
-    
+
     - Digit non disponibile (es. utente digita 5 quando le scelte possibili sono 1 o 2)
     - Timeout scaduto (es. timeout 5s e utente non digita nulla per 5s)
 
@@ -20,13 +20,15 @@ Esempio di configurazione:
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway_es.png
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway_config.png
 
 **Campi configurabili**
 
-- **Messaggio audio**: elenco a discesa nella quale è possibile selezionare uno dei Servizi configurati su OCC
-- **Tempo di attesa**:
-- **Numero di tentativi permessi**:
-- **Timeout - file audio da riprodurre**:
-- **Azione non valida - File audio da riprodurre**:
-- **Tentativi esauriti - File audio da riprodurre**:
+- **Messaggio audio**: Il messaggio vocale da riprodurre è selezionato tra quelli definiti nel menù TVox -> Messaggi vocali.
+- **Tempo di attesa**: Indica il tempo massimo di attesa.
+- **Numero di tentativi permessi**: Numero massimo di ripetizioni consentite per il blocchetto.
+- **Timeout - file audio da riprodurre**: Eventuale messaggio da riprodurre a fronte della scadenza del Tempo di attesa.
+- **Azione non valida - File audio da riprodurre**: Eventuale messaggio da riprodurre a fronte di una scelta errata.
+- **Tentativi esauriti - File audio da riprodurre**: Eventuale messaggio da riprodurre a fronte di tentativi esauriti
+- 
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway_config.png
