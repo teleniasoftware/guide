@@ -11,6 +11,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/CallNumber 
     ./Blocchetti/CloseCall 
     ./Blocchetti/LoadService 
+    ./Blocchetti/LoadServiceADV
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
