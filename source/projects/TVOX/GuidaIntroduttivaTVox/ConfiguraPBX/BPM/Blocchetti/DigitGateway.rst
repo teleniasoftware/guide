@@ -7,6 +7,7 @@ E' presente inoltre un'ulteriore scelta ("unmatch") che permette di precorrere u
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway.png
 
 .. important::  **Scelta non valida:** Perchè la scelta non sia valida deve verificarsi una delle seguenti condizioni: 
+    
     - Digit non disponibile (es. utente digita 5 quando le scelte possibili sono 1 o 2)
     - Timeout scaduto (es. timeout 5s e utente non digita nulla per 5s)
 
@@ -15,7 +16,7 @@ Nel caso in cui i tentativi non siano scaduti viene ripetuto il blocchetto decre
 Una volta che non sono presenti più tentativi viene intrapresa la strada "unmatch".
 Per ogni caso di errore è possibile impostare un audio facoltativo che viene riprodotto al verificarsi dell'errore.
 
-Esempio di configrazione:
+Esempio di configurazione:
 
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/digitgateway_es.png
 
