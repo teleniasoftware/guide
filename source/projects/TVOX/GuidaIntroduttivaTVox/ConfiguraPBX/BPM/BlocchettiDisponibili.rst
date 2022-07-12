@@ -12,17 +12,13 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/CloseCall 
     ./Blocchetti/LoadService 
     ./Blocchetti/LoadServiceADV
+    ./Blocchetti/DigitGateway
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Load service             | carica un servizio di contact center                                                                    | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Digit Gateway            | riproduce un file audio, poi riceve un digit e permette di seguire diverse frecce in base alla scelta   | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Load Service advanced    | carica un servizio passando una serie di parametri di configurazione                                    | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Get digits               | riceve una serie di digits terminata da # o dal raggiungimento di un limite massimo impostabile         | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
