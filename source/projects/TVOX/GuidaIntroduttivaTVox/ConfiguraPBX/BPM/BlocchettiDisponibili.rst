@@ -13,14 +13,12 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/LoadService 
     ./Blocchetti/LoadServiceADV
     ./Blocchetti/DigitGateway
-    ./Blocchetti/GetDigit
+    ./Blocchetti/GetDigits
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
-+==========================+=========================================================================================================+
-| Get digits               | riceve una serie di digits terminata da # o dal raggiungimento di un limite massimo impostabile         | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
++==========================+=========================================================================================================+ 
 | Play digits              | riproduce la serie di digits raccolta                                                                   | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Start recording          | inizia la registrazione della chiamata                                                                  | 
