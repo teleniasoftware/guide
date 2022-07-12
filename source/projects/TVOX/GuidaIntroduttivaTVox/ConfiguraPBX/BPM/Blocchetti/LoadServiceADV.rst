@@ -6,12 +6,11 @@ Il blocchetto \"Load Service Adv\" inoltra la chiamata verso un servizio present
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/loadserviceadv.png
 
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/loadservice_config.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/loadserviceadv_config.png
 
 **Campi configurabili**
 
 - **Servizio**: elenco a discesa nella quale è possibile selezionare uno dei Servizi configurati su OCC
-- **Attiva registrazione**: se selezionato, indica che la chiamata verrà registrata per tutta la sua durata.
 - **Etichetta aggiuntiva**: descrizione aggiuntiva per identificare il servizio corrente. Tale valore è aggiunto alla descrizione del servizio nei report storici e viene così presentato sul Web Client nel momento in cui la chiamata viene proposta all'operatore.
 - **Priorità del servizio**: Identifica la priorità che il servizio assume per la chiamata che transita nel nodo corrente.
 - **Numero massimo gestite dal servizio**:Impostazione del numero massimo chiamate gestite dal servizio per le chiamate che transitano nel nodo corrente.
