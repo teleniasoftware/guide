@@ -18,8 +18,6 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+
-| Digit Gateway            | riproduce un file audio, poi riceve un digit e permette di seguire diverse frecce in base alla scelta   | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Get digits               | riceve una serie di digits terminata da # o dal raggiungimento di un limite massimo impostabile         | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Play digits              | riproduce la serie di digits raccolta                                                                   | 
