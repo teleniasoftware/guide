@@ -9,7 +9,7 @@ Il blocchetto \"Get Digits\" viene utilizzato per poter ricevere, all'interno di
 **Campi configurabili**
 
 - **Messaggio audio**: Il messaggio vocale da riprodurre è selezionato tra quelli definiti nel menù TVox -> Messaggi vocali. Il messaggio audio è interrompibile
-- **numero di cifre**: Indica il numero massimo di digit che sono accettabili nel nodo corrente
+- **Numero di cifre**: Indica il numero massimo di digit che sono accettabili nel nodo corrente
 - **Nome variabile**: Indica il nome della variabile che conterrà i digit inseriti
 - **Tempo di attesa**: Indica il tempo massimo di attesa.
 - **Numero di tentativi permessi**: Numero massimo di ripetizioni consentite per il blocchetto.
