@@ -19,3 +19,5 @@ Il blocchetto \"Stop Recording\" determina la fine della registrazione della chi
 
 **Campi configurabili**
 - **Nome variabile**: Indica il nome della variabile che il nome del file generato ed il path del file generato.
+
+
