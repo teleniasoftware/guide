@@ -17,6 +17,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/PlayDigits
     ./Blocchetti/StartRecording
     ./Blocchetti/StopRecording
+    ./Blocchetti/TextToSpeech
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
