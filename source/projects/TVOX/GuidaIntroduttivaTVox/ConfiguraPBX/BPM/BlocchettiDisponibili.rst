@@ -15,6 +15,9 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/DigitGateway
     ./Blocchetti/GetDigits
     ./Blocchetti/PlayDigits
+    ./Blocchetti/StartRecording
+    ./Blocchetti/StopRecording
+
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
