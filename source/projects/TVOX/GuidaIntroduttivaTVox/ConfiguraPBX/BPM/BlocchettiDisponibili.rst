@@ -22,10 +22,6 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-| Start recording          | inizia la registrazione della chiamata                                                                  | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Stop recording           | interrompe la registrazione della chiamata                                                              | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Text to Speech           | riproduce un testo facendo text-recognition                                                             | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Condition gateway        | valuta una condizione tipo if e segue frecce diverse in base all'esito vero o falso                     | 
