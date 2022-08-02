@@ -18,13 +18,12 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/StartStopRecording
     ./Blocchetti/TextToSpeech
     ./Blocchetti/ConditionGateway
+    ./Blocchetti/GetRequest
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Condition gateway        | valuta una condizione tipo if e segue frecce diverse in base all'esito vero o falso                     | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | GET Request              | interroga un servizio esterno disponibile in HTTP                                                       | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
