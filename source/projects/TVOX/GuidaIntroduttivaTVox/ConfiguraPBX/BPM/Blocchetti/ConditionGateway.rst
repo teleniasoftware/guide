@@ -25,6 +25,6 @@ Il blocchetto \"Condition Gateway\" permette di controllare una variabile del pr
     - Minore di
     - Minore o uguale
     - Contiene
-    - E' nullo 
-    - E' vuoto
-    - E' vero
+    - E\' nullo 
+    - E\' vuoto
+    - E\' vero
