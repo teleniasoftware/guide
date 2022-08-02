@@ -11,10 +11,15 @@ Il blocchetto \"Text to Speech\" permette la configurazione di un messaggio test
     
 **Campi configurabili**
 
-- **TTS Type**:
-- **Voce da utilizzare**:
-- **Profilo TTS**:
-- **Volume**:
-- **Velocità di riproduzione**:
-- **Testo**:
+- **TTS Type**: Tipo di TTS configurato da utilizzare
+- **Voce da utilizzare**: selezione delle voci configurate 
+- **Profilo TTS**: profilo del TTS Configurato su Occ
+- **Volume**: Livello di volume con il quale viene riprodotto il messaggio (default: Medio)
+- **Velocità di riproduzione**: Velocità con la quale verrà riprodotto il messaggio (default: Media)
+- **Testo**: testo del messaggio. Se si desidera, si possono utilizzare delle variabili passate all'interno del BPM 
 
+Esempio di utilizzo di TTS con variabile:
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/tts_esempio.png
+
+In questo modo, verrà riprodotto il messaggio "Benvenuto **Mario Rossi** in Telenia Software."
