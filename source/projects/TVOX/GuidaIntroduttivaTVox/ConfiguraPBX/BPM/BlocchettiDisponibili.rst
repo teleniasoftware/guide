@@ -17,12 +17,12 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/PlayDigits
     ./Blocchetti/StartStopRecording
     ./Blocchetti/TextToSpeech
+    ./Blocchetti/ConditionGateway
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-| Text to Speech           | riproduce un testo facendo text-recognition                                                             | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Condition gateway        | valuta una condizione tipo if e segue frecce diverse in base all'esito vero o falso                     | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
