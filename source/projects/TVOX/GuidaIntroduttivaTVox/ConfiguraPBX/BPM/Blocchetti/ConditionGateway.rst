@@ -16,7 +16,7 @@ Il blocchetto \"Condition Gateway\" permette di controllare una variabile del pr
 - **Modalità valore**: modalità con la quale viene interpretato il secondo valore di confronto che può essere un valore singolo o una variabile preventivamente configurata
 - **Valore / Nome variabile**: Indica il valore da confrontare o la variabile
 
-**.. important:: Sono a disposizione le seguenti casistiche: 
+.. important:: Sono a disposizione le seguenti casistiche: 
 
     - Uguale a
     - Diverso Da
