@@ -8,3 +8,5 @@ Il blocchetto \"Free text ASR\" permette di ascoltare la voce dell'utente e tras
 
     
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/asr_config.png
+
+**Campi configurabili**
