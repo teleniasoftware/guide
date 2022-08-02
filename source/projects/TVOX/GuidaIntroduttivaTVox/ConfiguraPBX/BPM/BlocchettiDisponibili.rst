@@ -19,14 +19,11 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/TextToSpeech
     ./Blocchetti/ConditionGateway
     ./Blocchetti/GetRequest
-
+    ./Blocchetti/SetVariable
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| GET Request              | interroga un servizio esterno disponibile in HTTP                                                       | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Set variable value       | calcola un valore e lo memorizza in una variabile                                                       | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Free text ASR            | ascolta la voce dell'utente e trascrive quanto detto in forma testuale                                  | 
