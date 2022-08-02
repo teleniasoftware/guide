@@ -20,14 +20,12 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/ConditionGateway
     ./Blocchetti/GetRequest
     ./Blocchetti/SetVariable
+    ./Blocchetti/ASR
+
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-| Set variable value       | calcola un valore e lo memorizza in una variabile                                                       | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Free text ASR            | ascolta la voce dell'utente e trascrive quanto detto in forma testuale                                  | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Switch                   | osserva il valore di una variabile e segue la freccia etichettata con quel valore                       | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | SQL Database query       | esegue una query SQL su un database e ne salva il risultato in una variabile                            | 
