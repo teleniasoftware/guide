@@ -11,7 +11,7 @@ In questo sessione sono riportate le attività previste per il processo di upgra
     :maxdepth: 1
 
 
-    ./Upgrade/StandAlone_to_StandAlone_CentOS7
-    ./Upgrade/StandAlone_to_Rid_CentOS7
+    ./StandAlone_to_StandAlone_CentOS7
+    ./StandAlone_to_Rid_CentOS7
 
-  
+
