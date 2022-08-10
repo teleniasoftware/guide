@@ -106,7 +106,7 @@ Per limitare il traffico in uscita delle postazioni degli operatori è necessari
 
 
 Da TVox Web Client / TVox Team a MCS:
----------------------------------
+-------------------------------------
 
 +------------+-------------+-----------------------+--------------------+
 | Protocollo |    Porte    |       Servizio        | Note e limitazioni |
@@ -119,7 +119,7 @@ Da TVox Web Client / TVox Team a MCS:
 +------------+-------------+-----------------------+--------------------+
 
 Da TVox Web Client / TVox Win Web Client / TVox Team a TVox in LAN:
------------------------------------------
+-------------------------------------------------------------------
 
 +------------+-------------+-----------------------+--------------------+
 | Protocollo |    Porte    |        Servizio       | Note e Limitazioni |
