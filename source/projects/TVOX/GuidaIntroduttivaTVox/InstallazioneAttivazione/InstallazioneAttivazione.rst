@@ -29,9 +29,10 @@ E\' nella fase di caricamento della licenza che si attiva opportunamente lo stra
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     ./InstallazioneHW
     ./InstallazioneVM
     ./InstallazioneAWS
     ./AttivazioneLicenza
+    ./ModalitaLavoro
