@@ -16,7 +16,7 @@ Quando devi installare e configurare un nuovo sistema TVox, ti verrà sempre ric
 
 .. important:: La scelta della modalità di lavoro di TVox è la prima configurazione che deve essere effettuata dopo aver attivato la licenza
     
-    .. image:: /images/TVOX/ModalitaLavoro/ModalitaLavoro1.png
+    .. image:: /images/TVOX/ModalitaLavoro/ModalitaLavoro1.PNG
 
 
 |br|
