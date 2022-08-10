@@ -7,7 +7,7 @@ Con il termine **modalità di lavoro** di TVox si intende la predisposizione del
 
 Le differenze riguardano principalmente configurazioni legate a temi di sicurezza (grado di sicurezza delle password per utenti ad esempio), cosiccome a temi di provisioning e protocollo sip, fino a determinare alcune differenze nel modo in cui la componente server di TVox attiva i propri processi.
 
-Quando devi installare e configurare un nuovo sistema TVox, ti verrà sempre richiesto di scegliere quale sarà la sua modalità di lavoro, che si distingue in
+Quando devi installare e configurare un nuovo sistema TVox, ti verrà sempre richiesto di scegliere quale sarà la sua modalità di lavoro, che si distingue in:
 
 
 - **Pure Cloud (NAT 1:1)**

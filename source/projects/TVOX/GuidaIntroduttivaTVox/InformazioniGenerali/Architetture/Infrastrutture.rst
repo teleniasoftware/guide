@@ -4,7 +4,7 @@
 Tipologie di Infrastruttura
 ===========================
 
-
+Dalla release 22.0.17 è stata introdotta la gestione della **Modalità di Lavoro**. Per saperne di più clicca :ref:`qui <modalitalavoro>`
 
 Sistemi Pure Cloud
 ==================
