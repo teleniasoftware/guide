@@ -10,7 +10,7 @@ In questo sessione sono riportate le attività previste per il processo di upgra
 .. toctree::
     :maxdepth: 1
 
-    StandAlone_to_StandAlone_CentOS7
-    StandAlone_to_Rid_CentOS7
+    StandAlone_to_StandAlone_CentOS7.rst
+    StandAlone_to_Rid_CentOS7.rst
 
 
