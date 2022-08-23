@@ -35,9 +35,9 @@ TConsole può essere integrato a dispositivi Braille che consentono la lettura d
 I dispositivi Braille (Barre Braille) attualmente utilizzabili sono:
 
 - MDV Lilli: MB408 (40 caratteri) e MB808 (80 caratteri)
-- SISTEL: Barra Braille con chiavi 87/6
+- Sistel: Barra Braille con chiavi 87/6
 
-Con i dispositivi SISTEL è disponibile la sola funzione di visualizzazione, mentre con il dispositivo Lilli è possibile interagire con la console telefonica per mezzo di appositi tasti funzione presenti sulla Barra.
+Con i dispositivi Sistel è disponibile la sola funzione di visualizzazione, mentre con il dispositivo Lilli è possibile interagire con la console telefonica per mezzo di appositi tasti funzione presenti sulla Barra.
 
 .. Il collegamento con la Barra è garantito da un’applicazione ausiliaria che si chiama BrailleDriver e che viene lanciato automaticamente da TConsole in fase di avvio. Se l’applicativo viene chiuso verrà rilanciato automaticamente dallo stesso TConsole.
 
@@ -46,14 +46,12 @@ Barra Braille Lilli
 
 La Barra Lilli, per la cui installazione e configurazione si rimanda al :ref:`Manuale Installazione` (vedi :ref:`Barra Braille Lilli`) è caratterizzata dall’insieme di caratteri Braille per la visualizzazione (output) e da un insieme di tasti funzionali per l’esecuzione di comandi (input): questo consente di inviare a TConsole l'equivalente di una combinazione di tasti, come se questi fossero stati premuti sulla tastiera del PC.
 
-La Barra Lilli è caratterizzata dall’insieme di caratteri Braille per la visualizzazione (output) e da un insieme di tasti funzionali per l’esecuzione di comandi (input): questo consente di inviare a TConsole l'equivalente di una combinazione di tasti, come se questi fossero stati premuti sulla tastiera del PC.
-
 .. important::
-    Le configurazioni relative alla Barra Braille sono descritte nel :ref:`Manuale Installazione`:
+    Le configurazioni relative alla Barra Braille Lilli sono descritte nel :ref:`Manuale Installazione`:
     
     - per la configurazione delle sezioni del programma in cui abilitare la Barra Braille fare riferimento a :ref:`Profilo Utente`
     - per la configurazione dei campi da riprodurre nella ricerca o nella consultazione dei contatti di Rubrica fare riferimento alla :ref:`Rubint.ini RubEst.ini Sezione BRAILLE` dei files *Rubint.ini* e *RubEst.ini*
-    - per la configurazione dei parametri principali della Barra e dei tasti funzione della Barra Braille Lilli fare riferimento alla :ref:`TConsole.ini Sezione BRAILLE` del file *TConsole.ini*
+    - per la configurazione dei parametri principali e dei tasti funzione della Barra Braille Lilli fare riferimento alla :ref:`TConsole.ini Sezione BRAILLE` del file *TConsole.ini*
     - per l'installazione della Barra Braille Lilli fare riferimento a :ref:`Barra Braille Lilli`
 
 Uso della Barra Braille Lilli
@@ -63,7 +61,7 @@ Uso della Barra Braille Lilli
 
 .. image:: /images/TCONSOLE/UTENTE/AUSILI/BarraBrailleLilli-pulsantini.png
 
-Nella versione attuale i pulsantini posti sopra i caratteri non sono associati ad alcuna funzione.
+.. note:: Nella versione attuale i pulsantini posti sopra i caratteri non sono associati ad alcuna funzione.
 
 **Tasti funzione**: nella parte frontale della Barra Braille è presente una tastiera suddivisa in tre sezioni (da sinistra verso destra):
 
@@ -76,7 +74,65 @@ Nella versione attuale i pulsantini posti sopra i caratteri non sono associati a
 Dati visualizzati sulla Barra Braille
 -------------------------------------
 
+Di seguito sono riportate le informazioni o i formati di informazioni che possono essere letti sul dispositivo Braille.
+
+**Contesto PO**: A Braille vengono mandate le seguenti informazioni:
+
+PO-*<Stato console>*-*<chiamate in coda>*-*<ultimo stato loop>*-<ICI ATTIVA>-<RIGA DISPLAY1>-<RIGA DISPLAY2>
+
+*<Stato console>* può assumere i seguenti valori:
+*L=Libero* (in attesa di chiamate), *O=Occupato*, *N=Notte* (tutti i PO sono a Notte), *A=Attivo* (chiamata in corso)
+
+**Contesto Console**: A Braille vengono mandate le seguenti Informazioni:
+
+CONSOLLE:*<Stato console>*-CODA=\ *<numero chiamate in coda>*-DATA ORA NumLock=\ *<ON/OFF>*
+
+*NumLock*: rappresenta lo stato acceso/spento del tasto [BLOC NUM], importante per l'operatore non vedente in quanto se è disabilitato i numeri del tastierino numerico non vengono più scritti. Tale informazione è inviata **solo su Barra Braille** e NON in Sintesi Vocale.
+
+**Contesto ICI**
+
+A Braille vengono visualizzate le ICI attive, ad es.:
+
+ICI INTERNA+ESTERNA
+
+**Contesto Linee**
+
+A Braille viene visualizzato lo stato di tutte le linee, ad es.:
+
+LINEE L0=Libero L1=Libero L2=Libero L3=Libero L4=Libero L5=Libero
+
+**Contesto Rubrica Interna**
+
+A Braille vengono visualizzate le seguenti informazioni:
+
+RE *n/x* *<campi personalizzabili da RubInt.ini>*
+
+Dove *n* è il record selezionato e *x* è il numero di record risultanti dalla ricerca effettuata
+
+**Contesto Rubrica Esterna**
+
+A Braille vengono visualizzate le seguenti informazioni:
+
+RE *n/x* *<campi personalizzabili da RubEst.ini>*
+
+Dove *n* è il record selezionato e *x* è il numero di record risultanti dalla ricerca effettuata
+
+**Contesto Blocco Notes**
+
+A Braille vengono visualizzate le seguenti informazioni:
+
+BN Nome=
+BN *<riga n>*
+
+Dove *n* è il numero della riga della nota che si sta visualizzando
+
 Barra Braille Sistel
 --------------------
 
-.. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+TConsole può funzionare anche con la Barra Braille Sistel. È necessario installare i driver separatamente utilizzando l’apposito setup ed è necessario disporre di una chiave Sistel del tipo 87/6.
+
+**La tastiera**
+
+Nella parte frontale del terminale Braille è presente una tastiera con questi tasti (da sinistra verso destra):
+
+F3\|F2\|F1\|LEFT\|F7\|RIGTH\|F4\|F5\|F6

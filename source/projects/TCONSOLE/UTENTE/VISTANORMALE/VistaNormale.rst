@@ -134,6 +134,8 @@ L’opzione *Vista* consente di commutare dalla vista Normale (*Ctrl+Alt+N*) all
 
 .. note:: Nonostante questo menu sia visivamente disponibile solo nella vista Normale, le configurazioni di tasti indicate sono utilizzabili anche dopo aver commutato ad una vista qualsiasi: ad esempio, trovandosi nella vista IPO PLUS, si potrà commutare direttamente alla vista Normale tramite *Ctrl+Alt+N* oppure alla vista IPO tramite *Ctrl+Alt+I*.
 
+.. _Tqm:
+
 Tqm
 ---
 
@@ -170,7 +172,7 @@ Questa è la parte di controllo della console o telefono che l’applicazione ge
 - :ref:`Keypad`
 - :ref:`Comandi`
 - :ref:`FLEX`
-.. - :ref:`TQM`
+- :ref:`pulsanti TQM`
 
 .. important:: Questi pannelli consistono solitamente di pulsanti e aree di testo: i pulsanti sono attivabili cliccandoci sopra con il tasto sinistro del mouse oppure tramite combinazioni di tasti. Per conoscere la combinazione di tasti associata ad un determinato pulsante è sufficiente posizionarsi con il mouse sopra il pulsante per far comparire il popup indicante la relativa combinazione di tasti.
 
@@ -305,11 +307,21 @@ La selezione del pulsante può avvenire cliccandoci sopra con il mouse oppure da
 
 La configurazione dei tasti FLEX e delle loro etichette è descritta in :ref:`Tasti FLEX`.
 
-..
-    .. _TQM:
+.. _pulsanti TQM:
 
-    TQM: comandi per la gestione TQM
-    ----------------------------------
+TQM: comandi per la gestione TQM
+----------------------------------
+
+.. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/TQM_pulsanti.png
+
+Come per il menu *Tqm* (vedi :ref:`TQM`), questi pulsanti sono presenti **solo quando TConsole è configurato in modalità TVOX** (vedi :ref:`Parametri TVox`), e si sovrappongono ai 6 tasti FLEX in basso (da 0 a 5). I pulsanti presentano le seguenti voci:
+
+- **Login** (*Ctrl+Shift+F7*): Esegue, se non già effettuato, il Login dell'operatore ([2]_)
+- **Logout** (*Ctrl+Shift+F8*): Esegue, se non già effettuato, il Logout dell'operatore ([2]_)
+- **Ready** (*Ctrl+Shift+F11*): Imposta l'operatore in stato Ready (Pronto)
+- **Not Ready** (*Ctrl+Shift+F12*): Imposta l'operatore in stato NotReady (Non Pronto)
+.. esiste una combinazione di tasti per "Prenota NR"???
+.. - **Prenota NR**: Al termine della chiamata imposta l'operatore in stato NotReady (Non Pronto)
 
 .. _Rubrica F3:
 
