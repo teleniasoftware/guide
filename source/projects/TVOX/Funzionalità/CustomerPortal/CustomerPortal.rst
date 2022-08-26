@@ -4,9 +4,9 @@
 Customer Portal
 ===============
 
-.. |CustomerPortal_AreaRiservata_Registrazione| image:: /images/TVOX/CustomerPortal/CP_AreaRiservata_reg.png
-.. |CustomerPortal_AreaRiservata_Login| image:: /images/TVOX/CustomerPortal/CP_AreaRiservata_login.png
-.. |CustomerPortal_Riepilogativo| image:: /images/TVOX/CustomerPortal/CP_Riepilogativo.png
+.. |CustomerPortal_AreaRiservata_Registrazione| image:: /images/TVOX/CustomerPortal/CP_AreaRiservata_reg.PNG
+.. |CustomerPortal_AreaRiservata_Login| image:: /images/TVOX/CustomerPortal/CP_AreaRiservata_login.PNG
+.. |CustomerPortal_Riepilogativo| image:: /images/TVOX/CustomerPortal/CP_Riepilogativo.PNG
 .. |CustomerPortal_Griglia01| image:: /images/TVOX/CustomerPortal/CP_Griglia01.png
 .. |CustomerPortal_Nota| image:: /images/TVOX/CustomerPortal/CP_Inserimento_Nota.png
 
