@@ -20,7 +20,7 @@ la consultazione e la gestione dei ticket aperti nei confronti di Telenia, come 
 Registrazione Utenza
 ====================
 
-Per poter accedere al portale, *una tantum* è necessario registrarsi preventivamente nella pagina **Area Riservata** sul nostro sito internet.
+Per poter accedere al portale, è necessario registrarsi preventivamente nella pagina **Area Riservata** sul nostro sito internet.
 
 .. important:: A seguito della recente introduzione di politiche di sicurezza sugli accessi all'area riservata del nostro sito, per chi fosse già in possesso delle credenziali di acceso è richiesto il cambio della password cliccando sul link **Dimenticato Password?** prima di effettuare il primo accesso.
 
