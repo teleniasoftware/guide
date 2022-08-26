@@ -32,11 +32,11 @@ L’utilizzo del tastierino numerico all’interno di TConsole consente di svolg
 
 - **Tasti numerici da [0] a [9]**: utilizzati per la composizione del numero al pari della tastiera numerica del telefono
 - **Tasto [/]**: su TConsole Nortel esegue la sola esclusione chiamante. Su TConsole SIP SNOM oltre a eseguire l’esclusione del chiamante, nella fase di trasferimento della chiamata consente, con pressioni successive, la funzionalità di altalena tra chiamante e chiamato
-- **Tasto [*]**: solo nella manovra di trasferimento di chiamata, consente di rilasciare il numero chiamato. Utile nel caso di trasferta con consultazione nel caso in cui il chiamato non risponda e l’operatore voglia tornare sul chiamante. Consente anche, in fase di digitazione di un numero da chiamare, di eliminare il numero digitato
+- **Tasto [*]**: solo nella manovra di trasferimento di chiamata, consente di rilasciare il numero chiamato. Utile nel caso di trasferta con consultazione nel caso in cui il chiamato non risponda e l’operatore voglia tornare sul chiamante. Consente anche, in fase di digitazione di un numero da chiamare, di eliminare quanto finora digitato([1]_) in modo da poter effettuare una nuova digitazione
 - **Tasto [-]**: mette in attesa la chiamata
 - **Tasto [+]**: risponde a una chiamata in ring o riprende una chiamata in attesa. Nel caso di più chiamate in ring risponde alla chiamata da più tempo in coda
 - **Tasto [Invio]**: nel caso di una singola chiamata attiva (ad es. una chiamata risposta in ingresso) esegue il rilascio (riaggancio) della chiamata. Nella manovra di trasferimento di chiamata esegue l’unione tra chiamante e chiamato
-- **Tasto [Punto]**: utilizzato solo in TConsole in modalità SIP SNOM. Comunica la terminazione del numero digitato e avvia la chiamata
+- **Tasto [.]** (punto): utilizzato solo in TConsole in modalità SIP SNOM. Comunica la terminazione del numero digitato e avvia la chiamata
 
 Tabella riepilogativa ordinata per categoria
 ============================================
@@ -49,11 +49,11 @@ Tabella riepilogativa ordinata per tasto
 Tabella riassuntiva utilizzo della tastiera
 ===========================================
 
-.. spostare in installazione???
+.. spostato in configurazione/TConsole.ini
 
-Parametrizzazione dei Tasti Funzione
-====================================
+    Parametrizzazione dei Tasti Funzione
+    ====================================
 
-xxx
+.. rubric:: Note
 
-.. .. image:: /images/TCONSOLE/UTENTE/CONSOLE/info.png
+.. [1] in questo caso viene eliminato l'intero numero che è stato inserito fino a questo momento: ad es. in caso di errata digitazione dell'ultima cifra del numero NON è possibile annullare solo l'inserimento dell'ultima cifra, ma il numero andrà inserito interamente

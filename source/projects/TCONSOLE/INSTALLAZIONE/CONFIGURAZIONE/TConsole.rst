@@ -172,6 +172,27 @@ Se impostato a *NO* nel caso di alcune chiamate in uscita esterne potrebbe non e
 
     TAPI_AVAYA_OUTBOUND_CONNECTED_ON_RING=NO
 
+Sezione [FUNCTION_KEYS]
+========================
+
+A partire dalla versione 4.4.4 è stata introdotta la possibilità di parametrizzare l'associazione dei tasti funzione della tastiera del PC (da *F1* a *F12*) alle funzionalità TConsole. Di seguito i valori di default:
+
+.. code-block:: ini
+
+    HELP=F1
+    RUBINT=F2
+    RUBEST=F3
+    PO=F4
+    PARK=F5
+    DTMF=F6
+    BNOTES=F7
+    TQM=F8
+    POSTIT=F9
+    VIP=F10
+    RICALT=F11
+    ;INVIOCH tutti i tasti tranne F10
+    INVIOCH=F12
+
 Sezione [PHONE_SETTINGS]
 ========================
 

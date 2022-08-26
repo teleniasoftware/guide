@@ -1,8 +1,10 @@
 ============================================
-TConsole SIP SNOM. Particolarità di utilizzo
+TConsole SIP SNOM e TConsole TVOX: particolarità di utilizzo
 ============================================
 
-Nel caso di TConsole in modalità SIP SNOM vi sono delle piccole differenze nelle manovre di base. Di seguito sono descritte le differenze nell’utilizzo di TConsole SIP SNOM.
+Nel caso di TConsole in modalità SIP SNOM (parametro *TYPE=SIP_SNOM* nel file :ref:`TConsole.ini`) e di TConsole in modalità TVOX (parametro *TYPE=SNOM* nel file :ref:`TConsole.ini`) vi sono delle piccole differenze nelle manovre di base. Di seguito sono descritte le differenze nell’utilizzo di TConsole SIP SNOM.
+
+.. Nel caso di TConsole in modalità SIP SNOM (parametro *TYPE=SIP_SNOM* nel file :ref:`TConsole.ini`) e di TConsole in modalità TVOX (parametro *TYPE=SNOM* nel file :ref:`TConsole.ini`) o TVox con SoftPhone (parametro *TYPE=TVOX_SOFTPHONE* nel file :ref:`TConsole.ini`) vi sono delle piccole differenze nelle manovre di base. Di seguito sono descritte le differenze nell’utilizzo di TConsole SIP SNOM.
 
 Composizione di un numero per effettuare una chiamata
 =====================================================

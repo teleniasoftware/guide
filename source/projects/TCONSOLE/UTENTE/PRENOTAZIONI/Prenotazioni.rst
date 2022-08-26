@@ -12,7 +12,7 @@ Il modulo V.I.P. permette di gestire un particolare gruppo di utenti privilegiat
 Tali utenti, chiamando i numeri dei risponditori automatici presenti nella Centrale, verranno evasi immediatamente da un Posto Operatore.
 
 .. important::
-    La funzionalità è disponibile solo con centrale Nortel e richiede la presenza di un server TSAM.
+    La funzionalità è disponibile **solo con centrale Nortel** (parametro *TYPE=NORTEL_M1250* o *NORTEL_M2250* o *NORTEL_CIU* nel file :ref:`TConsole.ini`) e richiede la presenza di un server TSAM.
 
     Per la configurazione lato TSAM si rimanda al manuale di installazione TSAM.
 

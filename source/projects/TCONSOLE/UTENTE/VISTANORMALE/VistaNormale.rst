@@ -9,6 +9,8 @@ Vista Normale
 
 Per la sua caratteristica è la vista che può contenere tutte le prestazioni dell’applicazione. Dopo il menu dell'applicazione vengono di seguito descritte le due parti principali che la compongono: la console e la Rubrica.
 
+.. image:: /images/TCONSOLE/UTENTE/CONSOLE/vistaNormaleSezioni.png
+
 Menu
 ====
 
@@ -76,6 +78,9 @@ Il menu *Configurazione* è composto dalle seguenti voci:
 - **Rubrica Esterna**: opzione non ancora attiva
 - **Sintesi Vocale** (*Ctrl+Alt+V*): se abilitata la funzionalità di Sintesi Vocale, permette di modificare, fino al successivo riavvio del programma ([1]_), i parametri della voce: tipo voce, velocità testo, velocità numeri etc.
 - **Sintesi On/Off** (*Ctrl+Alt+S*): se abilitata la funzionalità di Sintesi Vocale, permette di abilitarla o disabilitarla temporaneamente, fino alla pressione della medesima combinazione di tasti oppure fino al riavvio del programma; viene riprodotto lo stato della sintesi (abilitata/disabilitata)
+.. - **Softphone - Dispositivi audio** (*Ctrl+Alt+H*): **solo in modalità TVox con SoftPhone** (parametro *TYPE=TVOX_SOFTPHONE* nel file :ref:`TConsole.ini`), consente, tramite l'apposita finestra (vedi immagine successiva), la configurazione del dispositivo audio per la gestione della chiamata: audio in ingresso (parametro *Audio*), microfono (parametro *Microfono*), notifica sonora della chiamata in ingresso (parametro *notifica chiamata (ring)*)
+
+.. .. image:: /images/TCONSOLE/UTENTE/VISTANORMALE/ConfigurazioneSoftphone.png
 
 .. _Selezione Colori:
 
