@@ -17,4 +17,5 @@ Partendo da un set di informazioni generali, tra cui una panoramica sul prodotto
     ./InformazioniGenerali/InformazioniGenerali
     ./InstallazioneAttivazione/InstallazioneAttivazione
     ./ConfiguraPBX/ConfigurazioneVelocePBX
+    ./Upgrade/Upgrade.rst
     xx./AggiornareTVox/

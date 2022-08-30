@@ -2,10 +2,13 @@
 Caricare un Certicato SSL
 =========================
 
-Per la gestione dei certificati è necessario andare in OCC nella sezione *SISTEMA=> Accesso servizi=> Certificato SSL*
+Per la gestione dei certificati è necessario andare in OCC nella sezione *SISTEMA => Configurazione di sistema => Accesso servizi => Certificato SSL*
 
-Carica certificato
-==================
+|br|
+
+
+Caricamento manuale del certificato
+===================================
 
 E\' possibile caricare un nuovo certificato o aggiornare il certificato corrente.
 
@@ -42,10 +45,15 @@ Il caricamento può avvenire in quattro modalità:
 Richiesta firma certificato
 ===========================
 
-In questa sezione è possibile generare e scaricare una nuova richiesta di firma del certificato certificato per il dominio richiesto.
+In questa sezione è possibile generare e scaricare una nuova richiesta di firma del certificato per il dominio richiesto.
+
+Va indicato obbligatoriamente il dominio per cui si vuole richiedere il certificato, ed è raccomandato compilare opportunamente i campi che identificano il proprietario del dominio stesso
+
+    .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/Certificati/SSL_Richiesta_Firma.PNG
 
 .. important:: La richiesta deve essere inoltrata ad una CA (Certification Authority) la quale fornirà un certificato valido per il dominio specificato.
 
+|br|
 
 Integrazione Let's Encrypt
 ===========================
