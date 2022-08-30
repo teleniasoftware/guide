@@ -28,10 +28,4 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/SendAlarm
     ./Blocchetti/CustomPHP
     ./Blocchetti/CheckService
-
-
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Blocchetto               | Descrizione                                                                                             | 
-+==========================+=========================================================================================================+ 
-| Access call variable     | fornisce accesso in lettura e scrittura alle variabili di chiamata, mappandole a variabili locali       | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
+    ./Blocchetti/AccessCallVariable
