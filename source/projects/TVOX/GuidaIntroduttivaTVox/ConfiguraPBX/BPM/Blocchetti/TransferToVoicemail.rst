@@ -7,7 +7,7 @@ Il blocchetto \"Transfer to Voicemail\" permette di caricare all'interno process
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/voicemail.png
 
     
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/voicemail_config.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/voicemail_conf.png
 
 
 **Campi configurabili**
@@ -18,7 +18,7 @@ Il blocchetto \"Transfer to Voicemail\" permette di caricare all'interno process
 
 **Configurazione del processo**
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/voicemail_config_gen.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/voicemail_conf_gen.png
 
 Il processo permette di configurare una Casella vocale generica per tutto il processo. 
 
