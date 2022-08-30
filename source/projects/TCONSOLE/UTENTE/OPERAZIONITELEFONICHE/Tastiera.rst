@@ -49,8 +49,8 @@ Tabella riepilogativa ordinata per tasto
 
 
 +------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+-------------+
-|       Tasto      |                                                                                               | Descrizione                                  | Tastiera    |
-|  (combinazione)  |                                           Categoria                                           |                                              +------+------+
+| |     Tasto      |                                                                                               | Descrizione                                  | Tastiera    |
+| | (combinazione) |                                           Categoria                                           |                                              +------+------+
 |                  |                                                                                               |                                              | Rid. | Est. |
 +------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+------+------+
 | F12              | Composizione automatica                                                                       | Invio, Impegno ed invio numero principale    |      |      |
