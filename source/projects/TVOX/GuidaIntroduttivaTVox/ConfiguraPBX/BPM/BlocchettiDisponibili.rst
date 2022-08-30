@@ -21,6 +21,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/GetRequest
     ./Blocchetti/SetVariable
     ./Blocchetti/ASR
+    ./Blocchetti/Switch
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
