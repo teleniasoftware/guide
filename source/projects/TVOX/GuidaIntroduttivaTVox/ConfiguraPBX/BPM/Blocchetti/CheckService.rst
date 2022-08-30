@@ -9,7 +9,12 @@ Da questo blocchetto possono partire sei freccette:
 - Overtime = Fuori orario
 - Active1, Active2, Active3 = sono 3 trattamenti del calendario disponibili se configurati
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/chesckservice.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/checkservice.png
 
     
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/chesckservice_config.png
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/checkservice_config.png
+
+**Campi configurabili**
+
+- **Seleziona servizio**:
+- **Attiva registrazione
