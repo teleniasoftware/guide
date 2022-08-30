@@ -15,3 +15,9 @@ Da questo blocchetto partono due frecce con valore rispettivamente "single" e "n
 
     
 .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/addressbook_config.png
+
+**Campi configurabili**
+
+- **Modalità di lookup**: selezione del tipo di lookup che si desidera utilizzare per la ricerca in rubrica (**Lookup clid** viene utilizzato il CLID recuperato automaticamente dal processo. **Lookup personalizzata** permette inserire il nome di una variabile che contiente il CLID. **Proprietà** permette fare una ricerca per una proprietà diversa dal CLID. Sarà necessario selezionare la proprietà di ricerca e impostare il valore che deve avere la proprietà. Se il valore è contenuto a sua volta in una variabile basta non mettere il check sul campo Imposta come valore.)
+- **Proprietà da recuperare**: permette di selezionare una o più proprietà di un contatto
+- **Variabile di ritorno**: variabile in cui salvare la proprietà recuperata
