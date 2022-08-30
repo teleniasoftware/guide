@@ -2,24 +2,24 @@
 TVOX Stand Alone to TVOX Ridondato (S.O. CentOS 7)
 ==================================================
 
-.. |tvox21_licenza| image:: ../../../images/TVOX/Upgrade/LicenzaOCC.PNG
-.. |tvox10_26_licenza| image:: ../../../images/TVOX/Upgrade/LicenzaManager.PNG
-.. |Network_reset01| image:: ../../../images/TVOX/Upgrade/Network_reset01.PNG
-.. |Network_reset02| image:: ../../../images/TVOX/Upgrade/Network_reset02.PNG
-.. |Network_reset03| image:: ../../../images/TVOX/Upgrade/Network_reset03.PNG 
-.. |Network_reset04| image:: ../../../images/TVOX/Upgrade/Network_reset04.PNG
-.. |Network_reset05| image:: ../../../images/TVOX/Upgrade/Network_reset05.PNG
-.. |Hosts| image:: ../../../images/TVOX/Upgrade/Hosts.PNG
-.. |FaultTolerance01| image:: ../../../images/TVOX/Upgrade/FT01.PNG
-.. |FaultTolerance02| image:: ../../../images/TVOX/Upgrade/FT02.PNG
-.. |SincroFT| image:: ../../../images/TVOX/Upgrade/SincroFT.PNG
-.. |SincroMonitor| image:: ../../../images/TVOX/Upgrade/SincroMonitor.PNG
-.. |FileSystem| image:: ../../../images/TVOX/Upgrade/FileSystem.PNG
-.. |Updater| image:: ../../../images/TVOX/Upgrade/Updater.PNG
-.. |Check_Mongo01| image:: ../../../images/TVOX/Upgrade/Check_Mongo01.PNG
-.. |Check_Mongo02| image:: ../../../images/TVOX/Upgrade/Check_Mongo02.PNG    
-.. |Replicazione_rel22| image:: ../../../images/TVOX/Upgrade/Replicazione_rel22.PNG 
-.. |Monitor_22| image:: ../../../images/TVOX/Upgrade/Monitor_22.PNG 
+.. |tvox21_licenza| image:: /images/TVOX/Upgrade/LicenzaOCC.PNG
+.. |tvox10_26_licenza| image:: /images/TVOX/Upgrade/LicenzaManager.PNG
+.. |Network_reset01| image:: /images/TVOX/Upgrade/Network_reset01.PNG
+.. |Network_reset02| image:: /images/TVOX/Upgrade/Network_reset02.PNG
+.. |Network_reset03| image:: /images/TVOX/Upgrade/Network_reset03.PNG 
+.. |Network_reset04| image:: /images/TVOX/Upgrade/Network_reset04.PNG
+.. |Network_reset05| image:: /images/TVOX/Upgrade/Network_reset05.PNG
+.. |Hosts| image:: /images/TVOX/Upgrade/Hosts.PNG
+.. |FaultTolerance01| image:: /images/TVOX/Upgrade/FT01.PNG
+.. |FaultTolerance02| image:: /images/TVOX/Upgrade/FT02.PNG
+.. |SincroFT| image:: /images/TVOX/Upgrade/SincroFT.PNG
+.. |SincroMonitor| image:: /images/TVOX/Upgrade/SincroMonitor.PNG
+.. |FileSystem| image:: /images/TVOX/Upgrade/FileSystem.PNG
+.. |Updater| image:: /images/TVOX/Upgrade/Updater.PNG
+.. |Check_Mongo01| image:: /images/TVOX/Upgrade/Check_Mongo01.PNG
+.. |Check_Mongo02| image:: /images/TVOX/Upgrade/Check_Mongo02.PNG    
+.. |Replicazione_rel22| image:: /images/TVOX/Upgrade/Replicazione_rel22.PNG 
+.. |Monitor_22| image:: /images/TVOX/Upgrade/Monitor_22.PNG 
 
 
 
@@ -60,6 +60,7 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 - Se hai un TVOX versione 21 devi andare da *OCC* in *SISTEMA -> Security update* e fare un check disponibilità licenza. Una volta rilevata la modifica devi dare conferma alla richiesta di riavvio processi.
   
 |tvox21_licenza|
+
 
 - Se invece hai un TVOX versione antecedente alla 21 devi andare da *Application Manager* in *System -> License* e premere sul pulsante [Upload license] caricando il file con estensione .lic fornito da Telenia. Al termine dovrai riavviare la macchina.
 
