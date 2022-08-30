@@ -25,15 +25,12 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/SQLDatabaseQuery
     ./Blocchetti/CalendarCheck
     ./Blocchetti/TransferToVoicemail
+    ./Blocchetti/SendAlarm
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-| Transfer to Voicemail    | carica la casella vocale                                                                                | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Send Alarm               | invia un allarme con testo e priorità impostati                                                         | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Custom PHP code          | esegue un codice scritto custom in PHP per il blocchetto                                                | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Check service activation | controlla se un servizio è o meno attivo                                                                | 
