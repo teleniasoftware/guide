@@ -24,6 +24,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/Switch
     ./Blocchetti/SQLDatabaseQuery
     ./Blocchetti/CalendarCheck
+    ./Blocchetti/TransferToVoicemail
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
