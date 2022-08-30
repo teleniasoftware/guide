@@ -16,5 +16,5 @@ Da questo blocchetto possono partire sei freccette:
 
 **Campi configurabili**
 
-- **Seleziona servizio**:
-- **Attiva registrazione
+- **Seleziona servizio**: Il servizio a cui inoltrare la chiamata è selezionato dall'elenco dei servizi già definiti nell'OCC.
+- **Nome variabile**: nome della variabile in cui salvare il risultato che potrà essere successivamente richiamata all'interno del processo
