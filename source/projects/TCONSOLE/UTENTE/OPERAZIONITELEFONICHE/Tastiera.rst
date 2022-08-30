@@ -44,8 +44,8 @@ Tabella riepilogativa ordinata per categoria
 Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per categoria, mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
 
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
-| Tasto              |                             | Descrizione                                                           | Tastiera |      |
-+--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
+| | Tasto            | Categoria                   | Descrizione                                                           | Tastiera        |
++ | (combinazione)   +                             +                                                                       +----------+------+
 |                    |                             |                                                                       | Rid.     | Est. |
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
 | F12                | Composizione automatica     | Invio, Impegno ed invio numero principale                             |          |      |
