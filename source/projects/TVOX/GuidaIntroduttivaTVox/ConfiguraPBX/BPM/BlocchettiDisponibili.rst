@@ -22,6 +22,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/SetVariable
     ./Blocchetti/ASR
     ./Blocchetti/Switch
+    ./Blocchetti/SQLDatabaseQuery
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
