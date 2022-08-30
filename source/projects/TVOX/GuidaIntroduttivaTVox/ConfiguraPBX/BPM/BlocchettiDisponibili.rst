@@ -30,3 +30,4 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/CheckService
     ./Blocchetti/AccessCallVariable
     ./Blocchetti/Addressbook
+    ./Blocchetti/SendMail
