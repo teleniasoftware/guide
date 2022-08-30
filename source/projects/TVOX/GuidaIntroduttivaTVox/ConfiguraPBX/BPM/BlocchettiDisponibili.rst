@@ -26,6 +26,7 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/CalendarCheck
     ./Blocchetti/TransferToVoicemail
     ./Blocchetti/SendAlarm
+    ./Blocchetti/CustomPHP
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
