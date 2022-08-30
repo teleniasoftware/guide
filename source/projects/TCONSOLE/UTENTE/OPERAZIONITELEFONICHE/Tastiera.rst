@@ -43,6 +43,8 @@ Tabella riepilogativa ordinata per categoria
 
 Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per categoria, mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
 
+`Clicca qui per scaricare la riepilogativa ordinata per categoria in formato PDF <https://telenia-iso.s3.eu-west-1.amazonaws.com/TConsole/TConsole5_Tabella_riepilogativa_per_categoria.pdf>`_
+
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
 | | Tasto            | Categoria                   | Descrizione                                                           | Tastiera        |
 | | (combinazione)   |                             |                                                                       +----------+------+
@@ -196,6 +198,8 @@ Tabella riepilogativa ordinata per tasto
 
 Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per tasto, mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
 
+`Clicca qui per scaricare la riepilogativa ordinata per tasto in formato PDF <https://telenia-iso.s3.eu-west-1.amazonaws.com/TConsole/TConsole5_Tabella_riepilogativa_per_tasto.pdf>`_
+
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
 | | Tasto            | Categoria                   | Descrizione                                                           | Tastiera        |
 | | (combinazione)   |                             |                                                                       +----------+------+
@@ -346,6 +350,9 @@ Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per t
 
 Tabella riepilogativa utilizzo della tastiera
 =============================================
+
+`Clicca qui per scaricare la tabella riepilogativa utilizzo della tastiera in formato PDF <https://telenia-iso.s3.eu-west-1.amazonaws.com/TConsole/TConsole5_Tabella_riepilogativa_utilizzo_tastiera.pdf>`_
+
 
 +------------+------------+-----------+----------+---------+----------------+--------------+--------------------+
 |            | **Simple** | **Shift** | **Ctrl** | **Alt** | **Ctrl+Shift** | **Ctrl+Alt** | **Ctrl+Shift+Alt** |
