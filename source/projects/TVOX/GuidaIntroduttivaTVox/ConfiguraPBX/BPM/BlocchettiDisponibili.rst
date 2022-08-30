@@ -27,14 +27,11 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/TransferToVoicemail
     ./Blocchetti/SendAlarm
     ./Blocchetti/CustomPHP
+    ./Blocchetti/CheckService
 
 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
 | Blocchetto               | Descrizione                                                                                             | 
 +==========================+=========================================================================================================+ 
-| Custom PHP code          | esegue un codice scritto custom in PHP per il blocchetto                                                | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
-| Check service activation | controlla se un servizio è o meno attivo                                                                | 
-+--------------------------+---------------------------------------------------------------------------------------------------------+
 | Access call variable     | fornisce accesso in lettura e scrittura alle variabili di chiamata, mappandole a variabili locali       | 
 +--------------------------+---------------------------------------------------------------------------------------------------------+
