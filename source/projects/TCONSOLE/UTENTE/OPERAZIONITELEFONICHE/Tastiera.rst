@@ -41,12 +41,7 @@ L’utilizzo del tastierino numerico all’interno di TConsole consente di svolg
 Tabella riepilogativa ordinata per categoria
 ============================================
 
-Di seguito vengono riportati tutti i tasti (e loro combinazioni) mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
-
-Tabella riepilogativa ordinata per tasto
-========================================
-
-
+Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per categoria, mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
 
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
 | Tasto              |                             | Descrizione                                                           | Tastiera |      |
@@ -196,6 +191,10 @@ Tabella riepilogativa ordinata per tasto
 | Ctrl+Shift+S       | Vista Batteria              | Inizio selezione                                                      | ●        | ●    |
 +--------------------+-----------------------------+-----------------------------------------------------------------------+----------+------+
 
+Tabella riepilogativa ordinata per tasto
+========================================
+
+Di seguito vengono riportati tutti i tasti (e loro combinazioni), ordinati per tasto, mediante i quali è possibile attivare una qualche funzionalità dell’applicazione TConsole.
 
 Tabella riassuntiva utilizzo della tastiera
 ===========================================
