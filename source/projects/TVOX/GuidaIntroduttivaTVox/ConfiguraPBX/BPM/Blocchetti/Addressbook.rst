@@ -10,3 +10,8 @@ Verranno generate due varibili: contatto-TEL, contatto-EMAIL.
 Da questo blocchetto partono due frecce con valore rispettivamente "single" e "none":
 - **single**: significa che è stato trovato il contatto in rubrica.
 - **none**: significa che non è stato trovato alcun contatto in rubrica.
+
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/addressbook.png
+
+    
+.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/BPM/BLOCCHETTI/addressbook_config.png

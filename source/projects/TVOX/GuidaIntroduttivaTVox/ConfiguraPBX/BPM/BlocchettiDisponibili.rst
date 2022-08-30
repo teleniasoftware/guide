@@ -29,3 +29,4 @@ Il BPM mette a disposizione le seguenti tipologie di blocchetto:
     ./Blocchetti/CustomPHP
     ./Blocchetti/CheckService
     ./Blocchetti/AccessCallVariable
+    ./Blocchetti/Addressbook
