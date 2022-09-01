@@ -70,7 +70,9 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    /projects/TVOXMediantCommunicationSystem/Architettura
    /projects/TVOXMediantCommunicationSystem/Deploy
    /projects/TVOXMediantCommunicationSystem/Networking
-   /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL 
+   /projects/TVOXMediantCommunicationSystem/GestionecertificatiSSL
+   /projects/TVOXMediantCommunicationSystem/AttivazioneMCS
+   /projects/TVOXMediantCommunicationSystem/CollegamentoTVox
 
 .. .. toctree::  
 ..   :hidden: 
