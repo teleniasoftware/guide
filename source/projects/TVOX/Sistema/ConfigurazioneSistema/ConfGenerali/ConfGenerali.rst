@@ -1,0 +1,5 @@
+.. _confgenerali:
+
+=======================
+Configurazioni Generali
+=======================
