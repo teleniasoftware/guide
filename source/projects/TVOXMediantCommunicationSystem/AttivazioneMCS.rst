@@ -38,7 +38,7 @@ Prepara l'istanza
 .. note:: Quando effettui una configurazione su questa sezione, il salvataggio provoca il riavvio dei servizi TVox. Verrai avvisato da un banner che ti chiederà la conferma per procedere. Durante il riavvio, OCC non sarà disponibile.
 
 
-.. note:: Il dominio che inserisci qui è il dominio di MCS, non dei TVox che successivamente collegherai a MCS stesso. Lo chiameremo "dominio di gestione" o "dominio di management" di MCS
+.. note:: Il dominio che inserisci qui è il dominio di MCS, non dei TVox che successivamente collegherai a MCS stesso. Lo chiameremo *dominio di gestione* o \"dominio di management\"" di MCS
 
 |br| 
 
