@@ -44,7 +44,7 @@ Prepara l'istanza
 
 - Carica il certificato SSL per il tuo MCS
 
-.. attention:: Caricare un certificato SSL per certificare il dominio di MCS non è un'operazione obbligatoria perchè utilizzerai MCS via HTTPS solo per necessità di gestione e configurazione e mai per contattare i TVox collegati a MCS stesso
+.. attention:: Caricare un certificato SSL per certificare il dominio di MCS non è un'operazione obbligatoria perchè utilizzerai MCS via HTTPS solo per necessità di gestione e configurazione e mai per contattare i TVox collegati a MCS stesso. Tuttavia è fortemente raccomandato perchè google chrome per politica potrebbe impedire l'accesso
 
 
 |br| 
