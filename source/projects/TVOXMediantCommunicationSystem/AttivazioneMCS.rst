@@ -63,7 +63,7 @@ A questo punto potrai procedere con la configurazione vera e propria della compo
 
 
 
-Configurazione inziale MCS
+Configurazione iniziale MCS
 --------------------------
 
 - Accedi a *https://<dominio MCS>/mcs* con utente **mcsadmin**  
@@ -79,7 +79,7 @@ Configurazione inziale MCS
 - Salva e dai conferma del salvataggio sul banner che ti si viene presentato.
 
 
-A questo punto sei pronto per iniziare a collegare uno o più TVox al tuo MCS!
+A questo punto sei pronto per iniziare a :ref:`collegare uno o più TVox al tuo MCS <collegamentocustomer>`!
 
 |br| 
 
