@@ -22,14 +22,14 @@ Su Occ sono a disposizione due tipologie di backup:
 -  **Istantaneo**, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
 -  **Schedulato**, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
 
-.. note:: Quando si lancia un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria. Una volta avviato il processo, avremo una schermata simile di progresso che potrà essere chiusa una volta terminato:
+.. note:: Quando si esegue un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria. Una volta avviato il processo, avremo una schermata simile di progresso che potrà essere chiusa una volta terminato:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/progresso_creazione.png
 
 **Configurazione Backup Schedulato:**
 
 - **Nome:** Nome del backup corrente. Stringa alfanumerica, spazi non ammessi
-- **Esegui ogni:** Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno spcifico.
+- **Esegui ogni:** Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno specificato.
 - **Alle ore: **Orario in cui schedulare l'esecuzione del backup
 - **Backup remoti:** Numero massimo di file di backup mantenuti su server FTP remoto. **Superato questo valore i backup più vecchi vengono cancellati**
 - **Backup locali:** Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. **Superato questo valore i backup più vecchi vengono cancellati**
