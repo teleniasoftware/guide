@@ -30,8 +30,8 @@ Configurazione Backup Schedulato:
 - Nome: Nome del backup corrente. Stringa alfanumerica, spazi non ammessi
 - Esegui ogni: Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno spcifico.
 - Alle ore: Orario in cui schedulare l'esecuzione del backup
-- Backup remoti: Numero massimo di file di backup mantenuti su server FTP remoto. Superato questo valore i backup più vecchi vengono cancellati
-- Backup locali: Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. Superato questo valore i backup più vecchi vengono cancellati
+- Backup remoti: Numero massimo di file di backup mantenuti su server FTP remoto. **Superato questo valore i backup più vecchi vengono cancellati**
+- Backup locali: Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. **Superato questo valore i backup più vecchi vengono cancellati**
 - Parametri FTP Server: parametri di accesso al server FTP sulla quale verranno salvati i backup. 
 
 
