@@ -53,7 +53,8 @@ Per ripristinare un backup, cliccare su \"Seleziona file\" nella sezione \"Ripri
 
 .. note:: Per ogni backup presenti nell'elenco, è possibile effettuare il download del file zip, ripristinare il backup selezionato oppure eliminarlo
 
+
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/lista_backup_opzioni.png
 
 
-    In fase di restore, viene prima caricato il file e poi avviene la procedura di ristoro che consiste nel **fermare i servizi** e caricare le configurazioni. 
+In fase di restore, viene prima caricato il file e poi avviene la procedura di ristoro che consiste nel **fermare i servizi** e caricare le configurazioni. 
