@@ -5,6 +5,8 @@ Backup e Ripristino del sistema
 ===============================
 In questa sezione si riportano gli step fondamentali per configurare il Backup della centrale telefonica TVox PBX e come ripristinare un Backup.
 
+.. warning:: Quando parliamo di Backup, intendiamo il backup delle sole configurazioni e non dei dati storici
+
 Per la sezione 'Backup/Ripristino' è necessario andare in OCC nella sezione SISTEMA => Configurazione di sistema => Backup/Rispristino.
 
 
@@ -15,8 +17,28 @@ Backup
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_ripristino_occ.png
 
 
-E' possibile eseguire due tipi di Backup:
+In fase di backup è possibile eseguire due tipi di Backup:
 
-- Backup Istantaneo
-- Backup Schedulato
+-  Istantaneo, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
+-  Schedulato, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
 
+
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_schedulato.png
+
+Configurazione Backup Schedulato:
+
+- Nome: Nome del backup corrente. Stringa alfanumerica, spazi non ammessi
+- Esegui ogni: Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno spcifico.
+- Alle ore: Orario in cui schedulare l'esecuzione del backup
+- Backup locali: Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. Superato questo valore i backup più vecchi vengono cancellati
+- Parametri FTP Server: parametri di accesso al server FTP sulla quale verranno salvati i backup. 
+
+
+Ripristino
+===================================
+
+Una volta creato il backup, avremo l'elenco di quelli generati e che possono essere rispristinati
+
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/lista_backup.png
+
+.. warning:: In caso di restore,  la macchina su cui si intente eseguire il restore deve avere una licenza valida ed essere della stessa versione per la quale si è eseguito il backup. 
