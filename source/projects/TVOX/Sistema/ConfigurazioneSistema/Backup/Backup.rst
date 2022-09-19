@@ -22,21 +22,22 @@ In fase di backup è possibile eseguire due tipi di Backup:
 -  Istantaneo, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
 -  Schedulato, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
 
-.. info:: Quando si lancia un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria 
+.. note:: Quando si lancia un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria. Una volta avviato il processo, avremo una schermata simile di progresso che potrà essere chiusa una volta terminato:
 
-.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_schedulato.png
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/progresso_creazione.png
 
-Configurazione Backup Schedulato:
+**Configurazione Backup Schedulato:**
 
-- Nome: Nome del backup corrente. Stringa alfanumerica, spazi non ammessi
-- Esegui ogni: Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno spcifico.
-- Alle ore: Orario in cui schedulare l'esecuzione del backup
-- Backup remoti: Numero massimo di file di backup mantenuti su server FTP remoto. **Superato questo valore i backup più vecchi vengono cancellati**
-- Backup locali: Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. **Superato questo valore i backup più vecchi vengono cancellati**
-- Parametri FTP Server: parametri di accesso al server FTP sulla quale verranno salvati i backup. 
+- **Nome:** Nome del backup corrente. Stringa alfanumerica, spazi non ammessi
+- **Esegui ogni:** Un'operazione di backup può essere: disabilitata, se Mai è selezionato; giornaliera, se Ogni giorno è selezionato; mensile, se Primo giorno di ogni Mese è selezionato; settimanale, se selezionato un giorno spcifico.
+- **Alle ore: **Orario in cui schedulare l'esecuzione del backup
+- **Backup remoti:** Numero massimo di file di backup mantenuti su server FTP remoto. **Superato questo valore i backup più vecchi vengono cancellati**
+- **Backup locali:** Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. **Superato questo valore i backup più vecchi vengono cancellati**
+- **Parametri FTP Server:** parametri di accesso al server FTP sulla quale verranno salvati i backup. 
 
 .. warning:: L'utente FTP preposto ad accedere a questo server dovrà avere la possiblità di navigare sul percorso, di copiare i file di backup 
 
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_schedulato.png
 
 Ripristino
 ===================================
