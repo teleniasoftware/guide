@@ -17,10 +17,10 @@ Backup
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_ripristino_occ.png
 
 
-In fase di backup è possibile eseguire due tipi di Backup:
+Su Occ sono a disposizione due tipologie di backup: 
 
--  Istantaneo, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
--  Schedulato, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
+-  **Istantaneo**, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
+-  **Schedulato**, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
 
 .. note:: Quando si lancia un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria. Una volta avviato il processo, avremo una schermata simile di progresso che potrà essere chiusa una volta terminato:
 
