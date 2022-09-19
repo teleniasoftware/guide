@@ -22,6 +22,7 @@ In fase di backup è possibile eseguire due tipi di Backup:
 -  Istantaneo, cliccando su \"Crea backup ora\" si darà una descrizione al backup e lo si farà partire.  Il processo di backup partirà istantaneamente e sarà salvato localmente. 
 -  Schedulato, crea un nuova schedulazione configurabile con la possibilità di caricare su un server FTP i file che vengono generati 
 
+.. info:: Quando si lancia un backup, viene mostrato un messaggio di alert che informa l'utente che l'operazione causerà un utilizzo delle risorse di CPU e memoria 
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_schedulato.png
 
@@ -33,6 +34,8 @@ Configurazione Backup Schedulato:
 - Backup remoti: Numero massimo di file di backup mantenuti su server FTP remoto. **Superato questo valore i backup più vecchi vengono cancellati**
 - Backup locali: Numero massimo di file di backup mantenuti localmente nel Telenia Application Manager. **Superato questo valore i backup più vecchi vengono cancellati**
 - Parametri FTP Server: parametri di accesso al server FTP sulla quale verranno salvati i backup. 
+
+.. warning:: L'utente FTP preposto ad accedere a questo server dovrà avere la possiblità di navigare sul percorso, di copiare i file di backup 
 
 
 Ripristino
