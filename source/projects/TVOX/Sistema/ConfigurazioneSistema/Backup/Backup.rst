@@ -39,6 +39,15 @@ Su Occ sono a disposizione due tipologie di backup:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/backup_schedulato.png
 
+
+.. note:: Per ogni backup le operazioni che possono essere fatte sono:
+
+    - Download
+    - Ripristino
+    - Elimina
+    - Nel caso di backup schedulato, dove è prevista anche una configurazione FTP, si ha anche la possibilità di forzare la copia in remoto
+
+
 Ripristino
 ===================================
 
@@ -46,13 +55,10 @@ Una volta creato il backup, avremo l'elenco di quelli generati e che possono ess
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/lista_backup.png
 
+
+Il ripristino si può eseguire premendo il tasto \"Ripristino\" sui backup in elenco oppure, in caso di una nuova macchina, cliccando su \"Seleziona file\" nella sezione \"Ripristina\" e selezionando il file zip recuperato dalla macchina da ripristinare.
+
 .. warning:: In caso di restore,  la macchina su cui si intente eseguire il restore deve avere una licenza valida ed essere della stessa versione per la quale si è eseguito il backup. 
-
-
-Per ripristinare un backup, cliccare su \"Seleziona file\" nella sezione \"Ripristina\" e selezionare il file da ripristinare.
-
-.. note:: Per ogni backup presenti nell'elenco, è possibile effettuare il download del file zip, ripristinare il backup selezionato oppure eliminarlo
-
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/Backup/lista_backup_opzioni.png
 
