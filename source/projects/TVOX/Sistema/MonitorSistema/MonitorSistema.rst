@@ -40,7 +40,7 @@ In questa sezione illustreremo il monitoraggio ed utilizzo delle risorse e la vi
 
 .. note::  Gli ultimi tre grafici mostrano i dati in tempo reale mantenendoli al suo interno per un massimo di 5 minuti. I grafici vengono popolati quando la pagina viene aperta.
 
--** Stato dei telefoni e dei trunk configurati e registrati:**
+- **Stato dei telefoni e dei trunk configurati e registrati:**
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/dispositivi.png
 
