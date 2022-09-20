@@ -4,32 +4,29 @@
 Monitor di Sistema
 ========================
 
-In questa sezione illustreremo il monitoraggio ed utilizzo delle risorse e la visualizzazione degli ultimi allarmi. Tale prestazione è fruibile tramite OCC nella sezione SISTEMA => Monitor di sistema.
+In questa sezione illustreremo il monitoraggio ed utilizzo delle risorse e la visualizzazione degli ultimi allarmi. Tale prestazione è fruibile tramite OCC nella sezione SISTEMA => Monitor di sistema. Di seguito illustrati i diversi pannelli di monitoraggio del sistema TVOX.
 
-In questa pagina avremo diversi pannelli per il monitoraggio del sistema TVOX.
-
-Data e ora di ultimo riavvio della macchina e suo stato (master o slave):
+- Data e ora di ultimo riavvio della macchina e suo stato (master o slave):
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/dataora.png
 
-Gli ultimi allarmi che si sono presentati sul sistema: 
+- Ultimi allarmi che si sono presentati sul sistema: 
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/allarmi.png
 
-
-I processi attivi, riportando l'utilizzo in percentuale di CPU e RAM:
+- Processi attivi, riportando l'utilizzo in percentuale di CPU e RAM:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/processi_attivi.png
 
-Lo spazio su disco, indicando la ripartizione dei vari processi (ad esempio: log, database, backup, etc): 
+- Spazio su disco, indicando la ripartizione dei vari processi (ad esempio: log, database, backup, etc): 
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/storage.png
 
-Utilizzo della memoria e della memoria dedicata alle registrazioni delle conversazioni:
+- Utilizzo della memoria e della memoria dedicata alle registrazioni delle conversazioni:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/memoria.png
 
-Il flusso delle chiamate in termini di chiamate esterne ed interne:
+- Il flusso delle chiamate in termini di chiamate esterne ed interne:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/MonitorSistema/chiamate.png
 
