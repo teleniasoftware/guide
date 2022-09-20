@@ -37,10 +37,10 @@ Aggiungi il customer su MCS
 - Accedi a *https://<dominio MCS>/mcs* con utente **mcsadmin**
 - Spostati nella sezione *Customer-Add Customer* e configura i campi proposti nel seguente modo:
 
-  #. Domain = dominio di TVox
-  #. Name = inserisci un nome identificativo per il customer che stai inserendo (ad esempio il nome del cliente che ha acquistato TVox)
-  #. VPN Ip = è precompilato e non modificabile
-  #. Enable Let's Encrypt = spunta la casella se vuoi che MCS fornisca autonomamente a TVox un certificato SSL tramite il servizio Let's Encrypt e ne gestisca il rinnovo
+    #. Domain = dominio di TVox
+    #. Name = inserisci un nome identificativo per il customer che stai inserendo (ad esempio il nome del cliente che ha acquistato TVox)
+    #. VPN Ip = è precompilato e non modificabile
+    #. Enable Let's Encrypt = spunta la casella se vuoi che MCS fornisca autonomamente a TVox un certificato SSL tramite il servizio Let's Encrypt e ne gestisca il rinnovo
 
 
 .. note:: 
