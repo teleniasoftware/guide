@@ -13,6 +13,6 @@ Questa sezione presenta le informazioni generali relative alla |tvox_platform|
     ./Glossario
     ./CoseTVox
     ./PolicyDiGestionePerAmbientiHypervisor
-    ./Prerequisiti
+    ./XXXPrerequisiti
     ./XXXVulnerabilità
     ./Architetture
