@@ -17,6 +17,7 @@ In quest'ultimo caso, si parlerà dei seguenti moduli che si aggiungono al modul
 
 * **Customer Journey Server**: Accentratore di tutte le interazioni (voce, mail/ticket, video, webchat, sms, callback) stabilite dai contatti con l’azienda, le interazioni sono storicizzate e disponibili in primo piano all’operatore di Contact Center per assicurare al contatto sempre una risposta appropriata evitando di chiedere informazioni che sono già presenti nel contact cente. Il Customer Journey è un elemento indispensabile per inquadrare velocemente l’esperienza che il contatto ha maturato nei confronti dell’azienda
 
+* **Knowledge Base**: Funzionalità che permette di memorizzare un repository documenti sotto forma di articoli o contenuti descritttivi (utili per la consultazione da parte degli utenti TVox)
 
 .. .. note:: Il modulo TVox **Contact Center** per il solo canale telefonico può essere erogato anche su un solo server (sia esso fisico, virtuale che in Cloud).
 
