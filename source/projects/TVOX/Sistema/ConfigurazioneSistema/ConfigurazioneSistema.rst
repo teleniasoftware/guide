@@ -22,5 +22,6 @@ Configurazione di Sistema
     ./SMTP/SMTP
     ./Soglie/Soglie
     ./NTP/NTP
+    ./Aggiornamenti/Aggiornamenti
     ./Manutenzione/Manutenzione
     
