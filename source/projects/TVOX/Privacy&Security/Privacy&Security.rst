@@ -24,10 +24,10 @@ Privacy e Sicurezza
     :maxdepth: 1
 
 
-    /Privacy&Sicurezza/SecurityPolicyCrt
-    /Privacy&Sicurezza/Hosting&Infrastructure
-    /Privacy&Sicurezza/IdentityAccessMngmt   
-    /Privacy&Sicurezza/AccessControl
-    /Privacy&Sicurezza/DataAccess
-    /Privacy&Sicurezza/Availability
-    /Privacy&Sicurezza/Logging&Alerting
+    ./Privacy&Sicurezza/SecurityPolicyCrt
+    ./Privacy&Sicurezza/Hosting&Infrastructure
+    ./Privacy&Sicurezza/IdentityAccessMngmt   
+    ./Privacy&Sicurezza/AccessControl
+    ./Privacy&Sicurezza/DataAccess
+    ./Privacy&Sicurezza/Availability
+    ./Privacy&Sicurezza/Logging&Alerting
