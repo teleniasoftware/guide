@@ -13,9 +13,11 @@ In linea generale, le principali tipologie di hosting sono:
 - Installazione su provider di servizio hosting web (ad esempio AWS, GCP...)
 
 
+In tutti i casi, è compito del gestore dell'infrastruttura che ospita TVox definire le opportune regole di segregazione del sistema, rispettando i requisiti di funzionamento applicativo.
+
+Tali requisiti, definiti come requisiti di rete, vengono descritti e consegnati dall'installatore e manutentore di TVox al gestore dell'infratruttura.
 
 
-|br|
 
 
 
