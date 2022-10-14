@@ -8,14 +8,16 @@ TVox è una piattaforma che può essere installata su infrastrutture ed hosting 
 
 In linea generale, le principali tipologie di hosting sono:
 
-- Installazione locale su LAN aziendale
-- Installazione remota su datacenter privato
-- Installazione remota su provider di servizio hosting web
+- Installazione su infrastruttura aziendale locale
+- Installazione su datacenter privato
+- Installazione su provider di servizio hosting web (ad esempio AWS, GCP...)
 
 
-In relazione a ciò, le condizioni di sicurezza ambientale sono sempre riferite all'infrastruttura ospitante.
+In tutti i casi, è compito del gestore dell'infrastruttura che ospita TVox definire le opportune regole di segregazione del sistema, rispettando i requisiti di funzionamento applicativo.
 
-|br|
+Tali requisiti, definiti come requisiti di rete, vengono descritti e consegnati dall'installatore e manutentore di TVox al gestore dell'infrastruttura.
+
+
 
 
 
