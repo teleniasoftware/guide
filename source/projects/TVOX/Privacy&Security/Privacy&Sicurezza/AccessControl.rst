@@ -72,6 +72,21 @@ Per i dispositivi SIP, come per gli utenti, è possibili stabilire il livello di
 
 
 
+Come protezione aggiuntiva a livello SIP, TVox dispone di una componente software in grado di rilevare e bloccare dei tentativi di accesso indebiti generati da:
+
+- interni sip configurati su TVox che tentano di effettuare una registrazione con password non corretta
+- indirizzi IP che tentano accessi rilevati come indebiti al servizio SIP.
+
+Questa funzionalità non è assolutamente da considerare come un sostituto di un firewall completo inserito nell'infrastruttura di rete. E' un aiuto alla configurazione e un ultimo livello di protezione per aumentare la sicurezza del sistema.
+
+Sia per il blocco di interni sia per quello di indirizzi IP esistono tre livelli di blocco:
+
+
+- Livello 1 blocco per cinque minuti
+- Livello 2 blocco per dieci minuti
+- Livello 3 blocco permanente
+
+
 
 
 
