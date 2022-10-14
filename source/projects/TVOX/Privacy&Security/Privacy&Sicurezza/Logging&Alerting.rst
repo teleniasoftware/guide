@@ -1,8 +1,8 @@
 .. _loggingalerting:
 
-==============================================
-Monitoraggio di sistema - Monitoraggio accessi
-==============================================
+=======================================
+Monitoraggio di sistema e degli accessi
+=======================================
 
 Il monitoraggio del sistema è disponibile attraverso diverse funzionalità.
 
