@@ -50,3 +50,4 @@ TVox consente anche di registrare le comunicazioni telefoniche per il successivo
 
 TVox applica su questi file una crittografia basata su protocollo asimmetrico ECDH, con utilizzo di una coppia di chiavi pubblica e privata.
 
+|br|

@@ -19,7 +19,7 @@ L'accesso ai dati, inoltre, cosiccome l'accesso alle funzionalità operative, è
 
 In particolare, i dati storici presenti su TVox possono essere visualizzati e scaricati solamente da utenti cui è stato assegnato lo specifico permesso.
 
-|br|
 
 .. image:: /images/TVOX/Privacy&Security/ruoli.PNG
 
+|br|
