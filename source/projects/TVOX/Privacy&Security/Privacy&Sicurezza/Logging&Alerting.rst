@@ -28,7 +28,7 @@ E\' inoltre possibile definire una o più liste di distribuzione cui notificare 
 
 Tvox rende disponibile un log accessi che permette di aver traccia degli accessi e delle operazioni operate via OCC dagli utenti. 
 
-Il log accessi è visualizzabile in tempo reale con intervallo di aggiornamento configurabile da 3 secondi a 1 minuto, è disponibile anche la possibilità di download del log su file. Ogni file fare riferimento ad uno specifico mese.
+Il log accessi è visualizzabile in tempo reale con intervallo di aggiornamento configurabile da 3 secondi a 1 minuto, è disponibile anche la possibilità di download del log su file. Ogni file fa riferimento ad uno specifico mese.
 
 
 |br|

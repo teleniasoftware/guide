@@ -6,7 +6,7 @@ Controllo degli Accessi
 
 Come sistema di comunicazione aziendale TVox assume un ruolo fondamentale nella quotidianità operativa e nella gestione di dati. Per questi motivi, la sicurezza è tenuta in particolare attenzione.
 
-Uno dei punti cardine in tal senso è il tema della sicurezza degli accessi al sistema, che riguarda principalmente la definizione di opportuni criteri di robustezza per le passowrd degli utenti e dei dispositivi.
+Uno dei punti cardine in tal senso è il tema della sicurezza degli accessi al sistema, che riguarda principalmente la definizione di opportuni criteri di robustezza per le password degli utenti e dei dispositivi.
 
 Tutte le password definite su TVox vengono salvate internamente e crittografate tramite algoritmo SHA-256.
 
@@ -16,7 +16,7 @@ Veniamo ai criteri di definizione della sicurezza per le password.
 
 **Protezione dell'accesso all'interfaccia di amministrazione OCC attraverso l'utilizzo di password sicura per l'utente admin** 
 
-La configurazione di TVox viene effettuata completamente attraverso l'interfaccia web OCC, per cui è importante scegliere per l'utente admin una password conc riteri di sicurezza molto elevati
+La configurazione di TVox viene effettuata completamente attraverso l'interfaccia web OCC, per cui è importante scegliere per l'utente admin una password con criteri di sicurezza molto elevati
 
 La password dell'utente admin può essere modificata come mostrato di seguito
 
@@ -43,7 +43,7 @@ La procedura di autenticazione degli utenti sulle applicazioni di lavoro (Tvox C
 
 In entrambi i casi precedenti, è possibile attivare la modalità di autenticazione a 2 fattori gestita tramite una qualsiasi app per la generazione di un codice TOTP, ad esempio microsoft authenticator, google authenticator, duo mobile o similari, ma anche via mail una volta che il codice è stato memorizzato sull'app (questo al fine di consentire il login ad un utente che ha scordato o smarrito lo smartphone).
 
-Se si opta per l'autenticazione locale, è raccomandata la scelta di definire un livello di sicurezza massimo per le password degli utenti attrasverso il parametro Sicurezza Passwird Utente disponibile in OCC nella sezione *Sistema - Configurazione di sistema - Autenticazione e Sicurezza* nel riquadro *Sicurezza Password e Provisioning*.
+Se si opta per l'autenticazione locale, è raccomandata la scelta di definire un livello di sicurezza massimo per le password degli utenti attraverso il parametro Sicurezza Password Utente disponibile in OCC nella sezione *Sistema - Configurazione di sistema - Autenticazione e Sicurezza* nel riquadro *Sicurezza Password e Provisioning*.
 
 |br|
 

@@ -7,9 +7,9 @@ Metodologie di Accesso ai dati
 TVox permette l'accesso alle interfacce di lavoro tramite collegamento HTTPS. In questo modo sono rese disponibili le interfacce:
 
 - OCC
-- Tvox Client
+- TVox Client
 - TVox Real Time Display
-- Tvox Insight
+- TVox Insight
   
 L'accesso tramite protocollo HTTPS eseguito su porta 443 permette una connessione criptata che, in aggiunta alla fase di autenticazione tramite credenziali ed eventuale 
 secondo fattore OTP, assicura adeguata protezione contro accessi indebiti.
