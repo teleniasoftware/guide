@@ -29,5 +29,6 @@ Privacy e Sicurezza
     xxx./Privacy&Sicurezza/IdentityAccessMngmt   
     ./Privacy&Sicurezza/AccessControl
     ./Privacy&Sicurezza/DataAccess
+    ./Privacy&Sicurezza/DataManagement
     ./Privacy&Sicurezza/Availability
     ./Privacy&Sicurezza/Logging&Alerting
