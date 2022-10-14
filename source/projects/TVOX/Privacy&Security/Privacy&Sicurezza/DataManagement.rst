@@ -13,12 +13,12 @@ TVox implementa la gestione della retention per tutti i dati immagazzinati su da
 
 **Data retention** 
 
-E' possibile configurare i limiti temporali di mantenimento dei dati all'interno di TVox tramite OCC, potendo scegliere di fissare sia un valore globale (valido per gli storici di tutti i canali), sia un valore specifico per canale o per singolo servizio.
+E\' possibile configurare i limiti temporali di mantenimento dei dati all'interno di TVox tramite OCC, potendo scegliere di fissare sia un valore globale (valido per gli storici di tutti i canali), sia un valore specifico per canale o per singolo servizio.
 
 La gestione della retention si applica anche ai file di registrazione delle chiamate prodotti nel caso la funzionalità sia stata attivata. In questo caso, oltre al mantenimento su base temporale, è possibile indicare anche la percentuale giornaliera delle conversazioni da mantenere: tale quota è configurabile da 0 a 100% del totale delle registrazioni effettuate in ogni singola giornata.
 
 
-.. image:: /images/TVOX/Privacy&Security/dataretention.P
+.. image:: /images/TVOX/Privacy&Security/dataretention.PNG
 
 |br|
 
