@@ -22,3 +22,5 @@ Vedi qui l'ultimo certificato conforme `ISO 9001:2015`_
 
 Dal punto di vista software, le policy di sicurezza attengono alla modalità di gestione e di controllo degli accessi alle applicazioni ed ai dati in esse contenuti.
 
+
+
