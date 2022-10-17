@@ -41,7 +41,7 @@ Il log accessi è visualizzabile in tempo reale con intervallo di aggiornamento 
 
 **Syslog** 
 
-E\' possibile abiliatre l'invio di log ad un server syslog esterno
+E\' possibile abilitare l'invio di log ad un server syslog esterno
 
 .. image:: /images/TVOX/Privacy&Security/syslog.PNG
 
