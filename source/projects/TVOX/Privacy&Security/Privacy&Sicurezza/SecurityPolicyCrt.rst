@@ -24,7 +24,7 @@ Vedi qui l'ultimo certificato conforme `ISO 9001:2015`_
 Dal punto di vista software, le policy di sicurezza attengono alla modalità di gestione e di controllo degli accessi alle applicazioni ed ai dati in esse contenuti.
 
 
-Nell'ambito della gestione della qualità, Telenia Software adotta opportune azioni di remediation ogni volta che una non conformità o vulnerabilità software viene scoperata o segnalata:
+Nell'ambito della gestione della qualità, Telenia Software adotta opportune azioni di remediation ogni volta che una non conformità o vulnerabilità software viene segnalata:
 
 - rilevazione delle non conformità e/o delle vulnerabilità
 - produzione di patch software correttive
