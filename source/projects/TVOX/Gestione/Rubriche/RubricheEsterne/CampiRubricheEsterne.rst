@@ -6,42 +6,42 @@ Campi rubriche esterne
 
 Significato dei singoli campi:
 
-• **uid** : Id univoco
-• **surname** : Cognome
-• **name** : Nome
-• **othername** : Altro nome
-• **company** : Azienda
-• **department** : Reparto
-• **street** : Indirizzo
-• **postcode** : CAP
-• **city** : Città
-• **region** : Regione
-• **country** : Paese
-• **tel{{x}}_value** : Valore numero di telefono
-• **tel{{x}}_type** : Tipologia numero di telefono
-• **tel{{x}}_id** : Id del numero di telefono
-• **mail{{x}}_value** : Valore mail
-• **mail{{x}}_type** : Tipologia mail
-• **mail{{x}}_id** : Id della mail
-• **web{{x}}_value** : Valore sito internet
-• **web{{x}}_type** : Tipologia sito internet
-• **web{{x}}_id** : Id sito internet
-• **role** : Ruolo
-• **category** : Categoria
-• **vip** : Contatto VIP
-• **note** : Note sul contatto
-• **kind** : Tipologia del contatto
-• **custom_1** : Campo custom 1
-• **custom_2** : Campo custom 2
-• **custom_3** : Campo custom 3
-• **custom_4** : Campo custom 4
-• **custom_5** : Campo custom 5
-• **custom_6** : Campo custom 6
-• **custom_7** : Campo custom 7
-• **custom_8** : Campo custom 8
-• **custom_9** : Campo custom 9
-• **custom_10** : Campo custom 10
-• **company_uuid_source** : Id dell'azienda
+- **uid** : Id univoco
+- **surname** : Cognome
+- **name** : Nome
+- **othername** : Altro nome
+- **company** : Azienda
+- **department** : Reparto
+- **street** : Indirizzo
+- **postcode** : CAP
+- **city** : Città
+- **region** : Regione
+- **country** : Paese
+- **tel{{x}}_value** : Valore numero di telefono
+- **tel{{x}}_type** : Tipologia numero di telefono
+- **tel{{x}}_id** : Id del numero di telefono
+- **mail{{x}}_value** : Valore mail
+- **mail{{x}}_type** : Tipologia mail
+- **mail{{x}}_id** : Id della mail
+- **web{{x}}_value** : Valore sito internet
+- **web{{x}}_type** : Tipologia sito internet
+- **web{{x}}_id** : Id sito internet
+- **role** : Ruolo
+- **category** : Categoria
+- **vip** : Contatto VIP
+- **note** : Note sul contatto
+- **kind** : Tipologia del contatto
+- **custom_1** : Campo custom 1
+- **custom_2** : Campo custom 2
+- **custom_3** : Campo custom 3
+- **custom_4** : Campo custom 4
+- **custom_5** : Campo custom 5
+- **custom_6** : Campo custom 6
+- **custom_7** : Campo custom 7
+- **custom_8** : Campo custom 8
+- **custom_9** : Campo custom 9
+- **custom_10** : Campo custom 10
+- **company_uuid_source** : Id dell'azienda
 
 Dettagli sui valori da rispettare nel risultato della query:
 
