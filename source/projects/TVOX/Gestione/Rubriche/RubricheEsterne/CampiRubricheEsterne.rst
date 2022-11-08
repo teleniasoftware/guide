@@ -55,7 +55,7 @@ Dettagli sui valori da rispettare nel risultato della query:
 3. Il campo \"tel{{x}}_id\" deve essere univoco per ogni numero creato. Se questo numero viene modificato nella sorgente, deve mantenere lo stesso \"tel{{x}}_id\". Questo per poter recuperare lo specifico numero nonostante la modifica, in modo da non perdere i legami con
 altre feature.
 
-4. Il campo "tel{{x}}_type" può assumere solamente i seguenti valori:
+4. Il campo \"tel{{x}}_type\" può assumere solamente i seguenti valori:
    
 - **WORK** : tipologia Lavoro
 - **FAX** : tipologia Fax
