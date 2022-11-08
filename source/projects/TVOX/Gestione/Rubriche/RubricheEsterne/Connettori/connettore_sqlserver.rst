@@ -6,7 +6,7 @@
 Sorgente SQLServer
 ===================
 
-Il \"sincronizzatore Sqlserver\" recupera i contatti tramite una query sql su server microsoft sql server li importa nelle rubriche TVox.
+Il \"sincronizzatore Sql server\" recupera i contatti tramite una query sql su server microsoft sql server li importa nelle rubriche TVox.
 
 
 Parametri di configurazione:
@@ -36,7 +36,9 @@ Funzionamento del sincronizzatore
 Al primo avvio il sincronizzatore esegue un tentativo di connessione al database per verificare la correttezza dei parametri impostati.
 Nel caso che la connessione fallisca o la query non risulti valida l’importazione viene fermata.
 
-Se la query impostata è valida si passa alla fase di importazione che decide per ogni contatto se crearlo o modificarlo in TVox. Tutti i contatti presenti in TVox e non ritornarti dalla query verranno cancellati.
+Se la query impostata è valida si passa alla fase di importazione che decide per ogni contatto se crearlo o modificarlo in TVox. 
+
+.. warning:: Tutti i contatti presenti in TVox e non ritornarti dalla query verranno cancellati.
 
 Gestione degli allarmi
 ===================
