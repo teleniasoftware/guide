@@ -11,8 +11,8 @@ Configurazione rubriche esterne
     :maxdepth: 1
 
 
-    ./Connettori/xml_csv
-    ./Connettori/mysql
-    ./Connettori/sqlserver
-    ./Connettori/oracle
+    ./Connettori/connettore_xml_csv
+    ./Connettori/connettore_mysql
+    ./Connettori/connettore_sqlserver
+    ./Connettori/connettore_oracle
     
