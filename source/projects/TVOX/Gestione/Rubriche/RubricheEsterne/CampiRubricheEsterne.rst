@@ -48,6 +48,7 @@ Dettagli sui valori da rispettare nel risultato della query:
 1. Il campo "uid" di un contatto è l'id univoco che lo identifica. Viene utilizzato per recuperare, dalle rubriche del TVox, il relativo contatto da sincronizzare per poterlo aggiornare correttamente senza perdere i legami con altre feature.
 
 2. Il campo "kind" può assumere due valori:
+
 **org** : indica un contatto di tipo AZIENDA
 **individual** : indica un contatto di tipo CONTATTO SINGOLO.
 
@@ -55,6 +56,7 @@ Dettagli sui valori da rispettare nel risultato della query:
 altre feature.
 
 4. Il campo "tel{{x}}_type" può assumere solamente i seguenti valori:
+   
 **WORK** : tipologia Lavoro
 **FAX** : tipologia Fax
 **HOME** : tipologia Casa
@@ -71,6 +73,7 @@ altre feature.
 6. Il campo "mail{{x}}_id" deve essere univoco per ogni mail creata. Se questa mail viene modificata nella sorgente, deve mantenere lo stesso "mail{{x}}_id". Questo per poter recuperare la specifica mail nonostante la modifica, in modo da non perdere i legami con altre feature.
 
 7. Il campo "mail{{x}}_type" può assumere solamente i seguenti valori:
+
 **INTERNET_HOME** : tipologia Email (casa)
 **INTERNET_WORK** : tipologia Email (lavoro)
 
@@ -80,6 +83,7 @@ altre feature.
 Questo per poter recuperare lo specifico indirizzo nonostante la modifica, in modo da non perdere i legami con altre feature.
 
 10. Il campo "web{{x}}_type" può assumere solamente i seguenti valori:
+
 **HOME** : tipologia Sito Internet (casa)
 **WORK** : tipologia Sito Internet (lavoro)
 
@@ -88,5 +92,6 @@ Questo per poter recuperare lo specifico indirizzo nonostante la modifica, in mo
 12. Il campo "company_uuid_source" viene utilizzato per recuperare l'azienda associata ad un contatto. Questo campo deve essere valorizzato con l'"unique_id" dell'azienda a lui associata. Questo campo viene letto solo per i contatti che sono di tipo "CONTATTO SINGOLO" ossia con il campo "kind" uguale a "individual".
 
 13. Il campo "vip" può assumere solamente due valori:
+
 **TRUE** : il contatto è VIP
 **FALSE** : il contatto non è VIP
