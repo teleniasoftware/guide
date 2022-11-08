@@ -30,8 +30,8 @@ Questa sezione vuole dare una panoramica delle architetture relizzabili con la p
     ./Architetture/StandAlone
     ./Architetture/CM&R
     ./Architetture/CCOmnicanale
-    ./Architetture/DisasterRecovery
-    ./Architetture/BranchOffice
+    xxx./Architetture/DisasterRecovery
+    xxx./Architetture/BranchOffice
     ./Architetture/SBC
     ./Architetture/BestPractice
 
