@@ -23,7 +23,8 @@ Parametri di configurazione:
 
 La query sql deve mappare i nomi dei campi del database verso i campi del contatto TVox rispettando la sintassi di quest’ultimo. Il nome esatto dei campi è riportato alla guida ai campi delle Rubriche esterne (documentate `qui`_).
 
-.. warning:: I nomi dei campi TVox riportati nella query devono essere in minuscolo. La query sql deve terminare con il carattere “;”
+.. warning:: - I nomi dei campi TVox riportati nella query devono essere in minuscolo. 
+    - La query sql deve terminare con il carattere “;”
 
 Query di esempio:
 
