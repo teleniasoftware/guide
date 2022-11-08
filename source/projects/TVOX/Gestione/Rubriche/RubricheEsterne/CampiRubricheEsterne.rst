@@ -74,8 +74,8 @@ altre feature.
 
 7. Il campo \"mail{{x}}_type\" può assumere solamente i seguenti valori:
 
-**INTERNET_HOME** : tipologia Email (casa)
-**INTERNET_WORK** : tipologia Email (lavoro)
+- **INTERNET_HOME** : tipologia Email (casa)
+- **INTERNET_WORK** : tipologia Email (lavoro)
 
 8. Sono ammessi un massimo di 10 mail
 
@@ -89,7 +89,7 @@ Questo per poter recuperare lo specifico indirizzo nonostante la modifica, in mo
 
 11. Sono ammessi un massimo di 3 siti internet
 
-12. Il campo \"company_uuid_source\" viene utilizzato per recuperare l'azienda associata ad un contatto. Questo campo deve essere valorizzato con l'\"unique_id\" dell'azienda a lui associata. Questo campo viene letto solo per i contatti che sono di tipo "CONTATTO SINGOLO" ossia con il campo \"kind\" uguale a \"individual\".
+12. Il campo \"company_uuid_source\" viene utilizzato per recuperare l'azienda associata ad un contatto. Questo campo deve essere valorizzato con l'\"unique_id\" dell'azienda a lui associata. Questo campo viene letto solo per i contatti che sono di tipo \"CONTATTO SINGOLO\" ossia con il campo \"kind\" uguale a \"individual\".
 
 13. Il campo \"vip\" può assumere solamente due valori:
 
