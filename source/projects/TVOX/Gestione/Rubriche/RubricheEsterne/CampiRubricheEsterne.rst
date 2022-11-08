@@ -45,53 +45,53 @@ Significato dei singoli campi:
 
 Dettagli sui valori da rispettare nel risultato della query:
 
-1. Il campo "uid" di un contatto è l'id univoco che lo identifica. Viene utilizzato per recuperare, dalle rubriche del TVox, il relativo contatto da sincronizzare per poterlo aggiornare correttamente senza perdere i legami con altre feature.
+1. Il campo \"uid\" di un contatto è l'id univoco che lo identifica. Viene utilizzato per recuperare, dalle rubriche del TVox, il relativo contatto da sincronizzare per poterlo aggiornare correttamente senza perdere i legami con altre feature.
 
-2. Il campo "kind" può assumere due valori:
+2. Il campo \"kind\" può assumere due valori:
 
-**org** : indica un contatto di tipo AZIENDA
-**individual** : indica un contatto di tipo CONTATTO SINGOLO.
+- **org** : indica un contatto di tipo AZIENDA
+- **individual** : indica un contatto di tipo CONTATTO SINGOLO.
 
-3. Il campo "tel{{x}}_id" deve essere univoco per ogni numero creato. Se questo numero viene modificato nella sorgente, deve mantenere lo stesso "tel{{x}}_id". Questo per poter recuperare lo specifico numero nonostante la modifica, in modo da non perdere i legami con
+3. Il campo \"tel{{x}}_id\" deve essere univoco per ogni numero creato. Se questo numero viene modificato nella sorgente, deve mantenere lo stesso \"tel{{x}}_id\". Questo per poter recuperare lo specifico numero nonostante la modifica, in modo da non perdere i legami con
 altre feature.
 
 4. Il campo "tel{{x}}_type" può assumere solamente i seguenti valori:
    
-**WORK** : tipologia Lavoro
-**FAX** : tipologia Fax
-**HOME** : tipologia Casa
-**CELL** : tipologia Cellulare
-**MAIN** : tipologia Principale
-**CELL_WORK** : tipologia Cellulare (lavoro)
-**FAX_WORK** : tipologia Fax (lavoro)
-**FAX_HOME** : tipologia Fax (casa)
-**CELL_HOME** : tipologia Cellulare (casa)
-**OTHER** : tipologia Altro
+- **WORK** : tipologia Lavoro
+- **FAX** : tipologia Fax
+- **HOME** : tipologia Casa
+- **CELL** : tipologia Cellulare
+- **MAIN** : tipologia Principale
+- **CELL_WORK** : tipologia Cellulare (lavoro)
+- **FAX_WORK** : tipologia Fax (lavoro)
+- **FAX_HOME** : tipologia Fax (casa)
+- **CELL_HOME** : tipologia Cellulare (casa)
+- **OTHER** : tipologia Altro
 
 5. Sono ammessi un massimo di 10 numeri di telefono
 
-6. Il campo "mail{{x}}_id" deve essere univoco per ogni mail creata. Se questa mail viene modificata nella sorgente, deve mantenere lo stesso "mail{{x}}_id". Questo per poter recuperare la specifica mail nonostante la modifica, in modo da non perdere i legami con altre feature.
+6. Il campo \"mail{{x}}_id\" deve essere univoco per ogni mail creata. Se questa mail viene modificata nella sorgente, deve mantenere lo stesso \"mail{{x}}_id\". Questo per poter recuperare la specifica mail nonostante la modifica, in modo da non perdere i legami con altre feature.
 
-7. Il campo "mail{{x}}_type" può assumere solamente i seguenti valori:
+7. Il campo \"mail{{x}}_type\" può assumere solamente i seguenti valori:
 
 **INTERNET_HOME** : tipologia Email (casa)
 **INTERNET_WORK** : tipologia Email (lavoro)
 
 8. Sono ammessi un massimo di 10 mail
 
-9. Il campo "web{{x}}_id" deve essere univoco per ogni indirizzo di un sito web associato al contatto. Se questa indirizzo viene modificato nella sorgente, deve mantenere lo stesso "web{{x}}_id".
+9. Il campo \"web{{x}}_id\" deve essere univoco per ogni indirizzo di un sito web associato al contatto. Se questa indirizzo viene modificato nella sorgente, deve mantenere lo stesso \"web{{x}}_id\".
 Questo per poter recuperare lo specifico indirizzo nonostante la modifica, in modo da non perdere i legami con altre feature.
 
-10. Il campo "web{{x}}_type" può assumere solamente i seguenti valori:
+10. Il campo \"web{{x}}_type\" può assumere solamente i seguenti valori:
 
-**HOME** : tipologia Sito Internet (casa)
-**WORK** : tipologia Sito Internet (lavoro)
+- **HOME** : tipologia Sito Internet (casa)
+- **WORK** : tipologia Sito Internet (lavoro)
 
 11. Sono ammessi un massimo di 3 siti internet
 
-12. Il campo "company_uuid_source" viene utilizzato per recuperare l'azienda associata ad un contatto. Questo campo deve essere valorizzato con l'"unique_id" dell'azienda a lui associata. Questo campo viene letto solo per i contatti che sono di tipo "CONTATTO SINGOLO" ossia con il campo "kind" uguale a "individual".
+12. Il campo \"company_uuid_source\" viene utilizzato per recuperare l'azienda associata ad un contatto. Questo campo deve essere valorizzato con l'\"unique_id\" dell'azienda a lui associata. Questo campo viene letto solo per i contatti che sono di tipo "CONTATTO SINGOLO" ossia con il campo \"kind\" uguale a \"individual\".
 
-13. Il campo "vip" può assumere solamente due valori:
+13. Il campo \"vip\" può assumere solamente due valori:
 
-**TRUE** : il contatto è VIP
-**FALSE** : il contatto non è VIP
+- **TRUE** : il contatto è VIP
+- **FALSE** : il contatto non è VIP
