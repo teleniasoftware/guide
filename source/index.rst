@@ -20,7 +20,7 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX CLIENT`
 
-:ref: `TVOX TEAM <introtvoxteam>`
+:ref:`TVOX TEAM <introtvoxteam>`
 
 :blue:`MCS`
 
