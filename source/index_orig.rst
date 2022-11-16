@@ -27,7 +27,6 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 La documentazione presentata nella home page di questo portale si riferisce all’ultima Release |tvox| disponibile, per ottenere informazioni su una specifica release navigate il menu |releases| che si trova in fondo al menu.
 
 
-
 .. |releases| image:: /images/release.png
    :scale: 90%   
  
