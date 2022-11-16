@@ -20,7 +20,7 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX CLIENT`
 
-:blue:`TVOX TEAM`
+:ref: `TVOX TEAM <introtvoxteam>`
 
 :blue:`MCS`
 
@@ -70,7 +70,7 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
 .. toctree::  
    :hidden: 
    :caption: TVOX TEAM
-   :maxdepth: 2   
+   :maxdepth: 4   
 
    /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/GuidaIntroduttivaTVoxTeam
    xx/projects/TVOXTEAM/Requisiti/Requisiti

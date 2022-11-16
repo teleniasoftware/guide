@@ -21,6 +21,3 @@ Guida Introduttiva a TVox Team
     ./ImpostazioniGenerali
     ./Troubleshooting
   
-==================================
-Guida Introduttiva a TVox WebClient
-==================================
