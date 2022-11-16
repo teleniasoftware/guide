@@ -18,6 +18,10 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX`
 
+:blue:`TVOX CLIENT`
+
+:blue:`TVOX TEAM`
+
 :blue:`MCS`
 
 :blue:`TCONSOLE`
@@ -69,6 +73,11 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :maxdepth: 2   
 
    /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/GuidaIntroduttivaTVoxTeam
+   xx/projects/TVOXTEAM/Requisiti/Requisiti
+   xx/projects/TVOXTEAM/Installazione/Installazione
+   xx/projects/TVOXTEAM/AutenticazioneDisconnessione/AutenticazioneDisconnessione
+   xx/projects/TVOXTEAM/ImpostazioniGenerali/ImpostazioniGenerali
+   xx/projects/TVOXTEAM/Panoramica/Panoramica
   
 
 
