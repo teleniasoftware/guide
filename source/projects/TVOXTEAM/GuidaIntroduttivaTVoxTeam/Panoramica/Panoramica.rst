@@ -10,6 +10,7 @@ Panoramica funzionamento di TVox Team
     :hidden:
     
 
+    ./Profilo
     ./Chat
     ./Chiamate
     ./Tastierino
