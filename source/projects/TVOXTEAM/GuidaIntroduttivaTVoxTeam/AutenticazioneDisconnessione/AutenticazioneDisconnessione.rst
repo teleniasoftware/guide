@@ -11,3 +11,6 @@ Autenticazione e disconnessione da TVox Team
 
 .. tip:: Attiva l'opzione "Ricordami" in modo da non dover inserire username e password tutte le volte che apri l'app.
 
+
+
+.. warning:: Una volta disconnessi da |app| non arriveranno più notifiche e chiamate!
