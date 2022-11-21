@@ -1,8 +1,8 @@
 .. _loginlogout:
 
-============================================
-Autenticazione e disconnessione da TVox Team
-============================================
+=================================
+Autenticazione e disconnessione
+=================================
 
 
 
