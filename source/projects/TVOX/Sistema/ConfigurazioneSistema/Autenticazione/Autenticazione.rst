@@ -7,7 +7,7 @@ Autenticazione e Sicurezza
 ==========================
 
 La prestazione di Autenticazione a due fattori si basa sulla generazione di un codice TOTP (Time-based One-time Password) ad opera di un'applicazione 
-(Microsoft Autenticator, Google Autenticator, Duo mobile, etc) che prevedono la generazione di questo tipo di codice. Inoltre, è previsto anche la possibilità 
+(Microsoft Autenticator, Google Autenticator, Duo mobile, etc) che prevede la generazione di questo tipo di codice. Inoltre, è previsto anche la possibilità 
 di generare il codice TOPT tramite mail grazie al TVox nel caso in cui si voglia lasciare la possibilità all'utente di poter eseguire l'operazione di login anche tramite il codice ricevuto via mail nel caso in cui non dovesse avere accesso al proprio smartphone. 
 
  
