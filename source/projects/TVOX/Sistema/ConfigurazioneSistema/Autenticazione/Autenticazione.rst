@@ -22,9 +22,9 @@ Quando si installa un TVox i valori di default sono i seguenti:
 
 La necessità di avere un server NTP configurato è dato dal fatto che la generazione del codice TOTP da parte delle applicazioni su smartphone deve essere precisa su base temporale. Quindi client, App di generazione codice TOTP ed il server TVox devono avere un orario più preciso possibile.
 
-Un secondo requisito per la generazione del codice TOTP mediante email è la configurazione SMTP (documentate `qui`_).
+Un secondo requisito per la generazione del codice TOTP mediante email è la configurazione SMTP (documentata `qui`_).
 
-Per configurare la funzionalità di autenticazione a Doppio fattore con TOTP ci rechiamo su Occ->Sistema->Autenticazione e Sicurezza:
+Per configurare la funzionalità di autenticazione a doppio fattore con TOTP ci rechiamo su Occ->Sistema->Autenticazione e Sicurezza:
 
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_autenticazione.png
@@ -43,7 +43,8 @@ Ad esempio, se volessimo configurare l'autentiazione a due fattori per il WebCli
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio1.png
 
- Selezionando almeno una delle opzioni per l'autenticazione a due fattori verranno successivamente mostrate altre due opzioni: 
+
+Selezionando almeno una delle opzioni per l'autenticazione a due fattori verranno successivamente mostrate altre due opzioni: 
  
  - **Configurazione TOTP:** sezione che permette di personalizzare le impostazioni dell'autenticazione TOTP abilitando la possibilià di invio email e la durata di validità del Token espresso in minuti.
  - **Configurazione utenti email:** sezione che, abilitando l'opzione di invio email, mette in evidenza gli utenti che non hanno configurata una mail sulla loro anagrafica. 
@@ -52,9 +53,7 @@ Una volta effettuata la configurazione, al primo accesso via webclient verrà pr
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio2.png
 
-Scansioniamo tramite l'applicazione che si desidera associare (ad esempio Google Authenticator) ed una volta associato il dispositivo all'utenza, da questo momento in poi
-
-possiamo inserire il codice TOTP per accedere al webclient:
+Scansioniamo tramite l'applicazione che si desidera associare (ad esempio Google Authenticator) ed una volta associato il dispositivo all'utenza, da questo momento in poi possiamo inserire il codice TOTP per accedere al webclient:
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio3.png
 
@@ -62,7 +61,7 @@ possiamo inserire il codice TOTP per accedere al webclient:
 .. warning:: Una volta applicata la funzionalità di accesso a due fattori, questa è valida per tutti gli utenti TVox che faranno accesso a quell'applicazione. 
 
 Per l'utente, inoltre, nella sezione Anagrafica su OCC è disponibile un pulsante "Reset QR Code" per consentire all'utente di ripetere l'associazione dell'App di autenticazione tramite smartphone. 
-Inoltre, è è possibile disabilitare per il singolo utente l'autenticazione a due fattori TOTP.
+Inoltre, è possibile disabilitare per il singolo utente l'autenticazione a due fattori TOTP.
 
 .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio4.png
 
