@@ -11,7 +11,7 @@ La prestazione di Autenticazione a due fattori si basa sulla generazione di un c
 di generare il codice TOPT tramite mail grazie al TVox nel caso in cui si voglia lasciare la possibilità all'utente di poter eseguire l'operazione di login anche tramite il codice ricevuto via mail nel caso in cui non dovesse avere accesso al proprio smartphone. 
 
  
-Uno dei requisiti per poter attivare l'autenticazione a due fattori su TVox è quello di aver configurato su Occ-> Sistema -> Data/Ora un server NTP (Network Time Protocol).
+Uno dei requisiti per poter attivare l\'autenticazione a due fattori su TVox è quello di aver configurato su Occ-> Sistema -> Data/Ora un server NTP (Network Time Protocol).
 Quando si installa un TVox i valori di default sono i seguenti:
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_ntp.png
@@ -20,7 +20,7 @@ Quando si installa un TVox i valori di default sono i seguenti:
 .. note:: I valori dei server Primari e Secondari possono essere personalizzati a piacere
 
 
-La necessità di avere un server NTP configurato è dato dal fatto che la generazione del codice TOTP da parte delle applicazioni su smartphone deve essere precisa su base temporale. Quindi client, App ed il server TVox devono avere un orario più preciso possibile.
+La necessità di avere un server NTP configurato è dato dal fatto che la generazione del codice TOTP da parte delle applicazioni su smartphone deve essere precisa su base temporale. Quindi client, App di generazione codice TOTP ed il server TVox devono avere un orario più preciso possibile.
 
 Un secondo requisito per la generazione del codice TOTP mediante email è la configurazione SMTP (documentate `qui`_).
 
