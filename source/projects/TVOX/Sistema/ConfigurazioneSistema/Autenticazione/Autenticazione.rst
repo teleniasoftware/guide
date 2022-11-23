@@ -7,11 +7,13 @@ Autenticazione e Sicurezza
 ==========================
 
 La prestazione di Autenticazione a due fattori si basa sulla generazione di un codice TOTP (Time-based One-time Password) ad opera di un'applicazione 
-(Microsoft Autenticator, Google Autenticator, Duo mobile, etc) che prevede la generazione di questo tipo di codice. Inoltre, è prevista anche la possibilità 
-di generare il codice TOPT tramite mail grazie al TVox nel caso in cui si voglia lasciare la possibilità all'utente di poter eseguire l'operazione di login anche tramite il codice ricevuto via mail nel caso in cui non dovesse avere accesso al proprio smartphone. 
+(Microsoft Autenticator, Google Autenticator, Duo mobile, etc) che prevede la generazione di questo tipo di codice.
+
+Inoltre, è prevista anche la possibilità di generare il codice TOPT tramite mail inviata da TVox nel caso in cui si voglia lasciare la possibilità all'utente di poter eseguire l'operazione di login nel caso in cui non dovesse avere accesso al proprio smartphone.
 
  
 Uno dei requisiti per poter attivare l\'autenticazione a due fattori su TVox è quello di aver configurato su Occ-> Sistema -> Data/Ora un server NTP (Network Time Protocol).
+
 Quando si installa un TVox i valori di default sono i seguenti:
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_ntp.png
@@ -39,7 +41,7 @@ Il fattore di autenticazione può essere abilitato singolarmente per le seguenti
 
 .. warning:: L'autenticazione a due fattori non è disponibile per accessi eseguiti tramite TVox Team App. 
 
-Ad esempio, se volessimo configurare l'autentiazione a due fattori per il WebClient andremo a selezionare dal menu a tendina "Doppio Fattore con TOTP":
+Ad esempio, per configurare l'autenticazione a due fattori per il WebClient andremo a selezionare dal menu a tendina corrispondente il valore "Doppio Fattore con TOTP":
 
  .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio1.png
 
