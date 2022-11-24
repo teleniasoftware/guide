@@ -22,8 +22,8 @@ L'app può essere usufruibile anche in modalità smart-working.
 
     ./Requisiti/Requisiti
     ./Installazione/Installazione
-..    ./AutenticazioneDisconnessione/AutenticazioneDisconnessione
-..    ./Panoramica/Panoramica
+    ./AutenticazioneDisconnessione/AutenticazioneDisconnessione
+    ./Panoramica/Panoramica
 ..    ./GestChiamate/GestChiamate
 ..    ./ImpostazioniGenerali/ImpostazioniGenerali
 ..    ./Troubleshooting/Troubleshooting
