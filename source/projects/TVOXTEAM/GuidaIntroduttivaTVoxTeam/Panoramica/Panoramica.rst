@@ -10,7 +10,7 @@ Come già detto, queste riprendono sostanzialmente ciò che si può fare tramite
 
 .. toctree::
     :maxdepth: 2
-    :hidden:
+..    :hidden:
     
 
     ./Profilo/Profilo
