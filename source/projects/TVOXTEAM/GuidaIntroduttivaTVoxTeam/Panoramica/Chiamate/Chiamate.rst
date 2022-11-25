@@ -23,9 +23,11 @@ Se invece vuoi cancellare tutte le chiamate c'è l'icona del cestino nell'angolo
 
 .. image:: /images/TVOXTEAM/29_eliminaregistro.png
 
-Nella lista chiamate, premendo la cornetta partirà una chiamata audio verso il relativo contatto.
-Se tocchi una chiamata specifica ti si aprirà il dettaglio della chiamata.
+Nella lista chiamate, premendo la cornetta partirà una chiamata audio verso il relativo contatto. |br|
+Se tocchi una chiamata specifica ti si aprirà il dettaglio della chiamata, con alcune informazioni aggiuntive.
 
 .. image:: /images/TVOXTEAM/30_dettagliochiamata.png
 
 .. warning:: Su iOS al momento questa funzionalità di visione dettaglio chiamata non è disponibile.
+
+.. important:: La gestione delle chiamate verrà spiegata successivamente in :ref:`questa sezione<_gestchiamate>`.
