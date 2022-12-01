@@ -4,12 +4,14 @@
 Tastierino telefonico
 ==========================================
 
-La sezione *Tastierino* è molto intuitiva, si tratta di un normale tastierino telefonico dove si può comporre un numero telefonico.
+La sezione *Tastierino* è molto intuitiva, si tratta di un normale tastierino dove si può digitare un numero telefonico.
 
 .. image:: /images/TVOXTEAM
 
-Il numero può essere un interno
+Puoi comporre liberamente numeri interni, geografici, cellulari, internazionali, codici di servizio e tutto quanto si può fare via tastierino.
 
-.. note:: Ovviamente la possibilità di instaurare una chiamata dipende dalle abilitazioni assegnate all'utente, analogamente.
+.. note:: La possibilità di instaurare una chiamata dipende ovviamente dalle abilitazioni assegnate all'utente, analogamente a quanto accade sul |client|.
 
-cod servizio?
+Puoi avviare una chiamata audio oppure video, solo nel caso tu voglia contattare un altro utente che utilizza |app| o |client|.
+
+.. image:: /images/TVOXTEAM
