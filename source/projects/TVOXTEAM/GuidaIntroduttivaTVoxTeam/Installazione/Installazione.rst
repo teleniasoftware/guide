@@ -8,10 +8,12 @@ Installare |app| è estremamente semplice. Apri lo store di riferimento (Play St
 Trovata l'applicazione, premi Installa. In pochi secondi |app| sarà installata sul tuo smartphone.
 
 
-.. image:: /images/TVOXTEAM/1_playstore.png  
+.. figure:: /images/TVOXTEAM/1_playstore.png  
 
 |app| su Play Store
 |br|
+
+
 .. figure:: /images/TVOXTEAM/2_app-storeIOS.png
    :scale: 35%
 

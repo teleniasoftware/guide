@@ -12,7 +12,7 @@ Da qui premendo la lente nel'angolo in alto a destra puoi cercare altri contatti
 
 .. image:: /images/TVOXTEAM/34_rubriche.png
 
-Toccando uno dei nomi trovati puoi vedere i dati di dettaglio. 
+Nella lista dei risultati, toccando uno dei nomi trovati puoi vedere i dati di dettaglio. 
 
 .. image:: /images/TVOXTEAM/35_risul_ricerca.png
 
@@ -20,4 +20,4 @@ Se si tratta di un utente TVox qui trovi più possibilità di interagire con lui
 
 .. image:: /images/TVOXTEAM/36_dettagliocontatto.png
 
-.. note:: L'accesso ai contatti dipende avviamente dalle rubriche associate all'utente.
+.. note:: L'accesso e la visibilità dei contatti dipende ovviamente dalle rubriche associate all'utente.
