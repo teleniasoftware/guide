@@ -31,7 +31,7 @@ Per attivare la funzionalità di collaboration su TVox la configurazione deve es
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3
 
 
     AttivaJaas
