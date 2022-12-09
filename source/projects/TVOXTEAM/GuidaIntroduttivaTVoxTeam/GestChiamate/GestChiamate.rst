@@ -17,20 +17,20 @@ Vediamo quali sono le varie possibilità per l'interazione telefonica disponibil
 - 
 .. image:: /images/TVOXTEAM/44_videochiamata.png
 
-- **Chiama con GSM** : sfrutta una callback immediata, ovvero il server TVox genera una chiamata GSM verso il numero associato al tuo utente e appena rispondi si instaura la chiamata al destinatario; 
-quindi il chiamante comunica via GSM mentre il ricevente comunica via TVox.
+- **Chiama con GSM** : sfrutta una callback immediata, ovvero il server TVox genera una chiamata GSM verso il numero associato al tuo utente e appena rispondi si instaura la chiamata al destinatario.
   
 .. image:: /images/TVOXTEAM/45_callback.png
 .. image:: /images/TVOXTEAM/45bis_callback.png
 
 .. warning:: Questa funzionalità deve essere abilitata a livello di utente (chiamante, per il ricevente l'operazione è del tutto trasparente).
+.. important:: Il numero censito per l'utente ed il numero della SIM presente sul telefono potrebbero non coincidere! Occorre stare attenti a questa cosa.
 
 - **Chiama con SIM**: avvia una chiamata audio al numero relativo utilizzando la SIM del telefono (se presente);  la gestione della chiamata passa quindi allo smartphone.
 
 .. image:: /images/TVOXTEAM/46_chiamataSIM.png
 
 
-.. note:: I pulsanti *Chamata* e *Video Chiamata* in alto sotto l'avatar del contatto 
+.. note:: I pulsanti *Chiamata* e *Video Chiamata* in alto sotto l'avatar del contatto 
     corrispondono a chiamare l'interno associato a quell'utente TVox e non eventuali altri numeri ad esso associati.
 
 .. note:: Sempre in questa sezione toccando le icone *SMS* o l'indirizzo email si viene reindirizzati all'app di messaggistica o client di posta predefiniti nel telefono.
