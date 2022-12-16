@@ -189,7 +189,7 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
             du -h --max-depth=1 /opt/telenia_data/sync/
 
     Il confronto da quanto ottenuto sul slave dovrebbe essere simile a quanto presente su master. 
-    Ecco un esempio di output che otterai.
+    Ecco un esempio di output che otterrai.
 
     |FileSystem|
 
