@@ -24,11 +24,11 @@ Linkiamo qui sotto un video con una spiegazione introduttiva di |app|.
     :hidden:
     
 
-    ./Requisiti/Requisiti
-    ./Installazione/Installazione
-    ./AutenticazioneDisconnessione/AutenticazioneDisconnessione
-    ./Panoramica/Panoramica
-    ./GestChiamate/GestChiamate
-    ./ImpostazioniGenerali/ImpostazioniGenerali
-    ./Troubleshooting/Troubleshooting
+    ./GuidaIntroduttivaTVoxTeam/Requisiti/Requisiti
+    ./GuidaIntroduttivaTVoxTeam/Installazione/Installazione
+    ./GuidaIntroduttivaTVoxTeam/AutenticazioneDisconnessione/AutenticazioneDisconnessione
+    ./GuidaIntroduttivaTVoxTeam/Panoramica/Panoramica
+    ./GuidaIntroduttivaTVoxTeam/GestChiamate/GestChiamate
+    ./GuidaIntroduttivaTVoxTeam/ImpostazioniGenerali/ImpostazioniGenerali
+    ./GuidaIntroduttivaTVoxTeam/Troubleshooting/Troubleshooting
   
