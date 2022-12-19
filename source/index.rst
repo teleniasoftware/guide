@@ -73,11 +73,11 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :maxdepth: 4   
 
    /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/GuidaIntroduttivaTVoxTeam
-   /projects/TVOXTEAM/Requisiti/Requisiti
-   /projects/TVOXTEAM/Installazione/Installazione
-   /projects/TVOXTEAM/AutenticazioneDisconnessione/AutenticazioneDisconnessione
-   /projects/TVOXTEAM/ImpostazioniGenerali/ImpostazioniGenerali
-   /projects/TVOXTEAM/Panoramica/Panoramica
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Requisiti/Requisiti
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Installazione/Installazione
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/AutenticazioneDisconnessione/AutenticazioneDisconnessione
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/ImpostazioniGenerali/ImpostazioniGenerali
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Panoramica/Panoramica
   
 
 
