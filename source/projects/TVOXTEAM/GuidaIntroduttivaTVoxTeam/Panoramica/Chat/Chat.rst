@@ -64,3 +64,10 @@ Tornando alla schermata di chat, toccando un messaggio specifico si apre un menu
 
 .. note:: Cliccando sull'avatar di un contatto si apre la sua scheda di dettaglio con i recapiti e la possibilità di iniziare una nuova interazione.
 
+Ecco anche un video che spiega il funzionamento della chat:
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://youtu.be/ovl0rS8xbrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

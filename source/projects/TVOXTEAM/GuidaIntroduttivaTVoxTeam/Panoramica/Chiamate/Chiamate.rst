@@ -31,3 +31,9 @@ Se tocchi una chiamata specifica ti si aprirà il dettaglio della chiamata, con 
 .. warning:: Su iOS al momento questa funzionalità di visione dettaglio chiamata non è disponibile.
 
 .. important:: La gestione delle chiamate verrà spiegata successivamente in :ref:`questa sezione<_gestchiamate>`.
+
+Ecco anche un video che spiega il funzionamento del registro chiamate:
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://youtu.be/BpDcK65Uxyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -36,3 +36,9 @@ Vediamo quali sono le varie possibilità per l'interazione telefonica disponibil
     corrispondono a chiamare l'interno associato a quell'utente TVox e non eventuali altri numeri ad esso associati.
 
 .. note:: Sempre in questa sezione toccando le icone *SMS* o l'indirizzo email si viene reindirizzati all'app di messaggistica o client di posta predefiniti nel telefono.
+
+Ecco anche un video che spiega il funzionamento delle chiamate:
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://youtu.be/S_emEa9LPq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
