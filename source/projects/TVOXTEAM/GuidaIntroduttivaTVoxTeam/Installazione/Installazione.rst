@@ -15,6 +15,6 @@ Trovata l'applicazione, premi Installa. In pochi secondi |app| sarà installata 
 
 
 .. figure:: /images/TVOXTEAM/2_app-storeIOS.png
-   :scale: 35%
+   :scale: 40%
 
 |app| su App Store

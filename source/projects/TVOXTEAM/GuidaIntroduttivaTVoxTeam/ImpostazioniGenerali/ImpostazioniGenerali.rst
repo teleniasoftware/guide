@@ -28,4 +28,6 @@ Per completezza indichiamo le varie voci presenti nel menu *Impostazioni* (oltre
 
 .. note:: Su iPhone il menu è leggermente diverso (lo riportiamo qui sotto) ma le funzionalità sono le medesime
 .. image:: /images/TVOXTEAM/49_impostazioniIOS1.png
-.. image:: /images/TVOXTEAM/50_impostazioniIOS2.png
+   :scale: 40%
+.. image:: /images/TVOXTEAM/10_logout3.png
+   :scale: 40%
