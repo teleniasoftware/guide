@@ -4,10 +4,10 @@
 Guida Introduttiva a TVox Team
 =================================
 
-|app| è un'app per smartphone Android e iOS che funziona come estensione del |client| ed offre pertanto analoghe funzionalità.
+|app| è un'app per smartphone Android e iOS che funziona come estensione del |client| ed offre pertanto funzionalità analoghe benché più limitate.
 
-Per poter usufruire dell'app occorrono delle specifiche licenze e l'utente deve essere esplicitamente abilitato a |app|.
-L'app può essere usufruibile anche in modalità smart-working.
+Se vuoi utilizzare |app| la tua azienda deve possedere delle specifiche licenze; inoltre il tuo utente deve essere esplicitamente abilitato all'app.
+Con una ulteriore abilitazione puoi usare |app| anche in modalità smart-working, cioè fuori dalla rete wi-fi aziendale.
 
 .. note:: Questa guida è fatta per comodità utilizzando |app| su uno smartphone Android. Eventuali differenze significative (che vadano oltre l'aspetto grafico) presenti sulla versione iOS verranno opportunamente evidenziate.
 
@@ -24,7 +24,7 @@ L'app può essere usufruibile anche in modalità smart-working.
     ./Installazione/Installazione
     ./AutenticazioneDisconnessione/AutenticazioneDisconnessione
     ./Panoramica/Panoramica
-..    ./GestChiamate/GestChiamate
-..    ./ImpostazioniGenerali/ImpostazioniGenerali
-..    ./Troubleshooting/Troubleshooting
+    ./GestChiamate/GestChiamate
+    ./ImpostazioniGenerali/ImpostazioniGenerali
+    ./Troubleshooting/Troubleshooting
   

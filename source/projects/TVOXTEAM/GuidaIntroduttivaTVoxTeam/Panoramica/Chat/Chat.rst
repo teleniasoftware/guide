@@ -10,7 +10,12 @@ La sezione **Chat** è quella che ti viene mostrata appena fai login a |app|.
 
 Come già detto, le interazioni che vedi qui sono le stesse che hai su |client| e sono sincronizzate in tempo reale.
 Trovi quindi le chat instaurate coi diversi utenti e quelle di gruppo, con una preview dell'ultimo messaggio scambiato o azione effettuata (ad esempio in caso di chiamata).
-Per le interazioni utente compare anche icona e *presence* del contatto.
+Per le interazioni con utenti TVox puoi vedere l'eventuale immagine personale e la *presence* del contatto. In particolare:
+
+- Bollino grigio: indica che l'utente non è loggato al sistema
+- Bollino verde: indica che l'utente è loggato e libero
+- Bollino rosso: indica che l'utente è loggato ma occupato
+- Bollino arancione: indica che l'utente è loggato ma assente
 
 In alto a destra c'è una lente che permette di cercare un utente con cui iniziare una nuova chat.
 

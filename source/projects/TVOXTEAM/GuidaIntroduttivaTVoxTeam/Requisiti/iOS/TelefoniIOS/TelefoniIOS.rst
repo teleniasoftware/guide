@@ -4,7 +4,7 @@
 Asset telefoni iOS certificati
 ==========================================
 
-Ecco la lista degli iPhone supportati:
+Ecco la lista degli iPhone supportati ad oggi:
 
 - IPhone 6s/6s Plus																
 - IPhone SE																

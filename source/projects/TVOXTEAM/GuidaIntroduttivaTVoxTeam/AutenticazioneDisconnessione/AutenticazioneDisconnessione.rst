@@ -6,7 +6,8 @@ Autenticazione e disconnessione
 
 Fatta l'installazione, puoi avviare |app|:
 .. image:: /images/TVOXTEAM/3_server.png
-Inserisci il nome (o l'indirizzo IP) del tuo server TVox.
+
+Inserisci il nome (o l'indirizzo IP) del server TVox della tua azienda.
 
 .. note:: Al primo accesso concedi il permesso all'app di effettuare e gestire le telefonate. 
     Utilizzando l'app per la prima volta potranno comparire ulteriori richieste di permessi (ad esempio l'accesso alla fotocamera), che dovrai sempre approvare se vorrai utilizzare |app| in tutte le sue funzionalità.
@@ -30,4 +31,4 @@ Poi il simbolo rosso di uscita.
 Confermare e l'aplicazione sarà chiusa.
 .. image:: /images/TVOXTEAM/10_logout3.png
 
-.. warning:: Una volta disconnessi da |app| non arriveranno più notifiche e chiamate!
+.. warning:: Chiaramente una volta disconnessi da |app| non arriveranno più notifiche e chiamate.

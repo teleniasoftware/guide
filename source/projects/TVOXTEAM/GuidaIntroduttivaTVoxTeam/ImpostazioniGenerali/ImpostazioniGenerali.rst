@@ -4,10 +4,10 @@
 Impostazioni di TVox Team
 ==========================================
 
-Per completezza indichiamo le varie voci presenti nel menu *Impostazioni*:
+Per completezza indichiamo le varie voci presenti nel menu *Impostazioni* (oltre al bottone di *logoff* che abbiamo già visto):
 
-.. image:: /images/TVOXTEAM
-.. image:: /images/TVOXTEAM
+.. image:: /images/TVOXTEAM/47_impostazioniAndroid1.png
+.. image:: /images/TVOXTEAM/48_impostazioniAndroid2.png
 
 - ***Preferenze***: voce non più utilizzata;
 - ***Deviazione chiamata***: voce non più utilizzata;
@@ -27,5 +27,5 @@ Per completezza indichiamo le varie voci presenti nel menu *Impostazioni*:
 
 
 .. note:: Su iPhone il menu è leggermente diverso (lo riportiamo qui sotto) ma le funzionalità sono le medesime
-.. image:: /images/TVOXTEAM
-.. image:: /images/TVOXTEAM
+.. image:: /images/TVOXTEAM/49_impostazioniIOS1.png
+.. image:: /images/TVOXTEAM/50_impostazioniIOS2.png
