@@ -17,7 +17,8 @@ Linkiamo qui sotto un video con una spiegazione introduttiva di |app|.
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://youtu.be/OsgaAvMXNrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KHKBMJAjo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 .. toctree::
     :maxdepth: 3
