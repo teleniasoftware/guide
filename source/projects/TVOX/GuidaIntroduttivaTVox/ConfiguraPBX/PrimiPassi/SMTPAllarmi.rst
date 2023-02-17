@@ -25,7 +25,7 @@ In tale sezione si dovranno definire:
 - **Tipo di Connessione sicura** (Abilita l'autenticazione SMTP in differenti modalità di criptazione a seconda del Server SMTP. 
   
        - *SSL* fornisce un modo per criptare il canale di comunicazione tra il computer e il server SMTP. 
-       - *STARTTL* è un modo per prendere una connessione esistente non sicura e aggiornarla ad una sicura utilizzando SSL/TLS)
+       - *STARTTLS* è un modo per prendere una connessione esistente non sicura e aggiornarla ad una sicura utilizzando SSL/TLS)
 
 - **Username e password** (nel caso sia abilitata l'autenticazione)
 
