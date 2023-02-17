@@ -70,10 +70,11 @@ Il server TVox Pure Cloud espone alcuni servizi, di conseguenza le seguenti cost
 
 Sicurezza provisioning e SIP
 ----------------------------    
-In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
+In ambiente cloud sono disponibili per l'utilizzo i soli dispositivi Yealink. Inoltre, non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
+
 E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Impostazioni=>Avanzate=>Sicurezza* impostando il parametro "Sicurezza provisioning telefoni" con il valore "Sicuro e RPS".
 
-In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica).
+In tal modo, utilizzando dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica).
 
 Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
 

@@ -1,4 +1,5 @@
 .. _ProvisioningDispositivi:
+.. _nella sezione introduttiva: http://guide.teleniasoftware.com/it/22/projects/TVOX/GuidaIntroduttivaTVox/InformazioniGenerali/Architetture/Infrastrutture.html#sicurezza-provisioning-e-sip
 
 ============
 Provisioning
@@ -78,48 +79,49 @@ Per ciascun interno definito sono visualizzati i seguenti parametri:
 Provisioning dei dispositivi nel caso di TVox Pure Cloud
 ========================================================
 
+Come definito `nella sezione introduttiva`_, in ambiente cloud ci si affida esclusivamente a Yealink come vendor per dispositivi telefonici.
 
-In ambiente cloud non è possibile affidarsi alla prestazione di auto-provisioning basato su DHCP.
-E\' raccomandata l'abilitazione del provisioning sicuro via OCC dalla sezione *Configurazioni di sistema=>Autenticazione e Sicurezza* impostando il parametro  **Sicurezza provisioning telefoni**  con il valore  **Sicuro e RPS**.
+La configurazione della sezione :ref:`Modalità di lavoro <modalitalavoro>` come *Pure Cloud (NAT 1 a 1)* stabilisce che in OCC nella sezione *Configurazioni di sistema - Autenticazione e Sicurezza - Sicurezza Passwoord e Provisioning*, il parametro  **Sicurezza provisioning telefoni** sia impostato con il valore  **Sicuro e RPS**.
 
-In tal modo, nel caso si utilizzino dispositivi Yealink, sarò possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica.
+In tal modo sarà possibile sfruttare il provisioning via RPS (Redirect & Provisioning Service), servizio offerto da Yealink che consente il provisioning automatico del telefono al primo avvio (a seguito di un reset alle condizioni di fabbrica).
 
-.. important:: **BEST PRACTICE:** Contestualmente si raccomanda di impostare anche il livello di sicurezza per password SIP e utente. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
+.. important:: **BEST PRACTICE:** Nella stessa sezione di OCC, verifica che anche i parametri **Sicurezza password utente** e **Sicurezza password SIP** siano impostati al grado più alto. L'OCC impedirà di salvare utenti e interni con password che non rispettano adeguati standard di sicurezza.
 
-.. warning:: **ATTENZIONE:** La modifica del parametro "Sicurezza e password utente" porta al riavvio del servizio di autenticazione. Per il tempo necessario al riavvio, non sarà possibile eseguire login.
+.. warning:: **ATTENZIONE:** La modifica del parametro "Sicurezza password utente" porta al riavvio del servizio di autenticazione. Per il tempo necessario al riavvio, non sarà possibile eseguire login al sistema.
 
 .. image:: /images/TVOX/PureCloud/02-sicurezza-password-provisioning_2.png
 
 
-Il tema principale che va tenuto in considerazione per il corretto funzionamento dei dispositivi SIP (sia telefoni che voice gateways) è il NAT traversal, tecnica utilizzata nel voip per la trasmissione del traffico audio RTP.
+Il tema principale che va tenuto in considerazione per il corretto funzionamento dei dispositivi SIP è il NAT traversal, tecnica utilizzata nel voip per la trasmissione del traffico audio RTP.
 
-Il dispositivo deve supportare almeno uno dei seguenti protocolli, in ordine di preferenza:
+Il telefono deve supportare almeno uno dei seguenti protocolli, in ordine di preferenza:
 
 - ICE rfc5245 (Interactive Connectivity Establishment)
 - STUN rfc5389
 
 Il supporto ad ICE permette il corretto funzionamento dei dispositivi in un numero maggiore di architetture NAT rispetto al solo STUN, quindi il suo utilizzo è preferibile.
 
-Con la configurazione del provisioning sicuro, per ogni telefono è presente un URL di provisioning univoco che può essere impostato manualmente sul dispositivo.
+.. important:: **BEST PRACTICE:** Verifica sempre che il modello Yealink prescelto per il tuo sistema TVox rispetti questi requisiti, soprattutto se intendi riutilizzare vecchi dispositivi recuperati da un impianto datato. Telenia è in grado di aiutarti nel definire quale sia l'accoppiata modello-firmware migliore per consentirti una migliore esperienza d'uso.
 
-.. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/01-url-provisioning-purecloud.png
+Con la configurazione del provisioning sicuro, ad ogni interno creato su TVox viene fornito un URL di provisioning univoco.
 
-.. Nel caso di telefoni Yealink, 
-
-.. :ref:`Sistemi Pure Cloud <infrastruttura>`
+.. .. image:: /images/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/CreazioneUtentiDispositivi/01-url-provisioning-purecloud.png
 
 
-Nel caso di telefoni Yealink, è attivo il provisioning via `RPS <https://support.yealink.com/forward2download?path=ZIjHOJbWuW/DFrGTLnGyploAOxsQD/Xz/UplusSymbolq2lU036653TDiwrBfxz/BElK2gRiufplusSymbolXfMogMSzUeDNTfeK4uKrmJcySPdH5L6ZCVAIWLplusSymbollC7wlpLKz2kk42E24Q/8gRHNqUuQjL5uO4PYwC7Imh4ImwA/4cqC85uucVf7CWTgMYFEei8fLjhNLml5splusSymbolGQxnXU11oQ3XOigo=>`_. Si tratta di un servizio di Yealink che permette ad un telefono, alla prima accensione, di effettuare automaticamente una richiesta web per individuare il server TVox dal quale scaricare la sua configurazione, eliminando quindi la necessità di una pre-configurazione manuale.
+Nel caso di telefoni Yealink, è attivo il provisioning via `RPS <https://support.yealink.com/forward2download?path=ZIjHOJbWuW/DFrGTLnGyploAOxsQD/Xz/UplusSymbolq2lU036653TDiwrBfxz/BElK2gRiufplusSymbolXfMogMSzUeDNTfeK4uKrmJcySPdH5L6ZCVAIWLplusSymbollC7wlpLKz2kk42E24Q/8gRHNqUuQjL5uO4PYwC7Imh4ImwA/4cqC85uucVf7CWTgMYFEei8fLjhNLml5splusSymbolGQxnXU11oQ3XOigo=>`_. 
+
+Si tratta di un servizio di Yealink che permette ad un telefono, alla prima accensione, di effettuare automaticamente una richiesta web per individuare il server TVox dal quale scaricare la sua configurazione, eliminando quindi la necessità di una pre-configurazione manuale.
+
 Ricevuta tale informazione, il telefono invierà direttamente la richiesta di provisioning a tale url.
 
 Per questioni di sicurezza, TVox permette una sola configurazione via RPS. Per provisionare nuovamente il telefono è necessario sbloccare manualmente il provisioning RPS tramite un apposito pulsante disponibile in OCC.
 
 **Eseguire il provisioning di un telefono Yealink**
 
-#. Creare l'interno su OCC - In questo modo viene creato l'url univoco di provisioning associato al MAC Address del telefono. Tale url viene comunicato da TVox al server RPS di Yealink
-#. Togliere dalla scatola il telefono ed accenderlo
-#. Attendere che la configurazione del telefono si completi (il telefono si riavvierà automaticamente alcune volte)
-#. Il telefono risulta registrato su TVox e disponibile all'utilizzo
+#. Crea l'interno su OCC - In questo modo viene creato l'url univoco di provisioning associato al MAC Address del telefono. Tale url viene comunicato da TVox al server RPS di Yealink
+#. Togli dalla scatola il telefono, collegalo in rete ed accendilo
+#. Attendi che la configurazione del telefono si completi (il telefono si riavvierà automaticamente alcune volte)
+#. Il telefono si registra su TVox ed è disponibile all'utilizzo
 
 .. tip:: Il provisioning via RPS è disponibile alla prima accensione o dopo un reset alle condizioni di fabbrica. Per ripetere questo tipo di configurazione, prima di procedere al reset devi sbloccare il provisioning RPS come indicato nella prossima immagine
 
