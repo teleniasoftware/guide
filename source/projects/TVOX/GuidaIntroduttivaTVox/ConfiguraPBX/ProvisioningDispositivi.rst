@@ -101,7 +101,7 @@ Il telefono deve supportare almeno uno dei seguenti protocolli, in ordine di pre
 
 Il supporto ad ICE permette il corretto funzionamento dei dispositivi in un numero maggiore di architetture NAT rispetto al solo STUN, quindi il suo utilizzo è preferibile.
 
-.. important:: **BEST PRACTICE:** Verifica sempre che il modello Yealink prescelto per il tuo sistema TVox rispetti questi requisiti, soprattutto se intendi riutilizzare vecchi dispositivi recuperati da un impianto datato. Telenia è in grado di aiutarti nel definire quale sia l'accoppiata modello-firmware migliore per consentirti una migliore esperienza d'uso.
+.. important:: **BEST PRACTICE:** Verifica sempre che il modello Yealink prescelto per il tuo sistema TVox rispetti questi requisiti, soprattutto se intendi riutilizzare vecchi dispositivi recuperati da un impianto datato. Telenia è in grado di aiutarti nel definire quale sia l'accoppiata modello-firmware preferibile per consentirti una migliore esperienza d'uso.
 
 Con la configurazione del provisioning sicuro, ad ogni interno creato su TVox viene fornito un URL di provisioning univoco.
 
