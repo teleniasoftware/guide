@@ -16,7 +16,7 @@ Uno dei requisiti per poter attivare l\'autenticazione a due fattori su TVox è 
 
 Quando si installa un TVox i valori di default sono i seguenti:
 
- .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_ntp.png
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_ntp.png
 
 
 .. note:: I valori dei server Primari e Secondari possono essere personalizzati a piacere
@@ -29,7 +29,7 @@ Un secondo requisito per la generazione del codice TOTP mediante email è la con
 Per configurare la funzionalità di autenticazione a doppio fattore con TOTP ci rechiamo su Occ->Sistema->Autenticazione e Sicurezza:
 
 
- .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_autenticazione.png
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/conf_autenticazione.png
 
 Il fattore di autenticazione può essere abilitato singolarmente per le seguenti applicazioni:
 
@@ -43,7 +43,7 @@ Il fattore di autenticazione può essere abilitato singolarmente per le seguenti
 
 Ad esempio, per configurare l'autenticazione a due fattori per il WebClient andremo a selezionare dal menu a tendina corrispondente il valore "Doppio Fattore con TOTP":
 
- .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio1.png
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio1.png
 
 
 Selezionando almeno una delle opzioni per l'autenticazione a due fattori verranno successivamente mostrate altre due opzioni: 
@@ -53,7 +53,7 @@ Selezionando almeno una delle opzioni per l'autenticazione a due fattori verrann
 
 Una volta effettuata la configurazione, al primo accesso via webclient verrà presentata una schermata di questo tipo:
 
- .. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio2.png
+.. image:: /images/TVOX/Sistema/ConfigurazioneSistema/AccessoSicurezza/esempio2.png
 
 Scansioniamo tramite l'applicazione che si desidera associare (ad esempio Google Authenticator) ed una volta associato il dispositivo all'utenza, da questo momento in poi possiamo inserire il codice TOTP per accedere al webclient:
 
