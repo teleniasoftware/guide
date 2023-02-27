@@ -20,7 +20,7 @@ In tale sezione si dovranno definire:
 
 - **Porta** (Porta SMTP in ascolto sul server. A seconda della scelta fatta la porta sarà selezionata automaticamente)
 
-.. warning:: Solitamente SMTP lavora sulle porte 25 (porta SMTP non-criptata predefinita),465 (criptazione SSL avviata automaticamente prima di ogni livello di comunicazione SMTP) e587 (è quasi come la porta standard SMTP. La criptazione SSL può essere avviata da un comando STARTTLS a livello SMTP se il server SMTP la supporta e il proprio ISP non filtra le risposte EHLO dal server)
+.. warning:: Solitamente SMTP lavora sulle porte 25 (porta SMTP non-criptata predefinita), 465 (criptazione SSL avviata automaticamente prima di ogni livello di comunicazione SMTP) e 587 (è quasi come la porta standard SMTP. La criptazione SSL può essere avviata da un comando STARTTLS a livello SMTP se il server SMTP la supporta e il proprio ISP non filtra le risposte EHLO dal server)
 
 - **Tipo di Connessione sicura** (Abilita l’autenticazione SMTP in differenti modalità di criptazione a seconda del Server SMTP)
 
