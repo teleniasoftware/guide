@@ -1,5 +1,4 @@
 .. _ProvisioningDispositivi:
-.. _nella sezione introduttiva: http://guide.teleniasoftware.com/it/22/projects/TVOX/GuidaIntroduttivaTVox/InformazioniGenerali/Architetture/Infrastrutture.html#sicurezza-provisioning-e-sip
 
 ============
 Provisioning
@@ -59,14 +58,13 @@ Per ciascun interno definito sono visualizzati i seguenti parametri:
 - il modello presentato. Rappresenta la descrizione del telefono / ATA FXS. Tale informazione viene fornita al TVox Omnichannel Contact Center direttamente dal telefono durante la fase di registrazione. Se il modello è diverso da quello configurato è ricercabile e viene presentato evidenziando il nome con una bordatura di colore rosso   .
 
 - lo stato SIP del telefono che può assumere i seguenti valori: 
-  
-     - Registrato: Il telefono associato funziona correttamente.
+       - Registrato: Il telefono associato funziona correttamente.
      - Non Controllato: Il telefono è registrato ma la sua raggiungibilità non viene controllata.
      - Non Registrato: in questo stato il telefono non può sicuramente ricevere chiamate.
      - Risponde in ritardo: il telefono può solo effettuare chiamate e in generale rappresenta uno stato transitorio verso la fase di registrazione o la completa non raggiungibilità. Se tale stato si presenta in modo frequente la risoluzione del disservizio va ricercata nella gestione della rete.
      - Non Raggiungibile: il telefono nello stato registrato non risulta più raggiungibile dal TVox Omnichannel Contact Center. In questo stato il telefono non può sicuramente ricevere chiamate.
 
-- configurazione Peer to Peer: ( P2P, non P2P). Fare riferimento al capitolo Comunicazione SIP della Guida TVox.
+- configurazione Peer to Peer: (P2P, non P2P). Fare riferimento al capitolo Comunicazione SIP della Guida TVox.
 
 - abilitazione alla registrazione: indica se l'utente è abilitato (o meno) alla registrazione delle conversazioni, in tal caso viene persa l'abilitazione del Peer to Peer sull'interno dell'utente.
 
@@ -79,7 +77,7 @@ Per ciascun interno definito sono visualizzati i seguenti parametri:
 Provisioning dei dispositivi nel caso di TVox Pure Cloud
 ========================================================
 
-Come definito `nella sezione introduttiva`_, in ambiente cloud ci si affida esclusivamente a Yealink come vendor per dispositivi telefonici.
+Come definito `nella sezione introduttiva <http://guide.teleniasoftware.com/it/22/projects/TVOX/GuidaIntroduttivaTVox/InformazioniGenerali/Architetture/Infrastrutture.html#sicurezza-provisioning-e-sip>`_, in ambiente cloud ci si affida esclusivamente a Yealink come vendor per dispositivi telefonici.
 
 La configurazione della sezione :ref:`Modalità di lavoro <modalitalavoro>` come *Pure Cloud (NAT 1 a 1)* stabilisce che in OCC nella sezione *Configurazioni di sistema - Autenticazione e Sicurezza - Sicurezza Passwoord e Provisioning*, il parametro  **Sicurezza provisioning telefoni** sia impostato con il valore  **Sicuro e RPS**.
 
