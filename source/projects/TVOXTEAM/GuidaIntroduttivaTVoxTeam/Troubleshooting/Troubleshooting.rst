@@ -16,3 +16,5 @@ Nel testo della mail descrivi il problema che hai avuto in modo da aiutare l'ass
 Inviando la mail verrà aperto in automatico un ticket al Customer Care Telenia e riceverai una risposta con la presa in carico del problema.
 
 .. image:: /images/TVOXTEAM/51_inviosegnalazione.png
+
+|br| 
