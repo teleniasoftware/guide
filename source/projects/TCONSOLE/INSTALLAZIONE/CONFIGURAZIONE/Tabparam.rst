@@ -37,7 +37,7 @@ ABILITA_POPUP
 
 Se configurato a *SI*, attiva il lookup in rubrica del numero chiamante: all'arrivo della chiamata viene presentato, al posto del numero chiamante, il nominativo del contatto, se presente in rubrica. Analogamente, il nominativo viene sintetizzato dalla Sintesi Vocale e/o riprodotto dalla Barra Braille, se la rispettiva funzionalità è attivata a livello di :ref:`Profilo Utente`. Il valore di default è *NO*.
 
-.. warning :: Il lookup in rubrica, se abilitato, avviene **solo** per le chiamate entranti. NON viene effettuato per le chiamate uscenti (ad es. digitando col tastierino numerico il numero da chiamare).
+.. warning :: Il lookup in rubrica, se abilitato, avviene **solo** per le chiamate entranti. NON viene effettuato per le chiamate uscenti (ad es. digitando col tastierino numerico il numero da chiamare oppure facendo partire la chiamata da rubrica).
 
 ATTIVA_SKIN
 -----------
