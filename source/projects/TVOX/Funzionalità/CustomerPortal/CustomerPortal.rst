@@ -9,7 +9,11 @@ Customer Portal
 .. |CustomerPortal_Riepilogativo| image:: /images/TVOX/CustomerPortal/CP_Riepilogativo.PNG
 .. |CustomerPortal_Griglia01| image:: /images/TVOX/CustomerPortal/CP_Griglia01.png
 .. |CustomerPortal_Nota| image:: /images/TVOX/CustomerPortal/CP_Inserimento_Nota.png
-
+.. |CustomerPortal_Configurazione01| image:: /images/TVOX/CustomerPortal/CP_Abil01.png
+.. |CustomerPortal_Configurazione02| image:: /images/TVOX/CustomerPortal/CP_Abil02.png
+.. |CustomerPortal_Configurazione03| image:: /images/TVOX/CustomerPortal/CP_Abil03.png
+.. |CustomerPortal_Configurazione04| image:: /images/TVOX/CustomerPortal/CP_Abil04.png
+.. |CustomerPortal_Configurazione05| image:: /images/TVOX/CustomerPortal/CP_Abil05.png
 
 
 Qui troverai le informazioni necessarie per consultare il **Customer Portal** di Telenia Software. 
@@ -78,4 +82,34 @@ E\' possibile inserire una nota interna che vedrà l'agente che ha in gestione i
 .. note:: I nuovi ticket, una volta creati sul sistema, diventeranno disponibili anche tramite **Customer Portal**.
 
 
+Come configurare l'accesso al Customer Portal
+===========================================
 
+Ora troverai le istruzioni per abilitare l'accesso al **Customer Portal**
+
+Per erogare il servizio è nel seguente modo:
+
+- il tuo TVOX deve essere provvisto della licenza "Customer Portal"
+- l'utente che dovrà accedere al Customer Portal dovrà essere censito in rubrica con la propria email
+- l'agente dovrà abilitare tale utente andando da client nel dettaglio dell'utente, nella tab **Customer Portal** (vedi esempio)
+
+|CustomerPortal_Configurazione01| 
+
+- si potrà decidere di assegnare il ruolo Utente o Utente aziendale
+
+|CustomerPortal_Configurazione02| 
+
+|CustomerPortal_Configurazione03| 
+
+- una volta che l'utente verrà abilitato, riceverà una mail con le credenziali di accesso (username= email, password generata in maniera randomica)
+
+- a questo punto l'utente che riceverà la mail potrà accedere al portale https://fqdn_tvox/apps/customerportal ed inserire le credenziali ricevute tramite email
+
+    |CustomerPortal_Configurazione04|
+
+- una volta che si avrà accesso al portale, l'utente potrà anche decidere di cambiare password andando nel suo profilo
+
+|CustomerPortal_Configurazione05|
+
+
+.. note:: Per abilitare gli utenti ad accedere al Customer Portal, l'agente dovrà avere un ruolo che contenga il permesso "Customer Portal"
