@@ -45,7 +45,7 @@ Predisposizione ambiente in produzione
 Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 
 - Assieme al tuo cliente prepara la *lista check UAT*. In fase di redazione della lista dei test UAT da eseguire, è buona prassi condividerla con il cliente, in modo che tu possa integrarla in base all'impianto presente ed al suo utilizzo. Ti riportiamo un esempio di check list standard.
-- Esegui le prove presenti nella *lista check UAT* così da accertarti della *bontà* del sistema in tutte le sue componenti. 
+- Esegui le prove presenti nella *lista check UAT* così da accertarti della *bontà* del sistema in tutte le sue componenti.
 - Chiedi al tuo cliente due nuovi indirizzi IP disponbili sulla rete dove risiede il TVOX. Questi IP saranno poi gli IP fisici che verranno associati alle macchine TVOX 1 e TVOX 2.
 - Richiedi al supporto tecnico di Telenia l'espansione della licenza alla funzione FT per TVOX 1 e la creazione di nuova licenza sempre in FT per TVOX 2.
 - Esegui una snapshot TVOX 1. E\' consigliato eseguire la snapshot con macchina spenta ed escludendo la memoria.
@@ -122,10 +122,10 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 
 - Se sei arrivato a questo punto puoi avvisare il cliente della ripresa in servizio del sistema.
 - Esegui assieme i test presenti in *lista check UAT*, per confermare che la creazione del cluster non ha modificato il fuznionamento dell'impianto.
-- Adesso è ora di installare TVOX 2 assegnando il secondo dei due nuovi IP forniti e caricando la licenza.  
+- Adesso è ora di installare TVOX 2 assegnando il secondo dei due nuovi IP forniti e caricando la licenza.
 - Riavvia il TVOX 2 e alla ripartenza configura la sezione FT su TVOX 2, come hai fatto precedentemente con il TVOX 1.
 - Una volta configurata la sezione cluster del TVOX 2, riavvialo.
-- Ora sincronizza le macchine andando nell' *Application Manager* del TVOX 2 nel menù *Sistema -> Replicazione* e selezionando la voce [Sincronizzazione completa]
+- Ora sincronizza le macchine andando nell'\ *Application Manager* del TVOX 2 nel menù *Sistema -> Replicazione* e selezionando la voce [Sincronizzazione completa]
 
 
     |SincroFT| 
@@ -134,14 +134,14 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 
 **Passiamo ora a verificare che le macchine siano sincronizzate**
 
-- Vai nel TVOX master nell' *Application Manager* menù *Monitor* e verifica che DB e File System siano sincronizzati
+- Vai nel TVOX master nell'\ *Application Manager* menù *Monitor* e verifica che DB e File System siano sincronizzati
 
     |SincroMonitor| 
 
 - Fai poi controllo sui calendari seguendo quanto indicato nella prossima nota.
 
-.. note:: **Check allineamento calendari** 
-    Per verificare che i calendari siano allineati bisogna andare da shell SSH sempre con utenza di root sia su macchina master che slave, effettuare un dump db calendari 
+.. note:: **Check allineamento calendari**
+    Per verificare che i calendari siano allineati bisogna andare da shell SSH sempre con utenza di root sia su macchina master che slave, effettuare un dump db calendari
     e comparare le dimensioni. Se sono le medesime, i calendari sono allineati altrimenti quello valido è quello del master.
     Per eseguire il dump dei calendaro è necessario scrivere il comando indicato qui sotto. Il dump verrà salvato nella cartella /tmp e sarà denominato *calendar.sql*
     
@@ -179,7 +179,7 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 
 .. note:: **Check allineamento file system**
     Quando esegui una sincronizzazione devi sapere che l'indicatore presente sul master che segnala la sincronizzazione file system, nel caso sia in stato OK e di colore verde, sta ad indicare che la sincronizzazione del file system è in corso, 
-    ma nel caso di prima sincronizzazione potrebbe essere che i tempi di completa sincronizzazione siano elevati. Il tempo è legato dal contenuto presente in  /opt/telenia_data/sync e può essere di dimensioni cospique sopprattuto nel caso di registrazioni vocali.
+    ma nel caso di prima sincronizzazione potrebbe essere che i tempi di completa sincronizzazione siano elevati. Il tempo è legato dal contenuto presente in /opt/telenia_data/sync e può essere di dimensioni cospicue sopprattuto nel caso di registrazioni vocali.
 
     - Verificare che sia partito il task di sincronizzazione del file system, eventualmente triggerarlo lanciando un *setperms.sh* sulla master
     - Verifica capienza cartella /opt/telenia_data/sync tramite comando: 
@@ -189,7 +189,7 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
             du -h --max-depth=1 /opt/telenia_data/sync/
 
     Il confronto da quanto ottenuto sul slave dovrebbe essere simile a quanto presente su master. 
-    Ecco un esempio di output che otterai.
+    Ecco un esempio di output che otterrai.
 
     |FileSystem|
 
@@ -214,7 +214,7 @@ Passiamo ora ad illustare le manovre che dovrai eseguire per aggiornare l'impian
 
             |Updater|
 
-- **Se non avessi questo output contatta il supporto tecnico do Telenia prima di eseguire qualsiasi manovra**
+- **Se non avessi questo output contatta il supporto tecnico di Telenia prima di eseguire qualsiasi manovra**
 - Fai un reboot del TVOX 2  (Nuova master TVOX 1, slave TVOX 2)
 - Esegui i test presenti nella *lista check UAT* in produzione su TVOX 1 in rel. 22.
 - Al termine dei test vai ad eseguire l'upgrade del TVOX 2 a rel. 22.
@@ -225,7 +225,7 @@ Passiamo ora ad illustare le manovre che dovrai eseguire per aggiornare l'impian
 
             |Updater|
 
-- **Se non avessi questo output contatta il supporto tecnico do Telenia prima di eseguire qualsiasi manovra**
+- **Se non avessi questo output contatta il supporto tecnico di Telenia prima di eseguire qualsiasi manovra**
 - Fai un reboot del TVOX 2 e poi da *OCC* del TVOX 2, andando in *SISTEMA* -> *Configurazione di sistema* -> "Replicazione" esegui la sincronizzazione degli ultimi 2 mesi, scegliendo la voce *Configurazione e ultimi 2 mesi* dal menu *Replicazione* e premendo poi il pulsante [Start].
 
             |Replicazione_rel22|

@@ -16,4 +16,4 @@ Il blocchetto \"Send Mail\" permette di inviare una mail all'indirizzo configura
 - **Testo**: Testo della mail
   
 
-.. tips:: Sia nell'oggetto che nel testo della mail è possibile inserire i valori di una variabile del processo. 
+.. tip:: Sia nell'oggetto che nel testo della mail è possibile inserire i valori di una variabile del processo.

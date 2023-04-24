@@ -18,6 +18,10 @@ Il portale si divide nelle seguenti macro sezioni relative ai prodotti
 
 :blue:`TVOX`
 
+:blue:`TVOX CLIENT`
+
+:ref:`TVOX TEAM <introtvoxteam>`
+
 :blue:`MCS`
 
 :blue:`TCONSOLE`
@@ -39,6 +43,7 @@ La documentazione presentata nella home page di questo portale si riferisce all‚
    /projects/TVOX/GuidaIntroduttivaTVox/GuidaIntroduttivaTVox
    /projects/TVOX/Privacy&Security/Privacy&Security
    /projects/TVOX/Sistema/Sistema
+   /projects/TVOX/Gestione/Gestione
    /projects/TVOX/Funzionalit√†/Funzionalit√†
    xx/projects/TVOX/Upgrade/Upgrade
    xx/projects/TVOX/GuidaIntroduttivaClient/GuidaIntroduttivaClient
@@ -60,6 +65,22 @@ La documentazione presentata nella home page di questo portale si riferisce all‚
    /projects/CLIENT/GuidaIntroduttivaClient/GuidaIntroduttivaClient
    xx/projects/CLIENT/ClientAgente/ClientAgente
    xx/projects/CLIENT/ClientUtente/ClientUtente
+
+
+.. toctree::  
+   :hidden: 
+   :caption: TVOX TEAM
+   :maxdepth: 4   
+
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/GuidaIntroduttivaTVoxTeam
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Requisiti/Requisiti
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Installazione/Installazione
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/AutenticazioneDisconnessione/AutenticazioneDisconnessione
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/ImpostazioniGenerali/ImpostazioniGenerali
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Panoramica/Panoramica
+   /projects/TVOXTEAM/GuidaIntroduttivaTVoxTeam/Troubleshooting/Troubleshooting
+  
+
 
 .. toctree::  
    :hidden: 

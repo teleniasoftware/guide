@@ -1,6 +1,7 @@
 .. _securitypolicy:
 .. _RINA: https://customtelenia.s3.eu-west-1.amazonaws.com/Telenia/Certificazioni+aziendali/2020_ISO9001-2015.pdf
 .. _ISO 9001:2015: https://customtelenia.s3.eu-west-1.amazonaws.com/Telenia/Certificazioni+aziendali/2020_Certificato+IQNET.pdf
+.. _changelog: https://www.teleniasoftware.com/changelog-tvox/
 
 ====================================
 Policy di Sicurezza e Certificazioni
@@ -21,4 +22,16 @@ Vedi qui l'ultimo certificato conforme `ISO 9001:2015`_
 
 
 Dal punto di vista software, le policy di sicurezza attengono alla modalità di gestione e di controllo degli accessi alle applicazioni ed ai dati in esse contenuti.
+
+
+Nell'ambito della gestione della qualità, Telenia Software adotta opportune azioni di remediation ogni volta che una non conformità o vulnerabilità software viene segnalata:
+
+- rilevazione delle non conformità e/o delle vulnerabilità
+- produzione di patch software correttive
+- test della patch software correttiva
+- applicazione delle patch software correttive agli impianti in esercizio coinvolti
+- pubblicazione, attraverso i canali ufficiali, delle patch software correttive e del loro `changelog`_
+
+|br| 
+
 

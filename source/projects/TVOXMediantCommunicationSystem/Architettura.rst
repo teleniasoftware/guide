@@ -27,3 +27,5 @@ E\' necessario avere un FQDN risolto come record A sull'IP pubblico utilizzato d
 Ogni impianto TVox interconnesso a TVox MCS deve disporre di un proprio FQDN per l'accesso ai servizi. Ognuno di questi FQDN dovrà essere risolto pubblicamente come CNAME del dominio di management di TVox MCS.
 
 .. tip:: Per fruire dei TVox WebClient e di TVox Team in modalità in-house è necessario configurare il DNS aziendale per far si che l'FQDN venga risolto con l'IP del TVox. In alternativa tutti gli accessi client e app saranno possibili solo in modalità smartworking.
+
+.. warning:: **DISPOSITIVI SIP** |br| Per garantire la corretta registrazione dei dispositivi SIP a TVox, è necessario che il o i DNS che vengono configurati su questi risolvano l'FQDN con l'IP locale di TVox. |br|  Nel caso un dispositivo SIP abbia un dns che non effettua tale risoluzione, ma risolva il dominio tramite internet, la richiesta di registrazione verrebbe inviata ad MCS, di fatto impedendo al telefono di completare la procedura.

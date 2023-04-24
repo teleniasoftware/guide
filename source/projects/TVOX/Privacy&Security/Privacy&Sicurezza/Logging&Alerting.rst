@@ -15,10 +15,10 @@ TVox dispone di un monitor di sistema che, in tempo reale, visualizza allarmi, s
 
 E\' inoltre possibile definire una o più liste di distribuzione cui notificare via email e/o sms gli allarmi generati. In tal modo, l'amministratore di sistema può essere sempre allertato in caso di problemi gravi.
 
-|br|
 
 .. image:: /images/TVOX/Privacy&Security/monitor.PNG
 
+|br|
 
 
 ------------------------
@@ -31,20 +31,20 @@ Tvox rende disponibile un log accessi che permette di aver traccia degli accessi
 Il log accessi è visualizzabile in tempo reale con intervallo di aggiornamento configurabile da 3 secondi a 1 minuto, è disponibile anche la possibilità di download del log su file. Ogni file fa riferimento ad uno specifico mese.
 
 
-|br|
-
 .. image:: /images/TVOX/Privacy&Security/logaccessirt.PNG
 
+
+|br|
 
 
 -------------------------
 
 **Syslog** 
 
-E\' possibile abiliatre l'invio di log ad un server syslog esterno
-
-|br|
+E\' possibile abilitare l'invio di log ad un server syslog esterno
 
 .. image:: /images/TVOX/Privacy&Security/syslog.PNG
 
+
+|br|
 

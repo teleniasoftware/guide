@@ -20,7 +20,6 @@ La configurazione di TVox viene effettuata completamente attraverso l'interfacci
 
 La password dell'utente admin può essere modificata come mostrato di seguito
 
-|br|
 
 .. image:: /images/TVOX/Privacy&Security/adminpwd1.PNG
 
@@ -29,6 +28,7 @@ La password dell'utente admin può essere modificata come mostrato di seguito
 
 .. image:: /images/TVOX/Privacy&Security/adminpwd2.PNG
 
+|br|
 
 ------------------------------
 
@@ -45,10 +45,10 @@ In entrambi i casi precedenti, è possibile attivare la modalità di autenticazi
 
 Se si opta per l'autenticazione locale, è raccomandata la scelta di definire un livello di sicurezza massimo per le password degli utenti attraverso il parametro Sicurezza Password Utente disponibile in OCC nella sezione *Sistema - Configurazione di sistema - Autenticazione e Sicurezza* nel riquadro *Sicurezza Password e Provisioning*.
 
-|br|
 
 .. image:: /images/TVOX/Privacy&Security/userpwd.PNG
 
+|br|
 
 Nel caso di autenticazione locale, è possibile stabilire anche la gestione della scadenza temporale delle password ogni 45 giorni.
 
@@ -66,15 +66,27 @@ Così come per gli utenti, anche i dispositivi SIP hanno bisogno di una password
 
 Per i dispositivi SIP, come per gli utenti, è possibili stabilire il livello di sicurezza che le password devono rispettare
 
-|br|
 
 .. image:: /images/TVOX/Privacy&Security/sippwd.PNG
 
+|br|
 
 
+Come protezione aggiuntiva a livello SIP, TVox dispone di una componente software in grado di rilevare e bloccare dei tentativi di accesso indebiti generati da:
+
+- interni sip configurati su TVox che tentano di effettuare una registrazione con password non corretta
+- indirizzi IP che tentano accessi rilevati come indebiti al servizio SIP.
+
+Questa funzionalità non è assolutamente da considerare come un sostituto di un firewall completo inserito nell'infrastruttura di rete. E' un aiuto alla configurazione e un ultimo livello di protezione per aumentare la sicurezza del sistema.
+
+Sia per il blocco di interni sia per quello di indirizzi IP esistono tre livelli di blocco:
 
 
+- Livello 1 blocco per cinque minuti
+- Livello 2 blocco per dieci minuti
+- Livello 3 blocco permanente
 
 
+|br|
 
 
