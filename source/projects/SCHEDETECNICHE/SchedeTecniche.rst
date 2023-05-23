@@ -2,7 +2,7 @@
 .. _SCHEDA TECNICA TVOX: https://www.teleniasoftware.com/Download/Guide/SchedaTecnicaTVox.docx.pdf
 
 ===================
-Schede Tecniche prodotti Telenia Software
+Schede prodotti
 ===================
 
 **SCHEDA TECNICA TVOX** testo.
