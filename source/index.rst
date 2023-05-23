@@ -125,3 +125,9 @@ La documentazione presentata nella home page di questo portale si riferisce allâ
    :caption: TSAM
    :maxdepth: 2
 
+.. toctree::  
+   :hidden:    
+   :caption: SCHEDE TECNICHE
+   :maxdepth: 6
+
+   /projects/SCHEDETECNICHE/SchedeTecniche
