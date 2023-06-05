@@ -41,6 +41,7 @@ Parametri configurabili in TConsole.ini
 - impostare il parametro **TQM_PARK_DN** con il codice di servizio "Prefisso per parcheggio pubblico/privato" ([3]_), seguito dal DN del dispositivo da pilotare
 - impostare il parametro **TQM_CONF_DN**\ = (lasciare vuoto)
 - impostare il parametro **TQM_SKILLSET**\ =\ *ESTERNE,INTERNE,RITORNO,PARK* (valore di default)
+.. - impostare il parametro **TQM_SOFTPHONE_SECRET** con la password di registrazione del dispositivo TVox SoftPhone da pilotare (solo a partire da TConsole 5.7.32 e per TConsole con TVox SoftPhone)
 
 Nel file *\[INSTALLDIR\]\\config\\tabparam* ([4]_) configurare il parametro **TQM_TYPE**\ =\ *TVOX_R2*
 
@@ -68,8 +69,8 @@ Con questa configurazione il Posto Operatore lavorerà in modalità **PICKUP**: 
 
 Per mettere in park una chiamata, eseguire la combinazione di tasti *CTRL+SHIFT+P*. La chiamata verrà messa in parcheggio e comparirà sul display TQM con l’etichetta “P”. Per riprenderla, l’operatore dovrà posizionarsi con le freccette sulla riga della chiamata e premere il tasto "Invio" come per le altre chiamate in coda.
 
-Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY)
------------------------------------------------------------------
+Esempio TConsole.ini TVOX senza PICKUP (TConsole si avvia con operatore in stato READY)
+---------------------------------------------------------------------------------------
 
 .. code-block:: ini
 
@@ -87,19 +88,22 @@ Esempio TConsole.ini TVOX senza PICKUP (operatore in stato READY)
 
     [TQM]
     TQM_SERVICE=db_po_dev_service*pointernal
-    TQM_USER=db_po
+    TQM_USER=db_po_usr
+    TQM_PASSWORD=db_po_pwd
     TQM_PIN=1111
     TQM_HOST=192.168.0.59
     TQM_PORT=5450
     TQM_LICENSE_HOST=192.168.0.59
     TQM_LICENSE_PORT=5451
     TQM_DEVICE=2611
+    ;	Parametro letto solo per dispositivo TVOX_SOFTPHONE. Corrisponde alla secret configurata su TVox
+    TQM_SOFTPHONE_SECRET=
     TQM_PARK_DN=*3332611
     TQM_CONF_DN=
     TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
 
-Esempio tabparam TVOX senza PICKUP (operatore in stato READY)
--------------------------------------------------------------
+Esempio tabparam TVOX senza PICKUP (TConsole si avvia con operatore in stato READY)
+-----------------------------------------------------------------------------------
 
 .. code-block:: ini
         
@@ -107,8 +111,8 @@ Esempio tabparam TVOX senza PICKUP (operatore in stato READY)
 
 ----------------------------
 
-Esempio TConsole.ini TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio
--------------------------------------------------------------------------------
+Esempio TConsole.ini TVOX con PICKUP (TConsole si avvia con operatore in stato NOTREADY) e parcheggio
+-----------------------------------------------------------------------------------------------------
 
 .. code-block:: ini
 
@@ -126,19 +130,22 @@ Esempio TConsole.ini TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio
 
     [TQM]
     TQM_SERVICE=db_po_dev_service*pointernal
-    TQM_USER=db_po
+    TQM_USER=db_po_usr
+    TQM_PASSWORD=db_po_pwd
     TQM_PIN=1111
     TQM_HOST=192.168.0.59
     TQM_PORT=5450
     TQM_LICENSE_HOST=192.168.0.59
     TQM_LICENSE_PORT=5451
     TQM_DEVICE=2611
+    ;	Parametro letto solo per dispositivo TVOX_SOFTPHONE. Corrisponde alla secret configurata su TVox
+    TQM_SOFTPHONE_SECRET=
     TQM_PARK_DN=*3332611
     TQM_CONF_DN=
     TQM_SKILLSET=ESTERNE,INTERNE,RITORNO,PARK
 
-Esempio tabparam TVOX con PICKUP (operatore in stato NOTREADY) e parcheggio
----------------------------------------------------------------------------
+Esempio tabparam TVOX con PICKUP (TConsole si avvia con operatore in stato NOTREADY) e parcheggio
+-------------------------------------------------------------------------------------------------
 
 .. code-block:: ini
         
