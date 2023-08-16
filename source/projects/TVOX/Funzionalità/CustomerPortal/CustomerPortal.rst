@@ -14,30 +14,48 @@ Customer Portal
 .. |CustomerPortal_Configurazione03| image:: /images/TVOX/CustomerPortal/CP_Abil03.png
 .. |CustomerPortal_Configurazione04| image:: /images/TVOX/CustomerPortal/CP_Abil04.png
 .. |CustomerPortal_Configurazione05| image:: /images/TVOX/CustomerPortal/CP_Abil05.png
+.. |CustomerPortal_Report| image:: /images/TVOX/CustomerPortal/CP_report.png
 
 
 Qui troverai le informazioni necessarie per consultare il **Customer Portal** di Telenia Software. 
-Si tratta della nuova funzionalità erogata da TVox Support, che può essere anche integrata al sito aziendale e che consente il monitoraggio, 
-la consultazione e la gestione dei ticket aperti nei confronti di Telenia, come ad esempio ticket con il nostro servizio di supporto tecnico.
+Si tratta della nuova funzionalità erogata da TVox Support, che consente il monitoraggio, la consultazione e la gestione dei ticket da parte dei clienti (Customers).
 
 
-Registrazione Utenza
-====================
+Come configurare l'accesso al Customer Portal
+===========================================
 
-Per poter accedere al portale, è necessario registrarsi preventivamente nella pagina **Area Riservata** sul nostro sito internet.
+Ora troverai le istruzioni per abilitare l'accesso al **Customer Portal**
 
-.. important:: A seguito della recente introduzione di politiche di sicurezza sugli accessi all'area riservata del nostro sito, per chi fosse già in possesso delle credenziali di acceso è richiesto il cambio della password cliccando sul link **Dimenticato Password?** prima di effettuare il primo accesso.
+Per erogare il servizio è nel seguente modo:
 
-|CustomerPortal_AreaRiservata_Registrazione|
+- l'utente che dovrà accedere al Customer Portal dovrà essere censito in rubrica con la propria email
+- l'agente dovrà abilitare tale utente andando da client nel dettaglio dell'utente, nella tab **Customer Portal** (vedi esempio)
+
+|CustomerPortal_Configurazione01| 
+
+- si potrà decidere di assegnare il ruolo Utente o Utente aziendale
+
+|CustomerPortal_Configurazione02| 
+
+|CustomerPortal_Configurazione03| 
+
+- una volta che l'utente verrà abilitato, riceverà una mail con le credenziali di accesso (username= email, password generata in maniera randomica)
+
+- a questo punto l'utente che riceverà la mail potrà accedere al portale https://fqdn_tvox/apps/customerportal ed inserire le credenziali ricevute tramite email
+
+    |CustomerPortal_Configurazione04|
+
+- una volta che si avrà accesso al portale, l'utente potrà anche decidere di cambiare password andando nel suo profilo
+
+|CustomerPortal_Configurazione05|
 
 
-Accesso al Customer Portal
-==========================
+.. note:: Per abilitare gli utenti ad accedere al Customer Portal, l'agente dovrà avere un ruolo che contenga il permesso "Customer Portal"
 
-Dopo la fase iniziale di registrazione, ed una volta effettuato l'accesso in area riservata, sarà disponibile un 
-link per l'accesso diretto al **Customer Portal**
 
-|CustomerPortal_AreaRiservata_Login| 
+Consultazione del Customer Portal
+=================================
+
 
 All'interno del **Customer Portal** è disponibile una dashboard che presenta in due grafici lo stato dei 
 ticket in gestione suddivisi per stato **NUOVO** (giallo), **APERTO** (rosso), **PENDING** (azzurro).
@@ -82,34 +100,34 @@ E\' possibile inserire una nota interna che vedrà l'agente che ha in gestione i
 .. note:: I nuovi ticket, una volta creati sul sistema, diventeranno disponibili anche tramite **Customer Portal**.
 
 
-Come configurare l'accesso al Customer Portal
-===========================================
 
-Ora troverai le istruzioni per abilitare l'accesso al **Customer Portal**
+Report accessi al **Customer Portal**
+======================================
+Nel navigator dell'OCC potrai andare a consultare gli accessi eseguiti dai tuoi clienti
 
-Per erogare il servizio è nel seguente modo:
-
-- il tuo TVOX deve essere provvisto della licenza "Customer Portal"
-- l'utente che dovrà accedere al Customer Portal dovrà essere censito in rubrica con la propria email
-- l'agente dovrà abilitare tale utente andando da client nel dettaglio dell'utente, nella tab **Customer Portal** (vedi esempio)
-
-|CustomerPortal_Configurazione01| 
-
-- si potrà decidere di assegnare il ruolo Utente o Utente aziendale
-
-|CustomerPortal_Configurazione02| 
-
-|CustomerPortal_Configurazione03| 
-
-- una volta che l'utente verrà abilitato, riceverà una mail con le credenziali di accesso (username= email, password generata in maniera randomica)
-
-- a questo punto l'utente che riceverà la mail potrà accedere al portale https://fqdn_tvox/apps/customerportal ed inserire le credenziali ricevute tramite email
-
-    |CustomerPortal_Configurazione04|
-
-- una volta che si avrà accesso al portale, l'utente potrà anche decidere di cambiare password andando nel suo profilo
-
-|CustomerPortal_Configurazione05|
+    |CustomerPortal_Report|
 
 
-.. note:: Per abilitare gli utenti ad accedere al Customer Portal, l'agente dovrà avere un ruolo che contenga il permesso "Customer Portal"
+
+Integrazione di **Customer Portal** in un sito aziendale 
+=======================================================
+Nel seguito viene rappresentato un esempio di integrazione del **Customer Portal** al sito aziendale di Telenia. 
+
+Registrazione Utenza
+====================
+
+Per poter accedere al portale, è necessario registrarsi preventivamente nella pagina **Area Riservata** sul nostro sito internet.
+
+.. important:: A seguito della recente introduzione di politiche di sicurezza sugli accessi all'area riservata del nostro sito, per chi fosse già in possesso delle credenziali di acceso è richiesto il cambio della password cliccando sul link **Dimenticato Password?** prima di effettuare il primo accesso.
+
+|CustomerPortal_AreaRiservata_Registrazione|
+
+
+Accesso al Customer Portal
+==========================
+
+Dopo la fase iniziale di registrazione, ed una volta effettuato l'accesso in area riservata, sarà disponibile un 
+link per l'accesso diretto al **Customer Portal**
+
+|CustomerPortal_AreaRiservata_Login| 
+
