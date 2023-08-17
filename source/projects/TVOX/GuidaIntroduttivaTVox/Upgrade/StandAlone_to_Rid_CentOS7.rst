@@ -155,7 +155,17 @@ Come prima cosa andiamo a predisporre l'ambiente per creare il cluster.
 .. note:: **Check allineamento chat** 
     Dovrai eseguire i seguenti comandi sempre da shell SSH con utenza di root sia su macchina master che su macchina slave.
     - Comando per accesso cli gestione chat da eseguire: 
-  
+       
+    - Facciamo prima un backup con il seguente comando (sia su master che su slave)
+    
+        .. code-block:: shell 
+
+            mongodump --db rocketchat 
+         
+
+    - Ora eseguiamo il check
+
+
         .. code-block:: shell 
             
             mongo
