@@ -20,6 +20,7 @@ Il procedimento di installazione non cambia a seconda del tipo di piattaforma ch
 E\' nella fase di caricamento della licenza che si attiva opportunamente lo strato applicativo. La licenza attivata sull'istanza, quindi, determina il tipo di impianto.
 
 
+.. warning:: Per installazioni di tipo **EFI** raccomandiamo di **disabilitare l'opzione di Secure Boot**. |br| |br| Questa opzione, se attiva, impedisce la corretta fruizione della funzionalità di conferenza telefonica
 
 
 
