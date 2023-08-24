@@ -18,6 +18,8 @@ TConsole è stato installato e collaudato nei seguenti ambienti:
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 | Avaya               | Aura                          | 8.1                                              | 1408, 1416, 1608, telefoni SIP di tipo J1XX                           | TSAPI con AES         |
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
+| Avaya               | Aura                          | 10.1                                             | 1408, 1608, 9630                                                      | TSAPI con AES         |
++---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 | Avaya               | IP Office                     | from 6.0 to 8.1                                  | 1408, 1416, 1608, telefoni SIP di tipo J1XX                           | TAPI                  |
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 | Avaya               | IP Office                     | 11.0.4.1                                         | 1408                                                                  | TAPI                  |
@@ -51,7 +53,7 @@ TConsole è stato installato e collaudato nei seguenti ambienti:
 | Vianova Centrex     | Kalliope                      | certificazione avvenuta in data 15/04/2022       | SNOM: vedi :ref:`Requisiti SIP SNOM`                                  | CSTA, SIP             |
 +---------------------+-------------------------------+--------------------------------------------------+-----------------------------------------------------------------------+-----------------------+
 
-.. important:: Per l'installazione in un nuovo ambiente o in una configurazione diversa da quelli indicati è richiesta la predisposizione di una postazione di laboratorio, concordando l'attività con Telenia Software.
+.. important:: Per l'installazione in un nuovo ambiente o in una configurazione diversa da quanto riportato in tabella è richiesta la predisposizione di una postazione di laboratorio, concordando l'attività con Telenia Software.
 
 .. OLD 20220131
 .. | Avaya               | Communication Manager e Aura  | from 5.1 to 8.1                                  | 1616, 1608, 1416, 1408, telefoni SIP di tipo J1XX. NON compatibile con One-X | TSAPI                 |
