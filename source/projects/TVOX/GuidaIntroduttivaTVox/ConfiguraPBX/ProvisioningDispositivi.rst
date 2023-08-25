@@ -40,7 +40,7 @@ A livello di singolo modello possono essere configurati:
 
 .. note:: Qualora non sia disponibile il modulo di provisioning il modello applicato è di tipo *generico* ed è comunque disponibile al menu *Canali=>Telefono=>Dispositivo generico* 
 
-.. important:: Il provisioning via https (può) essere eseguito se il certificato ssl usato da **TVOX** è validato dal telefono
+.. important:: Il provisioning via https può essere eseguito se il certificato ssl usato da **TVOX** è validato dal telefono
                
                Questo avviene se:                
                  - il certificato è firmato da un certificatore *"trusted"* (es godaddy ecc)
