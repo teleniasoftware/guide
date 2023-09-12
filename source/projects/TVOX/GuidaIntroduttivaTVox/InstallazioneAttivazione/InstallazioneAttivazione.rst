@@ -1,4 +1,5 @@
 .. _installazione_attivazione:
+.. _conftel: https://guide22.teleniasoftware.com/it/22/projects/TVOX/GuidaIntroduttivaTVox/ConfiguraPBX/ConferenceRoom.html
 
 ===========================
 Installazione e Attivazione
@@ -20,7 +21,7 @@ Il procedimento di installazione non cambia a seconda del tipo di piattaforma ch
 E\' nella fase di caricamento della licenza che si attiva opportunamente lo strato applicativo. La licenza attivata sull'istanza, quindi, determina il tipo di impianto.
 
 
-
+.. warning:: Per installazioni di tipo **EFI** raccomandiamo di **disabilitare l'opzione di Secure Boot**. |br| |br| Questa opzione, se attiva, impedisce l'avvio di un processo che gestisce la funzionalità di :ref:`conferenza telefonica <conferenceroom>` che risulta quindi non operativa.
 
 
 
