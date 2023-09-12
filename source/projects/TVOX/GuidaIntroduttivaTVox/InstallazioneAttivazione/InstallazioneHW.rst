@@ -18,7 +18,7 @@ Il dimensionamento della piattaforma TAM/TVox dipende dai seguenti fattori:
 - Numero di chiamate contemporanee gestite dal sistema.
 - Servizi erogati dal TVox: base (PBX) ed evoluti (TQM, Contact Center, VOICE RECORDING, LANFAX, multicanalità).
 
-.. note:: Nell'area del sito *wwww.teleniasoftware.com* dedicata ai partner è disponibile il configuratore dimensionamento risorse
+.. note:: Nell'area del sito *www.teleniasoftware.com* dedicata ai partner è disponibile il configuratore dimensionamento risorse
 
 
 Per procedere all’installazione è possibile scaricare il setup aggiornato del sistema TVox Communication
