@@ -7,22 +7,18 @@ Licenze AES
 
 Con l'introduzione della release 6.2 di ACM non è più possibile utilizzare AVAYA IP Softphone come service provider TAPI lato PC.
 
-L'utilizzo del TConsole in ambito AVAYA 6.2 deve prevedere una licenza *AES 6.X BSC TSAPI (X>=2)*; 
+L'utilizzo del TConsole in ambito AVAYA 6.2 deve prevedere una licenza *AES 6.X BSC TSAPI (X≥2)*; l'opzione Campo Lampade necessita anch'essa di una licenza *AES 6.X BSC TSAPI (X≥2)* per singolo Posto Operatore.
 
-l'opzione Campo Lampade necessita anch'essa di una licenza *AES 6.X BSC TSAPI (X>=2)* per singolo Posto Operatore.
+Quindi se ad esempio servono tre Posti Operatore, di cui due con il Campo Lampade, le licenze *AES 6.X BSC TSAPI (X≥2)* necessarie sono 5.
 
-Quindi se ad esempio servono tre Posto Operatori di cui due con il Campo Lampade le licenze *AES 6.X BSC TSAPI (X>=2)*necessarie sono 5.
-
-In questo modo possiamo garantire la massima efficienza a ciascun P.O. dotato di campo lampade avendo un connettore dedicato TSAPI per l'accesso su richiesta allo 
-stato telefonico degli utenti di centrale. 
-
+In questo modo possiamo garantire la massima efficienza a ciascun P.O. dotato di campo lampade avendo un connettore dedicato TSAPI per l'accesso su richiesta allo stato telefonico degli utenti di centrale.
 
 Installazione di Avaya AES TSAPI client
 =======================================
 
-Avaya AES TSAPI client si installa sul PC che ospita Tconsole come descritto nelle pagine seguenti.
+Avaya AES TSAPI client si installa sul PC che ospita TConsole come descritto nelle pagine seguenti.
 
-La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
+La cartella compressa contiene i TSAPI Tools tra cui l'applicazione "TSAPI Test".
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI01.PNG
 
@@ -30,35 +26,30 @@ La cartella compressa contiene i TSAPI Tools tra cui l'applicazione TSAPI Test.
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI03.PNG
 
-
 .. code-block:: ini
     
     AES: <ip-address del server AES> 
     port number 450
 
-
-Premere il tasto  **Add to list**
-
+Premere il tasto **Add to list**:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI04.PNG
 
-    Premere il tasto Install
-
+Premere il tasto **Install**:
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/InstallazioneAvayaTSAPI05.PNG
-
 
 Verifica funzionamento TSAPI
 =============================
 
-Ad installazione terminata lanciare l'applicazione TSAPI test
+Ad installazione terminata lanciare l'applicazione "TSAPI test":
 
 .. code-block:: ini
 
     USR: Telenia
     PWD: xxxxxxxxxxx
 
-Eseguire una chiamata (Es. da 5000 a 5009) per verificare il buon  funzionamento della  comunicazione TSAPI..
+Eseguire una chiamata (Es. da 5000 a 5009) per verificare il buon funzionamento della comunicazione TSAPI.
 
 
 .. image:: /images/TCONSOLE/INSTALLAZIONE/REQUISITI/TestTsapiDevice.png
@@ -88,7 +79,7 @@ Di seguito gli altri screenshot di configurazione dell’interno 641 usato come 
 Configurazione TConsole e AVAYA CM 6.2
 =======================================
 
-C:\\Programmi\\Telenia\\TConsole\\TConsole.ini settare i seguenti parametri come segue:
+Nel file *TConsole.ini* settare i seguenti parametri come segue:
 
 .. code-block:: ini
 
@@ -111,95 +102,109 @@ C:\\Programmi\\Telenia\\TConsole\\TConsole.ini settare i seguenti parametri come
 Gestione clid di chiamate provenienti dagli interni
 ---------------------------------------------------
 
-Per poter visualizzare correttamente il clid di chiamate provenienti da interni In C:\Programmi\Telenia\TConsole\TConsole.ini valorizzare a SI il parametro **TAPI_CALLERNAME_ON_CLID_UNK**.
+Per poter visualizzare correttamente il clid di chiamate provenienti da interni, nel file *TConsole.ini* valorizzare a SI il parametro **TAPI_CALLERNAME_ON_CLID_UNK**.
 
 .. code-block:: ini
 
     TAPI_CALLERNAME_ON_CLID_UNK=SI
 
-
 Trattamento Notte AUTOMATICA
 ----------------------------
-Configurare sul Coverage Path un numero massimo  di squilli trascorsi i quali la chiamata viene inoltrata ad  un altro numero o gestita tramite un annuncio di dissuasione. In caso di più postazioni lo stato notte può essere impostato per ciascun IADN
 
-- *Lato ACM*: coverage path.
+Configurare sul Coverage Path un numero massimo di squilli trascorsi i quali la chiamata viene inoltrata ad un altro numero o gestita tramite un annuncio di dissuasione. In caso di più postazioni lo stato notte può essere impostato per ciascun IADN.
+
+- *Lato ACM*: coverage path
 
 Trattamento Notte MANUALE
 -------------------------
+
 Trasferire in modalità BLIND le chiamate in arrivo sul P.O. verso un numero alternativo (*CTRL-N*).
-Tale modalità attiva lo stato NOTTE per un P.O. alla volta
+
+Tale modalità attiva lo stato NOTTE per un P.O. alla volta.
 
 - *Lato ACM*: disponibilità di un DN a cui deviare le chiamate
-- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
+- *Lato TConsole*: nel file *TConsole.ini* valorizzare il parametro QUEUE_ID con il numero di interno a cui rediriggere. Es. QUEUE_ID=205
 
 Inclusione
 ----------
-Possibilità da parte del P.O. di includersi in una conversazione attiva su un interno
+
+Possibilità da parte del P.O. di includersi in una conversazione attiva su un interno.
 
 - *Lato ACM*: COR-Can be a service observer=y
-- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini nella sezione [FLEX] configurare un tasto con il codice per l’inclusione.
+- *Lato TConsole*: nel file *TConsole.ini* nella sezione [FLEX] configurare un tasto con il codice per l’inclusione
 
-Es. 2=Inclusione,Inc,@*88,
+Es.:
 
+.. code-block:: ini
+
+    2=Inclusione,Inc,@*88,
 
 Inoltro su occupato
 -------------------
+
 Possibilità di inoltrare chiamate veso interni già occupati ponendole in coda sul telefono.
 
 - *Lato ACM*: Priority Calling acces code=*60
-- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini nella sezione [TAPI-SIP]  Settare il parametro **TAPI_CALL_ON_BUSY_CODE** con il codice di Inoltro su occupato. 
+- *Lato TConsole*: nel file *TConsole.ini* nella sezione [TAPI-SIP] Settare il parametro **TAPI_CALL_ON_BUSY_CODE** con il codice di Inoltro su occupato
 
-Es: TAPI_CALL_ON_BUSY_CODE=*60
+Es.:
 
+.. code-block:: ini
 
-Il **TAPI_CALL_ON_BUSY_CODE** se attivato viene anteposto nei seguenti casi:
+    TAPI_CALL_ON_BUSY_CODE=*60
+
+Il **TAPI_CALL_ON_BUSY_CODE**, se attivato, viene anteposto nei seguenti casi:
 
 -	composizione da tastierino numerico
--	doppio click su campolampade
--	inoltro da rubrica se abilitato in base alla configurazione di rubest.ini e rubint.ini
+-	doppio click su Campo Lampade
+-	inoltro da rubrica se abilitato in base alla configurazione di *RubEst.ini* e *RubInt.ini*
 
-.. Important:: Il **TAPI_CALL_ON_BUSY_CODE** non viene mai inviato nell’utilizzo con postit.
+.. Important:: Il **TAPI_CALL_ON_BUSY_CODE** non viene mai inviato nell’utilizzo con PostIt.
 
-E’ possibile selezionare il campo di rubrica su cui inviare il busycode compilando opportunamente rubest.ini e rubint.ini come segue:
+È possibile selezionare il campo di rubrica su cui inviare il busycode compilando opportunamente *RubEst.ini* e *RubInt.ini* come segue:
 
 .. code-block:: ini
 
     [COMMON]
     F12_BUSYCODE=Flag_F12,Flag_Shift+F12,Flag_Ctrl+F12,Flag_Alt+F12
     
-.. Warning::Per ognuno dei 4 flag, i valori ammessi sono:
+.. Warning:: Per ognuno dei 4 flag, i valori ammessi sono:
 
   - S, SI, Y, YES, 1
   - N, NO, 0
   
   in qualsiasi combinazione minuscola/maiuscola.
-  Esempio: F12_BUSYCODE=SI,N,si,Yes*
 
+  Es.:
+
+  .. code-block:: ini
+
+      F12_BUSYCODE=SI,N,si,Yes
 
 Ritorni a P.O.
 --------------
+
 Abilitare il ritorno delle chiamate trasferite dal P.O. verso interni in caso di non risposta.
 
 - *Lato ACM*: Station call transfer recall timer (0) sec.
-- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
+- *Lato TConsole*: nel file *TConsole.ini* nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_CALLEDNAME_ON_DNIS_UNK**
 
 .. code-block:: ini
 
     TAPI_CALLEDNAME_ON_DNIS_UNK=SI
 
-
 Gestione delle trasferte in modalità forzata
 ---------------------------------------------
+
 Nel caso in cui si abbiano delle particolari configurazioni dei flussi entranti per cui la trasferta nella modalità classica non dovesse funzionare, si può attivare un diverso tipo di trasferta TAPI nel seguente modo:
 
-- *Lato TConsole*: In C:\\Programmi\\Telenia\\TConsole\\TConsole.ini  nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_FORCE_SETUP_T**
+- *Lato TConsole*: nel file *TConsole.ini* nella sezione [TAPI-SIP] valorizzare a SI il parametro **TAPI_FORCE_SETUP_T**
   
-  .. code-block:: ini
-      
-      TAPI_FORCE_SETUP_T = SI
+.. code-block:: ini
+    
+    TAPI_FORCE_SETUP_T = SI
 
 DTMF
------
+----
+
 Dalla versione 4.3.3 è possibile inoltrare dei DTMF con l’utilizzo del tasto F6. Nessuna configurazione richiesta.
-
-
