@@ -18,7 +18,7 @@ In TVox esistono 3 tipi di rubriche:
 
 * **Interna**: raccoglie tutti i contatti interni di TVox intesi come utenti, servizi, numeri brevi
 * **Esterna**: raccoglie contatti esterni a TVox, è utilizzata per presentare l'identità del chiamante sul |client| e sul display del dispositivo telefonico in uso
-* **Personale**: come dice il nome è una rubrica ad uso e consumo personale di ogni utente. Ogni utente ha la possibilità di popolare la propria rubrica personale, i contatti contenuti saranno visibili esclusivamente a .. literalinclude:: 
+* **Personale**: come dice il nome è una rubrica ad uso e consumo personale di ogni utente. Ogni utente ha la possibilità di popolare la propria rubrica personale, i contatti contenuti saranno visibili esclusivamente a lui.
 
 
 
