@@ -22,7 +22,7 @@ Il form prevede l'inserimento di:
 *  **Argomento**  (opzionale): specifica qual è l'argomento per cui il gruppo è creato
 *  **Utenti** : gli utenti che formano il gruppo vanno aggiunti utilizzando il campo "Nome o cognome" (tale campo esegue una ricerca tra gli utenti interni TVox)
 
-Al click sul pulsante  **Crea**  viene creato il team che comparirà nell'elenco dei team di tutti gli utenti che fanno parte del gruppo stesso.gurato
+Al click sul pulsante  **Crea**  viene creato il team che comparirà nell'elenco dei team di tutti gli utenti che fanno parte del gruppo stesso.
 
 .. image:: /images/CLIENT/MenuClient/team_elenco.PNG
 
