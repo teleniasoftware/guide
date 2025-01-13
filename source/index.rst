@@ -2,7 +2,7 @@
 Benvenuto in Guide
 ==================
 
-**Guide è il portale che ti illustra i prerequisiti necessari all'installazione, configurazione e utilizzo dei prodotti Telenia Software.**
+**Guide AAAA è il portale che ti illustra i prerequisiti necessari all'installazione, configurazione e utilizzo dei prodotti Telenia Software.**
 
 .. image:: /images/Guide_home.png
    :scale: 60%
